@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 33</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 33</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="205"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4796"><!-- l3c33 -->
+        <head xml:id="rbdcir-de4796-Hd1e101">Caput 33</head>
+        <head xml:id="rbdcir-de4796-Hd1e103" type="question-title">Quando submisso genere, et quando temperato, quandoque grandi
+    utendum sit</head>
+        <p xml:id="rbdcir-de4796-d1e106">CAPUT XXXIII. <hi>Quando submisso genere, et quando temperato, quandoque grandi utendum
+      sit.</hi>
+        </p>
+        <p xml:id="rbdcir-de4796-d1e111">Attamen cum doctor iste debeat rerum dictor esse magnarum, non semper eas debet granditer
+    dicere, sed submisse, cum aliquid docetur; temperate, cum aliquid vituperatur sive laudatur.
+    Cum vero aliquid agendum est, et ad eos loquimur qui hoc agere debent, nec tamen volunt, tunc
+    ea quae magna sunt, dicenda sunt granditer, et ad flectendos animos congruenter. Et aliquando
+    de una eademque re magna et submisse dicitur, si docetur; et temperate si praedicatur; et
+    granditer si aversus inde animus ut convertatur impellitur. Quid enim Deo ipso majus est?
+    Nunquid ideo non dicitur? Aut qui docet unitatem Trinitatis, debet nisi submissa disputatione
+    agere, ut res ad dignoscendum difficilis, quantum datur, possit intelligi? Nunquid hic
+    ornamenta et non documenta quaeruntur? Nunquid ut aliquid agat est flectendus auditor, et non
+    ut discat potius instruendus? Porro cum laudatur Deus sive de ipso, sive de operibus suis,
+    quanta facies pulchrae ac splendidae dictionis suboritur ei qui potest quantum potest laudare,
+    quem nemo convenienter laudat, nemo quomodocunque laudat! At si non colatur, aut cum illo vel
+    etiam pro illo colantur idola, sive daemonia, sive quaecunque creatura, quantum hoc malum sit,
+    atque ut ab hoc avertantur homines, debet utique granditer dici.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

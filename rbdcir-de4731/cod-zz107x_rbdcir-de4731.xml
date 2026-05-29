@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 30</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 30</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="204"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4731"><!-- l3c30 -->
+        <head xml:id="rbdcir-de4731-Hd1e101">Caput 30</head>
+        <head xml:id="rbdcir-de4731-Hd1e103" type="question-title">Quod facili locutione uti in vulgus debeat</head>
+        <p xml:id="rbdcir-de4731-d1e106">CAPUT XXX. <hi>Quod facili locutione uti in vulgus debeat.</hi>
+        </p>
+        <p xml:id="rbdcir-de4731-d1e111">Quamvis in bonis doctoribus tanta docendi cura sit vel esse debeat, ut verbum quod nimis
+    obscurum sit vel ambiguum, Latinum esse non possit, vulgi autem more sic dicatur, ut
+    ambiguitas obscuritasque vitetur, non sic dicatur ut a doctis, sed potius ut ab indoctis dici
+    solet. Quid enim prodest locutionis integritas quam non sequitur intellectus audientis, cum
+    non intelligunt propter quos ut intelligant loquimur? Qui ergo docet, vitabit verba omnia quae
+    non docent; et si pro eis aliqua, quae intelligantur, integra potest dicere, id magis eliget;
+    si autem non potest, sive quia non sunt, sive quia in praesentia non occurrunt, utetur etiam
+    verbis minus integris, dum tamen res ipsa doceatur atque discatur integre. Et hoc quidem non
+    solum in collocutionibus, sive fiant cum aliquo uno, sive cum pluribus, verum etiam multo
+    magis in populis quando sermo promitur, ut intelligamur instandum est. Quia in collocutionibus
+    est cuique interrogandi potestas; ubi autem omnes tacent ut audiatur unus, et in eum intenta
+    ora convertunt, ibi ut requirat unusquisque quae non intellexerit, nec moris est nec decoris;
+    ac per hoc debet maxime tacenti subvenire cura dicentis. Solet autem motu suo significare
+    utrum intellexerit cognoscendi avida multitudo: quae donec significet, versandum est quod
+    agitur multimoda varietate dicendi; quae in postestate non habent, qui praeparata et ad verbum
+    memoriter retenta pronuntiant. Mox autem ut intellectum esse constiterit, aut sermo sumendus
+    est, aut in alia transeundum. Sicut enim gratus est qui agnoscenda enubilat, sic onerosus, qui
+    cognita inculcat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

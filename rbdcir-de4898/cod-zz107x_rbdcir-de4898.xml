@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 35</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 35</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="206"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4898"><!-- l3c35 -->
+        <head xml:id="rbdcir-de4898-Hd1e101">Caput 35</head>
+        <head xml:id="rbdcir-de4898-Hd1e103" type="question-title">Quomodo debeant inter se haec tria genera permisceri</head>
+        <p xml:id="rbdcir-de4898-d1e106">CAPUT XXXV. <hi>Quomodo debeant inter se haec tria genera permisceri.</hi>
+        </p>
+        <p xml:id="rbdcir-de4898-d1e111">Interest enim quod genus cui generi interponatur vel adhibeatur certis et necessariis locis.
+    Nam quando prolixa est in uno genere, minus detinet auditorem. Cum vero fit in aliud ab alio
+    transitus, etiam si longius erret, decentius procedit oratio. In grandi ergo genere semper,
+    aut pene semper, temperata decet esse principia; et in potestate est eloquentis ut dicantur
+    nonnulla submisse, etiam quae possent granditer dici: ut ea quae dicuntur granditer, ex
+    illorum fiant comparatione grandiora, et eorum tanquam umbris luminosiora reddantur. In
+    quocunque autem genere aliqua quaestionum vincula solvenda sunt, acumine opus est, quod sibi
+    summissum genus proprie vindicat. Ac per hoc eo genere utendum est et aliis duobus generibus,
+    quando eis ista incidunt: sicut est laudandum aliquid vel vituperandum, ubi nec damnatio
+    cujusquam, nec liberatio, nec ad actionem quamlibet assensio requiritur, in quocunque alio
+    genere occurrit, genus adhibendum et interponendum est temperatum. In grandi ergo genere
+    inveniunt locos suos duo caetera, et submisso similiter. Temperatum autem genus non quidem
+    semper, sed tamen aliquando submisso indiget, si, ut dixi, quaestio cujus nodus solvendus est,
+    incurrat; vel quando nonnulla quae ornari possent, ideo non ornantur, ut quibusdam quasi
+    thoris ornamentorum praebeant eminentiorem locum. Summissum genus dicendi silentes docet; et
+    temperatum genus delectatione sua acclamationes audientium excitat; grande autem genus
+    plerumque pondere suo voces premit, sed lacrymas exprimit: et hoc unde, nisi quia veritas sic
+    demonstrata, sic defensa, sic invicta delectatur? Iste ergo doctor noster et dictor magnopere
+    curare debet, ut non solum intelligenter, verum etiam libenter et obedienter audiatur; idque
+    verbis agat ut veritas pateat, veritas placeat, veritas moveat: quoniam nec ipsa quae
+    praecepti finis et plenitudo legis est charitas, ullo modo recta esse potest, si ea quae
+    diliguntur, non vera sed falsa sunt. Sicut autem cujus est pulchrum corpus, et deformis est
+    animus, magis est dolendus, quam si deforme haberet corpus: ita qui eloquenter ea quae falsa
+    sunt dicunt, magis miserandi sunt, quam si talia deformiter dicerent.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

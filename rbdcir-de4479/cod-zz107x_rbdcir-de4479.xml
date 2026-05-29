@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 22</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 22</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="200"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4479"><!-- l3c22 -->
+        <head xml:id="rbdcir-de4479-Hd1e101">Caput 22</head>
+        <head xml:id="rbdcir-de4479-Hd1e103" type="question-title">De arithmetica</head>
+        <p xml:id="rbdcir-de4479-d1e106">CAPUT XXII. <hi>De arithmetica.</hi>
+        </p>
+        <p xml:id="rbdcir-de4479-d1e111">Arithmetica est disciplina quantitatis numerabilis secundum seipsam. Est enim disciplina
+    numerorum. Graeci enim numerum <foreign xml:lang="greek">ἄριθμον,</foreign> arithmon, vocant,
+    quem scriptores litterarum saecularium, inter disciplinas mathematicas ideo primam esse
+    voluerunt, quoniam ipsa ut sit, nulla alia indicat disciplina. Musica autem et geometria et
+    astronomia quae sequuntur, ut sint atque subsistant, istius egent auxilio. Scire autem debemus
+    Josephum Hebraeorum doctissimum in primo libro Antiquitatum, titulo nono, dicere arithmeticam
+    et astronomiam Abraham primum Aegyptiis tradidisse; unde semina suscipientes, ut sunt homines
+    acerrimi ingenii, excoluisse sibi reliquas latius disciplinas. Quas merito sancti patres
+    nostri legendas studiosissimis persuadent, quoniam ex magna parte per eas a carnalibus rebus
+    appetitus abstrahitur, et faciunt desiderare quae, praestante Domino, solo possimus corde
+    respicere. Unde ratio numeri contemnenda non est, quae in multis sanctarum Scripturarum locis
+    quam magni existimanda sit, lucet diligenter intuentibus. Nec frustra in laudibus Dei dictum
+    est: <quote xml:id="rbdcir-de4479-Qd1e116">Omnia in mensura et numero et pondere disposuisti </quote>
+          <ref xml:id="rbdcir-de4479-Rd1e118">(Sap. XI)</ref>. Ita vero suis quisque numerus proprietatibus terminatur, ut nullus eorum
+    par esse cuiquam alteri possit. Ergo et dispares inter se atque diversi sunt, et singuli
+    quique diversi sunt, et singuli quique finiti sunt, et omnes infiniti sunt. Nec audebunt isti
+    contemnere numeros, et eos ad scientiam Dei non pertinere, apud quos Plato Deum magna
+    auctoritate commendat mundum numeris fabricantem. Et apud nos Propheta de Deo dicit:
+      <quote xml:id="rbdcir-de4479-Qd1e120">Qui profert numerose saeculum.</quote> Et Salvator in Evangelio: <quote xml:id="rbdcir-de4479-Qd1e122">Capilli,
+      inquit, vestri omnes numerati sunt </quote>
+          <ref xml:id="rbdcir-de4479-Rd1e125">(Matth. X)</ref>. Quamvis enim se objectent aspectui, quasi corpusculorum quaedam
+    simulacra, cum senarii numeri compositio, vel ordo, vel partitio cogitatur, tamen validior et
+    praepotentior desuper ratio non eis annuit interius, quae vim numeri continet, per quem
+    circuitum fideliter dicit id quod dicitur unum in numeris, in nullas partes dividi posse,
+    nulla autem corpora nisi in partes innumerabiles dividi, et facilius coelum et terram
+    transire, quae secundum senarium numerum fabricata sunt, quam effici posse ut senarius numerus
+    non suis partibus compleatur. Quamobrem non possumus dicere propterea senarium numerum esse
+    perfectum quod sex diebus perfecit Deus omnia opera sua, sed propterea Deum sex diebus
+    perfecisse opera sua, quia senarius numerus perfectus est. Itaque etiam si ista non essent,
+    perfectus ille esset; nisi autem ille perfectus esset, ista secundum eum perfecta non essent.
+    Numerorum etiam imperitia multa <cb ed="#P" n="b"/> facit non intelligi, translate ac mystice
+    posita in Scripturis. Ingenium quippe, ut ita dixerim, ingenium non potest non moveri quid
+    sibi velit, quod et Moyses et Elias et ipse Dominus quadraginta diebus jejunaverunt. Cujus
+    actionis figuratus quidam nodus sine hujus numeri cognitione et consideratione non solvitur.
+    Habet enim denarium quater, tanquam cognitionem omnium rerum intextam temporibus. Quaternario
+    namque numero, et diurna et annua curricula peraguntur: diurna matutinis, meridianis,
+    vespertinis, nocturnisque horarum spatiis; annua vernis, aestivis, autumnalibus, hiemalibusque
+    mensibus. A temporum autem delectatione dum in temporibus vivimus, propter aeternitatem in qua
+    vivere volumus, abstinendum et jejunandum est, quamvis temporum cursibus ipsa insinuetur nobis
+    doctrina contemnendorum temporum, et appetendorum aeternorum. Porro autem denarius numerus
+    creatoris atque creaturae significat scientiam; nam trinitas creatoris est, septenarius autem
+    numerus creaturam indicat, propter vitam et corpus. Nam in illa tria sunt: unde etiam toto
+    corde, tota anima, tota mente diligendus est Deus; in corpore autem manifestissima quatuor
+    apparent, quibus constat, elementa. Hoc ergo denario dum temporaliter nobis insinuatur, id
+    est, quater ducatur, caste et continenter a temporum delectatione vivere, hoc est quadraginta
+    diebus jejunare. Hoc est lex cujus persona est in Moyse; hoc est prophetia, cujus personam
+    gerit Elias; hoc ipse Dominus monet, qui tanquam testimonium habens a lege et prophetis,
+    medius inter illos in monte, tribus discipulis videntibus atque stupentibus, claruit. Deinde
+    ita quaeritur quomodo quinquagenarius de quadragenario numero existat, qui non mediocriter in
+    nostra religione sacratus est propter Pentecosten; et quomodo ter ductus propter tria tempora
+    ante legem, sub lege, sub gratia; vel propter nomen Patris, et Filii, et Spiritus sancti,
+    adjuncta eminentius ipsa Trinitate, ad purgatissimae Ecclesiae mysterium referatur,
+    perveniatque ad centum vel tres pisces, quos retia post resurrectionem Domini in dexteram
+    partem missa ceperunt. Ita multis aliis atque aliis numerorum formis quaedam propter
+    similitudinem in sanctis libris secreta ponuntur, quae propter numerorum imperitiam legentibus
+    clausa sunt. Quapropter necesse est eis qui volunt ad sacrae Scripturae notitiam pervenire, ut
+    hanc artem intente discant; et cum didicerint, mysticos numeros in divinis libris facilius
+    hinc intelligant.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

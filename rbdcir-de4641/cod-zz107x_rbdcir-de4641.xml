@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 27</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 27</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="203"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4641"><!-- l3c27 -->
+        <head xml:id="rbdcir-de4641-Hd1e101">Caput 27</head>
+        <head xml:id="rbdcir-de4641-Hd1e103" type="question-title">De acquisitione et exercitio virtutum</head>
+        <p xml:id="rbdcir-de4641-d1e106">CAPUT XXVII. <hi>De acquisitione et exercitio virtutum.</hi>
+        </p>
+        <p xml:id="rbdcir-de4641-d1e111">Interea quippe dum intenta meditatione scientiam spiritualem optat adipisci, necesse est ut
+    jugi exercitio virtutum sibi quaerat opulentiam, ne dum in uno dives esse cupit, et alterius
+    opes quaerere negligit, verae opulentiae fructus perdat; ac non solum ipsi eveniat, quia
+    quaesitarum rerum utilitatem non habeat, imo poenas injustus possessor pro eis Domino solvat.
+    Ait enim ipsa Veritas servis: <quote xml:id="rbdcir-de4641-Qd1e113">Qui scit voluntatem Domini sui et non facit, vapulabit
+      multis; qui autem nescit et non facit, vapulabit paucis </quote>
+          <ref xml:id="rbdcir-de4641-Rd1e115">(Luc. XII)</ref>.</p>
+        <p xml:id="rbdcir-de4641-d1e118"> Quid ergo proderit hominibus ingentes divitias congregare, et earum usum minime habere, cum
+    multo melior sit ille qui paupertate sua contentus est et laetabitur de labore suo, ei qui
+    totam vitam suam, divitias habens, in egestate consumit, Salomone attestante, qui ait:
+      <quote xml:id="rbdcir-de4641-Qd1e120">Melior est pauper et sufficiens sibi, quam gloriosus et indigens pane </quote>
+          <ref xml:id="rbdcir-de4641-Rd1e122">(Prov. XII)</ref>. Sancta rusticitas solum sibi prodest; et quantum aedificat ex vitae
+    merito, tantum nocet si non et valet contradicentibus resistere. Sed ex duobus imperfectis,
+    magis eligo sanctam rusticitatem quam eloquentiam peccatricem; quia Sapientia dicit:
+      <quote xml:id="rbdcir-de4641-Qd1e124">Melior est pauper ambulans in simplicitate sua, quam dives pravis itineribus: qui
+      autem custodit legem, filius sapiens est </quote>
+          <ref xml:id="rbdcir-de4641-Rd1e126">(Prov. XIX)</ref>. Oportet quidem eum qui sapientiae studet, virtuti studere, ut id quod
+    sapienter intelligit in mente, utiliter exerceat in opere; et quodcunque boni verbis aliis
+    facere praecipit, suis operibus faciendum esse prius doceat, ut faciens et docens mandata Dei,
+    major vocetur in regno coelorum: minimus autem, si docuerit et solverit actione unum de
+    mandatis Dei minimis. <quote xml:id="rbdcir-de4641-Qd1e128">Omnis enim, inquit Salvator, qui venit ad me et audit sermones
+      meos, et facit eos, similis est homini aedificanti domum, qui fodit in altum, et posuit
+      fundamenta supra petram. Inundatione autem facta, illisum est flumen domus illi, et non
+      potuit eam movere: fundata enim erat super petram. Qui autem audit et non facit, similis est
+      homini aedificanti domum suam supra arenam sine <cb ed="#P" n="b"/> fundamento, in quam illisus
+      est fluvius, et continuo cecidit: et facta est ruina domus illius magna </quote>
+          <ref xml:id="rbdcir-de4641-Rd1e134">(Luc. VI)</ref>. Debet autem unusquisque catholicus universis virtutibus aequaliter
+    operam dare, ut et intus et foris nobiliter ornatus, aeterni regis convivio dignus existat, et
+    quadriga spiritali vectus, ad aeternam patriam conscendat. Debet autem prudentiae intendere,
+    ut prudenter provideat, veraciter intelligat, intellectaque memoriter retineat. Debet
+    justitiae ut religiosus, pius humilisque fiat; ut gratiam et vindicationem, observantiam et
+    veritatem conservet; pactumque et parjudicatum et legem custodiat. Debet fortitudini studium
+    impendere, ut magnificentiam et fidentiam, patientiam et perseverantiam habeat. Debet
+    temperantiae ut continens, clemens et moderatus fiat; et super haec omnia, ut pacis et
+    charitatis fidus exsecutor existat: quae scilicet est vinculum perfectionis. His autem
+    speciebus virtutum perfecte adornatus, et sapientiae lumine illustratus homo Dei, rite et
+    congrue servitium potest agere, atque oratoris officium digne potest in Ecclesia implere: quem
+    antiqua diffinitio affirmat, virum bonum et dicendi peritum esse debere. Si ergo haec
+    definitio in oratoribus gentilium observabatur, multo magis in oratoribus Christi observari
+    convenit, quorum non solum sermo, imo etiam tota vita doctrina virtutum debet esse. Sed quia
+    de modo inveniendi ea quae intelligenda sunt in Scripturis multa jam diximus, adjuvante Domino
+    de proferendo ea quae intellecta sunt pauca dicemus, ut hoc novissimo libro totum opus
+    claudamus. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

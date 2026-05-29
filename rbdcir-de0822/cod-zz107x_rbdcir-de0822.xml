@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 23</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 23</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="155"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0822"><!-- l1c23 -->
+        <head xml:id="rbdcir-de0822-Hd1e101">Caput 23</head>
+        <head xml:id="rbdcir-de0822-Hd1e103" type="question-title">De pallio</head>
+        <p xml:id="rbdcir-de0822-d1e106">CAPUT XXIII. <hi>De pallio.</hi>
+        </p>
+        <p xml:id="rbdcir-de0822-d1e111">Super haec autem omnia summo pontifici (qui archiepiscopus vocatur) propter apostolicam vicem
+    pallii honor decernitur, quod genus indumenti crucis signaculum purpureo colore exprimit, ut
+    ipso indutus pontifex a tergo et pectore crucem habeat, suaque mente pie et digne de passione
+    Redemptoris cogitet, ac populo pro quo Dominum deprecatur, redemptionis suae signaculum
+    demonstret. Condecet quoque bene ut ipsa apostolica dignitas apostolicum virum faciat, ut
+    plena devotione, sano sermone, et digna operatione possit dicere cum Apostolo: <quote xml:id="rbdcir-de0822-Qd1e113">Mihi
+      autem absit gloriari nisi in cruce Domini nostri Jesu Christi, per quem mihi mundus
+      crucifixus est, et ego mundo </quote>
+          <ref xml:id="rbdcir-de0822-Rd1e115">(Gal. VI)</ref>. Haec quaeque de habitu sacerdotali ad sensum secundum modulum ingenioli
+    nostri breviter diximus, non praejudicantes his qui congruentius et dignius de eadem re
+    possint scribere, et plenius disputare.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 53</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 53</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="182"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3137"><!-- l2c53 -->
+        <head xml:id="rbdcir-de3137-Hd1e101">Caput 53</head>
+        <head xml:id="rbdcir-de3137-Hd1e103" type="question-title">De libris duorum Testamentorum</head>
+        <p xml:id="rbdcir-de3137-d1e106">CAPUT LIII. <hi>De libris duorum Testamentorum.</hi>
+        </p>
+        <p xml:id="rbdcir-de3137-d1e111">Pronuntiantur autem lectiones in Christi ecclesiis, de Scripturis sanctis. Constat autem
+    eadem sacra Scriptura ex veteri lege et nova. Vetus lex illa est quae data est primum Judaeis
+    per Moysen et prophetas, quae dicitur Vetus Testamentum. Testamentum autem dicitur, quia
+    idoneis testibus utique a prophetis scriptum est atque signatum. Nova vero lex est <pb ed="#P" n="183"/>
+          <cb ed="#P" n="a"/> Evangelium, quod dicitur Novum Testamentum, quod per ipsum Filium Dei Christum
+    et suos apostolos dedit. Illa lex vetus velut radix est, haec nova velut fructus ex radice. Ex
+    lege enim venitur ad Evangelium. Si quidem Christus qui hic manifestatus est, ante in lege
+    praedictus est. Imo ipse locutus in prophetis, sicut scriptum est: <quote xml:id="rbdcir-de3137-Qd1e117">Qui loquebar, ecce
+      adsum, legem praemittens velut infantibus paedagogum, Evangelium vero, perfectum vitae
+      magisterium, jam adultis omnibus praestans.</quote> Ideo in illa operantibus bona terrae
+    promittebantur, hic vero sub gratia ex fide viventibus regnum coeleste tribuitur. Evangelium
+    autem dicitur bonum nuntium, et revera bonum nuntium, ut qui susceperint, filii Dei
+    vocentur.</p>
+        <p xml:id="rbdcir-de3137-d1e120">Hi sunt ergo libri Veteris Testamenti quos sub amore doctrinae et pietatis legendos
+    recipiendosque, Ecclesiarum principes tradiderunt. Primi namque legis, id est, Moysi libri
+    quinque sunt, Genesis, Exodi, Levitici, Numeri, Deuteronomii. Hos sequuntur historici libri
+    quindecim, Jesu Nave scilicet, et Judicum libri singuli, sive Ruth. Regum etiam libri quatuor.
+    Paralipomenon duo. Tobiae quoque et Esther, et Judith singuli. Esdrae duo, et duo
+    Machabaeorum. Super hos prophetici libri sedecim sunt, Isaias, Jeremias, Ezechiel et Daniel,
+    libri singuli. Duodecim quoque prophetarum libri singuli, et haec quidem prophetica sunt. Post
+    haec versuum octo libri habentur, qui diverso apud Hebraeos metro scribuntur: id est, Job
+    liber, et liber Psalmorum, et Proverbiorum, et Ecclesiastes, et Cantica canticorum, Sapientia
+    et Ecclesiasticus, Lamentationesque Jeremiae. Sic complentur libri Veteris Testamenti
+    quadraginta quinque. Novi autem Testamenti primum, quatuor Evangelia sunt, Matthaei, Marci,
+    Lucae, Joannis. Hos quatuordecim Pauli apostoli Epistolae sequuntur: quibus etiam subjunctae
+    sunt septem canonicae Epistolae, Jacobi, Petri, Joannis et Judae. Actus quoque duodecim
+    apostolorum: quorum omnium signaculum est Apocalypsis Joannis, quod est revelatio Jesu
+    Christi, qui omnes libros et tempore concludit et ordine. Hi sunt libri canonici septuaginta
+    duo, et ob hoc Moyses septuaginta elegit presbyteros qui prophetizarent; ob hoc et Jesus
+    Dominus noster septuaginta duos discipulos praedicare mandavit. Et quomodo septuaginta duae
+    linguae in hoc mundo erant diffusae, congrue providit Spiritus sanctus ut tot libri essent
+    quot nationes, quibus populi et gentes ad perficiendam fidei gratiam aedificarentur. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

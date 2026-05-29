@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 23</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 23</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="200"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4518"><!-- l3c23 -->
+        <head xml:id="rbdcir-de4518-Hd1e101">Caput 23</head>
+        <head xml:id="rbdcir-de4518-Hd1e103" type="question-title">De geometria</head>
+        <p xml:id="rbdcir-de4518-d1e106">CAPUT XXIII. <hi>De geometria.</hi>
+        </p>
+        <p xml:id="rbdcir-de4518-d1e111">Nunc ad geometriam veniamus, quae est descriptio contemplativa formarum, documentum etiam
+    usuale [ <quote xml:id="rbdcir-de4518-Qd1e113">Al.,</quote> visuale] philosophorum; quod, ut praeconiis celeberrimis
+    referant, Jovem suum in operibus propriis geometriare testantur. Quod nescio utrum laudibus an
+    vituperationibus applicetur, quando quod illi pingunt in pulvere coloreo, Jovem facere
+    mentiuntur <pb ed="#P" n="201"/>
+          <cb ed="#P" n="a"/> in coelo. Quod si vero creatori et omnipotenti Deo salubriter
+    applicetur, potest ex sententia forsitan convenire veritate. Geometra enim, si fas est dicere,
+    sancta divinitas, quoniam creaturae suae, quam usque hodie facit existere, diversas species
+    formulasque concedit; quando cursus stellarum potentia veneranda distribuit, et statutis
+    lineis fecit currere quae moventur, certaque sede quae sunt fixa constituit. Quidquid enim
+    bene disponitur atque componitur, potest disciplinae hujus qualitatibus applicari. Geometria
+    Latine dicitur terrae dimensio, sicque diffinitur: Geometria est disciplina magnitudinis
+    immobilis et formarum. Quod per diversas formas ipsius disciplinae, ut nonnulli dicunt, primum
+    Aegyptus dominis propriis fertur esse partitus, cujus disciplinae magistri, mensores ante
+    dicebantur. Sed Varro, peritissimus Latinorum, hujus nominis causam sic exstitisse commemorat,
+    dicens, prius quidem homines per dimensiones terrarum terminis positis, vagantibus populis
+    pacis utilia praestitisse; deinde totius anni circulum menstruali numero fuisse partitos; unde
+    et ipsi menses quod annum metiantur, edicti sunt. Verum postquam ista reperta sunt, provocati
+    studiosi ad illa invisibilia cognoscenda, coeperunt quaerere quanto spatio a terra luna, a
+    luna sol ipse distaret, et usque ad verticem coeli quanta se mensura distenderet; quod
+    peritissimos geometras assecutos commemorat. Tunc et dimensionem universae terrae probabili
+    refert ratione collectam; ideoque factum ut disciplina ipsa geometriae nomen acciperet, quod
+    per saecula longa custodit. Haec igitur disciplina in tabernaculi templique aedificatione
+    servata est, ubi linealis mensurae unius et circuli ac spherae atque hemispherion,
+    quadrangulae quoque formae, et caeterarum figurarum dispositio habita est: quorum omnium
+    notitia ad spiritalem intellectum non parum adjuvat tractatorem.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

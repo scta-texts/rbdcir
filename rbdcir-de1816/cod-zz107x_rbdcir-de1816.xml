@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="166"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1816"><!-- l2c14 -->
+        <head xml:id="rbdcir-de1816-Hd1e101">Caput 14</head>
+        <head xml:id="rbdcir-de1816-Hd1e103" type="question-title">De exomologesi, id est, confessione</head>
+        <p xml:id="rbdcir-de1816-d1e106">CAPUT XIV. <hi>De exomologesi, id est, confessione.</hi>
+        </p>
+        <p xml:id="rbdcir-de1816-d1e111">Exomologesis <foreign xml:lang="greek">ἐξομολόγῆσις</foreign> Graeco vocabulo dicitur, quod
+    Latine confessio interpretatur. Cujus nominis duplex significatio est; aut enim in laude
+    intelligitur confessio, sicut est: <quote xml:id="rbdcir-de1816-Qd1e116">Confiteor tibi, Domine, Pater coeli et
+      terrae,</quote> aut denudatione peccatorum, cum quisque Deo confitetur sua peccata ab eo
+    indulgenda, cujus indeficiens est misericordia. Ex hoc igitur Graeco vocabulo exprimitur et
+    frequentatur exomologesis, quod delictum nostrum Domino confitemur, non quidem ut ignaro,
+    cujus cognitioni nihil occultum est. Unde per sapientiam dicitur: <quote xml:id="rbdcir-de1816-Qd1e118">Qui abscondit scelera
+      sua non dirigetur, qui autem confessus fuerit, et reliquerit ea, misericordiam consequetur </quote>
+          <ref xml:id="rbdcir-de1816-Rd1e120">(Prov. XXVIII)</ref>. Confessio est rei scilicet ejus quae ignoratur praefessa cognitio.
+    Utile enim ac jucundum quisquam esse existimaverat apere, adulterari, furari, <cb ed="#P" n="b"/>
+    sic ubi haec aeternae damnationis obnoxia cognovit, cognitis his, confitetur errorem.
+    Confessio autem erroris, professio est desinendi. Desinendum ergo est a peccatis; dum
+    confessio est, confessio autem antecedit, remissio sequitur. Caeterum autem extra viam est qui
+    peccatum cognoscit, nec cognitum confitetur, de quo instruxit nos Psalmista dicens:
+      <quote xml:id="rbdcir-de1816-Qd1e125">Revela Domino viam tuam,</quote> etc. <ref xml:id="rbdcir-de1816-Rd1e127">(Psal. XXXVI)</ref>. Nam idem et se
+    fecisse testatur dicens: <quote xml:id="rbdcir-de1816-Qd1e129">Dixi: pronuntiabo adversum me injustitias meas Domino,</quote>
+    etc. Apostolus vero Jacobus idem nos facere exhortatur, dicens: <quote xml:id="rbdcir-de1816-Qd1e131">Confitemini alterutrum
+      peccata vestra, et orate pro invicem,</quote> etc. <ref xml:id="rbdcir-de1816-Rd1e133">(Jac. V)</ref>. Itaque exomologesis,
+    prosterni et humile faciendi hominibus disciplina est, habitu vili atque victu gracili, sacco
+    et cinere corpus incurvare, ac sordibus obscurare, animum moeroribus dejicere, illa quae
+    peccavit tristi tractatione mutare.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

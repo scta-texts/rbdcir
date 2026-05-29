@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 27</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 27</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="171"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2194"><!-- l2c27 -->
+        <head xml:id="rbdcir-de2194-Hd1e101">Caput 27</head>
+        <head xml:id="rbdcir-de2194-Hd1e103" type="question-title">De esu carnium et potione vini</head>
+        <p xml:id="rbdcir-de2194-d1e106">CAPUT XXVII. <hi>De esu carnium et potione vini.</hi>
+        </p>
+        <p xml:id="rbdcir-de2194-d1e111">Carnes autem et vinum post diluvium sunt hominibus in usum concessa, nam in initio permissum
+    non fuerat, nisi tantum illud, ut scriptum est: <quote xml:id="rbdcir-de2194-Qd1e113">Lignum fructiferum et herbam
+      seminabilem dedi vobis in escam.</quote> Postea vero per Noe data sunt in esum cuncta
+    animalia, vinique attributa licentia est. Sed postquam Christus (qui est principium et finis)
+    apparuit, hoc quod in principio suspenderat, etiam in temporum fine retraxit, loquens per
+    Apostolum suum: <quote xml:id="rbdcir-de2194-Qd1e115">Bonum est non manducare carnem, et non bibere vinum </quote>
+          <ref xml:id="rbdcir-de2194-Rd1e117">(Rom. XIV)</ref>. Et iterum: <quote xml:id="rbdcir-de2194-Qd1e119">Qui infirmus est, olera manducet </quote>
+          <ref xml:id="rbdcir-de2194-Rd1e121">(Ibid.)</ref>. Non ergo quia carnes malae sunt ideo prohibentur, sed quia earum epulae
+    carnis luxuriam gignunt. Fomes enim ac nutrimentum est omnium vitiorum. <quote xml:id="rbdcir-de2194-Qd1e124">Esca ventri et
+      venter escis, Deus autem</quote> (ut scriptum est) <quote xml:id="rbdcir-de2194-Qd1e126">et hunc et hanc destruet.</quote>
+    Piscem sane (quia eum post resurrectionem accepit Dominus) possumus manducare. Hoc enim nec
+    Salvator nec apostoli vetuerunt. Avium quoque esum credo inde a patribus permissum esse, eo
+    quod ex eodem elemento de quo et pisces creatae sunt. Nam in regula monachorum non invenimus
+    aliarum carnium esum eis contradictum esse, nisi quadrupedium.</p>
+        <p xml:id="rbdcir-de2194-d1e129">
+          <quote xml:id="rbdcir-de2194-Qd1e131">Additio.</quote>
+        </p>
+        <p xml:id="rbdcir-de2194-d1e135">Sola quadrupedia non volatilia monachis interdicta. Hoc autem tempore Pii Ludovici sic
+    immutatum esse dicitur, ut in omni eorum pulmento sanguine uti liceat, propter nimiam et aliis
+    damnosam consumptionem volatilium quam faciebant.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

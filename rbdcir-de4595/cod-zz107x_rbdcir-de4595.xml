@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="202"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4595"><!-- l3c26 -->
+        <head xml:id="rbdcir-de4595-Hd1e101">Caput 26</head>
+        <head xml:id="rbdcir-de4595-Hd1e103" type="question-title">De philosophorum libris</head>
+        <p xml:id="rbdcir-de4595-d1e106">CAPUT XXVI. <hi>De philosophorum libris.</hi>
+        </p>
+        <p xml:id="rbdcir-de4595-d1e111">Ecce de septem liberalibus artibus philosophorum, ad quam utilitatem discendae sint
+    catholicis, satis, ut reor, superius diximus. Illud adhuc adjicimus, quod philosophi ipsi qui
+    vocantur, si qua forte vera et fidei nostrae accommodata in dispensationibus suis seu scriptis
+    dixerunt, maxime Platonici, non solum formidanda non sunt, sed ab eis etiam tanquam injustis
+    possessoribus in usum nostrum vindicanda. Sicut enim Aegyptii non tantum idola habebant et
+    onera gravia, quae populus Israel detestaretur et fugeret, sed etiam vasa atque ornamenta de
+    auro et argento, et vestem, quae ille populus exiens de Aegypto sibi tanquam ad usum meliorem
+    clanculo vendicavit, non auctoritate propria, sed praecepto et mandato, ipsis Aegyptiis
+    nescienter commodantibus ea quibus ut bonis utebantur: sic doctrinae omnes gentilium non solum
+    simulata et superstitiosa figmenta gravesque sarcinas supervacanei laboris habent, quae
+    unusquisque nostrum duce Christo de societate gentilium exiens, debet abominari atque
+    devitare, sed etiam liberales disciplinas, de quibus paulo ante egimus, usui veritatis
+    aptiores et quaedam morum praecepta utilissima continent, deque ipso uno Deo colendo nonnulla
+    vera inveniuntur apud eos; quod eorum tanquam aurum et argentum, quod non ipsi instituerunt,
+    sed de quibusdam quasi metallis divinae providentiae, quae ubique infusa est, eruerunt; et quo
+    perverse atque injuriose ad obsequia daemonum abutuntur, cum ab eorum misera societate sese
+    animo separat, debet ab eis auferre Christianus ad usum justum praedicandi Evangelii. Vestem
+    quoque illorum, id est hominum quidem instituta, sed tamen accommodata humanae societati,
+    quibus in hac vita carere non possumus, accipere atque habere licuerit in usum convertenda
+    Christianum. Nam quid aliud fecerunt boni multi fideles nostri? Nonne aspicimus quanto auro et
+    argento et veste suffarcinati exierunt de Aegypto Cyprianus et doctor suavissimus, et martyr
+    beatissimus? quanto Lactantius? quanto Victorinus, Optatus, Hilarius? quanto innumerabiles
+    grammatici [ <quote xml:id="rbdcir-de4595-Qd1e113">Al.,</quote> Graeci]? Quod prior ipse fidelissimus Dei famulus Moyses
+    fecerat, de quo scriptum est quod <quote xml:id="rbdcir-de4595-Qd1e115">eruditus fuerit omni sapientia Aegyptiorum </quote>
+          <ref xml:id="rbdcir-de4595-Rd1e117">(Act. VII)</ref>. Quibus omnibus viris superstitiosa gentium consuetudo, et maxime illis
+    temporibus cum Christi recutiens jugum Christianos persequebatur, disciplinas quas utiles
+    habebat nunquam commodaret, si eas in usum colendi unius Dei, quo vanus idolorum cultus
+    exscinderetur, conversas suspicaretur. Sed dederunt aurum et argentum et vestem suam exeunti
+    de Aegypto populo Dei, nescientes quemadmodum illa quae dabant in Christi obsequium
+    redderentur. <pb ed="#P" n="203"/>
+          <cb ed="#P" n="a"/> Illud enim in Exodo factum sine dubio figuratum est, ut hoc
+    praesignaret, quia sine praejudicio alterius aut paris aut melioris intelligentiae dixerim.
+    Sed hoc modo instructus divinarum Scripturarum studiosus, cum ad eas scrutandas accedere
+    coeperit, illud apostolicum cogitare non cesset: <quote xml:id="rbdcir-de4595-Qd1e124">Scientia inflat, charitas aedificat </quote>
+          <ref xml:id="rbdcir-de4595-Rd1e126">(I Cor. VIII)</ref>. Ita enim sentit quamvis de Aegypto dives exeat, tamen nisi pascha
+    egerit, salvum se esse non posse. <quote xml:id="rbdcir-de4595-Qd1e128">Pascha autem nostrum immolatus est Christus;</quote>
+    nihilque magis immolatio Christi nos docet, quam illud quod ipse clamat, tanquam ad eos quos
+    in Aegypto sub Pharaone videt laborare: <quote xml:id="rbdcir-de4595-Qd1e130">Venite ad me, qui laboratis et onerati estis,
+      et ego vos reficiam. Tollite jugum meum super vos, et discite quia mitis sum et humilis
+      corde; et invenietis requiem animabus vestris. Jugum enim meum suave est, et onus meum leve
+      est </quote>
+          <ref xml:id="rbdcir-de4595-Rd1e132">(Matth. XI)</ref>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 44</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 44</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="179"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2811"><!-- l2c44 -->
+        <head xml:id="rbdcir-de2811-Hd1e101">Caput 44</head>
+        <head xml:id="rbdcir-de2811-Hd1e103" type="question-title">De sacrificiis pro defunctis offerendis</head>
+        <p xml:id="rbdcir-de2811-d1e106">CAPUT XLIV. <hi>De sacrificiis pro defunctis offerendis.</hi>
+        </p>
+        <p xml:id="rbdcir-de2811-d1e111">Sacrificium pro defunctorum fidelium requie offerre, vel pro eis orare, quia per totum orbem
+    hoc custoditur, credimus quod ab ipsis apostolis traditum sit. Hoc enim ubique catholica tenet
+    Ecclesia, quae nisi crederet fidelibus defunctis dimitti peccata, non pro eorum specialibus
+    vel eleemosynam faceret, vel sacrificium offerret. Nam et cum dicit, <quote xml:id="rbdcir-de2811-Qd1e113">qui peccaverit in
+      Spiritum sanctum, non remittetur ei in hoc saeculo, neque in futuro </quote>
+          <ref xml:id="rbdcir-de2811-Rd1e115">(Matth. XII)</ref>, demonstrat quibusdam illic dimittenda peccata, et quaedam purgatorio
+    igne purganda. Ergo ut in libris dialogi sanctus Gregorius narrat, et Beda magister in Gestis
+    angelorum, frequenter exemplo ostensum seu visione revelatum est, animabus defunctorum multum
+    prodesse pro eis sacrificia. Et in quodam loco dictum <cb ed="#P" n="b"/> est a sancto Augustino,
+    defunctorum animas sine dubio pietate suorum viventium relevari, cum pro illis sacrificium
+    offertur, vel eleemosynae fiunt si tamen aliquod quisque sibi meritum praeparavit, dum adhuc
+    in corpore viveret, pro qua ista prosint, quaecunque pro illo fiunt. Nam non omnibus prosunt,
+    nisi pro differentia vitae, quae quisque gessit in corpore. Nam pro valde bonis gratiarum
+    actiones sunt, pro non valde bonis, et non valde malis, propitiationes sunt, pro valde malis,
+    si etiam nulla sunt adjumenta mortuorum, qualescunque tamen vivorum consolationes sunt. Quibus
+    autem prosunt, aut ad hoc prosunt, ut sit plena remissio, aut certe ut tolerabilior fiat ipsa
+    damnatio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="166"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1885"><!-- l2c16 -->
+        <head xml:id="rbdcir-de1885-Hd1e101">Caput 16</head>
+        <head xml:id="rbdcir-de1885-Hd1e103" type="question-title">De discretione orationis Dominicae</head>
+        <p xml:id="rbdcir-de1885-d1e106">CAPUT XVI. <hi>De discretione orationis Dominicae.</hi>
+        </p>
+        <p xml:id="rbdcir-de1885-d1e111">Apud evangelistam Matthaeum septem petitiones Dominica continere videtur oratio, quarum
+    tribus aeterna poscuntur, reliquis quatuor temporalia, quae tamen propter aeterna consequenda
+    sunt necessaria. Nam quod dicimus: <quote xml:id="rbdcir-de1885-Qd1e113">Sanctificetur nomen tuum, adveniat regnum tuum, fiat
+      voluntas tua sicut in coelo et in terra,</quote> quod non absurde quidem intellexerunt, in
+    spiritu et corpore omnino sine fine retinenda sunt, quae hic quidem inchoantur, et
+    quantumcunque proficimus augentur in nobis, perfecte vero in alia vita, quod sperandum est,
+    semper possidebuntur. Quod vero dicimus: <quote xml:id="rbdcir-de1885-Qd1e115">Panem nostrum quotidianum da nobis hodie, et
+      dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris, et ne inferas nos
+      in tentationem, sed libera nos a malo,</quote> quis non videat ad praesentis vitae
+    indigentiam pertinere? In illa utique vita aeterna, ubi nos speramus semper futuros, et
+    nominis Dei sanctificatio, et regnum ejus et voluntas ejus in nostro spiritu et corpore
+    perfecte atque immortaliter permanebunt. Panis vero quotidianus ideo dictus, quia hic est
+    necessarius quantus animae carnique tribuendus est, sive spiritualiter, sive corporaliter,
+    sive utroque intelligatur modo. Hic <pb ed="#P" n="167"/>
+          <cb ed="#P" n="a"/> est etiam quam poscimus remissio, ubi est
+    omnis commissio peccatorum. Hic tentationes quae nos ad peccandum vel alliciunt vel impellunt,
+    hic denique malum unde cupimus liberari, illic autem nihil horum est. Evangelista vero Lucas
+    in oratione Dominica petitiones non septem, sed quinque complexus est, nec ab ipso utique
+    discrepavit, sed quomodo ista septem sunt intelligenda, ipse sua brevitate commonuit. Nomen
+    quippe Dei sanctificatur in spiritu, Dei autem regnum in carnis resurrectione venturum est.
+    Ostendens ergo Lucas tertiam petitionem duarum superiorum esse quodammodo repetitionem, magis
+    eam praemittendo fecit intelligi; deinde tres alias adjungit de pane quotidiano, de remissione
+    peccatorum, de tentatione vitanda. At vero quod ille in ultimo posuit: <quote xml:id="rbdcir-de1885-Qd1e121">Sed libera nos a
+      malo,</quote> iste non posuit, ut intelligeremus ad illud superius quod de tentatione dictum
+    est pertinere. Ideo quippe ait, <quote xml:id="rbdcir-de1885-Qd1e124">sed libera,</quote> non ait <quote xml:id="rbdcir-de1885-Qd1e126">et libera,</quote>
+    tanquam petitionem esse demonstrans, noli hoc, sed hoc, ut sciat unusquisque in eo se liberari
+    a malo, quo non infertur in tentationem. Haec ergo oratio, licet omnem videatur perfectionis
+    plenitudinem continere, utpote quae ipsius Domini auctoritate vel initiata sit vel statuta,
+    provehit tamen domesticos suos ad illum praecelsiorem quem superius commemoravimus statum,
+    eosque ad illam igneam ac perpaucis cognitam vel expertam, imo (ut prius dixeram) ineffabilem
+    orationem gradu eminentiore perducit, quem statum Dominus quoque noster illorum supplicationum
+    formula, quas vel solus in monte secedens, vel tacite fudisse describitur, similiter
+    figuravit, cum in orationis agonia constitutus etiam guttas sanguinis inimitabili intentionis
+    profudit exemplo. Qui enim vult orationem suam ad Dominum volare, faciat illi duas alas,
+    jejunium et eleemosynam, et ascendet celeriter, et exaudietur. Jejunium ergo cum oratione
+    omnem virtutem inimici superat, et cunctam protervitatem ejus expellit, quod ostendit in
+    evangelio Dominus; cum apostoli conquesti fuerant quod lunaticum curare non poterant, ita
+    respondet eis. <quote xml:id="rbdcir-de1885-Qd1e128">Hoc autem genus non ejicietur nisi per orationem et jejunium </quote>
+          <ref xml:id="rbdcir-de1885-Rd1e130">(Matth. XVII)</ref>. Eleemosynas autem orationem confirmat adjuvare liber Actus
+    apostolorum, cum narrat angelum Cornelio centurioni ita dixisse: <quote xml:id="rbdcir-de1885-Qd1e132">Corneli, orationes
+      tuae et eleemosynae tuae ascenderunt in conspectum Domini </quote>
+          <ref xml:id="rbdcir-de1885-Rd1e134">(Act. X)</ref>. Sed prius de jejunio, postea de eleemosynis dicemus. Quis enim
+    parcimoniam non laudet, qui recolit primi hominis lapsum per gulae appetitum accidisse? quis
+    jejunium non praedicet, qui novit protoplastum parentem nostrum per esum victum, et Salvatorem
+    per jejunium diabolum vicisse?</p>
+      </div>
+    </body>
+  </text>
+</TEI>

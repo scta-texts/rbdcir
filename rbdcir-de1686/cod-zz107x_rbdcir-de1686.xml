@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="166"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1686"><!-- l2c10 -->
+        <head xml:id="rbdcir-de1686-Hd1e101">Caput 10</head>
+        <p xml:id="rbdcir-de1686-d1e103">CAPUT X.</p>
+        <p xml:id="rbdcir-de1686-d1e105">
+          <quote xml:id="rbdcir-de1686-Qd1e107">De caeteris legitimis orationibus.</quote>
+        </p>
+        <p xml:id="rbdcir-de1686-d1e110">Sunt et aliae orationes legitimae, quae sine ulla admonitione debentur, ut est illa quam
+    dicimus ante inceptionem alicujus operis, Domini adjutorium postulantes. Nec enim decet
+    Christianum aliquod opus sua praesumptione incipere, antequam studeat Dominum in auxilium
+    advocare, quia ipse dixit: <quote xml:id="rbdcir-de1686-Qd1e112">Sine me nihil potestis facere </quote>
+          <ref xml:id="rbdcir-de1686-Rd1e114">(Joan. XV)</ref>. Humiliter ergo advocatus dignatur nos adjuvare, sicut de ipso scriptum
+    est: <quote xml:id="rbdcir-de1686-Qd1e116">Invocabit me, inquit, et ego exaudiam eum: cum ipso sum in tribulatione, eripiam
+      eum et glorificabo eum,</quote> et reliqua <ref xml:id="rbdcir-de1686-Rd1e118">(Psal. XC)</ref>. Sed et cibum non prius
+    sumere licet quam interposita oratione, priora enim habenda sunt spiritus refrigeria quam
+    carnis, quia priora sunt coelestia quam terrena. Similiter autem et post cibum orare convenit,
+    ut Domino pro suis donis gratiae referantur, ut illud in hoc compleatur Psalmistae quod dicit:
+      <quote xml:id="rbdcir-de1686-Qd1e120">Edent pauperes, et saturabuntur, et laudabunt Dominum qui requirunt eum </quote>
+          <ref xml:id="rbdcir-de1686-Rd1e123">(Psal. XXI)</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

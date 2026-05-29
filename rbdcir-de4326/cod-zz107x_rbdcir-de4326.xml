@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="196"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4326"><!-- l3c16 -->
+        <head xml:id="rbdcir-de4326-Hd1e101">Caput 16</head>
+        <head xml:id="rbdcir-de4326-Hd1e103" type="question-title">De duobus generibus doctrinarum gentilium, et quae sint illae quae
+    instituerunt homines</head>
+        <p xml:id="rbdcir-de4326-d1e106">CAPUT XVI. <hi>De duobus generibus doctrinarum gentilium, et quae sint illae quae
+      instituerunt homines.</hi>
+        </p>
+        <p xml:id="rbdcir-de4326-d1e111">Duo sunt genera doctrinarum, quae in gentilibus etiam moribus exercentur: unum earum rerum
+    quas instituerunt homines; alterum earum quas animadverterunt jam peractas, aut divinitus
+    institutas. Illud quod est secundum institutiones hominum, partim superstitiosum est, partim
+    non est. Superstitiosum est quidquid institutum est ab hominibus ad facienda et colenda idola
+    pertinens, vel ad colendum sicut Deum creaturam, vel partem ullam creaturae, vel ad
+    consultationes et pacta quaedam significationum cum doemonibus placita atque foederata, qualia
+    sunt molimina magicarum artium, quae quidem commemorare potius quam docere assolent poetae. Ex
+    quo genere sunt, sed quasi licentiore vanitate, aruspicum et augurum libri. Ad hoc genus
+    pertinent omnes etiam ligaturae atque remedia, quae medicorum quoque disciplina contemnit,
+    sive in praecantationibus, sive in quibusdam notis quas characteres vocant, sive in quibusdam
+    rebus suspendendis atque illigandis, non propter vim naturae quodammodo ad temperationem
+    corporum, sed ad quasdam significationes occultas aut manifestas. Neque illi ab hoc genere
+    perniciosae superstitionis segregandi sunt, qui genethliaci propter natalium dierum
+    considerationes, nunc autem vulgo mathematici vocantur. Nam et ipsi, quamvis veram stellarum
+    positionem, cum quisque nascitur, consectentur, et aliquando etiam pervestigent, tamen quod
+    inde conantur vel actiones nostras vel actionum eventa praedicere, nimis errant, et vendunt
+    imperitis hominibus miserabilem servitutem. Commoda vero et necessaria hominum cum hominibus
+    instituta <pb ed="#P" n="197"/>
+          <cb ed="#P" n="a"/> sunt, quaecunque in habitu et cultu corporis ad sexus vel honores
+    discernendos differentia placuit; et innumerabilia genera significationum sine quibus humana
+    societas, aut non omnino, aut minus commode geritur; quaeque in ponderibus atque mensuris, et
+    nummorum impressionibus et aestimationibus, sua cuique civitati et populo sunt propria, et
+    caetera hujusmodi, quae nisi hominum instituta essent, non per diversos populos variae essent,
+    nec in ipsis populis singulis pro arbitrio suorum principum mutarentur. Sed haec tota pars
+    humanorum institutorum, quae ad usum vitae necessarium proficiunt, nequaquam est fugienda
+    Christiano; imo etiam, quantum satis est, intuenda, memoriaque retinenda. Ad hanc partem etiam
+    pertinent litterarum figurae, quae pro libitu hominum constitutae sunt, nec tamen omnibus
+    gentibus communes, sed alias Hebraea, alias Graeca, alias Latina gens habet, et caeterae
+    quaedam gentes, similiter ad proprietatem linguaesuae, litteras sibi secundum placitum
+    formaverunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

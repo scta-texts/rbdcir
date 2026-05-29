@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 46</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 46</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="180"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2935"><!-- l2c46 -->
+        <head xml:id="rbdcir-de2935-Hd1e101">Caput 46</head>
+        <head xml:id="rbdcir-de2935-Hd1e103" type="question-title">De festivitate veterum, et unde et festa vel feriae sint
+    dictae</head>
+        <p xml:id="rbdcir-de2935-d1e106">CAPUT XLVI. <hi>De festivitate veterum, et unde et festa vel feriae sint dictae.</hi>
+        </p>
+        <p xml:id="rbdcir-de2935-d1e111">Festi autem dies in veteri lege isti fuerunt: dies Azymorum et Phase, quando, luna
+    plenissima, abjecto fermento, agnus immolabatur. Dies Pentecostes, qua in vertice montis, Sina
+    lex data est Moysi, in quo de frugibus primi panes offerebantur propositionis. Dies
+    sabbatorum, in quo otia celebrabantur, et in quo manna in deserto non licebat colligere. Dies
+    Neomeniarum, celebratio novae lunae. Semper autem Judaei in mensium principio, hoc est prima
+    luna, diem festum agebant. Sed idcirco in principio mensis hoc faciebant, quia deficiente
+    luna, tempus finitur, et iterum nascente, incipitur. Dies autem tubarum septimi mensis
+    principium est, quando Judaei solemnitatem agentes amplius tuba canebant, et plura offerebant
+    in eo sacrificia quam per singulos menses. In hoc mense primo, decimo die mensis hujus, dies
+    propitiationum sive expiationum erat, quando pontifex semel in anno introibat in sancta
+    sanctorum, et populo foris orante, ipse solus intus orabat, tam pro sua quam populi ignorantia
+    offerens incensum Domino super altare thymiamatis. In quo mense et dies erant celeberrimi
+    Scenopegiae, id est, Tabernaculorum, quando a quindecimo die mensis hujus, per septem dies in
+    umbraculis habitabant, sumentes sibi spatulas palmarum, et ramos ligni densarum frondium, et
+    salices de torrente, et laetabantur coram Domino Deo suo, in commemorationem exitus illorum de
+    Aegypto, quod Dominus eos in tabernaculis habitare fecerit, cum eduxerit eos de terra Aegypti.
+    Dies jejunii, primi, quarti, septimi et decimi mensis, ob eas causas celebres apud eos fuerunt
+    ob quas supra commemoravimus, cum de jejunio disputabamus. Festi autem inde vocantur, quod jus
+    in eis fatur, id est, dicitur, et nefasti, <pb ed="#P" n="181"/>
+          <cb ed="#P" n="a"/> quibus non dicitur. Similiter et
+    feriae a fando dicuntur, ob quam causam Silvester papa primus apud Romanos constituit ut
+    dierum nomina quae antea secundum nomina deorum suorum vocabant, id est, Solis, Lunae, Martis,
+    Mercurii, Veneris, Saturni, feria deinceps vocarent, id est, prima feria, secunda feria,
+    tertia feria, quarta feria, quinta feria, sexta feria, quia in principio Genesis scriptum est
+    quod Deus per singulos dies dixerit: prima, <quote xml:id="rbdcir-de2935-Qd1e117">Fiat lux;</quote> secunda, <quote xml:id="rbdcir-de2935-Qd1e119">Fiat
+      firmamentum;</quote> tertia, <quote xml:id="rbdcir-de2935-Qd1e121">Producat terra herbam virentem,</quote> similiter, etc.
+    Sabbatum autem antiquo legis vocabulo vocare praecepit, et primam feriam diem Dominicam, eo
+    quod Dominus in illa resurrexit. Statuit autem idem papa ut otium sabbati magis in diem
+    Dominicam transferretur, ut ea die a terrenis operibus ad laudandum Deum vacaremus, juxta
+    illud quod scriptum est: <quote xml:id="rbdcir-de2935-Qd1e124">Vacate et videte, quoniam ego sum Deus </quote>
+          <ref xml:id="rbdcir-de2935-Rd1e126">(Psal. XLV)</ref>. Secundum hunc autem morem in natalitiis sanctorum vacare, id est, ad
+    laudes Dei celebrandas, sancta nos jubet Ecclesia. Caeterum qui his diebus ad hoc vacare vult
+    ab agri cultura, ut crapulae et ebrietati deserviat, vel jocis inanibus operam det, agnoscat
+    se magis peccare per tale otium quam si alicui utili operi insisteret, Salomone teste, qui
+    ait: <quote xml:id="rbdcir-de2935-Qd1e128">Vae illis qui morantur in vino, et student calicibus epotandis </quote>
+          <ref xml:id="rbdcir-de2935-Rd1e130">(Prov. XXIII)</ref>, et item: <quote xml:id="rbdcir-de2935-Qd1e132">Acceptus, inquit, regi, minister est intelligens,
+      iracundiam inutilis sustinebit </quote>
+          <ref xml:id="rbdcir-de2935-Rd1e134">(Prov. XIV)</ref>. Sed quia de festivitatibus celebrioribus, ad instructionem eorum qui
+    in Ecclesia Deo serviunt, et populo praesunt, secundum sensum majorum jam supra diximus, de
+    origine quoque cantus, et lectionum, et auctoritate Symboli, adhuc in praesenti dicamus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

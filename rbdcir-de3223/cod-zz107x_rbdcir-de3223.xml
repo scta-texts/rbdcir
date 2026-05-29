@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 55</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 55</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="184"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3223"><!-- l2c55 -->
+        <head xml:id="rbdcir-de3223-Hd1e101">Caput 55</head>
+        <head xml:id="rbdcir-de3223-Hd1e103" type="question-title">De benedictionibus</head>
+        <p xml:id="rbdcir-de3223-d1e106">CAPUT LV. <hi>De benedictionibus.</hi>
+        </p>
+        <p xml:id="rbdcir-de3223-d1e111">Benedictionem autem dari a sacerdotibus populo, antiqua per Moysen benedictio pandit et
+    comprobat, qua benedicere populo suo, sub sacramento trinae invocationis jubetur. Ait enim ad
+    Moysen Dominus: <cb ed="#P" n="b"/> Sic benedices populum meum, et ego benedicam illos.
+      <quote xml:id="rbdcir-de3223-Qd1e115">Benedicat te Dominus et custodiat te </quote>
+          <ref xml:id="rbdcir-de3223-Rd1e117">(Num. VI)</ref>; illuminet Dominus faciem suam super te, et misereatur tui <ref xml:id="rbdcir-de3223-Rd1e119">(Psal.
+      LXVI)</ref>; <quote xml:id="rbdcir-de3223-Qd1e121">convertatque Dominus vultum suum ad te, et det tibi pacem </quote>
+          <ref xml:id="rbdcir-de3223-Rd1e124">(Num. VI)</ref>. Hinc quoque usus Ecclesiae multiplices benedictiones in diversis rebus
+    habet. Benedicitur oleum ex apostolica auctoritate, ad infirmorum medicamentum, Jacobo
+    apostolo hoc ita praecipiente: <quote xml:id="rbdcir-de3223-Qd1e126">Infirmatur, inquit, quis in vobis, inducat presbyteros
+      Ecclesiae, ut orent super eum, ungentes eum oleo in nomine Domini nostri</quote> Jesu
+    Christi <ref xml:id="rbdcir-de3223-Rd1e128">(Jac. V)</ref>. Benedicitur sal et aqua in diversos usus fidelium, ad homines
+    infirmos, contra phantasiam inimici, ad pecorum sanitatem, ad morbos auferendos, etc., sicut
+    legitur Alexander, septimus post Petrum, Romanae urbis episcopus, et martyr, constituisse
+    aquam sparsionis cum sale benedici in habitaculis hominum. Nam nullum est aliud elementum quod
+    in hoc mundo purget universa quam aqua, quodque vivificet cuncta: ideoque cum baptizamur in
+    Christo, per ipsum renascimur, ut purificati vivificemur; quod in tempore passionis una cum
+    sanguine de latere Christi profluxit, ad ostendendum utique omnis sanctificationis et
+    munditiae validum se inde habere sacramentum. Quod autem sal sanctificatum aquae immiscetur,
+    ex divina auctoritate processit, quia illud per Elisaeum in fontem mitti jussit, ut sanaretur
+    sterilitas aquarum Jericho. Ergo natura salis naturae aquae vicina et conjunctissima est, quia
+    ejusdem clementiae ambo sunt, et idem officium et significationem habent. Nam aqua a sordibus
+    mundat, sal putredinem fugat; aqua nitorem praebet, sal sinceritatem adhibet; aqua potum
+    sapientiae significat, et sal gustum prudentiae indicat, quod scilicet sacrorum librorum satis
+    testatur auctoritas, et multiplicia eorum produnt testimonia. Fit enim hic mirabilis
+    operationis divinae effectus, ut per sacerdotum ora Deus ipse benedicat, et per sensibile
+    eorum ministerium virtus divina invisibiliter efficiat sacramentum. Deprecatur quidem pro
+    salute hominum pia sacerdotis intentio, et praestat eam divinae pietatis devotio; sicque fit
+    ut charitas quae exhibet in sacerdote depreciationem, ipsa praestet a Domino integram
+    sanitatem.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

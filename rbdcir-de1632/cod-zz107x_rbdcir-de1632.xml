@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="164"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1632"><!-- l2c9 -->
+        <head xml:id="rbdcir-de1632-Hd1e101">Caput 9</head>
+        <head xml:id="rbdcir-de1632-Hd1e103" type="question-title">De nocturna vigiliarum celebratione</head>
+        <p xml:id="rbdcir-de1632-d1e106">CAPUT IX. <hi>De nocturna vigiliarum celebratione.</hi>
+        </p>
+        <p xml:id="rbdcir-de1632-d1e111">De vigiliarum quoque nocturnalium celebratione antiqua est institutio, vigiliarum devotio
+    familiare bonum est omnibus sanctis. Isaias quoque exclamat ad Deum dicens: <quote xml:id="rbdcir-de1632-Qd1e113">De nocte
+      vigilat spiritus meus ad te, Domine, quia lux praecepta tua sunt super terram.</quote> Item
+    David et regio et prophetico sanctificatus unguento ita canit: <quote xml:id="rbdcir-de1632-Qd1e115">Media nocte surgebam ad
+      confitendum tibi, super judicia justitiae tuae </quote>
+          <ref xml:id="rbdcir-de1632-Rd1e117">(Psal. CXVIII)</ref>. Hanc namque tempore vastator angelus transiens, primogenita
+    Aegyptiorum percussit. Unde et nos evigilare oportet, ne periculo Aegyptiorum admisceamur.
+    Eisdem etiam horis venturum se esse in Evangelio Salvator astruxit, unde et ad vigilandum
+    auditores suos excitans, dixit: <quote xml:id="rbdcir-de1632-Qd1e119">Beati servi illi, quos cum venerit Dominus invenerit
+      vigilantes </quote>
+          <ref xml:id="rbdcir-de1632-Rd1e121">(Luc. XII)</ref>. <quote xml:id="rbdcir-de1632-Qd1e124">Vigilate ergo, nescitis enim quando Dominus veniat, sero, an
+      media nocte, ac galli cantu, an mane, ne <pb ed="#P" n="165"/>
+            <cb ed="#P" n="a"/> cum venerit inveniat vos dormientes </quote>
+          <ref xml:id="rbdcir-de1632-Rd1e131">(Marc. XIII)</ref>. Et ne solis apostolis illud praeceptum esse crederetur, mox
+    subjunxit: <quote xml:id="rbdcir-de1632-Qd1e133">Quod autem, inquit, vobis dico, omnibus dico, vigilate.</quote> Siquidem nec
+    verbis solum docuit vigilias, sed etiam confirmavit exemplo, namque testatur Evangelium
+      <quote xml:id="rbdcir-de1632-Qd1e135">quia erat Jesus pernoctans in oratione Dei.</quote> Paulus quoque et Silas in
+    custodia publica circa medium noctis orantes, hymnum (audientibus cunctis) vincti dixisse
+    memorantur <ref xml:id="rbdcir-de1632-Rd1e137">(Act. XIX)</ref>, ubi terraemotu repente facto, et concussis carceris
+    fundamentis, et januae sponte apertae, et omnium vincula sunt soluta. Unde oportet his horis
+    psallendi orandique frequentiam nos in sanctis habere officiis, finemque nostrum, vel si
+    advenerit sub tali actu exspectare securos. Est autem quoddam genus haereticorum, superfluas
+    existimantium sacras vigilias, et spiritali opere infructuosas, dicentes jura temerari divina,
+    cum Deus noctem fecerit ad requiem, sicut diem ad laborem. Qui haeretici Graeco sermone
+    nystages, <foreign xml:lang="greek">νυσταγεῖς,</foreign> hoc est somnicolosi, vocantur. Iste
+    autem est catholicus ordo divinarum celebrationum, qui ab universa Ecclesia Christi
+    incommutabiliter servatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

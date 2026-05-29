@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epigramma</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Epigramma</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="147"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0003">
+        <head xml:id="rbdcir-de0003-Hd1e100">Epigramma</head>
+        <p xml:id="rbdcir-de0003-d1e102">AD FRATRES FULDENSES EPIGRAMMA EJUSDEM.</p>
+        <p xml:id="rbdcir-de0003-d1e104">
+          <l>Cernite quid voluit, fratres, sententia legis,</l>
+          <l rend="indent">Quae mandat rite noscere verba Dei.</l>
+          <l>Aures quisquis habet, hic audiat, inquit, apertas,</l>
+          <l rend="indent">Quid dicat sanctus Spiritus Ecclesiis.</l>
+          <l> Cui Psalmista pari concordat grammate plebem</l>
+          <l rend="indent">In legem Domini cernere rite jubens.</l>
+          <l>Sic quoque nos semper oculis atque auribus est fas</l>
+          <l rend="indent">Intentis. fratres. discere verba Dei.</l>
+          <l>
+            <pb ed="#P" n="148"/>
+            <cb ed="#P" n="a"/>Quid mandet dictis, quid factis indicet ipsis,</l>
+          <l rend="indent">Quae codex geminis continet ille suis.</l>
+          <l>Quid celebrando piis signet charissima Christi</l>
+          <l rend="indent">Sponsa sacramentis, et studiis variis.</l>
+          <l>Namque poposcistis haec vobis reddere scriptis,</l>
+          <l rend="indent">Exhibui parvis haec tribus ipse libris.</l>
+          <l>Quid cultura venit, gradibus quid nuntiet almis,</l>
+          <l rend="indent">Quid prece, quid festis sancta Dei Ecclesia.</l>
+          <l>Dogmata quae cunctis pia discere quaeve docere,</l>
+          <l rend="indent">Condecet ordinibus mystica dicta Dei.</l>
+          <l>
+            <cb ed="#P" n="b"/>Si licet haec tota non possum carpere scriptis,</l>
+          <l rend="indent">Plurima complexus hic tamen arte dedi.</l>
+          <l>Haec ego peccator Rabanus dona tonantis,</l>
+          <l rend="indent">Vobiscum capiens nunc pia participo.</l>
+          <l>Supplex vos posco, testans per sceptra Tonantis,</l>
+          <l rend="indent">Me ut commendetis vos precibus Domino.</l>
+          <l>Quatenus ipse pius concedat dona salutis,</l>
+          <l rend="indent">Vobiscum mihimet regna beata poli.</l>
+          <l>Christus dux vester, Christus rex, Christus amator.</l>
+          <l rend="indent">Semper vos salvet summus in arce Deus.</l>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

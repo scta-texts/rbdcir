@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="195"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4203"><!-- l3c14 -->
+        <head xml:id="rbdcir-de4203-Hd1e101">Caput 14</head>
+        <head xml:id="rbdcir-de4203-Hd1e103" type="question-title">De varia significatione verborum, quae constat in contrarietate et
+          diversitate</head>
+        <p xml:id="rbdcir-de4203-d1e106">CAPUT XIV. <hi>De varia significatione verborum, quae constat in contrarietate et
+            diversitate.</hi>
+        </p>
+        <p xml:id="rbdcir-de4203-d1e111">Sed quoniam multis modis res similes apparent, non putemus ita esse scriptum, ut quod in
+          aliquo loco res aliqua per similitudinem significaverit, hoc eam semper significare credamus.
+          Nam et in vituperatione posuit fermentum Dominus cum diceret: <quote xml:id="rbdcir-de4203-Qd1e113">Cavete a fermento
+            Pharisaeorum </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e115">(Luc. XII)</ref>; et in laude cum diceret: <quote xml:id="rbdcir-de4203-Qd1e117">Simile est regnum coelorum mulieri quae
+            abscondit fermentum in tribus mensuris farinae <pb ed="#P" n="196"/>
+            <cb ed="#P" n="a"/> donec totum fermentaret </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e124">(Luc. XIII)</ref>. Hujus igitur varietatis observatio duas habet formas; sic enim aliud
+          atque aliud res quaeque significant, ut aut contraria, aut diversa significent. Contraria
+          scilicet, cum alias in bono, alias in malo res eadem per similitudinem ponitur, sicut hoc est
+          quod de fermento supra diximus. Tale est etiam quod leo significat Christum, ubi dicitur:
+          <quote xml:id="rbdcir-de4203-Qd1e126">Vicit leo de tribu Juda </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e129">(Apoc. V)</ref>. Significat et diabolum, ubi scriptum est: <quote xml:id="rbdcir-de4203-Qd1e131">Adversarius vester
+            diabolus tanquam leo rugiens circuit, quaerens quem devoret </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e133">(I Petr. V)</ref> Serpens in bono: <quote xml:id="rbdcir-de4203-Qd1e135">Estote astuti ut serpentes </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e137">(Matth. X)</ref>. In malo autem: <quote xml:id="rbdcir-de4203-Qd1e139">Serpens Evam seduxit astutia sua </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e142">(II Cor. XII)</ref>. In bono, panis: <quote xml:id="rbdcir-de4203-Qd1e144">Ego sum panis vivus, qui de coelo descendi </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e146">(Joan. VI)</ref>. In malo, panis: <quote xml:id="rbdcir-de4203-Qd1e148">Panis occultus libenter editur </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e150">(Prov. IX)</ref>. Sic et alia plurima. Et haec quidem quae commemoravi, minime dubiam
+          significationem gerunt, quia exempli gratia non nisi manifesta commemorari debuerunt. Sunt
+          autem quae incertum est in quam partem accipi debeant, sicut, <quote xml:id="rbdcir-de4203-Qd1e152">Calix in manu Domini vini
+            meri plenus est misto </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e155">(Psal. LXXIV)</ref>. Incertum est enim utrum iram Domini significet non usque ad
+          novissimam poenam, id est usque ad faecem; an potius gratiam Scripturarum a Judaeis ad gentem
+          transeuntem, quia <quote xml:id="rbdcir-de4203-Qd1e157">inclinavit ex hoc in hoc,</quote> remanentibus apud Judaeos
+          observationibus quas carnaliter sapiunt, quia <quote xml:id="rbdcir-de4203-Qd1e159">faex ejus non est exinanita.</quote> Cum
+          vero res eadem non in contraria, sed tamen in significatione ponitur diversa, illud est in
+          exemplo, quod aqua et populum significat, sicut in Apocalypsi legimus; et Spiritum sanctum,
+          unde est illud: <quote xml:id="rbdcir-de4203-Qd1e161">Flumina de ventre ejus fluent aquae vivae </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e163">(Joan. VII)</ref>, et si quid aliud atque aliud, pro locis in quibus ponitur, aqua
+          significare intelligitur. Ubi autem apertius ponuntur, ibi discendum est quomodo in locis
+          intelligatur obscuris. Neque enim melius potest intelligi quod dictum est Deo,
+          <quote xml:id="rbdcir-de4203-Qd1e165">Apprehende arma et scutum, et exsurge in adjutorium mihi </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e168">(Psal. XXXIV)</ref>, quam ex hoc loco ubi legitur: <quote xml:id="rbdcir-de4203-Qd1e170">Domine, ut scuto bonae
+            voluntatis tuae coronasti nos </quote>
+          <ref xml:id="rbdcir-de4203-Rd1e172">(Psal. V.)</ref>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

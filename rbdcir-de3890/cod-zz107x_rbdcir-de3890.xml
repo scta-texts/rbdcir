@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="192"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3890"><!-- l3c8 -->
+        <head xml:id="rbdcir-de3890-Hd1e101">Caput 8</head>
+        <head xml:id="rbdcir-de3890-Hd1e103" type="question-title">Unde fit quod non intelliguntur quae scripta sunt</head>
+        <p xml:id="rbdcir-de3890-d1e106">CAPUT VIII. <hi>Unde fit quod non intelliguntur quae scripta sunt.</hi>
+        </p>
+        <p xml:id="rbdcir-de3890-d1e111"> Duabus autem causis non intelliguntur quae scripta sunt, si aut ignotis, aut ambiguis signis
+    obteguntur. Sunt autem signa propria vel translata. Propria dicuntur, cum his rebus
+    significandis adhibentur, propter quas sunt instituta, sicut dicimus bovem cum intelligimus
+    pecus, quod omnes nobiscum Latinae linguae homines hoc nomine vocant. Translata sunt, cum et
+    ipsae res quas propriis verbis significamus, ad aliquid aliud significandum usurpantur, sicut
+    dicimus bovem, et per has duas syllabas intelligimus pecus, quod isto nomine appellari solet;
+    sed rursus per illud pecus intelligimus evangelistam quem significavit Scriptura,
+    interpretante Apostolo et dicente: <quote xml:id="rbdcir-de3890-Qd1e113">Bovem triturantem non infrenabis</quote>
+          <pb ed="#P" n="193"/>
+          <cb ed="#P" n="a"/>
+          <ref xml:id="rbdcir-de3890-Rd1e119">(I Cor. IX)</ref>. Ad propria autem signa pertinent verba, quae prorsus inter homines
+    obtinuerunt principatum significandi, quocunque animo concipiuntur, si ea quisque prodere
+    velit. Sed quia verberato aere statim transeunt, nec diutius manent quam sonant, instituta
+    sunt per litteras signa verborum et ita voces oculis ostenduntur, non per seipsas, sed per
+    signa quaedam sua. Ista signa ergo non potuerunt communia esse omnibus gentibus, peccato
+    quodam dissensionis humanae, cum ad se quisque principatum rapit, cujus superbiae signum est
+    erecta illa turris in coelum, ubi homines impii non solum animos, sed etiam voces dissonas
+    habere meruerunt. Sed gratia Dei misericorditer provisum est, ut Scriptura divina quae in
+    prima illa lingua, qua homines primi locuti sunt primitus conscripta est, ab ipsa per varia
+    interpretum officia ad notitiam hominum deferretur, ne humana miseria fame verbi Dei
+    deficiens, sine remedio in aeternum periret, servato tamen ordine, quem maxime canon invenit
+    harum Scripturarum illis tribus linguis, quae in cruce redemptoris et Salvatoris nostri
+    dedicatae sunt, Hebraea videlicet, Graeca et Latina, ad insinuandam sanctae Trinitatis fidem,
+    in tribus mundi partibus tripartito humano generi principaliter commendari, ut ex his
+    unaquaeque gens et natio propriae linguae adminiculo intellectum sibi salubrem attraheret,
+    interpretando ac colloquendo sensum eumdem canonicum propriis verbis. Sed quia praediximus,
+    quod aut in ignotis signis, aut in ambiguis haereret intellectus, ut non facile
+    intelligerentur quae scripta sunt, de ambiguis signis post loquemur, nunc de incognitis
+    agimus. Agere enim decrevimus, ut si Dominus vellet, quaecunque in praedictis duobus signis
+    necessaria essent ad discendum nobis, distributo ordine modoque disposito, quantum possemus
+    conscriberemus, unde oportebat, ut de ignotis propriis signis post ageremus, in quibus radix
+    et initium discendi consistit. Deinde de ignotis translatis, in quibus subtilitas et utilitas
+    lectionis habetur, postea vero de ambiguis signis, propriis atque translatis, quibus ad purum
+    elicitis, et secundum veritatem inventis, firmitas et integritas lectionis generatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

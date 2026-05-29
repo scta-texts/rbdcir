@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 36</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 36</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="174"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2504"><!-- l2c36 -->
+        <head xml:id="rbdcir-de2504-Hd1e101">Caput 36</head>
+        <head xml:id="rbdcir-de2504-Hd1e103" type="question-title">De Coena Domini</head>
+        <p xml:id="rbdcir-de2504-d1e106">CAPUT XXXVI. <hi>De Coena Domini.</hi>
+        </p>
+        <p xml:id="rbdcir-de2504-d1e111">Coena Domini haec est feria quinta ultimae hebdomadis Quadragesimae quando Dominus et
+    Salvator noster post typicum illud Pascha completum, ad verum Pascha transiens, mysterium
+    corporis et sanguinis sui primum apostolis tradidit, quando post sacramenta coelestia
+    discipulus fallax et proditor pretium a Judaeis accepit, et Christi sanguinem vendidit. Eo
+    etiam die Salvator surgens a coena, pedes discipulorum lavit, propter humilitatis formam
+    commendandam, quam docendam venerat, sicut et ipse consequenter exposuit: quod etiam dicebat
+    potissimum ut facto doceret quod observare discipulos praemoneret. Hinc est quod eodem die
+    altaria templi, parietes et pavimenta lavantur, vasaque purificantur, quae sunt Domino
+    consecrata. Quo die proinde etiam sanctum chrisma conficitur, quia ante biduum Paschae, Maria
+    caput ac pedes Domini unguento perfudisse perhibetur. Unde et Dominus discipulis suis dixit:
+      <quote xml:id="rbdcir-de2504-Qd1e113">Scitis quia post biduum Pascha fiet, et filius hominis tradetur ut crucifigatur </quote>
+          <ref xml:id="rbdcir-de2504-Rd1e115">(Matth. XXVI)</ref>. Eodem etiam die (sicut supra ostendimus) poenitentes reconciliantur,
+    quia scilicet ipsa die qua sacramenta corporis et sanguinis sui Dominus primum confecit, ac
+    discipulis suis percipienda tradidit, oportebat ad haec resumenda poenitentes restaurentur: eo
+    videlicet tempore, quo sanguis Christi in remissionem omnium fusus est peccatorum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

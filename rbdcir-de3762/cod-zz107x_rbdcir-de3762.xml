@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="190"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3762"><!-- l3c3 -->
+        <head xml:id="rbdcir-de3762-Hd1e101">Caput 3</head>
+        <head xml:id="rbdcir-de3762-Hd1e103" type="question-title">Quibus obscuritatibus Scriptura sacra sit involuta, et quod eam
+    temere alicui legere non liceat</head>
+        <p xml:id="rbdcir-de3762-d1e106">CAPUT III. <hi>Quibus obscuritatibus Scriptura sacra sit involuta, et quod eam temere alicui
+      legere non liceat.</hi>
+        </p>
+        <p xml:id="rbdcir-de3762-d1e111">Igitur Scriptura divina, qua tantis morbis humanarum voluntatum subvenitur, ab una lingua
+    perfecta, qua opportune potuit per orbem terrarum disseminari, per varias interpretum linguas
+    longe lateque diffusa est, ut innotesceret gentibus ad salutem. Quam legentes nihil appetunt
+    aliud, quam cogitationes voluntatemque illorum, a quibus conscripta est invenire, et per illas
+    voluntatem Dei secundum quam tales homines locutos credimus. Sed multis et multiplicibus
+    obscuritatibus et ambiguitatibus decipiuntur, qui temere legunt, aliud pro alio sentientes,
+    quibusdam autem locis quid vel falso suspicentur, cum non inveniunt, ita obscure dicta
+    quaedam, densissimam caliginem obducunt. Quod totum provisum esse divinitus non dubito, ad
+    edomandam labore superbiam, et intellectum a fastidio renovandum, cui facile investigata
+    plerumque vilescunt. Sunt enim in divinis libris plurima loca tropicis locutionibus
+    difficilia, sunt quoque multa rerum magnitudine eximia, atque ideo necesse est, ut et sensus
+    et ingenii sagacitate investigentur, et pro sui dignitate intellecta venerentur. Nemo enim
+    ambigit per similitudines libentius quaeque cognosci, et cum aliqua difficultate quaesita
+    multo gratius inveniri. Qui enim prorsus non inveniunt quod quaerunt, fame laborant; qui autem
+    non quaerunt, quia in promptu habent, fastidiose permarcescunt. In utroque autem languor
+    cavendus est. Magnifice ergo et salubriter Spiritus sanctus ita Scripturas sanctas medicavit,
+    ut locis apertioribus fami occurreret, obscurioribus autem fastidia detergeret. Nihil autem
+    fere de illis obscuritatibus eruitur, quod non planissime dictum alibi reperiatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

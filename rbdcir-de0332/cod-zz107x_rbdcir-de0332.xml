@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="151"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0332"><!-- l1c6 -->
+        <head xml:id="rbdcir-de0332-Hd1e101">Caput 6</head>
+        <head xml:id="rbdcir-de0332-Hd1e103" type="question-title">De presbyteris</head>
+        <p xml:id="rbdcir-de0332-d1e106">CAPUT VI. <hi>De presbyteris.</hi>
+        </p>
+        <p xml:id="rbdcir-de0332-d1e111">Presbyterorum ordo exordium sumpsit a filiis, ut dictum est, Aaron. Qui enim sacerdotes in
+    Veteri Testamento vocabuntur, hi sunt qui nunc appellantur presbyteri; et qui tunc princeps
+    sacerdotum, nunc episcopus vocatur. Presbyter <foreign xml:lang="greek">πρεσβύτερος</foreign>
+    enim Graece, Latine senior interpretatur. Non pro aetate autem vel decrepita senectute, sed
+    propter honorem et dignitatem et doctrinam sapientiae quam acceperunt, presbyteri nominantur,
+    sicut per Sapientiam <cb ed="#P" n="b"/> dicitur: <quote xml:id="rbdcir-de0332-Qd1e118">Gloria senum canities </quote>
+          <ref xml:id="rbdcir-de0332-Rd1e120">(Prov. XX)</ref>, et item: <quote xml:id="rbdcir-de0332-Qd1e122">Canities hominis prudentia ejus.</quote> Unde et apud
+    veteres idem et episcopi et presbyteri fuerunt. Quia illud nomen dignitatis est, hoc aetatis.
+    Et Paulus apostolus ad Titum scribens: <quote xml:id="rbdcir-de0332-Qd1e125">Hujus, inquit, rei gratia reliqui te Cretae, ut
+      ea quae desunt corrigas, et constituas per civitates presbyteros, sicut ego tibi disposui,
+      si quis sine crimine est unius uxoris vir, filios habens fideles, non in accusatione
+      luxuriae; aut non subditos </quote>
+          <ref xml:id="rbdcir-de0332-Rd1e127">(Tit. III)</ref>. Et statim subjungit: <quote xml:id="rbdcir-de0332-Qd1e129">Oportet enim episcopum sine crimine esse,
+      sicut Dei dispensatorem, non superbum, non iracundum, non vinolentum, non
+      percussorem,</quote> etc. <ref xml:id="rbdcir-de0332-Rd1e131">(Ibid.)</ref> Et ad Philippenses episcopis et diaconibus
+    scribit, cum una civitas plures episcopos habere non possit, sed sub episcoporum nomine
+    presbyteros complexus est. Ideo autem presbyteri sacerdotes vocantur, quia sacrum dant, sicut
+    episcopi, id est, in confectione divini corporis et sanguinis, et in baptismate, et in officio
+    praedicandi. Sed licet sint sacerdotes, tamen pontificatus apicem non habent, quod nec
+    chrismate frontem signant, nec paracle tum spiritum dant, quod solis episcopis deberi lectio
+    Actus apostolorum demonstrat; nec ordinare clericos in sacris ordinibus possunt, quod
+    episcopis propter unitatem et concordiam reservatur. Secundi vero ordinis viri presbyteri
+    sunt, quorum typum praeferebant LXX viri in Veteri Testamento, in quibus Dominus spiritum
+    Moysi propagavit, ut talibus adjutoribus usus in populo, innumeras multitudines facile
+    gubernaret. Sic et paternae plenitudinis abundantia transfusa est in Eleazaro et Ithamaro, ut
+    ad hostias salutares et frequentioris officii sacramentum, ministerium sufficeret sacerdotum.
+    Sic et apostolis Christi, doctores, fidei comites additi sunt, quibus illi orbem totum
+    secundis praedicatoribus impleverunt, et per evangelicam doctrinam dilataverunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

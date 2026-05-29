@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="151"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0377"><!-- l1c7 -->
+        <head xml:id="rbdcir-de0377-Hd1e101">Caput 7</head>
+        <head xml:id="rbdcir-de0377-Hd1e103" type="question-title">De diaconis</head>
+        <p xml:id="rbdcir-de0377-d1e106">CAPUT VII. <hi>De diaconis.</hi>
+        </p>
+        <p xml:id="rbdcir-de0377-d1e111">Levitae ex nomine auctoris vocati, de nomine Levi Levitae exorti sunt, a quibus in templo
+    Dei, mystici sacramenti mysteria explebantur. Praecepit enim Dominus et dixit ad Moysen, ut
+    post ordinationem Aaron sacerdotis et filiorum ejus, rursus Levi tribus in divini cultus
+    mysterio ordinaretur, et consecrarentur Domino pro omnibus primogenitis, et servirent pro
+    Israel coram Aaron et filiis ejus in tabernaculo Domini excubantes in templo die ac nocte,
+    ipsique gestarent arcam et tabernaculum, et omnia vasa ejus, et in circuitu tabernaculi castra
+    ipsi constituerent, et in promovendo tabernaculo ipsi deponerent, et rursus ipsi deponerent,
+    et rursus ipsi componerent <ref xml:id="rbdcir-de0377-Rd1e113">(Exod. XXIX)</ref>. Hi Graece diacones <foreign xml:lang="greek">διάκονες,</foreign> Latine ministri dicuntur, quod sicut in sacerdote
+    consecratio, ita et in diacono ministerii dispensatio habetur. In Veteri Testamento excubabant
+    in tabernaculo testimonii ad praecepta Aaron, et ad cuncta opera tabernaculi; verumtamen ad
+    vasa sanctuarii et ad altare non accedebant, <pb ed="#P" n="152"/>
+          <cb ed="#P" n="a"/> sicut mandaverat Dominus Aaron
+    dicens: <quote xml:id="rbdcir-de0377-Qd1e122">Ecce dedi vobis fratres vestros Levitas de medio filiorum Israel, et tradidi
+      donum Domino, ut serviant in ministeriis tabernaculi ejus; tu autem et filii tui custodite
+      sacerdotium vestrum, et omnia quae ad cultum altaris pertinent, et intra velum sunt, per
+      sacerdotes administrabuntur,</quote> etc. <ref xml:id="rbdcir-de0377-Rd1e125">(Num. XVIII.)</ref> Hi a viginti quinque
+    annis et supra ingrediebantur, ut ministrarent in tabernaculo foederis, cumque quinquagesimum
+    annum aetatis explebant servire cessabant, et erant ministri fratrum suorum in tabernaculo
+    foederis, ut custodirent quae sibi fuerant commendata. In Novo autem Testamento apostoli
+    septem diaconos, propter sacramentum ejusdem numeri ordinaverunt ad ministerium sacrum et
+    officium altaris, qui leguntur etiam et praedicasse, et baptizasse non paucos, sicut sanctus
+    Stephanus disputavit contra Judaeos, et Philippus, baptizato eunucho, evangelizavit
+    civitatibus cunctis, donec veniret Caesaream, et in Samaria praedicabat, et baptizabat eos qui
+    ab apostolis Petro et Joanne postmodum confirmabantur. Sed baptizare eis modo coram episcopis
+    sive presbyteris licitum est. Caeteris autem non licet, nisi, praedictis fortassis officiis
+    longius constitutis, necessitas extrema compellat. Hi enim sunt quos in Apocalypsi legimus
+    septem angeli, tubis canentes. Hi sunt septem caudelabra aurea. Hi sunt voces tonitruorum
+    septem <ref xml:id="rbdcir-de0377-Rd1e127">(Apoc. VIII)</ref>. Ipsi enim clara voce in modum praeconis admonent cunctos, sive
+    in psallendo, sive in lectionibus audiendis. Ipsi enim ut aures habeamus ad Deum acclamant.
+    Ipsi quoque evangelizant. Sine his sacerdos nomen habet, officium non habet. Nam sicut in
+    sacerdote consecratio, ita in ministro dispensatio sacramenti est. Ille oblata sanctificat,
+    hic sanctificata dispensat. Ipsis etiam sacerdotibus, propter praesumptionem non licet de
+    mensa Domini tollere calicem, nisi eis traditus fuerit a diacono. Levitae offerunt oblationes
+    in altaria. Levitae componunt mensam Domini. Levitae operiunt arcam testamenti; non enim omnes
+    vident altare mysteriorum, quae operiuntur a Levitis, ne videant qui videre non debent, et
+    sumant qui servare non possunt, quique propterea altari albis induti assistunt, ut hinc
+    admoniti coelestem vitam habeant, candidique ad hostias et immaculati accedant. Quos primus
+    fecit Silvester papa, tricesimus quartus pontifex in Romana Ecclesia post Petrum dalmaticis
+    uti, et constituit ut pallio linostimo eorum laena tegeretur, sicut in gestis pontificalibus
+    continetur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

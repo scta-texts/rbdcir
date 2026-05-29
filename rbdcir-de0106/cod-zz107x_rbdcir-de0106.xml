@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praefatio</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praefatio</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="149"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0106">
+        <head xml:id="rbdcir-de0106-Hd1e100">Praefatio</head>
+        <p xml:id="rbdcir-de0106-d1e102">PRAEFATIO</p>
+        <p xml:id="rbdcir-de0106-d1e104"> Domino reverendissimo ac religiosissimo HEISTULPHO archiepiscopo RABANUS, minimus servorum
+    Dei, aeternam in Christo optat salutem.</p>
+        <p xml:id="rbdcir-de0106-d1e106">Cum te, sancte Pater, pro merito summae pietatis plurimi venerentur, et omnibus fidelibus
+    causa magnae fidei et sanae doctrinae honorabilis atque amabilis existas, congruum esse
+    judicavi ut ego in quem plurimum tuorum beneficiorum contulisti, aliquod munusculum licet non
+    condignum, tamen, ut credo, non ingratum tuae venerationi deferrem, nihil verens de pretio,
+    quia animus in bonitate dives magis aestimat devotionem offerentis quam donum; et hac fiducia
+    ausus sum partem laboris mei, quam in studio sacrae lectionis elaboravi, tibi, quem
+    benignissimum atque aequissimum esse scio, vice muneris dirigere, a te qualiscunque sit
+    reciperetur, ac tuo sacro judicio probaretur, atque ad purum examinaretur. Quaestionibus ergo
+    diversis fratrum nostrorum, et maxime eorum qui in sacris ordinibus pollebant, respondere
+    compellebar, qui me de officio suo et variis observationibus quae in Ecclesia Dei decentissime
+    observantur, saepissime et interrogabant, et aliquibus eorum dictis, aliquibus vero scriptis,
+    prout opportunitas loci ac temporis erat, secundum auctoritatem et stylum majorum ad
+    interrogata respondi, sed non in hoc satis eis facere potui, qui me instantissime postulabant,
+    imo cogebant, ut omnia haec in unum volumen congererem, ut haberent quo aliquo modo
+    inquisitionibus suis facerent satis, et in uno codice simul scriptum reperirent, quod antea
+    non simul, sed speciatim singuli prout interrogabant, in foliis scripta haberent. Quibus
+    consensi, et quod rogabant feci quantum potui. Nam de hoc tres libros edidi. Quorum primus de
+    ecclesiasticis ordinibus, et de veste sacerdotali continetur. Item de quatuor charismatibus
+    Ecclesiae, id est, baptismo, et chrismate, corpore et sanguine Domini, et de officio missae
+    secundum morem Romanae Ecclesiae. Secundus autem liber continet de officio canonicarum
+    horarum, et de jejunio, et de confessione ac poenitentia, de legitimis quoque jejuniis, et
+    festivitatibus variis, de lectionibus et cantico ecclesiastico, de fide catholica, et e
+    contrario de variis haeresibus. Tertius vero liber edocet quomodo omnia quae in divinis libris
+    scripta sunt, investiganda sunt atque discenda, nec non et ea quae in gentilium studiis et
+    artibus ecclesiastico viro scrutari utilia sunt. Novissime vero liber ipse exponit quomodo
+    oportet eos qui docendi officium gerunt diversos auditores diversis allocutionibus admonere,
+    et in doctrina ecclesiastica fideliter erudire. Et quia haec omnia quae diximus ad clericorum
+    officium maxime pertinent, qui locum regiminis in Ecclesia tenent, et de universis legitimis
+    Dei populum instruere debent, placuit ipsos libros de Institutione clericorum nuncupari, id
+    est, cum qua se vel sibi subditos ad servitium divinum instruere debent. Proinde obsecro te,
+    sancte Pater, ut oblatum tibi opus suscipias, ac pie relegens, diligenter illud examines, et
+    ita quae in eo rationabiliter inveneris dictata, ei hoc tribuas a quo est ratio creata; si qua
+    vero inconsiderate repereris prolata, tuo studio citius reddas illa emendata. Tuo enim
+    magisterio semper me libens subdam, a quo recordor me accepisse dignitatem ecclesiasticam.
+    Confido tamen omnipotentis Dei gratiae, quod fidem et sensum catholicum in omnibus tenuerim,
+    nec per me quasi ex me ea protuli, sed auctoritati innitens majorum, per omnia illorum
+    vestigia sum secutus. Cyprianum dico atque Hilarium, Ambrosium, Hieronymum, Augustinum,
+    Gregorium, Joannem, Damasum, Cassiodorum, et caeteros nonnullos, quorum dicta alicubi in ipso
+    opere ita ut ab eis scripta sunt per convenientiam posui, alicubi quoque eorum sensum meis
+    verbis propter brevitatem operis strictim enuntiavi. Interdum vero ubi necesse fuit, secundum
+    exemplar eorum quaedam sensu meo protuli. In omnibus tamen, ni fallor, catholicam imitatus sum
+    veritatem, a qua (si Dominus adjuverit) non patior ullo modo divelli, quam et te prae omnibus
+    habere atque amare confido; et ideo tua suffragia supplex peto, ut ipsa Veritas omnium
+    creatrix atque gubernatrix, licet non meis meritis, tamen propter tuam sacratissimam orationem
+    me in se sine ullo devio erroris in aeternum conservare dignetur. Beatitudinem tuam opto
+    semper bene valere in omnibus, sancte Pater, memorem nostri. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

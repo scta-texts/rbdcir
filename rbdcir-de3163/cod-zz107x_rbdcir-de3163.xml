@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 54</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 54</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="183"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3163"><!-- l2c54 -->
+        <head xml:id="rbdcir-de3163-Hd1e101">Caput 54</head>
+        <head xml:id="rbdcir-de3163-Hd1e103" type="question-title">De scriptoribus sacrorum librorum</head>
+        <p xml:id="rbdcir-de3163-d1e106">CAPUT LIV. <hi>De scriptoribus sacrorum librorum.</hi>
+        </p>
+        <p xml:id="rbdcir-de3163-d1e111">Veteris autem Testamenti secundum Hebraeorum traditionem hi scriptores habentur. Primum
+    Moyses scripsit Pentateuchum. Jesu Nave edidit librum suum. Judicum autem, et Ruth, et
+    Samuelis primam partem scripsit Samuel; sequentia Samuelis usque ad calcem, scripsit David.
+    Malachim totum edidit Jeremias: nam ante sparsus erat per singulorum regum historias. Job
+    librum Hebraei Moysen scripsisse putant, alii unum ex prophetis. Psalterium <cb ed="#P" n="b"/>
+    vero scripserunt decem prophetae, id est, Moyses, David, Salomon, Asaph, Ethan, Idithun, Eman
+    et filii Core, id est, Asir, Elcana, Ephiasab. Sunt qui et Esdram, et Aggaeum, et Zachariam
+    scripsisse dicant. Salomon scripsit Proverbia, et Ecclesiasten, et Cantica canticorum. Isaias
+    scripsit librum suum, similiter et Jeremias cum Lamentationibus ejus. Viri Synagogae sapientes
+    scripserunt Ezechielem, Danielem, et Paralipomenon, et Esther. Esdra scripsit librum suum.
+    Omnes autem hos libros idem Esdra post incensam legem a Chaldaeis, dum Judaei ingressi
+    fuissent in Jerusalem, divino afflatus Spiritu reparavit, cunctaque prophetarum volumina, quae
+    fuerant a gentibus corrupta, correxit; totumque Testamentum in viginti duos libros constituit,
+    ut tot libri essent in lege quot habentur et litterae. Primum post Esdram editionem de Hebraeo
+    in Graecum Septuaginta interpretes ediderunt, sub Ptolemaeo Aegyptiorum rege, successore
+    Alexandri, qui in legendo studiosus fuit, omniumque libros gentium congregavit. Iste enim ab
+    Eleazaro, qui erat princeps sacerdotum, multa dona mittens ad templum, petit ut senes de
+    duodecim tribubus Israel transmitterentur, qui interpretarentur omnes libros eorum, et ut
+    fidem interpretationis adverteret, singulis eorum qui fuerunt destinati singulas cellulas
+    dedit, et assignans omnibus, omnes Scripturas jussit interpretari. Qui cum per septuaginta
+    dies istius rei negotium adimplessent, omnium simul interpretationes, quas per diversas cellas
+    segregati nullo ad nullum propinquante fecerunt, congregavit in unum, atque ita omnes libri
+    interpretati per Spiritum sanctum inventi sunt, ut non solum intellectu, verum etiam et in
+    sermonibus consonantes invenirentur. Haec fuit prima interpretatio vera ac divina. Hos libros
+    meditari omnium gentium Ecclesiae primum coeperunt, eosdemque de Graeco in Latinum
+    interpretantes, primi Ecclesiarum provisores tradiderunt. Post haec secundam editionem Aquila,
+    tertiam et quartam Theodotion et Symmachus ediderunt, ambo Judaei proselyti; quintam vero et
+    sextam editionem Origenes reperit, et cum caeteris supradictis editionibus comparavit. Hi sunt
+    itaque tantum, qui Scripturas sacras de Hebraeo in Graecum sermonem verterunt, quinque etiam
+    et numerantur. Nam Latinorum interpretum qui de Graeco in nostrum eloquium transtulerunt, ut
+    meminit sanctus Augustinus, infinitus numerus est. Si cui enim, inquit, primis fidei
+    temporibus ad manus venit codex Graecus, atque aliquantulum esse sibi utriusque linguae
+    peritiam sensit, ausus est statim interpretari, atque inde accidit tam innumerabiles apud
+    Latinos exstitisse interpretes. De Hebraeo autem in Latinum eloquium, tantummodo Hieronymus
+    presbyter sacras Scripturas convertit: cujus editione generaliter omnes Ecclesiae usquequaque
+    utuntur, pro eo quod veneratior sit in sententiis, et clarior in verbis. Librum Sapientiae
+    Salomon scripsisse probatur, testimoniis illis quibus legitur: <quote xml:id="rbdcir-de3163-Qd1e115">Tu me,</quote> inquit,
+      <quote xml:id="rbdcir-de3163-Qd1e117">elegisti regem populo tuo, et <pb ed="#P" n="184"/>
+            <cb ed="#P" n="a"/> dixisti aedificare templum nomini
+      sancto tuo, in civitate sanctae habitationis tuae </quote>
+          <ref xml:id="rbdcir-de3163-Rd1e124">(Sap. IX)</ref>. Hoc opus Hebraei (ut quidam sapientum meminit), inter canonicas
+    Scripturas recipiebant. Sed postquam comprehendentes Christum interfecerunt, memorantes in
+    eodem libro tam evidentissima de Christo testimonia quibus dicitur: <quote xml:id="rbdcir-de3163-Qd1e126">Dixerunt</quote>
+    inter se impii: Comprehendamus <quote xml:id="rbdcir-de3163-Qd1e129">justum</quote> quia <quote xml:id="rbdcir-de3163-Qd1e131">inutilis est nobis, et
+      contrarius est operibus nostris, et promittit se scientiam Dei habere, et Filium Dei se
+      nominat </quote>
+          <ref xml:id="rbdcir-de3163-Rd1e133">(Sap. II)</ref>. Et infra: <quote xml:id="rbdcir-de3163-Qd1e135">Si enim est vere Filius Dei, suscipiet illum et
+      liberabit illum de manu contrariorum.</quote> Ac deinde: <quote xml:id="rbdcir-de3163-Qd1e137">Ut sciamus reverentiam
+      illius, et probemus patientiam ejus, morte turpissima condemnemus eum </quote>
+          <ref xml:id="rbdcir-de3163-Rd1e139">(Ibid.)</ref>; collatione facta, ne nostri eos pro tam aperto sacrilegio derogarent, <pb ed="#P" n="184"/>
+          <cb ed="#P" n="a"/> a propheticis eum voluminibus reciderunt, legendumque suis prohibuerunt. Librum
+    autem Ecclesiasticum composuit Jesus filius Sirach Hierosolymitanus, nepos Jesu sacerdotis, de
+    quo meminit Zacharias. Qui liber apud Latinos, propter eloquii similitudinem, Salomonis titulo
+    praenotatur. Praeterea Judith et Tobiae sive Machabaeorum libros, qui auctores scripserint,
+    minime constat.</p>
+        <p xml:id="rbdcir-de3163-d1e147">Novum autem Testamentum, quatuor libros Evangeliorum quatuor evangelistae singulos
+    scripserunt: quorum solus Matthaeus Hebraeo scripsisse perhibetur eloquio, caeteri Graeco.
+    Paulus apostolus suas scripsit Epistolas, ex quibus novem septem ecclesiis scripsit, reliquas
+    discipulis suis, Timotheo, Tito et Philemoni. Ad Hebraeos autem Epistola plerisque Latinis
+    ejus esse incerta est, propter dissonantiam sermonis, camdemque alii Barnabam conscripsisse,
+    alii a Clemente scriptam fuisse suspicantur. Petrus scripsit duas nomine suo Epistolas, quae
+    Catholicae nominantur, quarum secunda a quibusdam ejus esse non creditur, propter styli
+    sermonisque distantiam. Jacobus suam scripsit Epistolam, quae et ipsa a nonnullis ejus esse
+    negatur, sed sub nomine ejus ab alio dictata existimatur. Joannes Epistolas tres edidit:
+    quarum tantum prima a quibusdam ejus esse asseritur, reliquae duae Joannis cujusdam presbyteri
+    existimantur, cujus, juxta Hieronymi sententiam, alterum sepulcrum apud Ephesum demonstratur.
+    Judas suam edidit Epistolam. Actus apostolorum Lucas composuit, sicut audivit vel vidit.
+    Apocalypsin Joannes evangelista scripsit, eodem tempore quo ob Evangelii praedicationem in
+    insulam Pathmos traditur relegatus. Hi sunt scriptores sacrorum librorum, divina inspiratione
+    loquentes, ad eruditionem nostram praecepta coelestia in Ecclesia dispensantes. Auctor autem
+    earumdem Scripturarum Spiritus sanctus esse creditur. Ipse enim scripsit, qui per prophetas
+    suos scribenda dictavit. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

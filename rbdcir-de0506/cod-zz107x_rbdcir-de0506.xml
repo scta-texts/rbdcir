@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="153"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0506"><!-- l1c11 -->
+        <head xml:id="rbdcir-de0506-Hd1e101">Caput 11</head>
+        <head xml:id="rbdcir-de0506-Hd1e103" type="question-title">De lectoribus</head>
+        <p xml:id="rbdcir-de0506-d1e106">CAPUT XI. <hi>De lectoribus.</hi>
+        </p>
+        <p xml:id="rbdcir-de0506-d1e111">Lectores a legendo, psalmistae a psalmis canendis vocati. Illi praedicant populis quid
+    sequantur. Isti canunt ut excitant ad compunctiones animos audientium. Licet et quidam
+    lectores ita miseranter pronuntient, ut quosdam ad luctum lamentationemque compellant. Iidem
+    etiam et pronuntiatores vocantur, quod porro annuntiant. Tanta enim et tam clara eorum erit
+    vox, ut quantumvis longe positorum aures adimpleant. Lectorum ordo formam et initium a
+    prophetis sumpsit. Sunt ergo lectores qui verbum Dei praedicant, quibus dicitur: <quote xml:id="rbdcir-de0506-Qd1e113">Clama,
+      ne cesses, quasi tuba exalta vocem tuam </quote>
+          <ref xml:id="rbdcir-de0506-Rd1e115">(Ezech. XXXIII)</ref>. Isti quippe dum ordinantur, primum de eorum conversatione
+    episcopus verbum Dei facit ad populum, deinde coram plebe tradit eis codicem apicum divinorum
+    ad Dei verbum annuntiandum. Iste ergo doctrina et libris debet esse imbutus, sensuumque ac
+    verborum scientia perornatus, ut distincte et aperte sonans, audientium corda possit
+    instruere. Psalmistarum, id est cantatorum principes sive auctores, fuere David sive Asaph.
+    Isti enim post Moysen psalmos primi composuere et cantavere. Mortuo Asaph, filii ejus in hunc
+    ordinem subrogati sunt a David, erantque psalmistae per successionem generis, sicut et ordo
+    sacerdotalis, ipsique soli continuis diebus in templo canebant, candidis induti stolis, ad
+    vocem unius respondente choro. Ex hoc veteri more Ecclesia sumpsit exemplum nutriendi
+    Psalmistas, quorum cantibus ad effectum Dei, mentes audientium excitentur. Psalmistam autem et
+    voce et arte praeclarum illustremque esse oportet, ita ut ad delectamentum dulcedinis animos
+    incitet auditorum. Solent autem ad hoc officium etiam absque scientia episcopi sola jussione
+    eligi, quicunque in cantandi arte probabiles hujusmodi constiterint.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

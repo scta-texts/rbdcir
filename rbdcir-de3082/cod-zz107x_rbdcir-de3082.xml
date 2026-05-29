@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 52</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 52</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="182"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3082"><!-- l2c52 -->
+        <head xml:id="rbdcir-de3082-Hd1e101">Caput 52</head>
+        <head xml:id="rbdcir-de3082-Hd1e103" type="question-title">De lectionibus</head>
+        <p xml:id="rbdcir-de3082-d1e106">CAPUT LII. <hi>De lectionibus.</hi>
+        </p>
+        <p xml:id="rbdcir-de3082-d1e111">Lectiones pronuntiare, antiquae institutionis esse, Judaeorum traditio habet. Nam et ipsi
+    legitimis praefinitisque diebus, ex lege et prophetis, lectionibus utuntur, et hoc de veteri
+    Patrum institutione servantes. Est autem lectio non parva audientium aedificatio: unde oportet
+    ut quando psallitur, psallatur ab omnibus; cum oratur, oretur ab omnibus; cum lectio legitur,
+    facto silentio aeque audiatur a cunctis. Nam et si tunc superveniat quisque cum lectio
+    celebratur, adoret tantum Deum, et, praesignata fronte, aurem sollicite accommodet. Patet
+    tempus orandi, cum omnes oramus; patet cum voluerit orare privatim, obtentu orationis. Ne
+    perdideris lectionem, quia non semper quilibet paratam eam potest habere, cum orandi potestas
+    in promptu sit; nec putes parvam nasci utilitatem ex lectionis auditu: siquidem oratio ipsa
+    fit pinguior, dum mens recenti lectione signata, per divinarum rerum (quas nuper audivit)
+    imagines currit. Nam et Maria soror Marthae, quae sedens ad pedes Jesu, sorore neglecta,
+    verbum intentius audiebat, bonam partem sibi elegisse Domini voce firmatur <ref xml:id="rbdcir-de3082-Rd1e113">(Luc.
+    X)</ref>. Ideo et diaconus clara voce silentium admonet, ut sive dum psallitur, sive dum
+    lectio pronuntiatur, ab omnibus unitas conservetur, ut quod omnibus praedicatur, aequaliter ab
+    omnibus audiatur. Quicunque enim officium decenter et rite peragere vult, doctrina et libris
+    debet esse imbutus, sensuumque ac verborum scientia perornatus, ita ut in distinctionibus
+    sententiarum intelligat ubi finiatur junctura, ubi adhuc pendeat oratio, usque ubi sententia
+    extrema claudatur, sicque expeditus, vim pronuntiationis obtinebit, ut ad intellectum mentes
+    omnium sensusque permoveat. Discernendo genera pronuntiationum, atque exprimendo proprios
+    sententiarum affectus, modo voce indicantis simpliciter, modo dolentis, modo indignantis, modo
+    increpantis, modo exhortantis, modo miserantis, modo percontantis, et his similia secundum
+    genus propriae pronuntiationis, expromenda sunt. Multa sunt enim in scripturis, quae nisi
+    proprio modo pronuntientur, <cb ed="#P" n="b"/> in contrariam recedunt sententiam, sicut est illud
+    Apostoli: <quote xml:id="rbdcir-de3082-Qd1e117">Quis accusabit adversus electos Dei? Deus qui justificat </quote>
+          <ref xml:id="rbdcir-de3082-Rd1e119">(Rom. VIII)</ref>. Quod si quasi infirmitative, non servato genere pronuntiationis suae,
+    dicatur, magna perversitas oritur. Sic ergo pronuntiandum est, ut praecedat percontatio,
+    sequatur interrogatio. Inter percontationem autem et interrogationem, hoc veteres interesse
+    dixerunt, quod ad percontationem multa responderi possunt, ad interrogationem vero, aut non,
+    aut etiam. Pronuntiabitur ergo ita, ut post percontationem qua dicimus: <quote xml:id="rbdcir-de3082-Qd1e121">Quis accusabit
+      adversus electos Dei?</quote> Illud quod sequitur, sono interrogantis enuntietur:
+      <quote xml:id="rbdcir-de3082-Qd1e124">Deus qui justificat,</quote> ut tacite respondeatur, non. Et per item percontemur:
+      <quote xml:id="rbdcir-de3082-Qd1e126">Quis est qui condemnat,</quote> rursusque interrogemus, <quote xml:id="rbdcir-de3082-Qd1e128">Christus Jesus qui
+      mortuus est, magis autem qui resurrexit, qui est in dextera Dei, qui et interpellat pro
+      nobis?</quote> ut ubique tacite respondeatur, non. At vero in illo loco ubi ait: <quote xml:id="rbdcir-de3082-Qd1e130">Quid
+      ergo dicemus? quia gentes quae non sectabantur justitiam, apprehenderunt justitiam,</quote>
+    nisi post percontationem qua dictum est: <quote xml:id="rbdcir-de3082-Qd1e132">Quid ergo dicemus?</quote> Item responsio
+    subjiciatur, <quote xml:id="rbdcir-de3082-Qd1e134">quia gentes quae non sectabantur justitiam, apprehenderunt justitiam </quote>
+          <ref xml:id="rbdcir-de3082-Rd1e137">(Rom. IX)</ref>, textus consequens non cohaerebit. Et alia multa sunt, quae propriam
+    similiter vim pronuntiationis quaerunt. Praeterea et accentuum vim oportet lectorem scire, ut
+    noverit in qua syllaba vox protendatur pronuntiantis, quia multae sunt dictiones quae
+    solummodo accentu discerni debent a pronuntiante, ne in sensu earum erretur. Sed haec a
+    grammaticis discere oportet. Porro vox lectoris simplex esse debet et clara, et ad omne
+    pronuntiationis genus accommodata, plena succo virili, agrestem et subrusticum effugiens
+    sonum, non humilis, nec adeo sublimis; non fracta, non tenera, nihilque femineum sonans; non
+    habens inflata vel anhelantia verba, non in faucibus frendentia, nec oris inanitate
+    resonantia, nec aspera frendentibus, non hiantibus labris prolata, sed pressim, et aequaliter,
+    et leniter, et clare pronuntiata, ut suis quaeque litterae sonis enuntientur, et unumquodque
+    verbum legitimo accentu decoretur, nec ostentationis causa frangatur oratio. Corporis quoque
+    motum impudentem habere non debet, sed gravitatis speciem, auribus enim et cordi consulere
+    debet lector, non oculis, ne potius ex seipso spectatores magis quam auditores faciat. Vetus
+    opinio est, lectores pronuntiandi causa, praecipuam curam vocis habuisse, ut exaudiri in
+    tumultu possint, unde et dudum lectores praecones vel proclamatores vocabantur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

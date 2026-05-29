@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="175"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2583"><!-- l2c39 -->
+        <head xml:id="rbdcir-de2583-Hd1e101">Caput 17</head>
+        <head xml:id="rbdcir-de2583-Hd1e103" type="question-title">De Pascha Domini</head>
+        <p xml:id="rbdcir-de2583-d1e106">CAPUT XXXIX. <hi>De Pascha Domini.</hi>
+        </p>
+        <p xml:id="rbdcir-de2583-d1e111">Jam vero paschale sacramentum quod nunc in Salvatoris nostri mysterium manifestissime
+    celebratur, in Veteri Testamento figuraliter primum gestum est, quando agno occiso, Pascha
+    celebravit populus Dei in Aegypto: cujus figura in veritate completa est in Christo, qui sicut
+    ovis ad immolandum ductus est; cujus sanguine illinitis postibus nostris, id est, cujus signo
+    crucis signatis frontibus nostris, a periclitatione hujus saeculi, tanquam a captivitate
+    Aegyptia, liberamur. Cujus quidem diem paschalis resurrectionis non solum pro eo celebramus,
+    quod in eodem a mortuis resurrexit, sed etiam et pro aliis sacramentis quae per eumdem
+    significantur. Quia enim, sicut dicit Apostolus: <quote xml:id="rbdcir-de2583-Qd1e113">Mortuus est propter delicta nostra, et
+      resurrexit propter justificationem nostram </quote>
+          <ref xml:id="rbdcir-de2583-Rd1e115">(Rom. IV)</ref>, transitus quidem de morte ad vitam in illa passione Domini et
+    resurrectione sacratus est. Nam et vocabulum ipsum quod Paseha <pb ed="#P" n="176"/>
+          <cb ed="#P" n="a"/> dicitur, non
+    Graecum, sed Hebraeum est. Neque enim a passione, quoniam paschien, <foreign xml:lang="greek">πάσχειν</foreign> Graece, pati dicitur, sed a transitu Hebraeo verbo Pascha appellatum est:
+    quod et maxime evangelista expressit, cum celebraretur a Domino Pascha cum discipulis: Cum
+    vidisset, inquit, <quote xml:id="rbdcir-de2583-Qd1e125">Jesus, quia venit hora ut</quote> transiret <quote xml:id="rbdcir-de2583-Qd1e127">de mundo ad Patrem </quote>
+          <ref xml:id="rbdcir-de2583-Rd1e129">(Joan. XIII)</ref>. Transitus ergo de hac vita mortali in aliam vitam immortalem, hoc est
+    de morte ad vitam, in passione et resurrectione Domini commendatur. Hic transitus a nobis modo
+    agitur per fidem, quae nobis datur in remissionem peccatorum, quando consepelimur cum Christo
+    per baptismum, quasi a mortuis transeuntes de pejoribus ad meliora, de corporalibus ad
+    spiritualia, de conversatione hujus vitae ad spem futurae resurrectionis et gloriae. Propter
+    ipsum ergo initium novae vitae ad quam transimus, et propter novum hominem quem jubemur
+    induere et exuere veterem, expurgantes vetus fermentum, ut simus nova conspersio, quoniam
+    Pascha nostrum immolatus est Christus, propter hanc vitae novitatem, primus mensis in anni
+    mensibus celebrationi attributus est; nam ipse dicitur et mensis novorum. Quod vero in toto
+    tempore saeculi nunc tertium tempus apparuit, ideo resurrectio Domini triduana est. Primum
+    enim tempus est ante legem, secundum sub lege, tertium sub gratia, ubi jam manifestatum est
+    sacramentum quod erat in prophetico aenigmate occultum. Hoc ergo et in lunari numero
+    significatur. Quia enim numerus septenarius solet in Scripturis ad quamdam perfectionem
+    mysticus apparere, in tertia hebdomada lunae Pascha celebratur, id est, qui dies occurrerit a
+    15 in 21, sed non solum propter tempus tertium, quia incipit hebdomada tertia, sed etiam
+    propter illam conversionem lunae. Tunc enim illa ab inferioribus ad superiora convertitur; et
+    haec nobis de luna similitudo assumitur, de visibilibus ad invisibilia, de corporalibus ad
+    spiritualia sacramenta transire, ut magis magisque huic saeculo moriamur, et vita nostra
+    abscondatur cum Christo, omnemque lucem studii nostri quae ad inferiora vergebat, ad superiora
+    convertamus, ad illam scilicet aeternam contemplationem immutabilis veritatis. Usque ad
+    vicesimam primam ideo Pascha observatur, propter numerum septenarium quo universitatis
+    significatio saepe figuratur, qui etiam ipsi Ecclesiae tribuitur, propter instar
+    universitatis; ideoque et Joannes apostolus in Apocalypsi septem scribit Ecclesiis. Ecclesia
+    vero adhuc in ista mortalitatis carne constituta, propter istam mutabilitatem, lunae nomine in
+    Scripturis saepe vocatur. Quod vero anniversarius dies paschalis non ad eumdem redit anni
+    diem, sic ut puta dies quo creditur Dominus natus, hoc fit propter Dominicum diem et lunam.
+    Manifestum est enim quo die Dominus crucifixus sit, et in sepulcro fuerit et resurrexerit.
+    Adjuncta est enim ipsorum dierum observatio per Nicaenum concilium, et orbi universo
+    Christiano persuasum eo modo Pascha celebrari oportere, ut non solum lunam paschalem, sed et
+      <cb ed="#P" n="b"/> diem Dominicum in qua resurrexit a mortuis, exspectare debeamus. Inde est
+    quod ad eumdem anni [diem] non revertetur Pascha. Nam Judaei tantumdem mensem novorum et lunam
+    observant: diem autem addendum patres nostri censuerunt, ut et nostra festivitas a Judaeorum
+    festivitate distingueretur. Initium videlicet primi mensis observandum est, ab octavo Iduum
+    Martiarum usque in Nonarum Aprilium diem. Quarta decima vero luna Paschae a duodecima Kalend.
+    Aprilis usque in decimam quartam Kalendas Maii, quaerenda est. Porro dies Paschae Dominica, ab
+    undecima Kalendis Aprilis usque in septimam Kalendas Maii, et hoc a luna quindecima usque ad
+    vicesimam primam. Nunquam ergo contingere potest, ut luna decima quarta primi mensis ante
+    vernale aequinoctium, quod fit in XII Kalendis Aprilis, eveniat, quia luminare minus luminare
+    majus sequi in plenitudine sua non praecedere debet. Nam cum in Veteri Testamento tribus
+    argumentorum indiciis paschale tempus observari sit praeceptum, videlicet ut post
+    aequinoctium, et mense primo, ut tertia ejus septimana, id est, a vespera decimae quartae
+    lunae quod est initium decimae quintae usque in vesperam, id est, terminum vigesimae primae,
+    celebretur, quarta in ejusdem observatione regula est nobis a tempore Dominicae resurrectionis
+    imposita, ut cum aequinoctio transcenso lunam primi mensis quartam decimam vespere ortum
+    facere viderimus, non statim ad faciendum Pascha prosiliamus, sed Dominicum exspectantes in
+    ipso congrue Pascha celebremus. Et si fieri posset ut eadem omnibus annis sabbati die luna
+    quarta decima contigisset, nihil nostrae paschalis observantiae tempus a legali discreparet.
+    Nam et nos ipsi juxta legis edicta, semper quarta decima luna primi mensis ad vesperam,
+    immolantes et comedentes agni immaculati carnem, sanguinemque illius, ad repellendum
+    exterminatorem, nostris postibus aspergentes, id est, baptismi et paschalium celebrantes
+    solemnia missarum, spiritalem superaremus Aegyptum, atque illucescente mane in luna decima
+    quinta mensis ejusdem, primum Azymorum diem intraremus, septemque dies ejusdem celebritatis
+    legitimos, a mane decimi quinti diei, usque in vesperam vicesimi primi mensis ipsius, id est,
+    a Dominico Paschae, usque in Dominicum octavum Paschae, debita veneratione compleremus. Sed
+    quoniam lunae dies idem diversas septimanae devolvitur in ferias, inde fit ut qui propter
+    resurrectionem Redemptoris nostri Dominicum diem Paschae initium servare docemur, aliquoties
+    nostra festivitas septimo post legalium Azymorum exordium sumat ingressum, nonnunquam tamen
+    contingat, ut nostra solemnitas paschalis aliquem legalium paschae dierum, saepe autem omnes
+    intra se complectatur. Notan dum tamen quod inter pascha et azyma legis hoc distat, quod illa
+    una dies qua agnum occidi necesse erat, et nocte sequenti transiens Dominus primogenita
+    Aegyptiorum percussit, liberans domus filiorum Israel signatas agni sanguine <ref xml:id="rbdcir-de2583-Rd1e133">(Exod.
+      XII)</ref>, pascha dicebatur, <pb ed="#P" n="177"/>
+          <cb ed="#P" n="a"/> sequentes vero dies septem, id est, a decimo
+    quinto usque ad vicesimum primum mensis ejusdem, azymorum proprie vocabantur. Quem legalium
+    morem Ecclesia non ignobiliter etiam imitatur, unam videlicet noctem transitus Dominicae
+    resurrectionis a mortuis, qua, impios triumphando, fideles salvare dignatus est, principaliter
+    observans, ac deinde alios septem dies in memoriam ejusdem dominicae resurrectionis congrua
+    festivitate subjungens quos septem dies Albas vocitamus, propter eos qui in sancta nocte
+    baptizati, albis per totam hebdomadam utuntur vestibus; et tunc maxime dum alba tolluntur a
+    baptizatis vestimenta, per manus impositionem a pontifice Spiritum sanctum accipere conveniens
+    est, qui in baptismo omnium receperunt remissionem peccatorum, et per septem dies evangelico
+    castitatis habitu et luminibus coelestis claritatis sanctis assistere sacrificiis solent.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

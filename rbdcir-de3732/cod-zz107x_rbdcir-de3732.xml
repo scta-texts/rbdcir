@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="190"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3732"><!-- l3c2 -->
+        <head xml:id="rbdcir-de3732-Hd1e101">Caput 2</head>
+        <head xml:id="rbdcir-de3732-Hd1e103" type="question-title">De eminentia sacrarum Scripturarum, et ad quid omnis scientia
+    referenda sit</head>
+        <p xml:id="rbdcir-de3732-d1e106">CAPUT II. <hi>De eminentia sacrarum Scripturarum, et ad quid omnis scientia referenda
+      sit.</hi>
+        </p>
+        <p xml:id="rbdcir-de3732-d1e111">Fundamentum autem, status et perfectio prudentiae, scientia est sanctarum Scripturarum: quae
+    ab illa incommutabili aeternaque sapientia profluens, quae ex ore Altissimi prodiit,
+    primogenita scilicet ante omnem creaturam Spiritus sancti distributionibus, per vasa
+    Scripturae lumen indeficiens, quasi per laternas orbi lucet universo, ac si quid aliud est,
+    quod sapientiae nomine rite censeri possit, ab uno Ecclesiaeque sapientiae fonte derivatum, ad
+    ejus respectat originem. Quidquid enim veri a quocunque reperitur, a veritate verum esse per
+    ipsam veritatem dignoscitur; et quidquid ubique boni invenitur, a bonitate bonum esse
+    deprehenditur; sic et quidquid sapientiae a quoquam investigatur, a sapientia sapiens esse
+    intelligitur. Nec enim illa quae in libris prudentium hujus saeculi vera et sapientia
+    reperiuntur alii quam veritati et sapientiae attribuenda sunt, quia non ab illis haec primum
+    statuta sunt in quorum dictis haec leguntur, sed ab aeterno manentia investigata sunt, quantum
+    ipsa doctrix et illuminatrix omnium veritas et sapientia eis investigare posse concessit; ac
+    ideo ad unum terminum cuncta referenda sunt, et quae in libris gentilium utilia, et quae in
+    Scripturis sacris salubria inveniuntur ut ad cognitionem perfectam veritatis et sapientiae
+    perveniamus, qua cernitur et tenetur, summum bonum. Summo autem bono assecuto et adepto, vere
+    beatus quisque fit, cum summa sapientia plene et perfecte in aeternum perfruitur: quia sine
+    hac sapientia nemo fieri beatus potest, sicut ipsa veritas et sapientia Christus ad Patrem
+    loquens testatur: <quote xml:id="rbdcir-de3732-Qd1e113">Haec est autem, inquit, vita aeterna, ut cognoscant te solum verum
+      Deum, et quem misisti Jesum Christum </quote>
+          <ref xml:id="rbdcir-de3732-Rd1e115">(Joan. XVII)</ref>. Consequenter autem hic intelligitur Spiritus sanctus, qui est Patris
+    Filiique tanquam charitas consubstantialis amborum. Tunc ergo cognitio Dei erit perfecta
+    quando mors erit nulla. Tunc et beatitudo erit plena, <cb ed="#P" n="b"/> quando Dei clarificatio
+    erit summa. Sed prius hic quodammodo clarificatur Deus, dum per fidem credentium et sanctarum
+    Scripturarum manifestationem in tota mundi latitudine praedicatur. <quote xml:id="rbdcir-de3732-Qd1e119">Nunc enim videmus
+      eum per speculum in aenigmate, tunc autem facie ad faciem; nunc cognoscimus ex parte, tunc
+      autem cognoscemus sicut et cogniti sumus.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

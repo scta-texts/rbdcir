@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="193"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3937"><!-- l3c10 -->
+        <head xml:id="rbdcir-de3937-Hd1e101">Caput 10</head>
+        <head xml:id="rbdcir-de3937-Hd1e103" type="question-title">De translatis ignotis</head>
+        <p xml:id="rbdcir-de3937-d1e106">CAPUT X. <hi>De translatis ignotis.</hi>
+        </p>
+        <p xml:id="rbdcir-de3937-d1e111">In translatis vero signis, si qua forte ignota cogunt haerere lectorem, partim linguarum
+    notitia, partim rerum, investiganda sunt. Aliquid enim ad similitudinem valet, et procul dubio
+    secretum quiddam insinuat Siloa piscina, ubi faciem lavare jussus est cui oculos Dominus luto
+    de sputo facto junxerat; quod tamen nomen linguae incognitae nisi evangelista interpretatus
+    esset, tamen magnus intellectus lateret. Sic etiam multa quae ab auctoribus eorumdem librorum
+    interpretata non sunt nomina Hebraea, non est dubitandum habere non parvam vim atque
+    adjutorium ad solvenda aenigmata Scripturarum, si quis ea possit interpretari. Quod nonnulli
+    ejusdem linguae periti viri, non sane parvum beneficium posteris contulerunt, qui separata de
+    Scripturis eadem omnia verba interpretati sunt; et quid sit Adam, quid Eva, quid Abraham, quid
+    Moyses; sive etiam locorum nomina; quid sit Hierusalem, vel Sion, vel Jericho, vel Libanus,
+    vel Jordanis, et quaecunque alia in illa lingua nobis sunt incognita nomina; quibus apertis et
+    interpretatis, multae in Scripturis figuratae locutiones manifestantur. Rerum autem ignorantia
+    facit obscuras figuratas locutiones cum ignoramus vel animalium, vel lapidum, vel herbarum
+    naturas, aliarumve rerum, quae plerumque in Scripturis similitudinis alicujus gratia ponuntur.
+    Nam et de serpente, quod notum est, totum corpus eum pro capite objicere ferientibus, quantum
+    illustrat sensum illum, quo Dominus jubet astutos nos esse sicut serpentes, ut scilicet pro
+    capite nostro, quod est Christus, corpus potius persequentibus offeramus, ne fides Christiana
+    tanquam necetur in nobis, si parcentes corpori, negemus Deum. Vel illud quod per cavernae
+    angustias coarctatus, deposita veteri tunica, vestes novas accipere dicitur, quantum concinit
+    ad imitandam ipsam serpentis astutiam, exuendumque veterem hominem sicut Apostolus dicit,
+      <quote xml:id="rbdcir-de3937-Qd1e113">ut induamur novo </quote>
+          <ref xml:id="rbdcir-de3937-Rd1e115">(Col. III)</ref>, et exeundum per angustias dicente Domino, <quote xml:id="rbdcir-de3937-Qd1e117">Intrate per angustam
+      portam </quote>
+          <ref xml:id="rbdcir-de3937-Rd1e119">(Matth. VII)</ref>. Ut ergo notitia naturae serpentis illustrat multas similitudines,
+    quas de hoc animante Scriptura dare consuevit, sic ignorantia nonnullorum animalium, quae non
+    minus per similitudines commemorat, impedit plurimum intellectorem. Sic lapidum, sic herbarum,
+    vel quaeque tenentur radicibus. Nam et carbunculi notitia quod lucet in tenebris, multa
+    illuminat etiam obscura librorum, ubicunque propter similitudinem ponitur; et ignorantia
+    berylli vel adamantis claudit plerumque intelligentiae <pb ed="#P" n="194"/>
+          <cb ed="#P" n="a"/> fores. Nec aliam ob
+    causam facile est intelligere pacem perpetuam significari olivae ramulo, quem rediens ad arcam
+    columba pertulit, nisi quia novimus et olei lenem contactum non facile alieno humore corrumpi,
+    et arborem ipsam frondere perenniter. Multi autem per ignorantiam hyssopi dum nesciunt quam
+    vim habeat, vel ad purgandum pulmonem, vel ad saxa radicibus penetranda, cum sit herba brevis
+    atque humilis, omnino invenire non possunt quare sit dictum: <quote xml:id="rbdcir-de3937-Qd1e126">Asperges me hyssopo et
+      mundabor </quote>
+          <ref xml:id="rbdcir-de3937-Rd1e128">(Psal. L)</ref>. Numerorum etiam imperitia, et musicarum rerum ignorantia, multa faciunt
+    non intelligi translate ac musice posita in Scripturis; de quibus quando de singulis
+    disciplinis disputabimus, apertius edisseremus, de ambiguis nunc dicturi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

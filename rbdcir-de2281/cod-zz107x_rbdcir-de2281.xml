@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 29</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 29</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="171"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2281"><!-- l2c29 -->
+        <head xml:id="rbdcir-de2281-Hd1e101">Caput 29</head>
+        <head xml:id="rbdcir-de2281-Hd1e103" type="question-title">De poenitentia</head>
+        <p xml:id="rbdcir-de2281-d1e106">CAPUT XXIX. <hi>De poenitentia.</hi>
+        </p>
+        <p xml:id="rbdcir-de2281-d1e111">Poenitentibus exemplum Job primus exhibuit, quando post funera vel flagella adhuc in sui
+    redargutione, etiam in cilicio et cinere lamenta poenitudinis sumpsit dicens: <quote xml:id="rbdcir-de2281-Qd1e113">Idcirco
+      ago poenitentiam in favilla et cinere.</quote> Post hunc David nobis poenitentiae
+    magisterium praebuit, quando gravi vulnere lapsus, dum audisset a propheta, peccatum suum
+    confestim poenituit, et culpam suae poenitentiae confessione sanavit. Sic Ninivitae et alii
+    multa peccata sua confessi sunt, poenitentiam egerunt, displicuere sibi quales fuerunt, et
+    quales per Deum facti sunt, illi placuerunt. Est autem poenitentia medicamentum vulneris, spes
+    salutis, per quam peccatores salvantur, per quam Dominus ad misericordiam provocatur, quae non
+    tempore pensatur, sed profunditate luctus et lacrymarum. Poenitentia autem nomen sumpsit a
+    poena, qua anima cruciatur et mortificatur caro. Dicta est autem poenitentia quasi punientia,
+    eo quod ipse homo puniendo puniat quod male admisit. Hi vero qui poenitentiam gerunt, proinde
+    capillos et barbam nutriunt, ut demonstrent abundantiam criminum quibus caput peccatoris
+    gravatur. Capilli enim pro vitiis accipiuntur, sicut scriptum est: <quote xml:id="rbdcir-de2281-Qd1e115">Et criminibus
+      peccatorum suorum unusquisque constringitur. Vir quippe si comam nutriat,</quote> ut ait
+    Apostolus, <quote xml:id="rbdcir-de2281-Qd1e117">ignominia est illi </quote>
+          <ref xml:id="rbdcir-de2281-Rd1e119">(I Cor. XI)</ref>. Ipsam ergo ignominiam suscipiunt poenitentes pro merito peccatorum.
+    Quod vero in cilicio prosternuntur, memoriam peccatorum suorum eos habere significat. Per
+    cilicium quippe est recordatio peccatorum, propter haedos ad sinistram futuros. Inde ergo
+    poenitentes in cilicio prosternimur, tanquam dicentes: <quote xml:id="rbdcir-de2281-Qd1e121">Et peccatum meum coram me est
+      semper.</quote> Quod autem cinere asperguntur, vel ut sint memores, quia cinis et pulvis
+    sunt, vel quia pulvis facti sunt, id est impii facti sunt, unde et illi praevaricatores, primi
+    hominis recedentes a Deo, malisque factis offendentes Creatorem, in pulverem unde sumpti sunt
+    redierunt. Bene ergo in cilicio et in cinere poenitens deplorat peccatum, quia in cilicio
+    asperitas et punctio peccatorum, in cinere autem pulvis ostenditur mortuorum, et idcirco in
+    utroque poenitentiam agimus, ut et in punctione cilicii, cognoscamus vitia quae per culpam
+    commisimus, et per favillam cineris perpendamus mortis sententiam, ad quam peccando
+    pervenimus. Poenitentiae autem remedium Ecclesia catholica in spe indulgentiae fideliter
+    alligat exercendum, et post unum baptismi sacramentum, quod singulari traditione commendatum,
+    sollicite prohibet iterandum, medicinali remedio poenitentiae subrogat adjumentum, cujus
+    remedio egere se cuncti agnoscere debent, pro quotidianis humanae fragilitatis excessibus,
+    sine quibus in hac vita esse non possumus, horum duntaxat dignitate servata, ita ut a
+    sacerdotibus et Levitis Deo teste fiat, a caeteris vero astante coram Deo solemniter
+    sacerdote, ut hic tegat fructuosa confessio, quod temerarius appetitus, aut ignorantiae <cb ed="#P" n="b"/> notatur contraxisse neglectus, aut sicut in baptismo omnes iniquitates remitti,
+    vel per martyrium nulli peccatum credimus imputari, ita poenitentiae compunctione fructuosa,
+    universa fateamur deleri peccata. Lacrymae enim poenitentium apud Deum pro baptismo
+    reputantur: unde et quamlibet sint magna delicta, quamvis gravia, non est tamen in illis Dei
+    misericordia desperanda. In actione autem poenitudinis (ut supra dictum est) non tam
+    consideranda est mensura temporis, quam doloris. <quote xml:id="rbdcir-de2281-Qd1e126">Cor enim contritum et humiliatum Deus
+      non spernit.</quote> Verumtamen quanta in peccato fuit ad malum abruptae mentis intentio,
+    tanta necesse est in intentione devotio. Duplex autem est poenitentiae gemitus, vel dum
+    plangimus quod male gessimus, vel dum non agimus quod agere debebamus. Ille autem vere
+    poenitentiam agit, qui nec poenitere praeterita negligit, nec adhuc poenitenda committit. Qui
+    vero lacrymas indesinenter fundit, et tamen peccare non desinit, hic lamentum habet, sed
+    mundationem non habet. Si qui autem per gratiam Dei ad poenitentiam convertuntur, perturbari
+    non debent, si rursus post emendationem relicta vitia cor pulsent, dum non possunt boni
+    conversationi nocere, si talis cogitatio non erumpat in consensu vel opere. Ferre enim sine
+    perfectione vitiorum cogitationes, non est ad damnationem, sed ad probationem, nec est occasio
+    subeundi discriminis, sed potius augendae virtutis. Nam et si quis circa finem suum per
+    poenitentiam desinet esse malus, non ideo debet desperare, quia in termino est ultimo vitae,
+    quoniam non Deus respicit quales antea fuimus, sed quales circa finem vitae existimus. Ex fine
+    enim suo unumquemque aut justificat aut condemnat, sicut scriptum est: <quote xml:id="rbdcir-de2281-Qd1e128">Ipse judicat
+      extrema terrae.</quote> Et alibi: <quote xml:id="rbdcir-de2281-Qd1e130">Universorum finem ipse considerat.</quote> Proinde
+    non dubitamus circa finem justificari hominem per poenitentiae compunctionem; sed quia raro id
+    fieri solet, metuendum est ne dum ad finem differtur confessio sperata, anticipet mors quam
+    veniat poenitentia. Pro qua re et si bona est ad extremum conversio, melior tamen est quae
+    longe ante finem agitur, ut ab hac vita securius transeamus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

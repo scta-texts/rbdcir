@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="149"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0145"><!-- l1c2 -->
+        <head xml:id="rbdcir-de0145-Hd1e101">Caput 2</head>
+        <head xml:id="rbdcir-de0145-Hd1e103" type="question-title">De tribus ordinibus Ecclesia</head>
+        <p xml:id="rbdcir-de0145-d1e106">CAPUT II. <hi>De tribus ordinibus Ecclesiae.</hi>
+        </p>
+        <p xml:id="rbdcir-de0145-d1e111">Sunt tamen tres ordines in Ecclesia. Conversantium, id est laicorum, monachorum et
+    clericorum. Quorum primus, id est laicus ordo, popularis interpretatur. Laos <foreign xml:lang="greek">λαὸς</foreign> enim Graece, populus Latine dicitur. Secundus est
+    monachicus, id est singulariter conversans, hoc est, a saeculari conversatione remotus. Monas
+      <foreign xml:lang="greek">μονὰς</foreign> enim Graece singularitas dicitur, et monachus
+      <foreign xml:lang="greek">μοναχὸς</foreign> singularis vel solitarius. Tertius est ordo
+    clericalis. Cleros <foreign xml:lang="greek">κλῆρος</foreign> quippe Graece, sors vel
+    haereditas dicitur. Cleros autem vel clericos binc appellatos doctores nostri dicunt, quia
+    Matthias sorte electus est, quem primum ab apostolis legimus ordinatum <ref xml:id="rbdcir-de0145-Rd1e125">(Act. I)</ref>,
+    sic et eos quos illis temporibus Ecclesiarum principes ordinabant, sorte legebant. Nam et
+    haereditas Graece cleronomia <foreign xml:lang="greek">κληρονομία</foreign> appellatur, et
+    haeres cleronomos. Propterea ergo dicti sunt clerici, quia de sorte sunt Domini, vel quia
+    Domini partem habent, sicut de eis scriptum est loquente Domino: <quote xml:id="rbdcir-de0145-Qd1e131">Ego haereditas eorum </quote>
+          <ref xml:id="rbdcir-de0145-Rd1e133">(Ezech. XLIV)</ref>. Unde oportet ut qui Deum haereditate possident, absque ullo
+    impedimento saeculi, Deo servire studeant, ut congrue illud Psalmistae dicere possint:
+      <quote xml:id="rbdcir-de0145-Qd1e135">Dominus pars haereditatis meae </quote>
+          <ref xml:id="rbdcir-de0145-Rd1e137">(Psal. XV)</ref>. Iste autem ordo praeponitur in Ecclesia, quia jure in sanctis deservit,
+    et sacramenta populis dispensat. Sicut enim in Veteri Testamento tribus Levi prae caeteris
+    tribubus peculialiter a Domino electa est ad serviendum illi per diversa officia in
+    tabernaculo, quod est Ecclesia praesens, ut serviant ei die ac nocte in templo sancto ejus, ut
+    sint populo in his quae ad Deum pertinent, ut offerant Deo dona et sacrificia pro sua et
+    populi ignorantia, ut judicent inter justum et injustum, et discernant inter sanctum et
+    profanum, inter polutum et mundum, doceantque populum Dei omnia <cb ed="#P" n="b"/> legitima ejus
+    et praecepta quae mandaverat ad eos.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

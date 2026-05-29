@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 22</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 22</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="168"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2059"><!-- l2c22 -->
+        <head xml:id="rbdcir-de2059-Hd1e101">Caput 22</head>
+        <head xml:id="rbdcir-de2059-Hd1e103" type="question-title">De jejunio ante nativitatem Domini, quod fit in nono et decimo
+    mense</head>
+        <p xml:id="rbdcir-de2059-d1e106">CAPUT XXII. <hi>De jejunio ante nativitatem Domini, quod fit in nono et decimo mense.</hi>
+        </p>
+        <p xml:id="rbdcir-de2059-d1e111">Tertium jejunium est quod constat in mense Novembrio, quod divina auctoritate institutum vel
+    initiatum Jeremiae prophetae testimonio declaratur, dicente ad eum Domino: <quote xml:id="rbdcir-de2059-Qd1e113">Tolle
+      volumen libri, et scribes in eo omnia verba quae locutus sum tibi adversus Israel et Judam,
+      et adversus omnem gentem; si forte revertatur unusquisque a via sua pessima, propitius ero
+      iniquitati eorum. Vocavit ergo Jeremias Baruch filium Neriae, et scripsit Baruch ex ore
+      Jeremiae omnes sermones Domini, quos locutus est ad eum in volumine libri. Et praecepit
+      Jeremias Baruch dicens: Ingredere et lege de volumine quod scripsisti ex ore meo, verba
+      Domini audiente populo in domo Domini in die jejunii leges, si forte cadat oratio eorum in
+      conspectum Domini, et revertatur unusquisque a via sua mala, quoniam magnus furor et
+      indignatio, quam locutus est Dominus adversum populum hunc. Et fecit Baruch
+      filius Neriae juxta omnia quae praeceperat Jeremias propheta, legens ex volumine sermones in
+      domo Domini. Et factum est in mense nono, praedicaverunt jejunium in conspectu Domini omni
+      populo in Jerusalem </quote>
+          <ref xml:id="rbdcir-de2059-Rd1e115">(Jerem. XXXVI)</ref>. Hac ergo auctoritate divinae Scripturae Ecclesia morem obtinuit, et
+    universale jejunium hac observatione celebrat: quod tamen jejunium incipiens in nono mense in
+    decimum extenditur, id est, usque ad diem natalis Domini pertingit. Congrua itaque
+    dispositione a magistris Ecclesiae hoc loco jejunium quadragesimale fieri constitutum est, ut
+    ante diem natalis Domini jejunio et abstinentia nosmetipsos castigemus, quatenus venientem
+    Redemptorem digna conversatione suscipere possimus, <pb ed="#P" n="169"/>
+          <cb ed="#P" n="a"/> sicut ante tempus
+    resurrectionis ejus carnem nostram affligimus, ut resurrectionis gratiam, quae per ipsum fit,
+    consequi mereamur. Sed haec de tribus quadragesimis dicta sufficiant.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

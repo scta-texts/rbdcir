@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="171"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2164"><!-- l2c26 -->
+        <head xml:id="rbdcir-de2164-Hd1e101">Caput 26</head>
+        <head xml:id="rbdcir-de2164-Hd1e103" type="question-title">De origine biduanae sive triduanae</head>
+        <p xml:id="rbdcir-de2164-d1e106">CAPUT XXVI. <hi>De origine biduanae sive triduanae.</hi>
+        </p>
+        <p xml:id="rbdcir-de2164-d1e111">Biduanum autem morem jejunii reor inde sumptum, quod apostoli jejunaverunt illo biduo quo
+    Dominus passus ac sepultus est. Triduanis ergo jejunare ab exemplo ductum est Ninivitarum, qui
+    damnatis pristinis vitiis totos se tribus diebus jejunio ac poenitentiae contulerunt. Sed
+    illius solummodo jejunium Deo acceptabile est, qui sic jejunat a cibis, ut abstineat a
+    peccatis, caeterum qui ventre tantum jejunat, reprobatum erit ejus jejunium coram Deo, qui
+    dixit per prophetam: <quote xml:id="rbdcir-de2164-Qd1e113">Ecce in diebus jejunii vestri invenietur voluntas vestra, et omnes
+      debitores vestros repetitis. Ecce ad lites et contentiones jejunatis, et percutitis pugno
+      impie. Nolite jejunare sic usque ad hanc diem, ut audiatur in excelsis clamor vester.
+      Nunquid tale est jejunium quod elegi, per diem affligere hominem animam suam </quote>
+          <ref xml:id="rbdcir-de2164-Rd1e115">(Isa. LVIII)</ref>. Et deinde: <quote xml:id="rbdcir-de2164-Qd1e117">Nonne hoc est magis jejunium quod elegi? Dissolve
+      colligationes impietatis, solve fasciculos deprimentes, dimitte eos qui confracti sunt
+      liberos, et omne onus disrumpe. Frange esurienti panem tuum, et egenos vagosque induc in
+      domum tuam. Cum videris nudum, operi eum, et carnem tuam ne despexeris, tunc erumpet quasi
+      mane lumen tuum, et sanitas tua citius orietur,</quote> etc. <ref xml:id="rbdcir-de2164-Rd1e119">(Ibid.)</ref>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

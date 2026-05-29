@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 32</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 32</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="172"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2379"><!-- l2c32 -->
+        <head xml:id="rbdcir-de2379-Hd1e101">Caput 32</head>
+        <head xml:id="rbdcir-de2379-Hd1e103" type="question-title">De epiphania Domini</head>
+        <p xml:id="rbdcir-de2379-d1e106">CAPUT XXXII. <hi>De epiphania Domini.</hi>
+        </p>
+        <p xml:id="rbdcir-de2379-d1e111">Epiphaniarum proinde festa solemnitate viri apostolici signaverunt, quia in eo est proditus
+    stella Salvator, quando magi Christum in praesepe jacentem adoraverunt eum, offerentes ei
+    competentia munera Trinitatis, aurum, thus, et myrrham, regi Deo atque passuro. Ideo ergo diem
+    hunc annua celebritate sacraverunt, ut mundus agnoscat Dominum, quem elementa coelitus
+    prodiderunt. Siquidem eodem die idem Jesus etiam Jordanis lavacro tingitur; divisoque coelo
+    Spiritus sancti descendentis testimonio Dei esse Filius declaratur. Cujus diei nomen ex eo
+    quod apparuit gentibus, Epiphania nuncupatur. Epiphania enim, Graece <foreign xml:lang="greek">ἐπιφάνεια,</foreign> apparitio vel ostensio dicitur. Tribus ergo ex causis hic dies hoc
+    vocabulum sumpsit. Sive quod tunc in baptismo suo Christus populis fuerit ostensus, sive quod
+    ea die sideris ortu magis est proditus; sive quod primo signo per aquam in vinum conversam,
+    multis est manifestatus. Illud tamen sciendum, quod licet ea die baptismus Christi, a Joanne
+    fieri credatur, universale tamen baptisma celebrari in ea, canonica contradicit auctoritas.
+    Paschae ergo tempus tantummodo et Pentecostes, ad hoc ab apostolis <pb ed="#P" n="173"/>
+          <cb ed="#P" n="a"/> et
+    apostolicis viris decretum, Romana custodit Ecclesia: quae videlicet duo tempora ad hoc
+    opportuna esse, Christi Domini nostri a mortuis resurrectio, et Spiritus sancti super
+    primitivam Ecclesiam declarat adventus. <quote xml:id="rbdcir-de2379-Qd1e120">Quicunque ergo</quote> (ait Apostolus)
+      <quote xml:id="rbdcir-de2379-Qd1e122">baptizati sumus in Christo Jesu in morte ipsius baptizati sumus,</quote> etc.
+      <ref xml:id="rbdcir-de2379-Rd1e125">(Rom. VI)</ref>. Et Salvator ascensurus in coelum, Apostolis dixit: <quote xml:id="rbdcir-de2379-Qd1e127">Joannes
+      quidem baptizavit aqua; vos autem baptizabimini Spiritu sancto, non post multos hos dies </quote>
+          <ref xml:id="rbdcir-de2379-Rd1e129">(Act. I)</ref>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

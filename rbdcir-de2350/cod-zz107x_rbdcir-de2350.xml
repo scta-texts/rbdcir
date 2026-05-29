@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 31</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 31</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="172"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2350"><!-- l2c31 -->
+        <head xml:id="rbdcir-de2350-Hd1e101">Caput 31</head>
+        <head xml:id="rbdcir-de2350-Hd1e103" type="question-title">De Nativitate Domini</head>
+        <p xml:id="rbdcir-de2350-d1e106">CAPUT XXXI. <hi>De Nativitate Domini.</hi>
+        </p>
+        <p xml:id="rbdcir-de2350-d1e111">Natalis Domini dies ea de causa a Patribus votivae solemnitatis institutus est, quia in eo
+    Christus pro redemptione mundi nasci corporaliter voluit, prodiens ex Virginis utero, qui erat
+    in Patris imperio: cujus susceptae carnis causa haec est: Postquam enim invidia diaboli parens
+    ille primus spe seductus inani cecidit, confestim exsul et perditus in omni genere suo,
+    radicem malitiae et peccati transduxit: crescebatque in malum vehementius omne genus
+    mortalium, diffusis ubique sceleribus, et, quod est nequius, omnium cultibus idolorum. Volens
+    ergo Deus terminare peccatum, consuluit verbo, lege, prophetis, signis, plagis, prodigiis. Sed
+    cum nec sic quidem errores suos admonitus agnosceret mundus, misit Deus Filium suum, ut carnem
+    indueret, et omnibus appareret, et peccatores sanaret. Qui ideo in homine venit, quia per
+    seipsum ab hominibus cognosci non potuit. Ut autem videretur, <quote xml:id="rbdcir-de2350-Qd1e113">Verbum caro factum
+      est,</quote> assumendo carnem, non mutatum in carnem. Assumpsit enim humanitatem, non amisit
+    divinitatem; ita idem Deus et idem homo, in <cb ed="#P" n="b"/> natura Dei aequalis Patri, in
+    natura hominis factus mortalis, in nobis, pro nobis, de nobis, manens quod erat, suscipiens
+    quod non erat, ut liberaret quod fecerat. Haec est ergo Dominicae Nativitatis magna
+    solemnitas. Haec est diei hujus nova et gloriosa festivitas, adventus Dei factus ad homines.
+    Itaque dies iste pro eo quod in eo Christus natus est, natalis dicitur: quemque ideo observare
+    per revolutum circulum anni festiva solemnitate solemus, ut in memoriam revocetur Christus
+    quod natus est. In Bethlehem quoque Christus natus est, et in Nazareth nutritus, ut ex locorum
+    vocabulis, rerum ipsarum appareret eventus. Ergo quod in Bethlehem nasceretur, oportuit, quia
+    cibus coelestis, de coelis ad terras venit. Bethlehem quippe domus panis dicitur. Et Salvator
+    de se ipso dixit: <quote xml:id="rbdcir-de2350-Qd1e117">Ego sum panis vivus, qui de coelo descendi </quote>
+          <ref xml:id="rbdcir-de2350-Rd1e119">(Joan. VI)</ref>. Ergo Bethlehem vere domus panis est, quia Christus homo in ea nasci
+    dignatus est: panis videlicet vitae, de quo qui manducaverit, vivet in aeternum. Ex hac etiam
+    causa credimus in Ecclesia hunc morem inolevisse, ut in ea nocte qua Christus creditur esse
+    natus, sacra missarum solemnia celebrantur, ut ea hora fideles quique sacramentum corporis et
+    sanguinis Christi perciperent, qua eum inter homines misericorditer natum scirent. Cujus tamen
+    celebrationis, Telesphorus papa apud Romanos primus auctor legitur exstitisse. Nam quod in
+    Nazareth nutritus erat, ea causa fuit, ut quia Nazareth flos sive munditia interpretatur,
+    aeternae puritatis ejus index exsisteret, cum floret floris ipsius nutrix, qui de virga
+    radicis Jesse ascendens, septiformem Spiritum haberet, et perpetua puritate insignis, merito
+    Nazaraeus, quod est mundus, vocaretur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

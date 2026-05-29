@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 25</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 25</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="171"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2140"><!-- l2c25 -->
+        <head xml:id="rbdcir-de2140-Hd1e101">Caput 25</head>
+        <head xml:id="rbdcir-de2140-Hd1e103" type="question-title">De privatis jejuniis</head>
+        <p xml:id="rbdcir-de2140-d1e106">CAPUT XXV. <hi>De privatis jejuniis.</hi>
+        </p>
+        <p xml:id="rbdcir-de2140-d1e111">Praeterea unicuique licet ut libet jejuniorum modum habere, seu inediam extendere, servata
+    prae omnibus constitutione legitimorum jejuniorum quas supra memoravimus, quae generaliter
+    sancta et apostolica servat Ecclesia. Nec non et illa omnimodo custodire oportet unumquemque,
+    quae communiter omnibus facere sive pro tribulatione, sive pro gratiarum actione proprius
+    Ecclesiae mandat episcopus, quia qui constituta atque demandata jejunia servare neglexerit
+    peccat, qui autem expletis legitimis privata super expenderit, propriam mercedem habebit. Nam
+    leguntur aliqui sanctorum per biduanas, sive per triduanas, sive etiam per totam hebdomadam
+    jejunium extendere; plerique quod nec vinum nec siceram biberunt, nec aliquid manducaverint
+    praeter panem siccum et olera; alii quod ab omni carne se abstinuerint, alii quod in tantum se
+    abstinuerint, quod nec pane in cibo usi sunt, sed paucis caricis corpus suum sustentaverint.
+    Et alia plurima sunt genera abstinentiae, sed ante omnia cavere debet qui se abstinere vult ab
+    aliquo cibo vel potu, ne mens ejus occulta cogitatione polluatur, ita ut aliquam creaturam Dei
+    damnet judiciaria superstitione seductus, dicens hoc licere, illud autem non; hoc mundum,
+    illud autem immundum esse cogitet. Quem hujus mundi cogitatio pulsat, videat Apostolum
+    dixisse: <quote xml:id="rbdcir-de2140-Qd1e113">Omnis creatura Dei munda est, et nihil rejiciendum quod cum gratiarum actione
+      percipitur, et malum est homini qui per offendiculum manducat </quote>
+          <ref xml:id="rbdcir-de2140-Rd1e115">(I Tim. IV; Rom. XIV)</ref>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

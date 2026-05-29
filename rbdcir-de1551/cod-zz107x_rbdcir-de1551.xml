@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="164"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1551"><!-- l2c6 -->
+        <head xml:id="rbdcir-de1551-Hd1e101">Caput 6</head>
+        <p xml:id="rbdcir-de1551-d1e103">CAPUT VI. <hi>De officio nonae horae.</hi>
+        </p>
+        <p xml:id="rbdcir-de1551-d1e108">Nona utique hora inde consecratur, quia in ea Dominus pro inimicis postulans in manus Patris
+    spiritum commendavit, qua videlicet fideles quosque oportet ut se Deo commendent cum devota
+    oratione, qua caput suum cognoscunt propriam animam Patri suo commendasse, ut in ejus corpus
+    coadunati, cum ipso regnum possint intrare perpetuum. Hocque consideratione dignum est, quod
+    per cuncta haec temporum spatia ternarius numerus satis venerabilis emicat, nos admonens ut
+    post trium horarum curricula unumquodque horum officiorum peragentes, sanctam Trinitatem
+    sacris laudibus celebremus. Horum quoque officiorum statuta observasse ipsi apostoli leguntur,
+    sicut in Actibus apostolorum legitur, quod Petrus qua die visionem communicationis in illo
+    vasculo expertus est, sexta ora orandi gratia ascenderit <ref xml:id="rbdcir-de1551-Rd1e110">(Act. X)</ref>. Et item:
+      <quote xml:id="rbdcir-de1551-Qd1e112">Petrus, inquit, et Joannes ascendebant in templum ad horam orationis nonam </quote>
+          <ref xml:id="rbdcir-de1551-Rd1e114">(Act. III)</ref>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

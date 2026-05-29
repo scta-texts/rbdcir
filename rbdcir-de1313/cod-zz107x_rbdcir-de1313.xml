@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 33</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 33</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="161"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1313"><!-- l1c33 -->
+        <head xml:id="rbdcir-de1313-Hd1e101">Caput 33</head>
+        <head xml:id="rbdcir-de1313-Hd1e103" type="question-title">De ordine missae</head>
+        <p xml:id="rbdcir-de1313-d1e106">CAPUT XXXIII. <hi>De ordine missae.</hi>
+        </p>
+        <p xml:id="rbdcir-de1313-d1e111">Primum autem in celebratione missae ad introitum sacerdotis ad altare antiphona cantatur a
+    clero, ut audiatur sonitus quando ingreditur sanctuarium in conspectu Domini, sicut in Veteri
+    Testamento per tintinnabulorum sonitum ingressus innotuit pontificis. Bene ergo in ingressu
+    sacerdotis concrepantibus choris auditur modulatio divinae laudis, ut Dominicae celebrationis
+    mysteria ministrorum pie praecedat consonantia, et corporis et sanguinis Christi venerabile
+    sacramentum antecedat dignae laudis sacrificium. Namque chorus est multitudo in sacris
+    collecta; et dictus chorus, quod in initio in modum coronae circum aras starent, et ita
+    psallerent. Unde et Ecclesiasticus liber scribit stantem sacerdotem ante aram, et in circuitu
+    coronam fratrum. Alii chorum dixerunt a concordia, quae in charitate consistat, sive de
+    concinentia soni. Cum autem unus canit, Graece monodia <foreign xml:lang="greek">μονωδία,</foreign> Latine sicinium, dicitur; et cum duo canunt, bicinium dicitur; cum <pb ed="#P" n="162"/>
+          <cb ed="#P" n="a"/> autem multi, chorus vocatur. Antiphona <foreign xml:lang="greek">ἀντίφωνη</foreign> Graece, vox reciproca, ex duobus scilicet choris alternatim
+    psallentibus, dicitur. Post introitum autem sacerdotis ad altare litaniae aguntur a clero, ut
+    generalis oratio praeveniat specialem sacerdotis: subsequitur autem oratio sacerdotis, et
+    pacifica primum salutatione populum salutans pacis responsum ab ille accipiat, ut vera
+    concordia et charitatis pura devotio facilius postulata impetret ab eo qui corda aspicit et
+    interna dijudicat. Tunc lector legit lectionem canonicam, ut animus auditorum per hanc
+    instructus ad caetera intensior assurgat. Post hanc ergo cantor dicit responsorium: ad
+    compunctionem provocet, et lenos animos audientium faciat. Responsorium ergo inde dicitur,
+    quod, alio desinente, id alter respondeat. Inter responsoria et antiphonas hoc differt, quod
+    in responsoriis unus dicat versum, in antiphonis autem alternent versibus chori. Antiphonas
+    Graeci, responsoria vero Itali traduntur primum invenisse. Responsorium enim istud quidam
+    gradale vocant, eo quod juxta gradus pulpiti cantatur. Post responsorium cantatur alleluia,
+    scilicet ut ad coelestia mente populum sublevet, et ad divinam contemplationem erigat.
+    Alleluia enim duorum verborum interpretatio est, hoc est laus Dei, et est Hebraeum. Ia enim de
+    decem nominibus quibus apud Hebraeos Deus vocatur unum est. Similiter et amen Hebraeum est,
+    quod ad omnem sacerdotis orationem seu benedictionem respondet populus fidelium. Interpretari
+    quoque potest amen in Latinum, vere, sive fideliter, seu fiat. Hieronymo teste in Psalterio,
+    ubi ait: <quote xml:id="rbdcir-de1313-Qd1e123">Fiat, fiat,</quote> in Hebraico legitur, <quote xml:id="rbdcir-de1313-Qd1e126">Amen, amen.</quote> Haec duo
+    tamen verba, id est, amen et alleluia, nec Graecis, nec Latinis, nec Barbaris, licet in suam
+    linguam omnino transferre, vel alia lingua annuntiare. Nam quamvis interpretari possunt,
+    propter sanctiorem tamen auctoritatem, servata est ab apostolis in his propriae linguae
+    antiquitas. Tantum enim sacra sunt nomina, ut etiam Joannes in Apocalypsi referat Spiritu
+    revelante se vidisse et audisse vocem coelestis exercitus, tanquam vocem aquarum multarum, et
+    tonitruum validorum dicentium, amen et alleluia <ref xml:id="rbdcir-de1313-Rd1e128">(Apoc. XIX)</ref>, ac per hoc sic oportet
+    in terris utraque dici, sicut in coelo resonant. Deinde a diacono cum summa auctoritate in
+    auribus populi recitatur Evangelium, ut ipsius ibidem audiatur doctrina, ad quem fervet
+    intentio tota, ipsiusque virtus intelligatur per Evangelium, cujus tunc corporis sacrosanctum
+    celebratur mysterium. Per hoc oblationes offeruntur a populo, et offertorium cantatur a clero,
+    quod ex ipsa causa vocabulum sumpsit, quasi offerentium canticum; immittitur usque super
+    altare corporalis pallium, quod significat linteum quo corpus Salvatoris involvebatur, quod ex
+    lino puro textum esse debet, et non ex serico vel purpura, neque ex panno tincto, sicut a
+    Silvestro papa institutum invenimus, quia in Evangelio legitur sindone munda involutum esse a
+    Joseph corpus Salvatoris, et sudarium capitis ejus post resurrectionem <cb ed="#P" n="b"/> Domini
+    non cum linteaminibus positum, sed seorsum involutum inveniri. Ponuntur quoque tunc vasa
+    sancta (quod calix est et patena) super altare, quae quodammodo Dominici sepulcri typum
+    habent, quia sicut tunc corpus Christi aromatibus unctum in sepulcro novo per piorum officium
+    condebatur, ita modo in Ecclesia mysticum corpus illius cum unguentis sacrae orationis
+    conditum in sacris vasis ad percipiendum fidelibus per sacerdotum officium administratur.
+    Postea cantatur missa a sacerdote, qui postquam loquitur ad populum de elevatione cordis ad
+    Deum, exhortaturque eos ad gratias agendas Domino, laudibus os implet, rogatque ut ipse
+    omnipotens Deus Pater, cui deserviunt coelestes potestates, sua gratia illorum vocibus jubeat
+    humanas associare confessiones; quam deprecationem mox subsequitur laus ex angelicis et
+    humanis cantibus confecta. <quote xml:id="rbdcir-de1313-Qd1e132">Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth, pleni sunt
+      coeli et terra gloria tua,</quote> etc. Dehinc jam consecratio corporis et sanguinis Domini
+    fit, et deprecatio valida ad Deum, inter quae et Dominica oratio decantatur. Postquam enim ad
+    communicandum et ad percipiendum corpus perventum fuerit, pacis osculum sibi invicem tradunt,
+    cantantes: <quote xml:id="rbdcir-de1313-Qd1e134">Agnus Dei, qui tollis peccata mundi, miserere nobis,</quote> ut, pacifici
+    sacramentum percipientes, in filiorum Dei numero (remissis delictis omnibus) mereantur
+    copulari. Post communionem ergo, et post ejusdem nominis canticum, data benedictione a
+    sacerdote ad plebem, diaconus praedicat missae officium esse peractum, dans licentiam abeundi.
+    Istum ergo ordinem ab apostolis, et ab apostolicis viris traditum Romana tenet Ecclesia, et
+    per totum pene Occidentem, omnes Ecclesiae eamdem traditionem servant. Sed quia de ordinibus
+    sacris, et de quatuor sacramentis, nec non et de officio missae sermonem explicavimus, huic
+    libro terminum hic ponendum esse censemus: in sequentibus, de caeteris officiis atque
+    observationibus (si Dominus annuerit) plura relaturi.</p>
+        <p xml:id="rbdcir-de1313-d1e137">
+          <quote xml:id="rbdcir-de1313-Qd1e139">Additio de missa.</quote>
+        </p>
+        <p xml:id="rbdcir-de1313-d1e143">Anastasius, natione Romanus, ex patre Maximo (ut legitur in gestis episcopalibus), constituit
+    ut quotiescunque sancta recitarentur Evangelia, sacerdotes et reliquum vulgus non sederent,
+    sed starent. Deinde orationem pro suis propriis delictis et plebis remissione, ut dignus sit
+    accedere ad altare, et ad tactum oblatarum, ne fiat illi quod factum est Bethsamitis qui
+    temere arcam Domini tangebant <ref xml:id="rbdcir-de1313-Rd1e145">(I Reg. V)</ref>. Susceptis oblationibus revertitur
+    sacerdos ad altare, et lavat manus suas, et extergit ab actu communium manuum atque terreno
+    pane, sacerdos facit de oblata duas cruces juxta calicem, ut doceat Christum depositum esse de
+    cruce, pro duobus populis et crucifixum. Elevatio sacerdotis et diaconi corporis et sanguinis
+    Christi, elevationem ejus ad crucem insinuat pro totius mundi salute. Pannus extensus super
+    altare, corpus Domini monstrat extensum in cruce, et super eo corpus et sanguis <pb ed="#P" n="163"/>
+          <cb ed="#P" n="a"/> Domini consecratum, quod nos manducamus, aqua et vinum in calice monstrant sacramenta, quae
+    de latere Domini in cruce fluxerunt, quibus nos potati sumus. Immissio panis in vinum, varie
+    apud quosdam habetur et agitur. Itali quoque primo mittunt de sancto pane in calicem, et
+    postea dicunt: <quote xml:id="rbdcir-de1313-Qd1e151">pax Domini,</quote> aliqui vero reservant immissionem usque dum pax
+    celebrata sit et fractio panis. Romani vero cum dicunt <quote xml:id="rbdcir-de1313-Qd1e153">Pax Domini sit semper
+      vobiscum,</quote> mittunt corpus Domini in calicem oblatae particulae. Ipsum corpus nobis
+    ante oculos ostendit quod pro nobis est crucifixum. Ideo vero tangit quatuor latera calicis,
+    quia per illud humanum genus per quatuor climata mundi ad unitatem unius corporis conjungit et
+    ad pacem Ecclesiae catholicae et apostolicae producit, talibus namque verbis mittit in calicem
+    corpus Domini: <quote xml:id="rbdcir-de1313-Qd1e156">Fiat commistio corporis et sanguinis Domini accipientibus nobis ad
+      salutem mentis et corporis in vitam aeternam;</quote> tunc populus facit <cb ed="#P" n="b"/>
+    pacem, ut ostendatur quod nos membra ejus sumus, qui pro nobis crucifixus est et resurrexit,
+    facta pace sacerdos rumpat oblatam ex latere dextro una particula relicta super altari, et
+    reliquas oblationes ponat in patenam tenente eam diacono. Per particulam oblatae immissae in
+    calicem ostendit Christi corpus, quod jam resurrexit a mortuis. Per comestam a sacerdote et
+    populo, quod post resurrectionem adhuc cum discipulis ambulans in terra, et seipsum victum
+    praebens. Per relictam in altari, insinuat eum jacere in sepulcro, et a discipulis in passione
+    derelictum. Quaeritur in quo loco inchoatur officium missae, et si forte ad totum officium non
+    occurrerit, ubi praesentare debeat in initio missae? Nobis videtur missam vocari ab eo loco,
+    ubi incipit sacerdos sacrificium Deo offerre usque ad ultimam benedictionem qua clamante
+    Levita, dicit: <quote xml:id="rbdcir-de1313-Qd1e160">Ite, missa est.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

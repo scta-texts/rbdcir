@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 45</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 45</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="179"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2837"><!-- l2c45 -->
+        <head xml:id="rbdcir-de2837-Hd1e101">Caput 45</head>
+        <head xml:id="rbdcir-de2837-Hd1e103" type="question-title">De Encaeniis, et unde omnis ordo ille originem duxerit</head>
+        <p xml:id="rbdcir-de2837-d1e106">CAPUT XLV. <hi>De Encaeniis, et unde omnis ordo ille originem duxerit.</hi>
+        </p>
+        <p xml:id="rbdcir-de2837-d1e111">Festivitates annuas dedicationis ecclesiarum, ex more veterum celebrari, in Evangelio
+    legimus, ubi dicitur: <quote xml:id="rbdcir-de2837-Qd1e113">Facta sunt autem encaenia Jerosolymis </quote>
+          <ref xml:id="rbdcir-de2837-Rd1e115">(Joan. X)</ref>. Encaenia quippe festivitates erant dedicationes templi. Graece enim
+      <foreign xml:lang="greek">καινὸν</foreign> dicitur novum. Quodcunque enim aliquid novum
+    fuerit dedicatum, encaenia vocatur. Illum enim diem quo dedicatum est templum a Salomone,
+    sicut Regum liber et Paralipomenon narrat, Judaei solemniter celebrabant, et ipse dies apud
+    eos festus habebatur; qui usus videlicet in illis exolevit qui caruerunt et cultu et templo.
+    Christiani autem servant morem illum patrum, in quibus gloria translata videtur. Nam quod in
+    dedicatione templi, in nocte praecedente diem dedicationis, reliquiae sanctorum feretro
+    conditae in tentorio vigiliis custodiuntur, quid aliud demonstrat, quam quod arca testamenti
+    cum sanctis quae in ea erant, in tabernaculo Mosaico ante aedificationem templi per excubias
+    Levitarum servabatur. Et quod in tempore dedicationis multitudine undique convocata, feretrum
+    cum reliquiis sanctorum per sacerdotes de tentorio ad templum fertur, quid aliud intimat, quam
+    quod liber Paralipomenon narrat, quod <quote xml:id="rbdcir-de2837-Qd1e120">venerunt omnes viri Israel ad regem</quote>
+    Salomonem <quote xml:id="rbdcir-de2837-Qd1e122">in die solemni, et portaverunt Levitae arcam foederis Domini</quote> cum omni
+    apparatu <quote xml:id="rbdcir-de2837-Qd1e125">tabernaculi, et intulerunt eam sacerdotes in locum suum </quote>
+          <ref xml:id="rbdcir-de2837-Rd1e127">(II Par. V)</ref>, id est, oraculum templi in sancta sanctorum? Quod vero pontifex simul
+    cum sacerdotibus feretrum portantibus, et omni clero ac caetero populo laudem et litanias
+    canendo antequam ingrediatur in templum, ter foris illud circuit, quid aliud significat, quam
+    quod in adventu Domini et sanctorum ejus, qui fit per invocationem ejus sicut ipse dixit:
+      <quote xml:id="rbdcir-de2837-Qd1e129">Ubi duo vel tres congregati</quote> fuerint <quote xml:id="rbdcir-de2837-Qd1e131">in nomine meo, in medio eorum sum </quote>
+          <ref xml:id="rbdcir-de2837-Rd1e133">(Matth. XVIII)</ref>, omnis superbia et virtus diaboli, si quae in domo latitaverit,
+    corruat et dissipetur, et quod secundum prophetam: <quote xml:id="rbdcir-de2837-Qd1e135">Exaltabitur Dominus solus in die
+      illa, et vocabitur deinceps nomen loci illius Dominus </quote>
+          <ref xml:id="rbdcir-de2837-Rd1e138">(Ibid.)</ref>. Legimus etiam in Jesu Nave, quod sacerdotes et Levitae, atque universus
+    Israel simul cum arca Domini circumirent <pb ed="#P" n="180"/>
+          <cb ed="#P" n="a"/> urbem Jericho, et sacerdotibus
+    clangentibus buccinis et conclamante universo populo, subito corruerunt muri civitatis, quod
+    utique significat ad vocem praedicationis et laudis Domini post Salvatoris adventum, superbiam
+    mundanam corruisse, et regnum diaboli destructum esse. Quod vero duodecim lucernae intus juxta
+    parietes templi ponuntur, duodenarium numerum exprimit apostolorum et patriarcharum, quem
+    etiam Joannes apostolus in Apocalypsi commemorat in aedificio coelestis Jerusalem esse
+    insignem. Quod vero altare post aspersionem aquae chrismate perungitur, ad imitationem
+    patriarchae Jacob factum est: qui post visionem illam terribilem, <quote xml:id="rbdcir-de2837-Qd1e144">erexit lapidem in
+      titulum, fundens oleum desuper,</quote> vocans locum, <quote xml:id="rbdcir-de2837-Qd1e146">domus Dei </quote>
+          <ref xml:id="rbdcir-de2837-Rd1e148">(Gen. XXVIII)</ref>. Legiturque in Exodo, quod Moyses faceret sanctum unctionis oleum,
+    ungeretque ex eo tabernaculum testimonii, et arcam testamenti, mensamque cum vasis suis,
+    candelabrum et utensilia ejus, altare thymiamatis et holocausti, et universam supellectilem
+    quae ad cultum eorum pertinet. Aaron quoque et filios ejus, ut sacerdotio Domini fungerentur.
+    Benedicit, ut res sacrificandae sacro chrismatis liniantur unguento, ut demonstretur quod
+    omnis sanctificatio constat in Spiritu sancto, cujus virtus invisibilis sancto chrismate ad
+    sanctificationem praebendam permista est. Quod vero tunc incensum a pontifice super altare
+    ponitur, significat sacerdotis puram super illud orationem esse debere, ut possit dicere
+    Domino cum Propheta: <quote xml:id="rbdcir-de2837-Qd1e151">Dirigatur oratio mea sicut incensum in conspectu tuo </quote>
+          <ref xml:id="rbdcir-de2837-Rd1e153">(Psal. CXL)</ref>. Quod autem subtus tabulam altaris reliquiae sanctorum ponuntur,
+    significat sanctos sub throno Dei sedes et requiem habere. Testatur etiam hoc Joannes in
+    Apocalypsi, cum dicit: <quote xml:id="rbdcir-de2837-Qd1e155">Vidi subtus altare animas interfectorum propter verbum Dei, et
+      propter testimonium quod habebant, et clamabant voce magna dicentes: Usquequo Domine sanctus
+      verus, non vindicas et judicas sanguinem de his qui habitant in terra? Et datae sunt his
+      singulae stolae albae, et dictum est illis, ut requiescerent tempus adhuc modicum, donec
+      impleantur conservi eorum et fratres eorum, qui interficiendi sunt sicut et illi </quote>
+          <ref xml:id="rbdcir-de2837-Rd1e157">(Apoc. VI)</ref>. Perfecta vero dedicatione templi et altaris, induit se pontifex et
+    clerus vestimentis aliis, et celebrant solemniter sanctarum missarum celebrationem. Et hoc ex
+    veteri usu servatum est, quia legitur in Paralipomenon, quod postquam collata sit arca in loco
+    suo, id est, in sanctis sanctorum, et <quote xml:id="rbdcir-de2837-Qd1e159">egressis sacerdotibus de sanctuario, omnes
+      sacerdotes sanctificati</quote> sint, et <quote xml:id="rbdcir-de2837-Qd1e161">tam Levitae quam cantores, et qui sub Asaph
+      erant, et qui sub Eman, et qui sub Idithun, filii et fratres vestiti byssinis, cymbalis et
+      psalteriis et citharis concrepabant, stantes ad orientalem plagam altaris,</quote> et
+    reliqua <ref xml:id="rbdcir-de2837-Rd1e164">(II Par. V)</ref>. Et item: Rex autem et omnis populus, immolabant victimas coram
+    Domino. Et paulo post: <quote xml:id="rbdcir-de2837-Qd1e166">Et dedicavit domum Dei rex et universus populus. Sacerdotes
+      autem stabant in officiis suis,</quote> etc. <ref xml:id="rbdcir-de2837-Rd1e168">(II Par. VII)</ref>. In hoc autem istud
+    praestantius <cb ed="#P" n="b"/> est veteri illi dedicationi, quod illic mactabantur boum et ovium
+    multa millia, hic vero immolatur agni illius corpus, qui abstulit peccata mundi; illic
+    concrepabat multitudo tubarum et cymbalorum, et caetera instrumenta musicorum, hic autem
+    jubilus ex devoto pectore prolatus, suaviter sonat per voces hominum. Quantum autem distat ab
+    umbra veritas, tantum distat a legali victima nostrum sacrificium, et quantum praestat
+    insensibili sensibile, tantum praestat laus vocis humanae ex puro corde prolata, inani flatu
+    tubarum, et percussione cymbalorum. Sed quia omnia in figuram contingebant illis, et nos
+    revelata facie gloriam Domini contemplamur, morem illum veterum translatum in nostra religione
+    tanto congruentius quanto verius observamus. Omnes autem festivitates pro varietate
+    religionum, diversaque in honorem martyrum tempora, ideo a viris prudentibus instituta sunt,
+    ne forte rara congregatio populi fidem minueret in Christo. Propterea ergo dies aliqui
+    constituti sunt, ut in unum omnes pariter convenirent, et ex conspectu mutuo, et fides
+    crescat, et laetitia major oriatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

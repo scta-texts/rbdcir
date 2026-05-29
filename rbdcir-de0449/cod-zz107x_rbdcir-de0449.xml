@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="152"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0449"><!-- l1c9 -->
+        <head xml:id="rbdcir-de0449-Hd1e101">Caput 9</head>
+        <head xml:id="rbdcir-de0449-Hd1e103" type="question-title">De acolythis</head>
+        <p xml:id="rbdcir-de0449-d1e106">CAPUT IX. <hi>De acolythis.</hi>
+        </p>
+        <p xml:id="rbdcir-de0449-d1e111">Acolythi <foreign xml:lang="greek">ἀκόλουθοι</foreign> Graece, Latine ceroferarii dicuntur, a
+    deportandis cereis quando legendum est Evangelium, aut sacrificium offerendum. Tunc enim
+    accenduntur luminaria ab eis et deportantur, non ad fugandas tenebras dum sol eodem tempore
+    rutilet, sed ad signum laetitiae demonstrandum, ut sub typo luminis corporalis illa lux
+    ostendatur, de qua in Evangelio legitur: <quote xml:id="rbdcir-de0449-Qd1e116">Erat lux vera quae illuminat omnem hominem
+      venientem in hunc mundum </quote>
+          <ref xml:id="rbdcir-de0449-Rd1e118">(Joan. I)</ref>, quorum typum praeferebant illi qui Domini mandato in tabernaculo
+    lucernas quotidie accendebant super candelabrum positas.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

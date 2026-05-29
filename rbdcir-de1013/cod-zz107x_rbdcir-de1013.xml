@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 29</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 29</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="157"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1013"><!-- l1c29 -->
+        <head xml:id="rbdcir-de1013-Hd1e101">Caput 29</head>
+        <head xml:id="rbdcir-de1013-Hd1e103" type="question-title">De indumento baptizati et Eucharistia</head>
+        <p xml:id="rbdcir-de1013-d1e106">CAPUT XXIX. <hi>De indumento baptizati et Eucharistia.</hi>
+        </p>
+        <p xml:id="rbdcir-de1013-d1e111">Post baptismum autem traditur Christiano vestis candida designans innocentiam et puritatem
+    Christianam, quam post ablutas veteres maculas studio sanctae conversationis immaculatam
+    servare debet, ad praesentandum ante tribunal Christi. Cuncti vero renati albis induuntur
+    vestibus, ad mysterium resurgentis Ecclesiae, sicut ipse Dominus coram discipulis
+    transfiguratus est, ut dicitur: <quote xml:id="rbdcir-de1013-Qd1e113">Resplenduit facies ejus sicut sol, vestimenta ejus
+      facta sunt candida sicut nix;</quote> quo facto splendorem, ut dictum est, resurgentis in
+    futurum figuravit Ecclesiae. Utuntur ergo albis vestibus, ut quorum primae nativitatis
+    infantia vetusti erroris pannus fuscaverat, habitus secundae generationis gloriae praeferat
+    indumentum. Tegitur enim post sacram unctionem caput ejus mystico velamine, ut intelligat se
+    diadematis regni, et sacerdotatis dignitatis portitorem, juxta Apostolum: <quote xml:id="rbdcir-de1013-Qd1e115">Vos estis,
+      inquit, genus regale et sacerdotale offerentes vosmetipsos Deo hostiam vivam, sanctam, Deo
+      placentem,</quote> et reliqua. Nam sacerdotes in Veteri Testamento quodam mystico velamine
+    caput semper ornabant. Deinde corpore et sanguine Dominico omne praecedens sacramentum in eo
+    confirmatur, quia haec ideo accipere debet, ut Deum habere mereatur in se habitatorem, et
+    illius sit capitis membrum, qui passus est <cb ed="#P" n="b"/> et resurrexit pro nobis. Dicit enim
+    ipsa Veritas: <quote xml:id="rbdcir-de1013-Qd1e119">Qui manducat meam carnem et bibit meum sanguinem, ipse in me manet, et
+      ego in eo.</quote> Et item: <quote xml:id="rbdcir-de1013-Qd1e121">Nisi manducaveritis, inquit, carnem Filii hominis, et
+      biberitis ejus sanguinem, non habebitis vitam in vobis.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

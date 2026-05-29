@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 38</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 38</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="208"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4967"><!-- l3c38 -->
+        <head xml:id="rbdcir-de4967-Hd1e101">Caput 38</head>
+        <head xml:id="rbdcir-de4967-Hd1e103" type="question-title">Quae virtutum species contrariae sint singulis speciebus
+    vitiorum</head>
+        <p xml:id="rbdcir-de4967-d1e106">CAPUT XXXVIII. <hi>Quae virtutum species contrariae sint singulis speciebus vitiorum.</hi>
+        </p>
+        <p xml:id="rbdcir-de4967-d1e111">Haec igitur tanto congruentius unusquisque praedicator valet exprimere, quanto veracius
+    species virtutum, et e contra vitiorum novit discernere: ut cum singula singulis novit
+    opponere, cuique vulneri aptum possit medicamentum invenire. Sunt autem in virtutibus quaedam
+    species, quae quodammodo <cb ed="#P" n="b"/> ex aliis speciebus quasi ex arboribus rami procedunt:
+    quae quia ab una virtutum radice generantur, in uno ejusdem radicis stipite frondes
+    pulcherrimi gestantur. Sunt et e contrario in vitiis quaedam virulenta germina, de quibus
+    omnis illa multitudo pestifera nequitiarum generatur, et sicut in virtutibus aliae ex aliis
+    procedunt, quasi ex genetricibus proles pretiosae, sic et in istis quaedam quasi nequissimae
+    soboles, ex spurcissimis matribus prodeunt. Sed quia cum virtutibus vitiorum diuturna sunt
+    bella, utriusque malitiae qui sint duces, quique eorum sint comites specialiter quantum
+    possumus exponamus: ita tamen ut quae virtus cum quo vitio proprie pugnam gerat, pariter
+    ostendamus. Nec enim aliter possumus ignita vitiorum jacula devitare, nisi sciamus opportuna
+    virtutum tegmina illis opponere, ut ex ipsis defensi, protervum illum exercitum simul cum ejus
+    ducibus, Christo super nos regnante, possimus superare. Tentantia quippe vitia quae invisibili
+    contra nos praelio regnanti super se superbiae militant, alia more ducum praeeunt, alia more
+    exercitus subsequuntur. Nec enim culpae omnes pari accessu cor occupant; sed dum majores et
+    paucae neglectam mentem praeveniunt, minores innumerae ad illam se catervatim fundunt. Ipsa
+    namque vitiorum regina superbia, cum devictum cor plene ceperit, mox illud septem
+    principalibus vitiis, quasi quibusdam suis ducibus devastandum trahit: quos videlicet duces
+    exercitus sequitur, quia ex eis procul dubio importunae vitiorum multitudines oriuntur. Radix
+    quippe cuncti mali superbia est: de qua Scriptura attestante dicitur: <quote xml:id="rbdcir-de4967-Qd1e115">Initium omnis
+      peccati superbia est </quote>
+          <ref xml:id="rbdcir-de4967-Rd1e117">(Eccli. X)</ref>. Primae autem ejus soboles, septem nimirum principalia vitia, de hac
+    virulenta radice proferuntur: scilicet inanis gloria, invidia, ira, tristitia, avaritia,
+    ventris ingluvies, luxuria. Nam quia his septem vitiis superbiae nos captos doluit, idcirco
+    Redemptor noster ad spiritale liberationis praelium, Spiritu septiformis gratiae plenus venit.
+    Sed habent contra nos haec singula exercitum suum. Nam de inani gloria, inobedientia,
+    jactantia, hypocrisis, contentiones, pertinaciae, discordiae et novitatum praesumptiones
+    oriuntur. De invidia odium, susurratio, detractio, exsultatio in adversis proximi, afflictio
+    autem in prosperis nascitur. De ira, rixa, et tumor mentis, contumeliae, clamor, indignatio,
+    blasphemiae proferuntur. De tristitia, malitia, rancor, pusillanimitas, desperatio, torpor
+    circa praecepta, vagatio mentis erga illicita nascitur. De avaritia, proditio, fraus,
+    fallacia, perjuria, inquietudo, violentiae, et contra misericordiam obdurationes cordis
+    oriuntur. De ventris ingluvie, inepta laetitia, scurrilitas, immunditia, multiloquium,
+    hebetudo sensus circa intelligentiam propagatur. De luxuria, caecitas mentis, inconsideratio,
+    inconstantia, praecipitatio, amor sui, odium Dei, affectus saeculi praesentis, horror autem
+    vel desperatio futuri generatur. Sed enumeratis septem superbiae sordibus, quae vitiorum
+    exercitum contra nos ducunt, videamus quae sint <pb ed="#P" n="209"/>
+          <cb ed="#P" n="a"/> virtutum duces et agmina
+    exercitus, quae humilitatis auctor Christus nobis praestat, ad pugnandum contra vitiorum
+    cohortes; et opponamus singulis ducibus vitiorum duces contrarios virtutum, exercitibusque
+    exercitus. Duci igitur inani gloriae contra statuenda est dux humilitas, quae maxime generat
+    in homine despectionem sui et contemptum caducarum rerum; comitibusque ejus comites contrarii,
+    id est, inobedientiae obedientia; jactantiae, humilis professio; hypocrisi, simplicitas;
+    contentioni, innocentia; pertinaciae, subjectio; discordiae, pax; novitatum praesumptioni,
+    timor Dei et honoratio patrum. Duci quoque invidiae opponenda est dux benevolentia; comitibus
+    ejus contrarii comites, id est odio dilectio vera; susurrationi, locutio vera; detractioni,
+    pia laudatio; exsultationi in adversis proximi, compassio in ejus afflictione; in prosperis
+    ipsius, laetitia in sospitate ejus. Irae duci contraria est dux mansuetudo; comitibusque ejus
+    illius comites istius, id est, tumori mentis placiditas animi; contumeliae, benignitas;
+    clamori gravitas verborum; indignationi, suavitas morum; blasphemiae, puritas oris. Tristitiae
+    namque duci, obsistit dux spiritalis laetitia; exercituique ejus exercitus istius, id est
+    malitiae bonitas; rancori, lenitas; pusillanimitati, longanimitas; desperationi,
+    perseverantia; torpori circa praecepta, studium spiritale; vagationi mentis erga illicita,
+    intentio divinae lectionis. Avaritiae duci adversa est dux largitas; agminibusque ejus agmina
+    istius, id est, proditioni, fides non ficta; fraudi, sinceritas; fallaciae, veritas;
+    perjuriis, non jurare; inquietudini, tranquillitas; violentiae, patientia; duritiae,
+    misericordia. Duci quippe gastrimargiae, id est, horrendae voracitati, contraria est dux
+    abstinentia; cohortibusque illius, cohortes istius, id est ineptae laetitiae, modestia;
+    scurrilitati, ratio sermonum; immunditiae, sobrietas; multiloquio taciturnitas; hebetudini
+    sensus circa intelligentiam, furor discendi sapientiam; somnolentiae, vigilantia. Luxuriaeque
+    duci ac plebi ejus reluctatur dux castitas cum plebe sua: id est, caecitati mentis,
+    contemplatio Dei; inconsiderationi, provisio; inconstantiae, constantia; praecipitationi,
+    continentia; amori sui, mortificatio desideriorum carnis suae; odio Dei, charitas perfecta
+    Dei. Ecce haec sunt quae praesulem animarum oportet scire, et quae debet in praedicationis
+    diversitate custodire, ut sollicitus infirmitates singulorum perpendat, et congrua eorum
+    vulneribus medicamina opponat. Sed cum magni studii sit ut exhortandis singulis serviatur ad
+    singula, cum valde laboriosum sit unumquemque de propriis sub dispensatione debitae
+    considerationis instruere, longe tamen est laboriosius auditores innumeros ac diversis
+    passionibus laborantes, uno eodemque tempore, voce unius et communis exhortationis admonere.
+    Ibi quippe tanta arte vox temperanda est, ut cum diversa sint auditorum vitia, et singulis
+    inveniantur congrua, et tamen sibimetipsis non sint diversa, ut inter medias passiones uno
+    quidem ductu transeat, sed more ancipitis <cb ed="#P" n="b"/> gladii, tumores cogitationum
+    carnalium ex diverso latere incidat, quatenus sic superbis praedicetur humilitas, ut tamen
+    timidis non augeatur metus; sic timidis infundatur austeritas, ut tamen superbis non crescat
+    effrenatio; sic sollicitudo boni operis, ut tamen inquietis immoderatae licentia non augeatur
+    actionis; sic inquietis ponatur modus, ut tamen otiosis non fiat torpor securus; sic ab
+    impatientibus exstinguatur ira, ut tamen remissis ac lenibus non crescat negligentia; sic
+    lenes accendantur ad zelum, ut tamen iracundis non addatur incendium; sic tenacibus infundatur
+    tribuendi largitas, ut tamen prodigis effusionis frena minime laxentur; sic prodigis
+    praedicetur parcitas, ut tamen continentes non revocentur ad luxum; sic continentibus laudetur
+    virginitas, ut tamen in conjugibus despecta non fiat fecunditas carnis; sic praedicanda sunt
+    bona, ne ex latere jubeantur et mala; sic laudanda sunt bona summa, ne desperentur ultima; sic
+    nutrienda sunt ultima, ne dum creduntur sufficere, nequaquam tendatur ad summa. Curandum est
+    itaque praedicatori, quatenus sic tergatur tristitia quae venit ex tempore, ut non augeatur
+    laetitia quae est ex conspersione; et sic frenetur laetitia quae ex conspersione est, ut tamen
+    non crescat tristitia quae venit ex tempore, sic itaque in isto reprimatur subito oborta
+    formido, ut tamen non excrescat enutrita diu praecipitatio; sic in illo reprimatur diu oborta
+    praecipitatio, ut tamen non valescat impressa ex conspersione formido. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

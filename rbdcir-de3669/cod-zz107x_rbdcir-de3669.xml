@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="189"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3669"><!-- l3c1 -->
+        <head xml:id="rbdcir-de3669-Hd1e101">Caput 1</head>
+        <head xml:id="rbdcir-de3669-Hd1e103" type="question-title">Quid eos scire et habere conveniat, qui ad sacrum ordinem accedere
+    volunt</head>
+        <p xml:id="rbdcir-de3669-d1e106">CAPUT PRIMUM. <hi>Quid eos scire et habere conveniat, qui ad sacrum ordinem accedere
+      volunt.</hi>
+        </p>
+        <p xml:id="rbdcir-de3669-d1e111"> Institutio ergo ecclesiastica, qualiter ad divinum officium instrui oporteat sanctissimum
+    ordinem clericorum, multimoda narratione declarat, quia et scientiae plenitudinem, et vitae
+    rectitudinem, et eruditionis perfectionem maxime eos habere decet, qui in quodam culmine
+    constituti, gubernaculum regiminis in Ecclesia tenent. Nec enim eis aliqua eorum ignorare
+    licet, cum quibus vel se, vel subjectos instruere debent, id est, scientiam sanctarum
+    Scripturarum, puram veritatem historiarum, modos tropicarum locutionum, significationem rerum
+    mysticarum, utilitatem omnium disciplinarum, honestatem vitae in probitate morum, elegantiam
+    in prolatione sermonum, discretionem in exhibitione dogmatum, differentiam medicaminum, contra
+    varietatem aegritudinum. Haec ergo qui nescit, non dico aliorum, sed nec suam bene potest
+    disponere utilitatem; ac ideo necesse est ut futurus populi rector, dum vacat, paret sibi ante
+    arma, in quibus post modum hostes fortiter superet, et gregem sibi commissum opportune
+    defendat. Turpe est enim tunc primum quemlibet velle discere, dum debet (pastor constitutus)
+    docere, et periculosum est eum magisterii pondus subire, qui non, scientiae praesidio
+    suffultus, potens est illud sufferre. Nulla ars doceri praesumatur, nisi prius intenta
+    meditatione discatur. Ab imperitis ergo pastorale magisterium qua temeritate suscipitur,
+    quando ars est artium regimen animarum? Quis autem cogitationum vulnera occultiora esse
+    nesciat vulneribus viscerum? Et tamen saepe qui nequaquam spiritualia praecepta cognoverunt,
+    cordis se medicos profiteri non metuunt, dum qui pigmentorum vim nesciunt, videri medici
+    carnis erubescunt. Nam sunt nonnulli qui intra sanctam Ecclesiam sola ambitione honoris culmen
+    appetunt, atque attestante veritate primas salutationes in foro, primos in coenis recubitus,
+    primas in conventionibus cathedras quaerunt; qui susceptum curae pastoralis officium
+    ministrare digne tanto magis nequeunt, quanto ad humilitatis magisterium ex sola elatione
+    pervenerunt. Quos contra Dominus per prophetam queritur, dicens: <quote xml:id="rbdcir-de3669-Qd1e113">Ipsi regnaverunt et
+      non ex me, principes exstiterunt, et ego ignoravi (Oseae VIII)</quote>. Ex se namque et non
+    ex arbitrio summi rectoris regnant, qui, nullis fulti virtutibus, <cb ed="#P" n="b"/> nequaquam
+    divinitus vocati, sed sua cupiditate accensi, culmen regiminis rapiunt potius quam
+    assequuntur, quos tamen internus judex provehit, et nescit quia quos permittendo tolerat,
+    profecto per judicium reprobationis ignorat. Pastorum ergo imperitia voce Veritatis
+    increpatur, cum per prophetam dicitur: <quote xml:id="rbdcir-de3669-Qd1e117">Ipsi pastores ignoraverunt intelligentiam,
+      tenentes legem nescierunt me </quote>
+          <ref xml:id="rbdcir-de3669-Rd1e119">(Isa. LVI)</ref>. Nesciri ergo se ab eis queritur Veritas, et nescire se principatum
+    nescientium protestatur, quia profecto hi qui ea quae sunt Domini nesciunt a Domino
+    nesciuntur, Paulo attestante, qui ait: <quote xml:id="rbdcir-de3669-Qd1e121">Si quis autem ignorat, ignorabitur </quote>
+          <ref xml:id="rbdcir-de3669-Rd1e124">(I Cor. IV)</ref>. Quae nimium pastorum saepe imperitia meritis congruit subjectorum, qui
+    quamvis lumen scientiae sua culpa exigente non habeant, districto tamen judicio agitur ut per
+    eorum ignorantiam hi etiam qui sequuntur offendant. Hinc namque in Evangelio per semetipsam
+    Veritas dicit: <quote xml:id="rbdcir-de3669-Qd1e126">Si caecus caeco ducatum praestat, ambo in foveam cadunt </quote>
+          <ref xml:id="rbdcir-de3669-Rd1e128">(Matth. XV)</ref>. Et sunt nonnulli qui solerti cura spiritalia praecepta perscrutantur,
+    sed quae intelligendo penetrant, vivendo conculcant, repente docent quae non opere, sed
+    meditatione, didicerunt, et quod verbis praedicant, moribus impugnant. Unde fit ut cum pastor
+    per abrupta graditur, ad praecipitium grex sequatur. Hinc namque per prophetam Dominus contra
+    contemptibilem pastorum sententiam queritur dicens: <quote xml:id="rbdcir-de3669-Qd1e130">Cum ipsi limpidissimam aquam
+      biberitis, reliquam pedibus vestris turbabatis, et oves meae quae conculcata pedibus vestris
+      fuerant, pascebantur, et quae pedes vestri turbaverant, haec bibebant </quote>
+          <ref xml:id="rbdcir-de3669-Rd1e132">(Ezech. XXXIV)</ref>. Aquam quippe limpidissimam pastores bibunt, cum fluenta veritatis
+    recte intelligentes hauriunt; sed eamdem aquam pedibus turbare, est sanctae meditationis
+    studia male vivendo corrumpere. Aquam scilicet eorum pedibus turbatam oves bibunt, cum
+    subjecti quique non sectantur verba quae audiunt, sed ea sola quae conspiciunt exempla
+    pravitatis, imitantur. Hinc rursus Dominus per prophetam dicit: <quote xml:id="rbdcir-de3669-Qd1e134">Facti sunt domui Israel
+      in offendiculum iniquitatis </quote>
+          <ref xml:id="rbdcir-de3669-Rd1e137">(Ezech. XLIV)</ref>. Nemo quippe amplius in Ecclesia nocet, quam qui perverse agens,
+    nomen vel ordinem sanctitatis habet. Refugerent autem indigni quique tanti reatus pondera, si
+    veritatis sententiam sollicita cordis aure pensarent, qui ait: <quote xml:id="rbdcir-de3669-Qd1e139">Qui scandalizaverit unum
+      de pusillis istis, melius erat ei ut ligaretur mola asinaria in collo ejus, et <pb ed="#P" n="190"/>
+            <cb ed="#P" n="a"/> projiceretur in profundum maris </quote>
+          <ref xml:id="rbdcir-de3669-Rd1e146">(Matth. XVIII)</ref>. Per molam quippe asinariam, saecularis vitae circuitus et labor
+    exprimitur, et profundum maris, extrema damnatio designatur. Qui ergo sanctitatis specie
+    deductus, vel verbo, vel exemplo caeteros destruit, melius profecto fuerat, ut hunc ad mortem
+    sub exteriori habitu terrena acta constringerent, quam hunc sacra officia in culpa caeteris
+    imitabilem demonstrarent, quia nimirum si solus caderet, utcunque hunc tolerabilior inferna
+    poena cruciaret. Sed quia utrumque necesse est, ut bonam vitam sapientia illustret, et
+    sapientiam bona vita commendet, utrumque in hoc libro (si Dominus annuerit) digeremus, id est,
+    ut sciant hi qui in sacris ordinibus Ecclesiae, aut jam Domino deserviunt, aut deservituri
+    erunt, quantae eruditionis eis opus sit in animo, et quam sobriae vitae exemplo, quantaeque
+    virtutis et discretionis in docendo, ut nec discordet vita prudentiae, neque sermo dissentiat
+    disciplinae. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

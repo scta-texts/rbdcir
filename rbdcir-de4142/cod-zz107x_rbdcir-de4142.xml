@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="195"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4142"><!-- l3c13 -->
+        <head xml:id="rbdcir-de4142-Hd1e101">Caput 13</head>
+        <head xml:id="rbdcir-de4142-Hd1e103" type="question-title">Modus inveniendi utrum locutio propria sit an translata</head>
+        <p xml:id="rbdcir-de4142-d1e106">CAPUT XIII. <hi>Modus inveniendi utrum locutio propria sit an translata.</hi>
+        </p>
+        <p xml:id="rbdcir-de4142-d1e111">Huic autem observationi qua cavemus figuratam locutionem, id est translatam, quasi propriam
+    sequi, adjungenda etiam illa est, ne propriam quasi figuratam velimus accipere. Demonstrandus
+    est igitur proprius modus inveniendae locutionis, propriane an figurata sit, et iste omnino
+    modus est, ut quidquid in sermone divino neque ad morum honestatem, neque ad fidei veritatem
+    proprie referri potest, figuratum esse cognoscas. Morum honestas ad diligendum Deum et
+    proximum, fidei veritas ad cognoscendum Deum et proximum pertinet. Spes autem sua cuique est
+    in conscientia propria, quemadmodum se sensit ad dilectionem Dei et proximi cognitionemque
+    proficere. Non enim praecipit Scriptura nisi charitatem, nec culpat nisi cupiditatem; et eo
+    modo informat mores hominum. Charitatem voco motum animi ad fruendum Deo propter ipsum, et se
+    atque proximo propter Deum. Cupiditatem autem motum animi ad fruendum se et proximo, et
+    quolibet corpore non propter Deum. Quod autem agit indomita cupiditas ad corrumpendum animum
+    et corpus suum, flagitium vocatur; quod autem agit ut alteri noceat, facinus dicitur. Et haec
+    sunt duo genera omnium peccatorum, sed flagitia priora sunt. Quae cum exinaniverint animum, et
+    ad quamdam egestatem perduxerint, in facinora prosilitur, quibus removeantur impedimenta
+    flagitiorum, aut adjumenta quaerantur. Item quod agit charitas quod sibi prosit, utilitas est;
+    quod autem agit ut prosit proximo, beneficentia nominatur. Et hic praecedit utilitas: <cb ed="#P" n="b"/> quia nemo potest ex eo quod non habet prodesse alteri. Quanto autem magis regnum
+    cupiditatis destruitur, tanto charitatis augetur. Quidquid ergo asperum et quasi saevum factu
+    dictuque in sanctis Scripturis legitur, ex persona Dei vel sanctorum ejus, ad cupiditatis
+    regnum destruendum valet. Quod si perspicue sonat, non est ad aliud referendum, quasi figurate
+    dictum sit, sicuti est illud Apostoli: <quote xml:id="rbdcir-de4142-Qd1e115">Thesaurizasti tibi, inquit, iram in die irae et
+      revelationis justi judicii Dei, qui reddet unicuique secundum opera sua,</quote> et reliqua.
+      <ref xml:id="rbdcir-de4142-Rd1e117">(Rom. II.)</ref> Ergo in locutionibus figuratis regula sit hujusmodi, ut tam diu
+    versetur diligenti consideratione quod legitur, donec ad regnum charitatis interpretatio
+    perducatur. Si autem hoc jam proprie sonat, nulla putetur figurata locutio. Si praeceptiva
+    locutio est, aut flagitium, aut facinus vetans, aut utilitatem aut beneficentiam jubens, non
+    est figurata. Si autem flagitium aut facinus videtur jubere, aut utilitatem et beneficentiam
+    vetare, figurata est. <quote xml:id="rbdcir-de4142-Qd1e119">Nisi manducaveritis,</quote> inquit, <quote xml:id="rbdcir-de4142-Qd1e121">carnem filii hominis,
+      et sanguinem ejus biberitis, non habebitis vitam in vobis </quote>
+          <ref xml:id="rbdcir-de4142-Rd1e124">(Joan. VII)</ref>. Facinus vel flagitium videtur jubere. Figurata ergo est, praecipiens
+    passioni Domini esse communicandum, et suaviter atque utiliter recolendum in memoria, quod pro
+    nobis caro ejus crucifixa et vulnerata sit. Ait Scriptura: <quote xml:id="rbdcir-de4142-Qd1e126">Si esurierit inimicus tuus,
+      ciba illum; si sitit, potum da illi </quote>
+          <ref xml:id="rbdcir-de4142-Rd1e128">(Rom. XII)</ref>. Hic nullo dubitante beneficentiam praecipit; sed quod sequitur:
+      <quote xml:id="rbdcir-de4142-Qd1e130">Hoc enim faciens, carbones ignis congeres super caput ejus,</quote> malevolentiae
+    facinus putes juberi. Ne igitur putaveris figurate dictum, et cum possit dupliciter
+    interpretari, uno modo ad nocendum, altero ad praestandum, ad beneficentiam te potius charitas
+    revocet, ut intelligas carbones ignis esse urentes poenitentiae gemitus, quibus superbia
+    sanatur ejus qui dolet se inimicum fuisse hominis, a quo ejus miseriae subvenitur. Item cum
+    ait Dominus: <quote xml:id="rbdcir-de4142-Qd1e132">Qui amat animam suam, perdat eam </quote>
+          <ref xml:id="rbdcir-de4142-Rd1e134">(Matth. X)</ref>, non utilitatem vetare putandus est, qua debet quisque conservare animam
+    suam, sed figurate dictum, <quote xml:id="rbdcir-de4142-Qd1e137">perdat animam,</quote> id est, perimat atque amittat usum
+    ejus quem nunc habet, perversum scilicet atque praeposterum, quo inclinatur temporalibus, ut
+    aeterna non quaerat. Scriptum est: <quote xml:id="rbdcir-de4142-Qd1e139">Da misericordi, et ne suscipias peccatorem.</quote>
+    Posterior pars hujus sententiae videtur vetare beneficentiam. Intelligas ergo figurate
+    positum, pro peccato <quote xml:id="rbdcir-de4142-Qd1e141">peccatorem,</quote> ut peccatum ejus non suscipias.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

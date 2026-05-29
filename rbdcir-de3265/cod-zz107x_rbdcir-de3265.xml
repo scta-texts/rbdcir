@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 56</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 56</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="184"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3265"><!-- l2c56 -->
+        <head xml:id="rbdcir-de3265-Hd1e101">Caput 56</head>
+        <head xml:id="rbdcir-de3265-Hd1e103" type="question-title">De symbolo</head>
+        <p xml:id="rbdcir-de3265-d1e106">CAPUT LVI. <hi>De symbolo.</hi>
+        </p>
+        <p xml:id="rbdcir-de3265-d1e111">Symbolum tali ratione institutum majores nostri tradunt, quod post ascensionem Domini et
+    Salvatoris nostri ad Patrem, cum post adventum sancti Spiritus discipuli ejus inflammati,
+    linguis omnium gentium loquerentur, ut nulla illis gens extera, nulla lingua barbaris
+    inaccessa vel invia videretur, praeceptum eis est a Domino datum, ad praedicandum Dei verbum,
+    ad singulas quasque nationes adire. Discessuri itaque ab invicem, normam prius sibi futurae
+    praedicationis in communi constituunt, ne velociter ab invicem discedentes, diversum aliquod
+    vel dissonum praedicaretur his qui ad fidem Christi invitabantur. Omnes ergo in uno positi, et
+    Spiritu sancto <pb ed="#P" n="185"/>
+          <cb ed="#P" n="a"/> repleti, breve sibi praedicationis indicium conferendo, in unum
+    quod sentiebant componunt, atque hanc credentibus dandam esse regulam statuunt. Symbolum autem
+    hoc multis et justissimis causis appellare voluerunt. Symbolum enim, Graece <foreign xml:lang="greek">σύμβολον</foreign> et indicium dici potest et collatio, hoc est, quod
+    plures in unum conferunt. Id enim fecerunt apostoli, in his sermonibus in unum conferendo
+    unusquisque quod sensit. Indicium autem vel signum idcirco dicitur, quod illo in tempore sicut
+    Paulus apostolus dicit, et in Actibus apostolorum refertur: Multi simulabant se esse apostolos
+    Christi, nominantes quidem Christum, sed non integris traditionum lineis nuntiantes. Idcirco
+    ergo istud indicium posuere, per quod cognosceretur is qui Christum verum secundum apostolicas
+    litteras praedicaret. Est autem Symbolum signum, per quod agnoscitur Deus; quodque proinde
+    credentes accipiunt, ut noverint qualiter contra diabolum fidei certamina praeparent; in quo
+    quidem pauca sunt verba, sed omnia continentur sacramenta. De totis enim Scripturis, haec
+    breviatim collata sunt ab apostolis: ut quoniam plures credentium litteras nesciunt, vel qui
+    sciunt, praeoccupatione saeculi, Scripturas legere non possunt, haec corde retinentes, habeant
+    sufficientem sibi scientiam salutarem. Est enim breve fidei verbum, et olim a propheta
+    praedictum: <quote xml:id="rbdcir-de3265-Qd1e120">Quoniam verbum breviatum faciet Dominus super terram.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="150"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0245"><!-- l1c4 -->
+        <head xml:id="rbdcir-de0245-Hd1e101">Caput 4</head>
+        <head xml:id="rbdcir-de0245-Hd1e103" type="question-title">De gradibus ecclesiasticis</head>
+        <p xml:id="rbdcir-de0245-d1e106">CAPUT IV. <hi>De gradibus ecclesiasticis.</hi>
+        </p>
+        <p xml:id="rbdcir-de0245-d1e111">Sunt autem gradus ecclesiastici octo, quorum nomina haec sunt: Ostiarius, psalmista, sive
+    lector, exorcista, acolythus, subdiaconus, diaconus, presbyter, atque episcopus. Initium
+    quidem sacerdotii in Veteri Testamento Aaron fuit, quanquam et Melchisedech prior obtulerit
+    sacrificium, et post hunc Abraham, Isaac, et Jacob. Legitur et Noe altare aedificasse, et
+    super illud Domino holocaustum obtulisse. Sed isti spontanea voluntate, non sacerdotali
+    auctoritate, ista fecerunt. Caeterum Aaron primus in lege sacerdotale nomen accepit, primusque
+    pontificali stola infulatus victimas obtulit jubente Domino ac loquente ad Moysen:
+      <quote xml:id="rbdcir-de0245-Qd1e113">Accipe, inquit, Aaron et filios ejus, et applicabis ad ostium tabernaculi testimonii,
+      cumque laveris patrem cum filiis aqua, indues Aaron vestimentis suis, id est, linea et
+      tunica, et superhumerali, et rationali quod constringes balteo, et pones tiaram in capite
+      ejus, et laminam sanctam super tiaram, et oleum unctionis fundes super caput ejus, atque hoc
+      ritu consecrabitur: filios quoque illius applicabis, et indues tunicis lineis, cingesque
+      balteo Aaron scilicet et liberos ejus, et impones eis mitras, eruntque sacerdotes mei
+      religione perpetua </quote>
+          <ref xml:id="rbdcir-de0245-Rd1e115">(Exod. XXIX)</ref>. Quo loco contemplari oportet Aaron sacerdotem summum fuisse, id est
+    episcopum. Nam filios ejus presbyterorum figuram praemonstrasse, quibus merito astare
+    debuissent Levitae sicut summo sacerdoti. Moyses vero hujus facti mediator, Christum
+    significat. In Novo autem Testamento post Christum sacerdotalis ordo a Petro coepit. Ipsi enim
+    primum datus est pontificatus in Ecclesia Christi. Sic enim loquitur ad eum Christus Dominus.
+      <quote xml:id="rbdcir-de0245-Qd1e117">Tu es, inquit, Petrus, et super hanc petram aedificabo Ecclesiam meam, et portae
+      inferorum non vincent eam, et dabo tibi claves regni coelorum </quote>
+          <ref xml:id="rbdcir-de0245-Rd1e119">(Matth. XIX)</ref>. Hic ergo ligandi atque solvendi potestatem primus accepit, <cb ed="#P" n="b"/> primusque ad fidem populum virtute suae praedicationis adduxit. Siquidem caeteri
+    apostoli cum Petro pari consortio honoris et potestatis effecti sunt, qui etiam in toto orbe
+    dispersi Evangelium praedicaverunt, quibus decedentibus successerunt episcopi, qui sunt
+    constituti per totum mundum in sedibus apostolorum, qui jam non genere carnis et sanguinis
+    eliguntur, sicut primum secundum ordinem Aaron, sed pro uniuscujusque merito, fide et
+    doctrina, quae in eum gratia divina contulerit. Quod vero per manus impositionem a
+    praedecessoribus Dei sacerdotibus episcopi ordinantur, antiqua est institutio. Isaac enim
+    patriarcha sanctus, ponens manum suam super caput Jacob benedixit ei, et Jacob benedixit ei,
+    et Jacob filiis suis. Sed et Moyses super caput Jesu Nave manum suam imponens, dedit ei
+    spiritum virtutis et ducatum in populo Israel, sic et impletor legis et prophetarum Dominus
+    noster Jesus Christus, per manus impositionem apostolis suis benedixit, sicut in Evangelio
+    Lucae scriptum est: <quote xml:id="rbdcir-de0245-Qd1e124">Et produxit illos foras in Bethaniam, et elevavit manus suas et
+      benedixit eis. Factumque est cum benedixit illis discessit ab eis, et ipsi reversi sunt in
+      Jerusalem cum gaudio magno </quote>
+          <ref xml:id="rbdcir-de0245-Rd1e126">(Luc. XXIV)</ref>. Et in Actibus apostolorum ex praecepto Spiritus sancti Paulo et
+    Barnabae ab apostolis manus imposita est in episcopatum, et sic missi sunt ad evangelizandum
+      <ref xml:id="rbdcir-de0245-Rd1e128">(Act. XIII)</ref>. Porro quod episcopus non ab uno, sed a cunctis provincialibus
+    episcopis ordinatur, id propter haereses agnoscitur institutum, ne aliquid contra fidem
+    Ecclesiae, unius tyrannica auctoritas moliretur. Ideoque ab omnibus convenientibus instituitur
+    ut non minus a tribus praesentibus, caeteris tamen consentientibus, testimonio litterarum.
+    Huic autem dum consecratur datur baculus, ut ejus indicio subditam plebem vel regat vel
+    corrigat, vel infirmitates infirmorum sustineat. Datur et annulus, propter signum pontificalis
+    honoris, vel signaculum secretorum. Nam multa sunt quae ante carnalium minusque intelligentium
+    sensus occultantes sacerdotes, quasi sub signaculo cadunt, ne indignis quibusque Dei
+    sacramenta aperiantur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

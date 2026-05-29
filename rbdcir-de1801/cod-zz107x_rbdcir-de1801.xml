@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="166"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1801"><!-- l2c13 -->
+        <head xml:id="rbdcir-de1801-Hd1e101">Caput 13</head>
+        <p xml:id="rbdcir-de1801-d1e103">CAPUT XIII. <hi>Quomodo ex his speciebus compunctio nascatur.</hi>
+        </p>
+        <p xml:id="rbdcir-de1801-d1e108">Ex his quoque quatuor speciebus solent occasiones supplicationum pinguium generari. Nam et de
+    obsecrationis specie, quae de compunctione nascitur peccatorum, et de orationis statu, quae de
+    fiducia oblationum et consummatione futurorum pro conscientiae profluit puritate, et de
+    postulatione quae de charitatis ardore procedit, et de gratiarum actione, quae beneficiorum ac
+    magnitudinis ac pietatis ejus consideratione generatur, ferventissimas saepissime vovimus
+    preces ignotasque prodire. Ita et constat omnes has quas praediximus species omnibus hominibus
+    utiles ac necessarias inveniri, ut in uno eodemque viro, nunc quidem obsecrationum, nunc autem
+    orationum, nunc postulationum, et nunc gratiarum actionum puros ac ferventissimos
+    supplicationis variatos emittat affectus. Prima ad illos peculiarius videtur pertinere, qui
+    adhuc vitiorum suorum aculeis ac memoria remordentur. Secunda ad illos qui in profectu jam
+    spiritali appetitu virtutum quadam mentis sublimitate consistunt. Tertia ad eos qui
+    perfectionem votorum suorum operibus adimplentes, intercedere pro aliis quoque consideratione
+    fragilitatis eorum charitatis studio provocantur. Quarta ad illos qui, jam poenali
+    conscientiae spina de cordibus pulsa, singulares jam munificentias Domini ac miserationes,
+    quas vel in praeterito tribuit, vel in praesenti largitur, vel praeparat in futuro, mente
+    purissima retractantes, ad illam ignitam, et quae ore hominum nec comprehendi nec exprimi
+    potest, orationem ferventissimo corde raptantur. Nonnunquam tamen mens quae in illum verum
+    puritatis proficit affectum, atque in eo coeperit radicari, solet haec omnia simul pariterque
+    concipiens, atque in modum cujusdam incomprehensibilis ac rapacissimae flammae cuncta
+    pervolitans, ineffabiliter ad Deum emittere: tanta scilicet in illius horae momento
+    concipiens, et effabiliter in supplicatione profundens, quanta non dicam ore percurrere, sed
+    ne ipsa quidem mente valeat alio tempore recordari.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

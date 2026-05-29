@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 58</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 58</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="186"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3326"><!-- l2c58 -->
+        <head xml:id="rbdcir-de3326-Hd1e101">Caput 58</head>
+        <head xml:id="rbdcir-de3326-Hd1e103" type="question-title">De haeresibus variis</head>
+        <p xml:id="rbdcir-de3326-d1e106">CAPUT LVIII. <hi>De haeresibus variis.</hi>
+        </p>
+        <p xml:id="rbdcir-de3326-d1e111">Hoc ergo cavendum est omni animae timenti Deum, ut non a fide catholica decidens, et
+    relinquens doctrinam veritatis, in errores haereticorum cadat, quia hoc certissimum mortis est
+    genus. Sed ut hoc facilius possit praecavere, quascunque sectas de erroribus haereticorum
+    atque schismaticorum, denotatas a catholicis doctoribus invenimus, simul cum earum auctoribus,
+    sive sectatoribus, in hoc libro determinamus.</p>
+        <p xml:id="rbdcir-de3326-d1e113">Haeresis, <foreign xml:lang="greek">αἴρεσις</foreign> Graece, ab electione vocatur, quod
+    scilicet unusquisque id sibi eligat quod melius illi esse videtur, ut philosophi,
+    Peripatetici, Academici, Epicurei, et Stoici, vel sicut alii, qui perversum dogma cogitantes,
+    arbitrio suo de Ecclesia recesserunt. Inde ergo haereses sunt dictae Graeca voce ex
+    interpretatione electionis, quas quisque arbitrio suo, ad instituenda sive ad suscipienda
+    quaelibet, ipse elegit. Nobis vero nihil ex nostro arbitrio inducere licet, sed nec eligere
+    quod aliquis de arbitrio suo induxerit. Apostolos Dei habemus auctores: qui nec ipsi quidquam
+    ex suo arbitrio quod inducerent elegerunt, sed acceptam a Christo disciplinam fideliter
+    nationibus assignaverunt. Secta a sectando et tenendo nominata; nam sectas dicimus habitus
+    animorum ac instituta, circa disciplinam fideliter propositam, quae tenendo sequuntur, longe
+    alia in religionis cultu opinantes quam caeteri. Schisma a scissura animorum nomen accepit;
+    eodem enim cultu, eodemque ritu credit ut caeteri, solo congregationis delectatur dissidio.
+    Fit autem schisma cum dicunt: Homines nos justi sumus, nos sanctificamus immundos, et caetera
+    similia. Superstitio dicta, eo quod sit superflua aut superinstituta observatio. Alii dicunt a
+    senibus, quia multis annis superstites, per aetatem delirant et errant.</p>
+        <p xml:id="rbdcir-de3326-d1e120"> Apud Judaeos autem hae fuerunt haereses: Pharisaeorum, Sadducaeorum, Esnaeistarum,
+    Marbonensium, Genistarum, Meristaeorum.</p>
+        <p xml:id="rbdcir-de3326-d1e122">Pharisaei ergo et Sadducaei inter se contrarii sunt. Nam Pharisaei ex Hebraeo in Latinum
+    interpretantur divisi, eo quod traditionum et observationum quas illi deuteras vocant
+    justitiam praeferunt. Unde et divisi vocantur a populo quasi per justitiam.</p>
+        <p xml:id="rbdcir-de3326-d1e124">Sadducaei interpretantur justi, vindicant enim sibi quod non sunt, corporis resurrectionem
+    negant, et animam interire cum corpore praedicant. Sed nec spiritus esse, nec angelos credunt.
+    Hi quinque tantum libros legis recipiunt, prophetarum vaticinia respuunt.</p>
+        <p xml:id="rbdcir-de3326-d1e126">
+          <cb ed="#P" n="b"/>Esnaeistae dicunt ipsum esse Christum qui docuit illos omnem abstinentiam.</p>
+        <p xml:id="rbdcir-de3326-d1e131">Marbonaei dicunt ipsum esse Christum qui docuit illos in omni re sabbatizare.</p>
+        <p xml:id="rbdcir-de3326-d1e133">Genistae dicti, eo quod de genere Abranae esse gloriantur. Nam cum in Babyloniam venisset
+    populus Dei, plerique relinquentes uxores suas, Babylonicis mulieribus adhaeserunt; quidam
+    Israeliticis tantum conjugibus contenti, vel ex eis geniti, dum reversi essent de Babylonia,
+    diviserunt se ab orani populo et assumpserunt sibi hoc nomen jactantiae.</p>
+        <p xml:id="rbdcir-de3326-d1e136">Meristaei appellati, eo quod separant Scripturas, non credentes omnibus prophetis, dicentes
+    aliis et aliis spiritibus prophetasse. Meros enim, <foreign xml:lang="greek">μέρος</foreign>
+    Graece, Latine pars dicitur.</p>
+        <p xml:id="rbdcir-de3326-d1e142"> Samaritae dicti, quod legem solam custodiunt, nam prophetas non recipiunt.</p>
+        <p xml:id="rbdcir-de3326-d1e144">Hemerobaptistae, eo quod quotidie vestimenta sua et corpora lavent.</p>
+        <p xml:id="rbdcir-de3326-d1e146">Quidam haeretici qui de Ecclesia recesserunt, ex nominibus suorum auctorum nuncupantur,
+    quidam vero ex causis quas eligentes instituerunt.</p>
+        <p xml:id="rbdcir-de3326-d1e148">Simoniani dicti a Simone, magicae disciplinae perito, cui Petrus in Actibus apostolorum
+    maledixit, pro eo quod ab apostolis Spiritus sancti gratiam pecunia emere voluisset. Hi dicunt
+    creaturam non a Deo, sed a virtute quadam superna creatam.</p>
+        <p xml:id="rbdcir-de3326-d1e150">Menandriani a Menandro mago, discipulo Simonis nuncupati, qui mundum non a Deo, sed ab
+    angelis factum esse asserunt.</p>
+        <p xml:id="rbdcir-de3326-d1e153"> Basilidiani a Basilide appellati, qui inter reliquas blasphemias, passum Jesum abnegant.</p>
+        <p xml:id="rbdcir-de3326-d1e155">Nicolaitae dicti a Nicolao diacono Ecclesiae Hierosolymorum, qui cum Stephano et caeteris
+    constitutus est a Petro: qui propter pulchritudinem relinquens uxorem, dixerat ut qui vellet,
+    ea uteretur. Versaque est in stuprum talis consuetudo, ut invicem conjugia commutarentur.</p>
+        <p xml:id="rbdcir-de3326-d1e157">Gnostici propter excellentiam scientiae se ita appellare voluerunt; animam naturam Dei esse
+    dicunt; bonum et malum Deum suis dogmatibus fingunt.</p>
+        <p xml:id="rbdcir-de3326-d1e159">Carpocratiani a Carpocrate quodam vocantur, qui dixit Christum hominem fuisse tantum, et de
+    utroque sexu progenitum.</p>
+        <p xml:id="rbdcir-de3326-d1e161"> Cerinthiani a Cerintho quodam nuncupati. Hi inter caetera circumcisionem observant, mille
+    annos post resurrectionem in voluptate carnis futuros praedicant. Unde et Graece chiliastae
+      <foreign xml:lang="greek">χιλιασταί</foreign> Latine milliasti sunt appellati.</p>
+        <p xml:id="rbdcir-de3326-d1e167">Nazaraei dicti, qui dum Christum, qui a vico Nazaraeus est appellatus, Filium Dei
+    confiteantur, omnia tamen veteris legis custodiunt.</p>
+        <p xml:id="rbdcir-de3326-d1e170">Ophitae a colubro nominati sunt. Coluber enim Graece <foreign xml:lang="greek">ὅφις</foreign>
+    dicitur. Colunt enim serpentem, dicentes ipsum in paradiso induxisse virtutis cognitionem.</p>
+        <p xml:id="rbdcir-de3326-d1e176">Valentiani a Valentino quodam Platonico sectatore vocati: qui <foreign xml:lang="greek">αἴωνας</foreign> id est saecula quaedam in originem Dei creatoris induxit. Christum quoque
+    de <pb ed="#P" n="187"/>
+          <cb ed="#P" n="a"/> Virgine nihil corporis assumpsisse, sed per eam quasi per fistulam
+    transisse asseruit.</p>
+        <p xml:id="rbdcir-de3326-d1e186">Apellitarum quoque Apelles princeps fuit: qui creatorem, angelum nescio quem gloriosum
+    superioris Dei faciens, Deum legis Israel, illum igneum affirmans. Apellitae quorum auctor
+    Apelles, qui dixit Christum non Deum in veritate, sed hominem in phantasia apparuisse.</p>
+        <p xml:id="rbdcir-de3326-d1e188">Archontiaci a principibus appellantur: qui universitatem quam Deus condidit, opera esse
+    archangelorum defendunt.</p>
+        <p xml:id="rbdcir-de3326-d1e190">Adamiani vocati, quod Adae imitantur nuditatem, unde et nudi erant, et nudi in se mares
+    feminaeque conveniunt.</p>
+        <p xml:id="rbdcir-de3326-d1e192">Cainani proinde sic appellati, quoniam Cain adorant.</p>
+        <p xml:id="rbdcir-de3326-d1e195"> Sethiani nomen acceperunt a filio Adam, qui vocatus est Seth, dicentes eum esse
+    Christum.</p>
+        <p xml:id="rbdcir-de3326-d1e197">Melchisedechiani vocati pro eo quod Melchisedech sacerdotem Dei, non hominem fuisse, sed
+    virtutem Dei arbitrantur.</p>
+        <p xml:id="rbdcir-de3326-d1e199">Angeli vocantur qui angelos colunt.</p>
+        <p xml:id="rbdcir-de3326-d1e201">Apostolici hoc sibi nomen ideo sumpserunt, quod nihil possidentes proprium, nequaquam
+    recipiunt eos qui aliquo in hoc mundo utuntur.</p>
+        <p xml:id="rbdcir-de3326-d1e203">Cerdoniani a Cerdone quodam nominati: qui duo contraria principia asseruit.</p>
+        <p xml:id="rbdcir-de3326-d1e205">Marcionistae a Marcione Stoico philosopho appellati: qui Cerdonis dogma secutus, alterum
+    bonum, alterum justum Deum asseruit; tanquam duo principia creatoris et bonitatis.</p>
+        <p xml:id="rbdcir-de3326-d1e208">Arroteritae ab oblatione vocati; panem enim et caseum offerunt dicentes primis hominibus
+    oblationem a fructibus terrae et a fructibus ovium fuisse celebratam.</p>
+        <p xml:id="rbdcir-de3326-d1e210">Aquarii appellati, eo quod aquam solam offerunt in calice sacramenti.</p>
+        <p xml:id="rbdcir-de3326-d1e212">Severiani, a Severo exorti, vinum non bibunt, et Vetus Testamentum, et resurrectionem non
+    recipiunt.</p>
+        <p xml:id="rbdcir-de3326-d1e214">Tatiani, a Tatiano quodam vocati, qui et Encratitae dicti, quia carnes abominantur.</p>
+        <p xml:id="rbdcir-de3326-d1e216">Alogii vocantur tanquam sine verbo; logos enim, <foreign xml:lang="greek">λόγος</foreign>
+    Graece, verbum dicitur; Deum enim verbum non credunt, respuentes Joannis Evangelium et
+    Apocalypsin.</p>
+        <p xml:id="rbdcir-de3326-d1e222"> Cataphrygis nomen provincia Phrygis dedit, quia ibi exstiterunt auctores eorum.</p>
+        <p xml:id="rbdcir-de3326-d1e225">Montanus, Prisca et Maximilla fuerunt: ii adventum Spiritus sancti non in apostolos, sed in
+    se traditum asserunt.</p>
+        <p xml:id="rbdcir-de3326-d1e227">Cathari propter munditiam ita se nominaverunt; gloriantes enim de suis meritis, negant
+    poenitentibus veniam peccatorum; viduas si nupserint, tanquam adulteras damnant; mundiores se
+    caeteris praedicant; qui nomen suum si cognoscere vellent, mundanos se potius quam mundos
+    vocarent.</p>
+        <p xml:id="rbdcir-de3326-d1e229">Pauliani, a Paulo Samosateno exorti sunt, qui dixit non semper fuisse Christum, sed a Maria
+    sumpsisse initium.</p>
+        <p xml:id="rbdcir-de3326-d1e231">
+          <cb ed="#P" n="b"/>Hermogeniani, ab Hermogene quodam vocati: qui materiam non natam introducens,
+    Deo non nato eam comparavit, matremque elementorum et deam asseruit, quos Apostolus improbat
+    elementis servientes.</p>
+        <p xml:id="rbdcir-de3326-d1e236">Manichaei a quodam Persa exstiterunt, qui vocatus est Manes. Hic duas naturas et substantias
+    introduxit, id est bonam et malam, et animas ex Deo quasi ex aliquo fonte manare asseruit;
+    Vetus Testamentum respuit, Novum ex parte recipit.</p>
+        <p xml:id="rbdcir-de3326-d1e238">Canoniani Latine sine lege dicuntur.</p>
+        <p xml:id="rbdcir-de3326-d1e241">Anthropomorphitae dicti, pro eo quod simplicitate rustica Deum humana membra habere, quae in
+    divinis scripta sunt, arbitrantur; anthropos enim, Graece <foreign xml:lang="greek">ἄνθρωπος</foreign> Latine homo interpretatur; ignorantes vocem Domini, qui ait:
+      <quote xml:id="rbdcir-de3326-Qd1e246">Spiritus Deus est.</quote> Incorporeus est enim, nec membris distinguitur, nec
+    corporis mole censetur.</p>
+        <p xml:id="rbdcir-de3326-d1e249">Heraclitae ab Heraclito auctore exorti, monachos tantum recipiunt, conjugia respuunt, regna
+    coelorum parvulos habere non credunt.</p>
+        <p xml:id="rbdcir-de3326-d1e251">Novatiani a Novato Romae urbis presbytero exorti, qui adversus Cornelium cathedram
+    sacerdotalem conatus invadere haeresim instituit, nolens apostatas suscipere, et rebaptizans
+    baptizatos.</p>
+        <p xml:id="rbdcir-de3326-d1e253">Montani haeretici dicti, quod tempore persecutionis in montibus latuerunt, qua occasione se a
+    corpore catholicae Ecclesiae diviserunt.</p>
+        <p xml:id="rbdcir-de3326-d1e255">Ebionitae ab Ebione dicti, sive a paupertate. Christum enim per provectum solum justum putant
+    effectum. Unde competenter Ebionei pro paupertate intelligentiae appellati sunt. Hi semijudaei
+    sunt, et ita tenent Evangelium, ut legem carnaliter servent, adversus quos ad Galatas
+    Apostolus scribens invenitur.</p>
+        <p xml:id="rbdcir-de3326-d1e257">Photiniani a Photino Gallo-Graeciae Syrmiae episcopo nuncupati, qui Ebionitarum haeresim
+    suscitans, asseruit Christum a Maria per Joseph nuptiali coitu fuisse conceptum.</p>
+        <p xml:id="rbdcir-de3326-d1e260">Aeriani ab Aerio quodam nuncupati sunt: hi offerre sacrificium pro defunctis spernunt.</p>
+        <p xml:id="rbdcir-de3326-d1e262">Ethiani ab Ethio sunt vocati, idemque Eunomiani ab Eunomio quodam dialectico, Ethii
+    discipulo, ex cujus nomine magis innotuerunt, dissimilem Patri asserentes Filium, et Filio
+    Spiritum sanctum, dicunt etiam nullum imputari peccatum in fide manentium.</p>
+        <p xml:id="rbdcir-de3326-d1e264"> Origeniani ab Origene auctore exorti sunt, dicentes quod non possit Filius videre Patrem,
+    nec Spiritus sanctus Filium; animas quoque in mundi principio dicunt peccasse, et pro
+    diversitate peccatorum e coelis usque ad terram diversa corpora quasi vincula meruisse, eaque
+    de causa factum fuisse mundum.</p>
+        <p xml:id="rbdcir-de3326-d1e266">Noetiani a quodam Noetio vocati, qui dicebant Christum eumdem esse Patrem et Spiritum
+    sanctum. ipsamque Trinitatem in officiorum nominibus, non in personis, accipiunt: unde et
+    Patripassiani vocantur, quia Patrem passum dicunt.</p>
+        <p xml:id="rbdcir-de3326-d1e268">Sabelliani ab eodem Noetio pullulasse dicuntur, cujus discipulum perhibent fuisse Sabellium,
+    ex cujus nomine maxime innotuerunt, unde et Sabelliani <pb ed="#P" n="188"/>
+          <cb ed="#P" n="a"/> vocati sunt: hi unam
+    personam Patris et Filii et Spiritus sancti astruunt.</p>
+        <p xml:id="rbdcir-de3326-d1e275">Ariani ab Ario Alexandrino presbytero orti sunt, qui coaeternum Patri Filium non agnoscens,
+    diversas in Trinitate substantias asseruit, contra illud quod ait Dominus: <quote xml:id="rbdcir-de3326-Qd1e277">Ego et Pater
+      unum sumus </quote>
+          <ref xml:id="rbdcir-de3326-Rd1e279">(Joan. X)</ref>.</p>
+        <p xml:id="rbdcir-de3326-d1e283">Macedoniani a Macedonio Constantinopolitano episcopo dicti sunt, negantes Deum esse Spiritum
+    sanctum.</p>
+        <p xml:id="rbdcir-de3326-d1e285">Apollinaristae ab Apollinari vocati sunt, dicentes Christum corpus tantummodo sine anima
+    suscepisse.</p>
+        <p xml:id="rbdcir-de3326-d1e287">Antidicomaritae appellati sunt, pro eo quod Mariae virginitati contradicunt, asserentes eam
+    post Christum natum viro suo fuisse commistam</p>
+        <p xml:id="rbdcir-de3326-d1e289">Metangismonitae ideo tale nomen acceperunt, quia angos, <foreign xml:lang="greek">ἄγγος</foreign> Graece, vas dicitur. Asserunt enim sic esse in patre Filium, tanquam vas
+    minus intra vas majus.</p>
+        <p xml:id="rbdcir-de3326-d1e295">Patriciani a quodam Patricio nuncupati sunt, qui substantiam humanae carnis a diabolo
+    conditam esse dicunt.</p>
+        <p xml:id="rbdcir-de3326-d1e297">Colinthiani a quodam Colintho nominati, qui dicunt Deum non facere malum, contra illud quod
+    scriptum est: <quote xml:id="rbdcir-de3326-Qd1e299">Ego Dominus creans malum </quote>
+          <ref xml:id="rbdcir-de3326-Rd1e301">(Isai. XLV)</ref>.</p>
+        <p xml:id="rbdcir-de3326-d1e305">Floriani a Florino, qui e contrario dicunt Deum creasse mala, contra id quod scriptum est:
+      <quote xml:id="rbdcir-de3326-Qd1e307">Fecit Deus omnia bona.</quote>
+        </p>
+        <p xml:id="rbdcir-de3326-d1e310">Donatistae a Donato quodam Afro nuncupati, qui de Numidia veniens, totam pene Africam sua
+    persuasione decepit: asserens minorem Patre Filium, et minorem Filio Spiritum sanctum, et
+    rebaptizans catholicos.</p>
+        <p xml:id="rbdcir-de3326-d1e312">Bonosaici a Bonoso quodam episcopo exorti produntur, qui Christum Filium Dei adoptivum, non
+    proprium, asserunt.</p>
+        <p xml:id="rbdcir-de3326-d1e314">Circumcelliones, dicti eo quod agrestes sunt, quos Cothopitas vocant, supradictae haeresis
+    habentes doctrinam. Hi amore martyrii semetipsos perimunt, ut violenter de hac vita
+    discedentes, martyres nominentur.</p>
+        <p xml:id="rbdcir-de3326-d1e316">Priscillianistae a Priscilliano vocati, qui in Hispania ex errore Gnosticorum et Manichaeorum
+    permistum dogma composuit.</p>
+        <p xml:id="rbdcir-de3326-d1e318">Luciferiani a Lucifero Syrmiae episcopo orti. Episcopos catholicos, qui Constantii
+    persecutione perfidiae Arianorum consentientes erant, et postea correcti, redire in Ecclesiam
+    catholicam delegerunt, damnantes sive quod crediderant, sive quod credidisse se simulaverant,
+    Ecclesia catholica materno recepit sinu, tanquam Petrum post fletum negationis. Hanc illi
+    matris charitatem superbe accipientes, eosque recipere nolentes, ab Ecclesiae communione
+    recesserunt, et cum ipso Lucifero auctore suo, qui mane oriebatur, cadere meruerunt.</p>
+        <p xml:id="rbdcir-de3326-d1e321">Jovinianistae a Joviniano quodam monacho dicti, asserentes nullam nuptiarum et virginum esse
+    distantiam, nullumque inter abstinentes et simpliciter epulantes esse discrimen.</p>
+        <p xml:id="rbdcir-de3326-d1e323">Elvidiani ab Elvidio nominati, qui dicunt post natum <cb ed="#P" n="b"/> Christum alios Mariam
+    filios de viro Joseph peperisse.</p>
+        <p xml:id="rbdcir-de3326-d1e328">Paterniani a Paterno quodam exorti, qui inferiores corporis partes a diabolo factas
+    opinantur.</p>
+        <p xml:id="rbdcir-de3326-d1e330">Arabici nuncupati, eo quod in Arabia exorti sunt, dicentes animam cum corpore mori, atque in
+    novissimo utrumque resurgere.</p>
+        <p xml:id="rbdcir-de3326-d1e332">Tertullianistae dicti a Tertulliano, presbytero Africanae provinciae et civitatis
+    Carthaginensis, animam immortalem esse, sed corpoream praedicantes, et animas hominum
+    peccatorum, post mortem in daemones converti putantes.</p>
+        <p xml:id="rbdcir-de3326-d1e334">Tessarodecaditae dicti, quod quarta decima luna pascha cum Judaeis observandum contendunt;
+    nam tessara quatuor, deca decem significat.</p>
+        <p xml:id="rbdcir-de3326-d1e337"> Nyctares a somno nuncupati, quod vigilias noctis respuant, superstitionem esse dicentes,
+    jura temerari Dei, qui noctem ad requiem tribuit.</p>
+        <p xml:id="rbdcir-de3326-d1e339">Pelagiani a Pelagio monacho exorti. Hi liberum arbitrium divinae gratiae anteponunt, dicentes
+    sufficere voluntatem ad implenda divina jussa.</p>
+        <p xml:id="rbdcir-de3326-d1e341">Nestoriani a Nestorio Constantinopolitano episcopo nuncupati, qui beatam virginem Mariam non
+    Dei, sed hominis tantummodo asseruit genitricem, ut aliam personam carnis, aliam faceret
+    deitatis; nec unum Christum in Verbo Dei et carne credidit, sed separatim atque sejunctim,
+    alterum Filium Dei, alterum filium hominis praedicavit.</p>
+        <p xml:id="rbdcir-de3326-d1e343">Eutychiani ab Eutyche Constantinopolitano abbate, qui Christum post humanam assumptionem
+    negavit existere de duabus naturis, sed solum in eo divinam asseruit esse naturam.</p>
+        <p xml:id="rbdcir-de3326-d1e345">Acephali dicti, id est sine capite quod sequantur, haeretici; nullus enim eorum reperitur
+    auctor a quo exorti sint: hi trium Chalcedonensium capitulorum impugnatores, duarum in Christo
+    substantiarum proprietatem negant, et unam in ejus persona naturam praedicant.</p>
+        <p xml:id="rbdcir-de3326-d1e347">Theodosiani et Gaianitae appellati a Theodosio et Gaiano, qui temporibus Justiniani principis
+    in Alexandria, populi perversi electione uno die sunt ordinati episcopi. Hi errores Eutychetis
+    et Dioscori sequentes, Chalcedonense concilium respuunt; ex duabus unam in Christo naturam
+    asserunt, quam Theodosiani corruptam, Gaianitae incorruptam contendunt.</p>
+        <p xml:id="rbdcir-de3326-d1e350"> Gnoitae et Tritoitae a Theodosianis exorti sunt, ex quibus Gnoitae ab ignorantia dicti, quia
+    perversitati a qua exorti sunt, id adjiciunt, quod Christi divinitas ignoret futura quae sunt
+    scripta de die et hora novissima; non recordantes Christi personam in Isaia loquentis:
+      <quote xml:id="rbdcir-de3326-Qd1e352">Dies judicii in corde meo </quote>
+          <ref xml:id="rbdcir-de3326-Rd1e354">(Isai. LXIII)</ref>.</p>
+        <p xml:id="rbdcir-de3326-d1e357">Tritoitae vero vocati, quod sicut tres personas in Trinitate, ita quoque tres astruunt deos
+    esse, contra illud quod scriptum est: <quote xml:id="rbdcir-de3326-Qd1e359">Audi, Israel, Dominus Deus tuus, Deus unus
+      est.</quote> Sunt et aliae haereses sine auctore, et sine nominibus, ex quibus aliae
+    triformem putant Deum esse, aliae Christi divinitatem passibilem esse dicunt, aliae Christi de
+    Patre nativitati initium temporis dant, aliae liberationem hominum <pb ed="#P" n="189"/>
+          <cb ed="#P" n="a"/> apud
+    inferos factam Christi descensione non credunt, aliae animam imaginem Dei negant, aliae animas
+    converti in daemones, et in quaecunque animalia existimant, aliae de mundi statu dissentiunt,
+    aliae innumerabiles mundos opinantur, aliae aquam Deo coaeternam faciunt, aliae nudis pedibus
+    ambulant, aliae cum hominibus non manducant.</p>
+        <p xml:id="rbdcir-de3326-d1e366">Hae sunt haereses adversus catholicam fidem exortae, <cb ed="#P" n="b"/> et ab apostolis et
+    sanctis Patribus, vel conciliis praedamnatae, quaedam in multis erroribus diversae invicem
+    sibi dissentiunt, communi tamen nomine adversus Ecclesiam Dei conspirant. Sed et quicunque
+    aliter Scripturam sacram intelligit, quam sensus Spiritus sancti flagitat, a quo conscripta
+    est, licet de Ecclesia non recesserit, tamen haereticus appellari potest.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

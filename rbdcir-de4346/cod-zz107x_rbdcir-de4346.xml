@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="197"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4346"><!-- l3c17 -->
+        <head xml:id="rbdcir-de4346-Hd1e101">Caput 17</head>
+        <head xml:id="rbdcir-de4346-Hd1e103" type="question-title">Quae divinitus instituta investigaverunt</head>
+        <p xml:id="rbdcir-de4346-d1e106">CAPUT XVII. <hi>Quae divinitus instituta investigaverunt.</hi>
+        </p>
+        <p xml:id="rbdcir-de4346-d1e111">Jam vero illa quae non instituendo, sed aut transacta temporibus, aut divinitus instituta
+    investigando homines prodiderunt, ubicunque discantur, non sunt hominum instituta existimanda.
+    Quorum sunt alia ad sensus corporis, alia vero ad rationem animi pertinentia. Sed illa quae ad
+    sensus corporis attingunt, vel narrata credimus, vel demonstrata sentimus, vel experta
+    conjicimus. Quidquid ergo de ordine temporum transactorum indicat ea quae appellatur historia,
+    plurimum nos adjuvat ad libros sanctos intelligendos, etiam si praeter Ecclesiam puerili
+    eruditione discatur. Nam et per Olympiadas, et per consulum nomina, multa saepe quaeruntur a
+    nobis; et ignorantia consulatus quo natus est Dominus, et quando passus est, nonnullos coegit
+    errare, ut putarent quadragesima sexta annorum aetate passum esse Dominum, quia per tot annos
+    aedificatum templum esse dictum est a Judaeis, quod imaginem Dominici corporis habebat. Sed
+    annorum fere triginta baptizatum esse retinemus auctoritate evangelica; sed postea quot annos
+    in hac vita egerit quanquam textu ipso actionum ejus animadvertere possis, tamen ne aliunde
+    caligo dubitationis oriatur, de historia gentium collata cum Evangelio, liquidius certiusque
+    colligitur. Tunc enim videbitur non frustra esse dictum, quod quadraginta annis templum
+    aedificatum sit, ut cum referri iste numerus ad aetatem Domini non potuerit, ad secretiorem
+    instructionem humani corporis referatur, quod indui propter nos non dedignatus est unicus Dei
+    Filius, per quem facta sunt omnia. Aliud est enim facta narrare, aliud docere facienda.
+    Historia facta narrat fideliter atque utiliter; libri autem aruspicum et quaeque similes
+    litterae, facienda vel observanda intendunt docere, monitoris audacia, non indicis fide. Est
+    etiam narratio similis demonstrationi, qua non praeterita, sed praesentia indicantur ignaris
+    in quo genere sunt <cb ed="#P" n="b"/> quae de locorum situ, naturisque animalium, lignorum,
+    herbarum, lapidum, aliorumve corporum scripta sunt. De quo genere superius egimus, eamque
+    cognitionem valere ad aenigmata Scripturarum solvenda, docuimus, non ut pro quibusdam signis
+    adhibeantur tanquam ad remedia, vel machinamenta superstitionis alicujus. Siderum autem
+    cognoscendorum non narratio, sed demonstratio est: quorum perpauca Scriptura commemorat. Habet
+    autem praeter demonstrationem praesentium, etiam praeteritorum narrationi simile aliquid, quod
+    a praesenti positione, motuque siderum, ad praeterita eorum vestigia regulariter licet
+    recurrere. Habet etiam futurorum regulares conjecturas non suspiciosas et otiosas, sed raras
+    et certas; non ut ex eis aliquid trahere in nostra fata et eventa tentemus, qualia
+    genethliacorum deliramenta sunt, sed quantum ad ipsa pertinet sidera. Nam sicut is qui
+    computat lunam cum hodie inspexerit quota sit, et ante quoslibet annos quota fuerit, et post
+    quoslibet annos quota futura sit potest dicere; sic de unoquoque siderum, qui ea perite
+    computant, respondere consueverunt. Artium enim caeterarum quibus aliquid fabricatur, vel quid
+    remaneat post operationem artificis ab illo effectum, sicut domus et scamnum; vel quae
+    ministerium quoddam exhibent operanti Deo, sicut medicina et agricultura et gubernatio: harum
+    ergo cunctarum artium de praeteritis faciunt experimenta, etiam futura conjicienda. Nullus
+    earum artium artifex membra movet in operando, nisi praeteritorum memoriam cum futurorum
+    exspectatione contexat. Sed haec non ob aliud commemoravimus; nisi ut non omnino nesciamus
+    quid Scriptura velit insinuare, cum de his artibus aliquas figuratas locutiones inserit.
+    Restant ea quae non ad corporis sensus, sed ad rationem animi pertinent, ubi disciplina regnat
+    disputationis et numeri. Sed disputationis disciplina ad omnia genera quaestionum quae in
+    litteris sanctis sunt penetranda et dissolvenda plurimum valet; tantum ibi cavenda est libido
+    rixandi, et puerilis quaedam ostensio decipiendi adversarium. Sed de hoc plenius dicemus cum
+    de dialectica atque rhetorica disputabimus. Jam vero numeri disciplina cuilibet tardissimo
+    clarum est, quod non sit ab hominibus instituta, sed potius indagata et inventa. Non enim
+    sicut primam syllabam Italiae quam brevem pronuntiaverunt veteres, voluit Virgilius et longa
+    facta est, ita quisquam potest efficere cum voluerit, ut ter terna aut non sint novem, aut non
+    possint efficere quadratam figuram, aut non ad ternarium numerum tripla sint, ad senarium
+    sescupla, ad nullum dupla, quia intelligibiles numeri semissem non habent. Sive ergo in
+    seipsis considerentur, sive ad figurarum, aut ad sonorum aliorum vel motionum leges numeri
+    adhibeantur, incommutabiles regulas habent, neque ullo modo ab hominibus institutas, sed
+    ingeniosorum sagacitate compertas. Quae tamen omnia quisquis ita dilexerit, ut jactare se
+    inter imperitos velit, et <pb ed="#P" n="198"/>
+          <cb ed="#P" n="a"/> non potius quaerere unde sint vera, quae tantummodo
+    vera esse persenserit; et unde quaedam non solum vera, sed etiam incommutabilia, quae
+    incommutabilia esse comprehenderit; ac sic ab specie corporum usque ad humanam mentem
+    perveniens, cum et ipsam mutabilem invenerit, quod nunc docta nunc indocta sit, constituta
+    tamen inter commutabilem supra se veritatem, et mutabilia infra se caetera, ad unius Dei
+    laudem atque dilectionem cuncta convertere, a quo cuncta esse cognoscit, doctus videri potest,
+    esse autem sapiens nullo modo. Hucusque generaliter atque permixtim dixi de disciplinis
+    gentilium; deinceps seorsum de singulis dicturus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

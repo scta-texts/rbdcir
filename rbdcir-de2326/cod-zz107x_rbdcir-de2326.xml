@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 30</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 30</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="171"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2326"><!-- l2c30 -->
+        <head xml:id="rbdcir-de2326-Hd1e101">Caput 30</head>
+        <head xml:id="rbdcir-de2326-Hd1e103" type="question-title">De satisfactione et reconciliatione</head>
+        <p xml:id="rbdcir-de2326-d1e106">CAPUT XXX. <hi>De satisfactione et reconciliatione.</hi>
+        </p>
+        <p xml:id="rbdcir-de2326-d1e111"> Satisfactio autem est causas peccatorum et suggestionum excludere, et ultra peccatum non
+    iterare. Reconciliatio vero est, quae post complementum poenitentiae adhibetur. Nam sicut
+    conciliamur Deo, quando primum a gentilitate convertimur, ita reconciliamur, quando post
+    peccatum poenitendo regredimur. Quorum autem peccata in publico sunt, in publico debet esse
+    poenitentia, per tempora quae episcopi arbitrio poenitentibus secundum differentiam peccatorum
+    decernuntur; eorumque reconciliatio in publico esse debet ab episcopo, sive a presbyteris,
+    jussu tamen episcoporum, sicut canones Africani concilii testantur, ubi ita scriptum est:
+    Cujuscunque autem poenitentis publicum et vulgatissimum <pb ed="#P" n="172"/>
+          <cb ed="#P" n="a"/> crimen est, quod
+    universam Ecclesiam commoverit, ante absidam manus ei imponatur. Quorum ergo peccata occulta
+    sunt, et spontanea confessione soli tantummodo presbytero, sive episcopo ab eis fuerint
+    revelata, horum occulta debet esse poenitentia, secundum judicium presbyteri, sive episcopi
+    cui confessi sunt, ne infirmi in Ecclesia scandalizentur, videntes eorum poenas, quorum
+    penitus ignorant causas. Quali autem tempore post poenitentiam reconciliatio fieri debeat,
+    ostendunt decreta Innocentii papae, ubi ita scriptum reperitur: « De poenitentibus autem qui
+    sive ex gravioribus commissis, sive ex levioribus poenitentiam gerunt, si nulla intervenit
+    aegritudo, quinta feria ante Pascha eis remittendum, Romanae Ecclesiae consuetudo demonstrat.
+    » Caeterum de pondere aestimando delictorum, sacerdotis est judicare, ut attendat ad
+    confessionem poenitentis, et ad fletus atque ad lacrymas corrigendas; ac tum jubere dimitti,
+    cum viderit congruam satisfactionem. Sane si quis aegritudinem inciderit, atque usque ad
+    desperationem devenerit, ei est ante tempus paschae relaxandum, ne de saeculo absque
+    communione discedat. Hoc ergo ante omnia cavendum est, ne in extremis poenitentia et
+    reconciliatio denegetur, ne in desperatione pereat, quia pietas omnipotentis Dei ad se quovis
+    tempore concurrenti succurrere valet, et periclitantem sub onere peccatorum potest sublevare.
+    Perdidisse latro in cruce praemium ad Christi dexteram pendens, si illum unius horae
+    poenitentia non juvisset, cum esset in poena poenituit, et per unius sermonis professionem,
+    habitaculum paradisi (Deo promittente) promeruit. Vera ergo ad Deum conversio in ultimis
+    positorum mente potius est aestimanda quam tempore, propheta hoc aliter asserente: <quote xml:id="rbdcir-de2326-Qd1e117">Cum
+      conversus, inquit, ingemueris, tunc salvus eris.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

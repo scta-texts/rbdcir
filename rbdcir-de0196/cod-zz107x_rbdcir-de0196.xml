@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="149"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0196"><!-- l1c3 -->
+        <head xml:id="rbdcir-de0196-Hd1e101">Caput 3</head>
+        <head xml:id="rbdcir-de0196-Hd1e103" type="question-title">De tonsura clericorum</head>
+        <p xml:id="rbdcir-de0196-d1e106">CAPUT III. <hi>De tonsura clericorum.</hi>
+        </p>
+        <p xml:id="rbdcir-de0196-d1e111">Tonsura ecclesiastici usus a Nazaraeis (ni fallor) exorta est, qui, prius crine servato,
+    denuo post vitae magnae continentiam devotione completa caput radebant, et capillos in ignem
+    sacrificii ponere jubebant, scilicet ut perfectionem devotionis suae Domino consecrarent.
+    Horum ergo exemplis usus ab apostolis introductus est, ut hi qui in divinis cultibus mancipati
+    Domino consecrantur, quasi Nazaraei, id est, sancti Dei crine praeciso innovantur. Hoc quippe
+    Ezechieli prophetae jubetur, dicente Domino: <quote xml:id="rbdcir-de0196-Qd1e113">Tu, fili hominis, sume tibi gladium
+      acutum, et duces per caput tuum et barbam </quote>
+          <ref xml:id="rbdcir-de0196-Rd1e115">(Ezech. III)</ref>; videlicet quia et ipse ex sacerdotali genere Deo in ministerio
+    sanctificationis deserviebat. Hoc et Nazaraeos illos Priscillam et Aquilam in Actibus
+    apostolorum primos fecisse legimus, Paulum quoque apostolum, et quosdam discipulorum Christi,
+    qui in hujusmodi cultu imitandi exstiterunt. Est autem in clericis tonsura signum quoddam quod
+    in corpore figuratur, sed in animo agitur: scilicet ut hoc signo vitia in religione
+    resecentur, et criminibus carnis nostrae quasi crinibus exuamur, atque inde innovatis sensibus
+    ut comis rudibus enitescamus, <quote xml:id="rbdcir-de0196-Qd1e117">exspoliantes nos,</quote> juxta apostolum, <quote xml:id="rbdcir-de0196-Qd1e119">veterem
+      hominem cum actibus ejus, et induentes novum qui renovatur in agnitionem Dei </quote>
+          <ref xml:id="rbdcir-de0196-Rd1e121">(Col. III)</ref>. Quam renovationem in mente oportet fieri, sed in capite demonstrare,
+    ubi ipsa mens noscitur habitare. Quod vero detonso superius capite inferius circuli corona
+    relinquitur, sacerdotium regnumque Ecclesiae in eis existimo figurari. Tiara enim apud veteres
+    constituebatur in capite sacerdotum. Haec ex bysso confecta rotunda erat quasi sphaera media,
+    et hoc significatur in parte capitis tonsa. Corona autem aurea latitudo est circuli, quae
+    regum capita cingit. Utrumque itaque signum exprimitur in capite clericorum, ut impleatur
+    etiam corporis quadam similitudine quod scriptum est Petro apostolo dicente: <quote xml:id="rbdcir-de0196-Qd1e124">Vos estis
+      genus electum, regale sacerdotium </quote>
+          <ref xml:id="rbdcir-de0196-Rd1e126">(I Petr. II)</ref>. Quaeritur autem cur modo (sicut apud antiquos Nazaraeos) non ante
+    coma nutritur, et sic tondetur? Sed qui haec exquirunt, advertant quid sit inter illud
+    propheticum velamentum, et hanc Evangelii revelationem, de qua dicit Apostolus: <quote xml:id="rbdcir-de0196-Qd1e128">Cum
+      transieris ad Christum, auferetur velamen </quote>
+          <ref xml:id="rbdcir-de0196-Rd1e130">(II Cor III)</ref>. Quid autem significabat velamen interpositum inter faciem Moysi et
+    aspectum filiorum Israel, hoc significabat illis temporibus <pb ed="#P" n="150"/>
+          <cb ed="#P" n="a"/> etiam coma
+    sanctorum. Nam et Apostolus comam pro velamento esse dicit. Proinde jam non oportet ut
+    velentur crinibus capita eorum qui Domino consecrantur, sed tantum ut revelentur, quia quod
+    erat occultum in sacramento prophetiae, jam in Evangelio declaratum est. Sunt quoque quidam
+    doctorum, qui asserunt diversas ob causas Petrum apostolum hunc ritum primum sumpsisse
+    primitus, ut formam et similitudinem Christi in capite gestaret, dum pro redemptione nostra
+    crucis patibulum subditurus, a nefanda Judaeorum gente acutis spinarum aculeis crudeliter
+    coronaretur. Deinde ut sacerdotes Veteris et Novi Testamenti in tonsura et habitu
+    discernerentur. Postremo ut idem Apostolus suique successores et sequipedes ridiculosum
+    gannaturae ludibrium in populo Romano portarent, quia et horum barones hostes exercitus
+    superatos sub corona vendere solebant. Sed de his quid suscipiatur, lectoris judicio
+    derelinquimus. Veniamus ergo nunc ad sacratissimos ordines clericorum, eorumque originem et
+    gradus singulariter demonstremus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

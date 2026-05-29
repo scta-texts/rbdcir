@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="177"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2629"><!-- l2c40 -->
+        <head xml:id="rbdcir-de2629-Hd1e101">Caput 17</head>
+        <head xml:id="rbdcir-de2629-Hd1e103" type="question-title">De Ascensione Domini</head>
+        <p xml:id="rbdcir-de2629-d1e106">CAPUT XL. <hi>De Ascensione Domini.</hi>
+        </p>
+        <p xml:id="rbdcir-de2629-d1e111">Ascensionis Dominicae solemnitas ideo celebratur, quia eodem die post mundi victoriam, post
+    inferni regressum, ascendere Christus memoratur ad coelos, sicut scriptum est:
+      <quote xml:id="rbdcir-de2629-Qd1e113">Ascendens in altum, cepit captivitatem, dedit dona hominibus </quote>
+          <ref xml:id="rbdcir-de2629-Rd1e115">(Psal. LXVII)</ref>. Quae festivitas ideo per revolutum circulum annorum celebratur, ut
+    humanitas assumptae carnis ascendens ad dexteram Patris in memoriam revocetur: cujus corpus
+    ita in coelo esse credimus, ut erat quando ascendit, quod et vox angelica protestatur dicens:
+      <quote xml:id="rbdcir-de2629-Qd1e117">Sic veniet quemadmodum vidistis eum euntem in coelum </quote>
+          <ref xml:id="rbdcir-de2629-Rd1e119">(Act. I)</ref>, id est, eadem carnis specie atque substantia, cui profecto carni
+    immortalitatem dedit, naturam non abstulit. Dextera autem Patris ad quam idem Filius sedere
+    creditur, non est corporea, quod nefas est de Deo sentire, sed dextera Patris, est beatitudo
+    perpetua, quae sanctis in resurrectione promittitur, id est universae Ecclesiae quae est
+    corpus Christi; sicut et sinistra ejus intelligitur miseria et poena perpetua, quae impiis
+    dabitur. Ante hanc ergo diem Ascensionis Domini, mos est Ecclesiarum Occidentis per tres dies
+    proximos jejunium exercere, et litanias agere, et hoc congrue. Nam si credimus Christum in hoc
+    tempore ad coelos ascendisse, dignum est etiam ut ante Ascensionis ejus diem operam demus
+    jejuniis et orationibus, castigantes carnem nostram, et crucem ejus in nobismetipsis
+    gestantes, quatenus illum sequi mereamur. <quote xml:id="rbdcir-de2629-Qd1e121">Qui enim, inquit, vult post me venire,
+      abneget semetipsum, et tollat crucem suam, et sequatur me </quote>
+          <ref xml:id="rbdcir-de2629-Rd1e124">(Luc. IX)</ref>. Sicut ergo portamus in manibus nostris speciem crucis ejus, ita portemus
+    et in carne nostra similitudinem passionis ejus. <quote xml:id="rbdcir-de2629-Qd1e126">Qui autem sunt</quote> Christi, dixit
+    Apostolus, <quote xml:id="rbdcir-de2629-Qd1e128">carnem suam crucifixerunt cum vitiis et concupiscentiis </quote>
+          <ref xml:id="rbdcir-de2629-Rd1e130">(Gal. V)</ref>. Et ita fiet, ut ubi Christus post resurrectionem suam cum gloria
+    ascendit, illuc et nos resurgentes a mortuis, in carne incorruptibili per ejus gratiam
+    ascendere valeamus, sicut dicit idem Apostolus: <quote xml:id="rbdcir-de2629-Qd1e132">Si enim,</quote> inquit, <cb ed="#P" n="b"/>
+          <quote xml:id="rbdcir-de2629-Qd1e137">complantati facti sumus similitudini mortis ejus, simul et resurrectionis erimus </quote>
+          <ref xml:id="rbdcir-de2629-Rd1e139">(Rom. VI)</ref>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

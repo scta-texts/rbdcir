@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 22</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 22</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="154"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0783"><!-- l1c22 -->
+        <head xml:id="rbdcir-de0783-Hd1e101">Caput 22</head>
+        <head xml:id="rbdcir-de0783-Hd1e103" type="question-title">De sandaliis</head>
+        <p xml:id="rbdcir-de0783-d1e106">CAPUT XXII. <hi>De sandaliis.</hi>
+        </p>
+        <p xml:id="rbdcir-de0783-d1e111">Induunt quoque sacerdotes pedes sandaliis sive solcis, quod genus calceamenti evangelica
+    auctoritate eis est concessum, ut Marci evangelium testatur <ref xml:id="rbdcir-de0783-Rd1e113">(Marc. XVI)</ref>, quia hoc
+    calceamentum mysticam significationem habet, ut pes neque tectus sit, neque nudus ad terram,
+    id est ut nec occultetur evangelium, nec terrenis commodis innitatur. Nam scriptum est in
+    Apostolo: <quote xml:id="rbdcir-de0783-Qd1e115">Et calceati pedes in praeparatione Evangelii pacis </quote>
+          <ref xml:id="rbdcir-de0783-Rd1e117">(Ephes. VI)</ref>. Sicut enim sandalia partem pedis tegunt, partem inopertam relinquunt,
+      <pb ed="#P" n="155"/>
+          <cb ed="#P" n="a"/> ita et Evangelii doctores partim Evangelium operire, partimque aperire
+    debent, ita videlicet ut fidelis et devotus sufficientem habeat doctrinam, et infidelis et
+    contemptor non inveniat blasphemandi materiam. Admonet etiam et nos hoc genus calceamenti ut
+    carni nostrae et corpori in necessitatibus consulamus, non in libidinis lasciviam defluamus,
+    de quibus utique nos divina lex instruit. Scriptum est enim: <quote xml:id="rbdcir-de0783-Qd1e124">Carnem tuam ne
+      despexeris.</quote> Et item: <quote xml:id="rbdcir-de0783-Qd1e126">Carnis curam ne feceritis in concupiscentiis </quote>
+          <ref xml:id="rbdcir-de0783-Rd1e128">(Isa. LVIII)</ref>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="166"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1776"><!-- l2c12 -->
+        <head xml:id="rbdcir-de1776-Hd1e101">Caput 12</head>
+        <head xml:id="rbdcir-de1776-Hd1e103" type="question-title">De quadripartita specie orationum</head>
+        <p xml:id="rbdcir-de1776-d1e106">CAPUT XII. <hi>De quadripartita specie orationum.</hi>
+        </p>
+        <p xml:id="rbdcir-de1776-d1e111"> Orationum ergo speciem Apostolus quadripartita ratione distinxit, dicens: <quote xml:id="rbdcir-de1776-Qd1e113">Deprecor
+      itaque primo omnium fieri obsecrationes, orationes, postulationes, gratiarum actiones </quote>
+          <ref xml:id="rbdcir-de1776-Rd1e115">(I Tim. VIII)</ref>, quae non inaniter ab Apostolo ita fuisse divisa minime dubitandum
+    est. Non enim credendum est aliquid transitorie ac sine ratione Spiritum sanctum per Apostolum
+    protulisse, ac ideo primitus indagandum est quid obsecratione, quid oratione, quid
+    postulatione, quid gratiarum actione signetur; deinde perquirendum utrum hae quatuor species
+    ab unoquoque orante sint pariter assumendae, an alius quidem obsecrationes, alius orationes,
+    alius vero postulationes, aliusque gratiarum actiones Deo debeat exhibere. Sed mensuram
+    scilicet aetatis suae, in qua unaquaeque mens per intentionem proficit, et industriam
+    unumquemque oportet intendere. Obsecrationes itaque sunt implorationes seu petitiones pro
+    peccatis, quibus vel praesentibus vel praeteritis admissis suis unusquisque compunctus veniam
+    deprecatur. Orationes sunt, quibus aliquid offerimus seu vovemus Deo, verbi gratia: Oramus,
+    cum renuntiantes huic mundo et actibus, atque conversationi mundanae spondemus nos tanta
+    intentione cordis Domino servituros. Oramus, cum promittimus nos purissimam corporis
+    castitatem, seu immobilem patientiam exhibituros esse perpetuo, vel cum de corde nostro
+    radices irae, sive tristitiae mortem operantis vovemus nos funditus eruere. Tertio loco
+    ponuntur postulationes, quas pro aliis quoque, dum sumus in fervore spiritus constituti,
+    solemus emittere, vel charis scilicet nostris, vel pro totius mundi pace poscentes, ut ipsius
+    Apostoli verbis eloquar, cum pro omnibus hominibus, pro regibus et pro his qui in sublimitate
+    sunt supplicamus. Quarto deinde loco, gratiarum actiones ponuntur, quas mens vel cum
+    praeterita Dei recolit beneficia, vel cum praesentia complectitur, seu cum in futurum quae et
+    quanta praeparaverit Deus his qui diligunt eum prospicit, per ineffabiles excessus Domino
+    refert. Qua intentione nonnunquam preces uberiores emitti solent, dum illa quae posita sunt in
+    futuro praemia, purissimis oculis intuendo, gratias cum immenso gaudio spiritus noster
+    instigatur infundere.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

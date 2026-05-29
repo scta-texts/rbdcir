@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 42</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 42</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="178"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2745"><!-- l2c42 -->
+        <head xml:id="rbdcir-de2745-Hd1e101">Caput 42</head>
+        <head xml:id="rbdcir-de2745-Hd1e103" type="question-title">De die Dominico</head>
+        <p xml:id="rbdcir-de2745-d1e106">CAPUT XLII. <hi>De die Dominico.</hi>
+        </p>
+        <p xml:id="rbdcir-de2745-d1e111">Dominicum diem apostoli ideo religiosa solemnitate sanxerunt, quia in eodem Redemptor noster
+    a mortuis resurrexit, ideo Dominicus appellatur, ut in eo a terrenis operibus vel mundi
+    illecebris abstinentes, tantum divinis cultibus serviamus, dantes scilicet diei huic honorem
+    et reverentiam, propter spem resurrectionis nostrae, quam habemus in illa. Nam sicut ipse
+    Dominus Jesus Christus et Salvator noster tertia die resurrexit a mortuis, ita et nos
+    resurrecturos in novissimo die speramus. Unde etiam in Dominico die stantes oramus, quod est
+    signum futurae resurrectionis. Hoc agit Ecclesia universa, quae in peregrinatione mortalitatis
+    inventa est, exspectans <cb ed="#P" n="b"/> in fine saeculi, quod in Domini nostri Jesu Christi
+    corpore praemonstratum est, qui est primogenitus a mortuis. Sabbatum autem a priore populo in
+    otio corporaliter celebratum legimus, ut figura esset in requiem, unde et sabbatum requies
+    interpretatur. Dies autem Dominicus, non Judaeis sed Christianis per resurrectionem Domini
+    declaratus est, et ex illo coepit habere festivitatem suam. Ipse est enim dies primus, qui
+    post septimum reperitur octavus, unde et in Ecclesiaste ad duorum Testamentorum
+    significationem dicitur: Illi septem, idem illi octo. Primo enim solum celebrandum sabbatum
+    traditum est, quia erat antea requies mortuorum, resurrectio autem nullius erat usque ad
+    Christum Dominum, qui <quote xml:id="rbdcir-de2745-Qd1e115">resurgens a mortuis, non moritur, mors illi ultra non
+      dominabitur.</quote> Jam postquam facta est talis resurrectio in corpore Domini, ut praeiret
+    in capite Ecclesiae, quod corpus Ecclesiae speraret in fine, dies Dominicus octavus, qui et
+    primus, in festivitate successit. Apparet autem hunc diem etiam in Scripturis sanctis esse
+    solemnem. Ipse enim est dies primus saeculi, in ipso formata sunt elementa mundi, in ipso
+    creati sunt Angeli, in ipso quoque a mortuis resurrexit Christus, in ipso de coelis Spiritus
+    sanctus super apostolos descendit, manna in eo die in eremo primo de coelo datum est. Sic enim
+    dicit Dominus: <quote xml:id="rbdcir-de2745-Qd1e117">Sex diebus colligetis manna, in die autem sexto duplum colligetis </quote>
+          <ref xml:id="rbdcir-de2745-Rd1e119">(Exod. XVI)</ref>. Sextus enim dies est parasceve, qui ante sabbatum ponitur, sabbatum
+    autem octavus dies est, quem sequitur Dominicus in quo primum manna de coelo venit. Unde
+    intelligant Judaei jam tunc praelatam esse Judaico sabbato Dominicam nostram, jam tunc
+    indicatum quod in sabbato ipsorum gratia Dei de coelo ad eos nulla descenderit, sed in nostra
+    Dominica in qua primum Dominus eam pluit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="166"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1723"><!-- l2c11 -->
+        <head xml:id="rbdcir-de1723-Hd1e101">Caput 11</head>
+        <head xml:id="rbdcir-de1723-Hd1e103" type="question-title"/>
+        <p xml:id="rbdcir-de1723-d1e105">CAPUT XI.</p>
+        <p xml:id="rbdcir-de1723-d1e107">
+          <quote xml:id="rbdcir-de1723-Qd1e109">De peculiaribus orationibus.</quote>
+        </p>
+        <p xml:id="rbdcir-de1723-d1e112">Peculiares autem orationes pure frequenter facere, et bonum et laudabile est, quia multorum
+    Patrum exempla id nos facere suadent, ipse Dominus etiam suo magisterio hoc docere nos
+    dignatus est dicens: <quote xml:id="rbdcir-de1723-Qd1e114">Tu autem cum oraveris intra in cubiculum, et clauso ostio ora
+      Patrem tuum, et Pater tuus qui videt te in abscondito reddet tibi </quote>
+          <ref xml:id="rbdcir-de1723-Rd1e116">(Matth. VI)</ref>. Sed et hoc non in clamosa voce faciendum est, sed cum intentione
+    cordis et compunctione lacrymarum, quia hoc modo nos exaudiri a Domino credimus, dicente
+    Psalmista: <quote xml:id="rbdcir-de1723-Qd1e118">Exaudivit Dominus vocem fletus mei,</quote> et reliqua <ref xml:id="rbdcir-de1723-Rd1e120">(Psal.
+    VI)</ref>. Et item: <quote xml:id="rbdcir-de1723-Qd1e122">Sacrificium Deo spiritus contribulatus cor contritum et humiliatum
+      Deus non spernit</quote>
+          <cb ed="#P" n="b"/>
+          <ref xml:id="rbdcir-de1723-Rd1e127">(Psal. V)</ref>. Nam assidue et instanter orare ipsa Veritas nos docuit, cum dixit:
+      <quote xml:id="rbdcir-de1723-Qd1e129">Petite et dabitur vobis, quaerite et invenietis, pulsate et aperietur vobis; omnis
+      enim qui petit accipit, et qui quaerit invenit, et pulsanti aperietur </quote>
+          <ref xml:id="rbdcir-de1723-Rd1e131">(Matth. VII)</ref>. Et ut exemplo aliquo eamdem rem magis suaderet, parabolam de homine
+    in medium posuit, qui amicum suum in conclavi positum de tribus panibus postulavit, et panis
+    et lapidis, piscis et serpentis, ovi et scorpionis comparationem faciens, novissime ita
+    narrationem conclusit. <quote xml:id="rbdcir-de1723-Qd1e133">Si ergo vos, inquit, cum sitis mali, nostis bona data dare
+      filiis vestris, quanto magis Pater vester de coelo dabit spiritum bonum petentibus se </quote>
+          <ref xml:id="rbdcir-de1723-Rd1e135">(Ibid.)</ref>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

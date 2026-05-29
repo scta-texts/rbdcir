@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 24</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 24</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="168"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2105"><!-- l2c24 -->
+        <head xml:id="rbdcir-de2105-Hd1e101">Caput 24</head>
+        <head xml:id="rbdcir-de2105-Hd1e103" type="question-title">De jejunio quatuor sabbatorum, in quibus duodecim lectiones fiunt,
+    et sacrae ordinationes</head>
+        <p xml:id="rbdcir-de2105-d1e106">CAPUT XXIV. <hi>De jejunio quatuor sabbatorum, in quibus duodecim lectiones fiunt, et sacrae
+      ordinationes.</hi>
+        </p>
+        <p xml:id="rbdcir-de2105-d1e111">Sunt quoque et quatuor sabbata, in quatuor mensibus, singula per singulos, in quibus
+    specialia jejunia sunt constituta, et officia his diebus majora orationum et lectionum in
+    Ecclesia celebrantur, id est, in Martio mense, primo sabbato. Quarti mensis, id <pb ed="#P" n="169"/>
+          <cb ed="#P" n="a"/> est, Junii. In septimi quoque mensis, id est Septembris, tertio sabbato, et in quarto
+    sabbato decimi mensis, id est, Decembris. Quorum primum juxta observationem Quadragesimae
+    verno tempore celebratur, quando mensis novorum apud Judaeos habebatur. Secundum autem in
+    jejunio post Pentecosten aestatis tempore, quando apud Judaeos dies primitiarum ex legis
+    praecepto custodiebantur, id est, de frugibus primi panes Deo offerebantur; et otium legitimum
+    ipsius diei celebratur. Tertium est in septimo mense, autumni videlicet tempore, qui totus in
+    lege variis solemnitatibus Deo dicatus erat, in quo dies expiationum erat, dicente Domino ad
+    Moysen: <quote xml:id="rbdcir-de2105-Qd1e117">Decima die mensis hujus septimi, dies expiationum erit ac celeberrimus, et
+      vocabitur sanctus, affligetisque animas vestras in eo, et offeretis holocaustum Domino. Omne
+      opus non facietis in tempore diei hujus, quia dies propitiationis est, ut propitietur vobis
+      Dominus Deus vester,</quote> etc. In quo et dies decem Scenopegiae fuerant, id est
+    Tabernaculorum. Nam quinta decima die mensis hujus veteres solemnitates Tabernaculorum
+    celebrabant, septem diebus eamdem solemnitatem exigentes, quo quidem jejunio usos fuisse
+    antiquos Esdrae liber meminit. Postquam enim redierunt filii Israel in Jerusalem et fecerunt
+    sibi tabernaculorum laetitiam magnam, dehinc <quote xml:id="rbdcir-de2105-Qd1e119">convenerunt in jejunio in saccis, et humus
+      super eos, et steterunt, et confitebantur peccata sua et iniquitates patrum suorum, et
+      consurrexerunt ad standum, et <cb ed="#P" n="b"/> legerunt in volumine legis Domini Dei sui
+      quater in die, et quater in nocte confitebantur, et adorabant Dominum Deum suum.</quote>
+    Quartum vero est jejunium sabbati in decimo mense ante diem natalis Domini, quando venturi
+    Salvatoris salubris in sacris lectionibus praedicatur adventus, ut fideles quique hac
+    religione instructi, et medicamine sanctarum orationum simul cum sacro jejunio confirmati
+    nativitatem Redemptoris laeti exspectent. Ante haec videlicet quatuor sabbata in eadem
+    hebdomada semper quarta et sexta feria legitima jejunia fieri et canon orationum et lectionum
+    in eisdem feriis ad missarum solemnia constitutus indicat, et exempla praecedentium Patrum
+    confirmant. Sacras autem ordinationes his diebus oportere fieri, decreta Gelasii papae
+    testantur, in quibus ita scriptum continetur: <quote xml:id="rbdcir-de2105-Qd1e124">Ordinationes autem presbyterorum
+      diaconorumque nisi certis temporibus et diebus exercere non debeant,</quote> id est, in
+    quarti mensis jejunio, septimi et decimi, <quote xml:id="rbdcir-de2105-Qd1e127">sed etiam quadragesimalis ac mediana initio
+      Quadragesimae die sabbati jejunio circa vesperam noverint celebrandas.</quote> Officia autem
+    horum quatuor sabbatorum vulgo duodecim lectiones vocantur, eo quod cum lectionibus quae
+    leguntur, et cum psalmis qui leguntur, duodenarius numerus adimpletur, qui benedictiones
+    possunt vocari, eo quod inter canonicas Scripturas annumerantur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

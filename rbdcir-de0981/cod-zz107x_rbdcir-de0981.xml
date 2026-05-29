@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 28</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 28</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="156"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0981"><!-- l1c28 -->
+        <head xml:id="rbdcir-de0981-Hd1e101">Caput 28</head>
+        <head xml:id="rbdcir-de0981-Hd1e103" type="question-title">De tinctione baptismi, et unctione chrismatis</head>
+        <p xml:id="rbdcir-de0981-d1e106">CAPUT XXVIII. <hi>De tinctione baptismi, et unctione chrismatis.</hi>
+        </p>
+        <p xml:id="rbdcir-de0981-d1e111">Post haec igitur consecratus fons, et ad ipsum baptismum catechumenus accedit, et sic in
+    nomine sanctae Trinitatis trina submersione baptizatur. Et recte homo, qui ad imaginem sanctae
+    Trinitatis conditus est, per invocationem sanctae Trinitatis ad eamdem renovatur imaginem, et
+    qui tertio gradu peccati, id est, consensu cecidit in mortem, tertio elevatus de fonte per
+    gratiam resurgat ad vitam. Potest et haec trina mersio triduanam Domini sepulturam
+    significare, maxime cum dicit Apostolus: <quote xml:id="rbdcir-de0981-Qd1e113">Quicunque baptizati sumus in Christo Jesu, in
+      morte ipsius baptizati sumus, consepulti enim sumus cum illo per baptismum in morte, ut
+      quomodo surrexit Christus a mortuis per gloriam Patris, ita et nos in novitate vitae
+      ambulemus. Si enim complantati sumus similitudini mortis ejus, simul et resurrectionis
+      erimus.</quote> Et reliqua. Oportet ergo cum invocatione sanctae Trinitatis sub trina
+    mersione baptismum confici, ut secundum personarum differentiam mysterium baptismi celebretur,
+    et secundum unitatem substantiae unum baptisma fiat, unde dicit Apostolus: <quote xml:id="rbdcir-de0981-Qd1e115">Unus
+      Dominus, una fides, unum baptisma.</quote> Et reliqua. Postquam enim ascenderit baptizatus
+    de fonte, statim <pb ed="#P" n="157"/>
+          <cb ed="#P" n="a"/> signatur in cerebro a presbytero cum sacro chrismate,
+    sequente simul et oratione, ut regni Christi particeps fiat, et a Christo Christianus possit
+    vocari. Scriptum est et in Evangelio ita: <quote xml:id="rbdcir-de0981-Qd1e121">Baptizatus autem Jesus confestim ascendit de
+      aqua, et ecce aperti sunt coeli, et vidit Spiritum Dei descendentem sicut columbam et
+      venientem supra se.</quote> Bene quidem baptismo continuatur chrismatis unctio, quia
+    Spiritus sanctus qui per illud chrisma suae virtutis admistione sanctificat credentes,
+    baptizato Jesu statim super illum in columbae specie descendit: cujus videlicet typum
+    praeferebat columba illa, quae in diluvio ad arcam reportavit ramum olivae virentibus foliis,
+    significans utique quod Spiritus sanctus per chrismatis unctionem in baptismate virorem
+    confert fidelibus coelestis gratiae. Sed de hoc plenius in sequentibus dicemus. Legimus et in
+    Gestis Patrum, quod Silvester papa in Ecclesia romana constituerit, ut sicut potestas et
+    privilegium apud solum episcopum constat, quod sacrum chrisma ipse conficiat, et baptizatum
+    per manus impositionem cum ipso chrismate consignet propter haereticam suasionem, ita
+    presbyter eodem chrismate liniat baptizatum levatum ex aqua propter occasionem transitus
+    mortis, quia scriptum est in Apostolo: <quote xml:id="rbdcir-de0981-Qd1e124">Vos autem, fratres, in carne non estis, sed in
+      spiritu, si tamen spiritus Dei habitet in vobis. Si quis autem spiritum Christi non habet,
+      hic non est ejus,</quote> etc. Ac deinde profecto patet quia quicunque non est Christi,
+    regni sui particeps fieri nequit. Ideoque necessarium est, ut statim succurratur baptizato cum
+    chrismatis unctione, ut Spiritus sancti participationem accipiens, alienus a Christo non
+    existat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

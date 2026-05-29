@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 28</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 28</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="203"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4689"><!-- l3c28 -->
+        <head xml:id="rbdcir-de4689-Hd1e101">Caput 28</head>
+        <head xml:id="rbdcir-de4689-Hd1e103" type="question-title">Quid debeat doctor catholicus in dicendo agere</head>
+        <p xml:id="rbdcir-de4689-d1e106">CAPUT XXVIII. <hi>Quid debeat doctor catholicus in dicendo agere.</hi>
+        </p>
+        <p xml:id="rbdcir-de4689-d1e111">Debet igitur divinarum Scripturarum tractator et doctor, defensor rectae fidei ac debellator
+    erroris, et bona docere, et mala dedocere; atque in hoc opere, sermone conciliare aversos,
+    remissos erigere, nescientibus quid agere, quid expetere debeant intimare. Ubi autem
+    benevolos, intentos, dociles, aut invenerunt, aut ipsi fecerunt, caetera peragenda sunt sicut
+    postulat causa. Si docendi sunt qui audiunt, narratione faciendum est, si tamen indigeat, ut
+    res de qua agitur innotescat. Ut autem quae dubia sunt certa fiant, documentis adhibitis
+    ratiocinandum est. Qui vero audiunt movendi sunt potius quam docendi, ut in eo quod jam
+    sciunt, agendo non torpeant, et rebus quas veras esse fatentur, assensum accommodent,
+    majoribus dicendi viribus opus est; ubi obsecrationes et increpationes, concitationes et
+    exercitationes, et quaecunque alia valent ad commovendos animos, sunt necessaria. Et haec
+    quidem cuncta quae dixi, omnes fere homines in his quae loquendo agunt, facere non quiescunt.
+    Sed cum alii faciant obtuse, deformiter, frigide; alii acute, ornate, vehementer; illum ad hoc
+    opus unde agimus oportet accedere jam, qui potest disputare vel dicere sapienter, etiam si non
+    potest eloquenter, ut prosit audientibus etiam sapienter, si minus quam prodesset eloquenter
+    posset dicere. Qui vero affluit insipienti eloquentia, tanto <pb ed="#P" n="204"/>
+          <cb ed="#P" n="a"/> magis cavendus
+    est, quanto magis ab eo in his quae audire inutile est, delectatur auditor, et eum quem
+    diserte dicere audit, etiam vere dicere existimat. Haec autem scientia nec illos fugit, qui
+    artem rhetoricam docendam putaverunt. Fassi sunt enim sapientiam sine eloquentia parum
+    prodesse civitatibus; eloquentiam vero sine sapientia nimium obesse plerumque, prodesse
+    nunquam. Sapienter autem dicit homo tanto magis vel minus, quanto in Scripturis sanctis majus
+    minusve proficit. Non dico in eis multum legendis memoriaeque mandandis, sed bene
+    intelligendis, et diligenter earum sensibus indagandis. Sunt enim qui eas legunt, et
+    negligunt; legunt ut teneant, negligunt ne intelligant. Quibus longe sine dubio praeferendi
+    sunt qui verba earum minus tenent, et cor earum sui cordis oculis vident. Sed utrisque ille
+    melior, qui et cum volet eas dicit, et sicut oportet intelligit. Huic ergo qui sapienter debet
+    dicere, etiam quod non potest eloquenter, verba Scripturarum tenere maxime necessarium est.
+    Quanto enim se pauperiorem cernit in suis, tanto in istis oportet eum esse ditiorem, ut quod
+    dixerit suis verbis, probet et illis. Porro qui non solum sapienter, verum etiam eloquenter
+    vult dicere, quoniam profecto plus proderit, si utrumque potuerit, ad legendos vel audiendos
+    et exercitatione imitandos eloquentes, eum multo magis quam magistris artis rhetoricae vacare
+    praecipio, si tamen hi qui legunt et audiuntur, non solum eloquenter, sed etiam sapienter
+    dixisse, vel dicere veraci praedicatione laudantur. Qui enim <pb ed="#P" n="204"/>
+          <cb ed="#P" n="a"/> eloquenter
+    dicunt, suaviter; qui sapienter, salubriter audiuntur. Sunt ergo ecclesiastici viri, qui
+    divina eloquia non solum sapienter, sed et eloquenter tractaverunt; quibus legendis magis non
+    sufficit tempus, quam deesse ipsi studentibus et vacantibus possunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

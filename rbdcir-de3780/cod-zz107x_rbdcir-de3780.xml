@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="190"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3780"><!-- l3c4 -->
+        <head xml:id="rbdcir-de3780-Hd1e101">Caput 4</head>
+        <head xml:id="rbdcir-de3780-Hd1e103" type="question-title">De gradibus sapientiae et charitatis</head>
+        <p xml:id="rbdcir-de3780-d1e106">CAPUT IV. <hi>De gradibus sapientiae et charitatis.</hi>
+        </p>
+        <p xml:id="rbdcir-de3780-d1e111"> Ante omnia enim opus est ei qui desiderat ad sapientiae pervenire culmen, Dei timore
+    converti, ad cognoscendum ejus voluntatem, quid nobis appetendum fugiendumque praecipiat.
+    Timor autem iste cogitationem de nostra mortalitate et de futura morte necesse est incutiat,
+    et quasi clavatis carnibus, omnes superbiae motus ligno crucis affigat. Deinde mitescere opus
+    est pietate, neque contradicere divinae Scripturae, sive intellectae si aliqua vitia nostra
+    percutit, sive non intellectae quasi nos melius sapere meliusque percipere possimus, sed
+    cogitare potius, et credere id esse melius et verius quod ibi scriptum est, etiamsi lateat,
+    quam id quod nos per nos ipsos sapere possumus. Post istos duos gradus timoris atque <pb ed="#P" n="191"/>
+          <cb ed="#P" n="a"/> pietatis, ad tertium venitur scientiae gradum, de quo nunc agere constitui. Nam
+    in eo se exercet omnis divinarum Scripturarum studiosus, nihil in eis aliud invenitur usquam
+    diligendum esse Deum propter Deum, et proximum propter Deum, et illum quidem ex toto corde, ex
+    tota anima, ex tota mente, proximum vero tanquam seipsum, id est, ut jam proximi dilectio,
+    sicut etiam nostri referatur in Deum. Quisquis ergo Scripturas sacras vel quamlibet partem
+    earum intellexisse sibi videtur, ita ut eo intellectu non aedificet istam geminam charitatem
+    Dei et proximi, nondum intellexit quemadmodum oportebat eum scire. Itaque tria haec sunt,
+    quibus et scientia omnis, et prophetia militat, fides, spes, charitas; sed fidei succedit
+    spes, et spei succedit beatitudo; charitas autem etiam istis decedentibus augebitur potius.
+    Cum ergo quatuor diligenda sunt, unum quod super nos, id est Deus; alterum quod nos sumus, id
+    est anima ad imaginem Dei creata; tertium quod juxta nos est, id est alter homo; quartum quod
+    infra nos, id est corpus; de secundo, et quarto nulla praecepta danda erant. Quantumlibet enim
+    homo excitat a charitate, remanet illi tamen dilectio sui, et dilectio corporis sui, restabat
+    ut de illo quid supra nos est, et de illo quod juxta nos est, praecepta sumeremus.
+      <quote xml:id="rbdcir-de3780-Qd1e117">Diliges, inquit, Dominum Deum tuum ex toto corde tuo,</quote> etc. Omnis quippe homo
+    in quantum homo est, diligendus est propter Deum, Deus vero propter seipsum. Amplius quisque
+    Deum debet diligere quam seipsum, item amplius alius homo diligendus est quam corpus nostrum,
+    quia propter Deum omnia ista diligenda sunt, et potest nobiscum alius homo Deo perfrui, quod
+    non potest corpus, quia corpus per animam vivit, qua fruimur Deo. Omnes autem homines aeque
+    diligendi sunt; sed cum omnibus prodesse non possimus, his potissimum consulendum est, qui
+    locorum et temporum vel quarumlibet rerum opportunitatibus constrictius nobis, quasi quadam
+    sorte junguntur. Velle tamen debemus, ut omnes homines nobiscum diligant, et totum quod eos
+    vel adjuvamus, vel adjuvamur ab eis, ad unum illum finem referendum est. Jure enim continuatur
+    scientiae charitas, quia solummodo scientiae fructus in charitate consistit.
+      <quote xml:id="rbdcir-de3780-Qd1e119">Scientia,</quote> ait Apostolus, <quote xml:id="rbdcir-de3780-Qd1e121">inflat, charitas vero aedificat </quote>
+          <ref xml:id="rbdcir-de3780-Rd1e124">(I Cor. VIII)</ref>. Si ergo appetendum est quod inflat, multo magis quod aedificat, ut
+    cum scimus voluntatem Dei, diligamus obedire Deo, ut perveniamus ad Deum. Nam ista scientia
+    bonae spei hominem se non jactantem, sed lamentantem facit, quo affectu impetrat sedulis
+    precibus consolationem divini adjutorii, ne desperatione frangatur, et esse incipit in quarto
+    gradu, hoc est, fortitudinis. Quaeritur et sititur justitia; hoc enim affectu ab omni
+    mortifera jucunditate rerum transeuntium saepe extrahitur, et inde se avertens, convertit ad
+    dilectionem aeternorum, immutabilem scilicet unitatem, eamdemque Trinitatem, quam ibi
+    aspexerit, quantum potest, in longinquo radiantem, suique aspectus infirmitate sustinere se
+    illam lucem non posse persenserit, in quinto gradu, hoc est. in <cb ed="#P" n="b"/> consilio
+    misericordiae purgat animam tumultuantem quodammodo, atque obstrepentem sibi de appetitu
+    inferiorum conceptis sordibus. Hic vero se in dilectione proximi non ignaviter exercet, in
+    eaque perficitur, et spe jam plenus atque integer viribus, cum pervenerit usque ad amici
+    dilectionem, ascendit in sextum gradum, ubi jam ipsum oculum purgat, quo videri Deus potest ab
+    eis, qui huic saeculo moriuntur, nam in tantum vident, in quantum moriuntur huic saeculo, in
+    quantum autem huic vivunt non vident, et ideo quamvis jam certior, et non solum tolerabilior,
+    sed etiam jucundior species lucis illius incipit apparere, in aenigmate adhuc tamen et per
+    speculum videri dicitur, quia magis per fidem quam per speciem ambulatur, cum in hac vita
+    peregrinamur, quamvis conversationem habeamus in coelis. In hoc autem gradu ita purgat oculum
+    cordis, ut veritati nec seipsum quidem praeferat, ut conferat proximum, ergo nec seipsum, quia
+    nec illum quem diligit sicut seipsum. Erit ergo iste sanctus tam simplici corde, atque
+    mundato, ut neque hominibus, placendi studio detorqueatur a vero, nec respectu devitandorum
+    quorumlibet incommodorum suorum quae adversantur huic vitae. Talis filius ad sapientiam
+    ascendit, quae ultima et septima est, qua pacatur, tranquillusque perfruitur. Initium enim
+    sapientiae timor Domini, ab illo enim usque ad ipsam, per hos gradus ascenditur et
+    venitur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

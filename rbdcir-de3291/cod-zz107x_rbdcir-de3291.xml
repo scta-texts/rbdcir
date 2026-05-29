@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 57</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 57</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="185"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3291"><!-- l2c57 -->
+        <head xml:id="rbdcir-de3291-Hd1e101">Caput 57</head>
+        <head xml:id="rbdcir-de3291-Hd1e103" type="question-title">De regula fidei</head>
+        <p xml:id="rbdcir-de3291-d1e106">CAPUT LVII. <hi>De regula fidei.</hi>
+        </p>
+        <p xml:id="rbdcir-de3291-d1e111"> Haec est autem post apostolicum Symbolum certissima fides, quam doctores nostri tradiderunt,
+    ut profiteamur Patrem, et Filium, et Spiritum sanctum unius essentiae, ejusdem potestatis et
+    sempiternitatis, unum invisibilem, ita ut in singulis personarum proprietate servata, nec
+    substantialiter trinitas dividi, nec personaliter debeat omnino confundi; Patrem quoque
+    confiteri ingenitum, Filium unigenitum, Spiritum autem sanctum nec genitum nec ingenitum, sed
+    ex Patre et Filio procedentem; Filium a Patre nascendo procedere, Spiritum vero sanctum
+    procedendo non nasci; ipsum quoque Filium perfectum ex Virgine, sine peccato, hominem
+    suscepisse, ut quem sola bonitate creaverat, sponte lapsum misericorditer repararet; quem
+    veraciter crucifixum, et tertia die resurrexisse, et cum eadem ipsa carne glorificata
+    ascendisse in coelum, in qua et ad judicium vivorum et mortuorum exspectatur venturus; et quod
+    divinam humanamque substantiam in utroque perfectus una Christus persona gestaverat, quia nec
+    geminavit utriusque substantiae integritas personam, nec confudit geminam unitas personae
+    substantiam: altero quippe neutrum exclusit, quia utrumque unusquisque intemerato jure
+    servavit. Quod Novi et Veteris Testamenti salubris commendat auctoritas, illa per prophetiam,
+    ista per historiam veraciter persoluta; et quod neque de Deo, neque de creatura saeculi sit
+    cum paganis aut cum haereticis aliquid sentiendum in his rebus, in quibus a veritate <cb ed="#P" n="b"/> dissentiunt. Sed in utroque Testamento divina protestantur eloquia, hoc
+    tantummodo sentiendum, quod sive hominem, sive universa, nulla Deus necessitate creaverit, nec
+    ullam esse omnino visibilem invisibilemque substantiam, nisi aut quae Deus sit, aut a bono Deo
+    bona creata sit; sed Deus summe et incommutabiliter bonus, creatura vero inferius et
+    mutabiliter bona; et quod animae origo incerta sit; et quod angelorum natura, vel animae, non
+    sit pars divinae substantiae, sed Dei creatura ex nihilo condita, ideoque incorporea, quia ad
+    imaginem Dei creata est. De pietate morum sine qua fides divini cultus otiosa torpescit, et
+    cum qua integritas divini cultus perficitur; et ut unusquisque Deum propter Deum, et proximum
+    in Deo diligat, ut perficiendo perveniat. Alterum quoque alterius non pollui posse peccato,
+    ubi par voluntatis non tenetur consensio. Legitimas nuptias non credi damnandas, licet ex eis
+    quoque originali peccato obnoxia credatur nasci posteritas; eisque jure fidelium virginum et
+    continentium praeferenda doceatur integritas. Ne unum baptismum Trinitatis (quod nefas est)
+    iteretur; neque pro diversitate tradentium ministrorum singulis putetur quibusque confiteri,
+    sed ab eo singulari potestate donari, de quo dictum legimus: <quote xml:id="rbdcir-de3291-Qd1e115">Super quem videris
+      Spiritum descendentem et manentem super eum, hic est qui baptizat in Spiritu sancto; et ego
+      vidi, et testimonium perhibui quia hic est Filius Dei </quote>
+          <ref xml:id="rbdcir-de3291-Rd1e117">(Joan. I)</ref>. Et ne poenitentiae remediis non egere putemus, pro quotidianis humanae
+    fragilitatis excessibus, sine quibus in hac vita esse non possumus, ita ut poenitentiae
+    compunctione fructuosa universa fateamur deleri peccata, sicut scriptum est: <quote xml:id="rbdcir-de3291-Qd1e119">Beati
+      quorum remissae sunt iniquitates, et quorum tecta sunt peccata. Beatus vir cui non imputavit
+      Dominus peccatum </quote>
+          <ref xml:id="rbdcir-de3291-Rd1e121">(Psal. XXXI)</ref>. Nullum quoque suis viribus, sed per divinam gratiam capiti Christo
+    subjungi, atque indiruptae pacis perseverantia in unitate Ecclesiae ipsius solidari. Nec
+    humanae voluntatis arbitrio boni quiddam deputandam existimari, sed secundum propositum
+    voluntatis Dei omnem numerum electorum acquiri. Bona quoque temporalia bonis malisque communia
+    a Deo creari, ejusque dispensatione singulis quibusque vel tribui vel negari: quorum bonorum
+    in unoquoque fidelium non habitus, sed usus aut improbandus, aut probandus. Certa vero
+    aeternaque bona, solos posse bonos in futuro consequi, quorum pignore Ecclesiam nunc
+    informatam credimus detineri, hic habentem primitias Spiritus, in futuro perfectionem; hic
+    sustentari in spe, postea pasci in re; hic videri per speculum in aenigmate, in futuro autem
+    facie ad faciem, cum ad speciem fuerit perducta per fidem. Quod donec perficiatur, ut summi
+    Dei bonis fruamur aeternis, fruendum, inde non oberimus et proximis. Eam quoque nos spem
+    resurrectionis habere, ut eodem ordine eademque forma qua ipse Dominus resurrexit a mortuis,
+    nos quoque resurrecturos esse credamus, in eodem corpore in quo sumus vel vivimus, non naturam
+    aut sexum <pb ed="#P" n="186"/>
+          <cb ed="#P" n="a"/> mutantes, sed tantum fragilitatem et vitia deponentes. Ipsum quoque
+    Satanam cum angelis suis atque cultoribus aeterno incendio condemnandum, neque, secundum
+    quorumdam sacrilegam dispensationem, ad pristinam, id est angelicam dignitatem, ex qua propria
+    malignitate cecidit, reducendum. Haec est catholicae traditionis fidei integritas, de qua si
+    unum quodlibet respuatur, tota fidei credulitas amittitur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

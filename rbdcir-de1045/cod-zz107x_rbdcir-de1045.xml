@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 30</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 30</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="157"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1045"><!-- l1c30 -->
+        <head xml:id="rbdcir-de1045-Hd1e101">Caput 30</head>
+        <head xml:id="rbdcir-de1045-Hd1e103" type="question-title">De impositione manus episcopalis</head>
+        <p xml:id="rbdcir-de1045-d1e106">CAPUT XXX. <hi>De impositione manus episcopalis.</hi>
+        </p>
+        <p xml:id="rbdcir-de1045-d1e111">Novissime autem a summo sacerdote per impositionem manus Paracletus traditur illi Spiritus
+    sanctus, ut roboretur per Spiritum sanctum ad praedicandum aliis idem donum quod ipse in
+    baptismate consecutus est, per gratiam vitae donatus aeternae. Signatur enim baptizatus cum
+    chrismate per sacerdotem in capitis summitate, per pontificem vero in fronte, ut priori
+    unctione significetur Spiritus sancti super ipsum descensio ad habitationem Deo consecrandam,
+    in secunda quoque ut ejusdem Spiritus sancti septiformis gratia cum omni plenitudine
+    sanctitatis et scientiae et virtutis, venire in hominem declaretur. Tunc enim ipse Spiritus
+    sanctus post mundata et benedicta corpora atque animas, libens a Patre descendit, ut vas suum
+    sua visitatione sanctificet et illustret, et nunc in hominem ad hoc venit, ut signaculum fidei
+    quod in fronte suscepit, faciat eum donis coelestibus repletum, et sua gratia confortatum,
+    intrepide et audacter coram regibus et potestatibus hujus saeculi portare, ac nomen Christi
+    libera voce praedicare. Nec mirum si homo bis eodem chrismate ad accipiendum Spiritum sanctum
+    ungatur, cum idem Spiritus bis sit ipsis apostolis datus, id est, in terra semel quando post
+    resurrectionem suam Dominus insufflavit in eos, et dixit: <quote xml:id="rbdcir-de1045-Qd1e113">Accipite Spiritum sanctum;
+      quorum remiseritis, peccata, remittuntur eis, et quorum retinueritis retenta sunt;</quote>
+    et de coelis semel, quando post ascensionem Domini in die Pentecostes in linguis igneis super
+    apostolos venit, et omnium gentium linguis eis loqui concessit. Ergo Spiritus sanctus digitus
+    Dei in Evangelio nominatur, et digito Dei scripta est lex. Ideo autem digitus Dei dicitur, ut
+    ejus operatoria virtus simul cum Patre et Filio significetur. Sicut autem per baptismum in
+    Christo morimur et renascimur, ita Spiritu sancto signamur, qui est digitus Dei et spiritale
+    signaculum. Bene quippe convenit ut per sacrum chrisma et per pinguedinem olivae gratia
+    Spiritus sancti tribuatur, quia in psalmo scriptum est de Christo Salvatore, quod unxerit eum
+    Deus Pater oleo laetitiae prae consortibus suis, et item de nobis, quod exhilaret faciem
+    nostram in oleo. Chrisma, <foreign xml:lang="greek">χρίσμα</foreign> Graece, Latine unctio
+    nominatur, ex cujus nomine et Christus dicitur, et ex ipso homo post lavacrum sanctificatur.
+    Nam sicut in baptismate peccatorum remissio datur ad veniam, ita per unctionem sanctificatio
+    Spiritus adhibetur ad gloriam, et hoc de pristina unctione tractum est exemplum, qua ungi in
+    sacerdotium et regnum solebant antiqui, unde et Aaron et filii ejus post lavacrum a Moyse
+    uncti sunt, ut sacerdotes Domini fierent. Et Salomon et caeteri reges per prophetas et
+    sacerdotes perfusi sunt cornu <pb ed="#P" n="158"/>
+          <cb ed="#P" n="a"/> olei, ut regni gubernacula tenerent. Quod dum
+    carnaliter fit, spiritaliter proficit, quomodo et ipsa baptismi gratia visibilis actus est,
+    quod in aqua mergimur, sed spiritalis effectus quod a delictis mundamur. Videamus ergo et
+    ipsam olei naturam, si quid in ea huic significationi conveniens possit intelligi. Oleum
+    namque ardens illuminat, et medicans sanat, et aquis infusum perspicuas eas reddit: quod bene
+    gratiam Spiritus sancti potest demonstrare. Ipse enim flamma charitatis et splendore
+    sapientiae, animas illuminat. Ipse medicamine clementiae suae per veniam peccatorum vulnera
+    sanat. Ipse admistione virtutis suae aquas baptismi ad effugandas peccatorum tenebras
+    veraciter illustrat. Testatur etiam hoc sacra Scriptura, ait enim Paulus: <quote xml:id="rbdcir-de1045-Qd1e122">Charitas Dei
+      diffusa est in cordibus nostris per Spiritum sanctum, qui datus est nobis.</quote> Et
+    Joannes: <quote xml:id="rbdcir-de1045-Qd1e125">Qui diligit, inquit, fratrem suum, in lumine manet.</quote> Et item:
+      <quote xml:id="rbdcir-de1045-Qd1e127">Vos, inquit, unctionem habetis a Spiritu sancto, et nostis omnia.</quote> Ecce
+    apostolorum sententiae manifestant per unctionem Spiritus sancti lumen charitatis et scientiae
+    nos habere. Nam Salvator in Evangelium Spiritum sanctum medicinam esse peccatorum ostendit,
+    cum per ipsum potestatem apostolis dedit peccata remittere, dicens: <quote xml:id="rbdcir-de1045-Qd1e129">Accipite Spiritum
+      sanctum; quorum remiseritis peccata, remittuntur eis,</quote> et reliqua. Quod autem gratia
+    Spiritus sancti aquas baptismi fecundans illustret, insinuat Joannes, cum ipsum Dominum in
+    Spiritu sancto baptizare testatus est, dicens: <quote xml:id="rbdcir-de1045-Qd1e131">Sed qui misit me baptizare in aqua, ille
+      mihi dixit: Super quem videris Spiritum descendentem et manentem super eum, hic est qui
+      baptizat in Spiritu sancto.</quote> Nunquam enim aqua baptismatis filios lucis generare
+    posset, nisi prius ipsa dono ejusdem Spiritus sancti illuminata esset, ut in ipsa mirabiliter
+    partum spiritalis lucis efficeret, idem Spiritus qui in primordio simul cum Patre et Filio
+    illam purgationi aptam creavit. Abluit ergo nos Dominus a peccatis in baptismate, et unxit nos
+    et consignavit nos <quote xml:id="rbdcir-de1045-Qd1e133">Spiritu promissionis sancto,</quote> et dedit pignus Spiritus in
+    cordibus nostris, <quote xml:id="rbdcir-de1045-Qd1e135">qui est,</quote> utique <quote xml:id="rbdcir-de1045-Qd1e138">pignus haereditatis nostrae in
+      redemptionem acquisitionis in laudem gloriae ipsius, ut adoptionem filiorum reciperemus.
+      Quoniam autem estis,</quote> ait Apostolus, <quote xml:id="rbdcir-de1045-Qd1e140">filii</quote> Dei, <quote xml:id="rbdcir-de1045-Qd1e142">misit Spiritum
+      Filii sui in corda nostra clamantem Abba Pater.</quote> Nam confirmatio totius sanctitatis
+    et virtutis et justitiae in ipso constat: ipse est remissio omnium peccatorum, ipse filios Dei
+    a filiis diaboli secernit. <quote xml:id="rbdcir-de1045-Qd1e144">Quicunque enim Spiritu Dei aguntur, hi filii sunt
+      Dei.</quote> Ipse justificat sanctos et illuminat, ipse est Deus, ipse Dei donum, eo quod
+    datur a Deo. <quote xml:id="rbdcir-de1045-Qd1e146">Unicuique datur manifestatio Spiritus ad utilitatem</quote> per ipsum.
+      <quote xml:id="rbdcir-de1045-Qd1e148">Alii datur sermo sapientiae, alii sermo scientiae secundum eumdem Spiritum, alteri
+      fides in eodem Spiritu, alii gratia sanitatum in uno Spiritu, alii operatio virtutum, alii
+      prophetia, alii discretio spirituum, alii genera linguarum, alii interpretatio sermonum.
+      Haec autem omnia operatur unus atque idem Spiritus, dividens singulis prout vult. Sicut enim
+      corpus unum est, et membra multa, omnia autem <cb ed="#P" n="b"/> membra corporis cum sint
+      multa, unum corpus sunt, ita et Christus. Etenim in uno spiritu omnes nos in unum corpus
+      baptizati sumus, sive Judaei, sive gentiles, sive servi, sive liberi, et omnes nos uno
+      spiritu potati sumus.</quote> Spiritum enim sanctum aquae nomine appellatum in Evangelio
+    legimus, ipso Domino clamante et dicente: <quote xml:id="rbdcir-de1045-Qd1e154">Si quis sitit, veniat et bibat; qui credit in
+      me, flumina de ventre ejus fluent aquae vivae.</quote> Hoc Evangelista exposuit unde
+    diceret, secutus enim ait: <quote xml:id="rbdcir-de1045-Qd1e156">Hoc enim dicebat de Spiritu quem accepturi erant credentes
+      in eum.</quote> Sed aliud est aqua sacramenti, aliud aqua quae significat Spiritum sanctum.
+    Aqua enim sacramenti visibilis est, aqua Spiritus invisibilis est. Illa abluit corpus et
+    significat quod sit in anima; per istam autem, id est, per Spiritum sanctum ipsa anima
+    mundatur. Sicut etiam aqua corporalis corpus lavat et potat, ita spiritalis spiritum lavat et
+    pascit. Ideo autem Spiritus sanctus septiformis nuncupatur propter dona quae divinitatis ejus
+    plenitudine particulatim quique ut digni sunt, consequi promerentur. Ipse enim spiritus
+    sapientiae et intellectus, spiritus consilii et fortitudinis, spiritus scientiae et pietatis,
+    atque spiritus timoris Domini appellatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

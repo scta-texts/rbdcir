@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="164"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1605"><!-- l2c8 -->
+        <head xml:id="rbdcir-de1605-Hd1e101">Caput 8</head>
+        <head xml:id="rbdcir-de1605-Hd1e103" type="question-title">De completorio</head>
+        <p xml:id="rbdcir-de1605-d1e106">CAPUT VIII. <hi>De completorio.</hi>
+        </p>
+        <p xml:id="rbdcir-de1605-d1e111">De completis autem celebrandis etiam in Patrum invenimus exemplis, David propheta dicente:
+      <quote xml:id="rbdcir-de1605-Qd1e113">Si ascendero in lectum strati mei, si dedero somnum oculis meis, et palpebris meis
+      dormitationem, aut requiem temporibus, donec inveniam locum Domino, tabernaculum Deo Jacob </quote>
+          <ref xml:id="rbdcir-de1605-Rd1e115">(Psal. CXXXI)</ref>. Quis non stupeat tantam in amore Dei devotionem animi, ni somnum
+    sibi, sine quo utique corpora humana deficiunt, penitus interdixerit, donec locum ac templum
+    Domino fabricandum in pectore suo rex et propheta reperiret? Quae res nos debet fortiter
+    admonere, ut si ipsi locus Domini esse volumus, et tabernaculum ejus, ac templum cupimus
+    haberi, in quantum possumus exempla sanctorum imitemur, ne de nobis dicatur quod legitur:
+      <quote xml:id="rbdcir-de1605-Qd1e117">Dormierunt somnum suum, et nihil invenerunt,</quote> et reliqua. Circa undecimam
+    autem horam, id est in fine diei, quando hujus officii tempus est, credimus Salvatoris corpus
+    positum esse in sepulcro, ac perinde istius quoque cursus solemnis debet esse celebratio;
+    atque magnopere postulare debemus, ut ipse qui hac hora quietem sepulcri intravit nobis
+    aeternam requiem in coelis concedere dignetur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

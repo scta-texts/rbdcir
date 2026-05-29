@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 41</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 41</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="177"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2687"><!-- l2c41 -->
+        <head xml:id="rbdcir-de2687-Hd1e101">Caput 41</head>
+        <head xml:id="rbdcir-de2687-Hd1e103" type="question-title">De Pentecoste</head>
+        <p xml:id="rbdcir-de2687-d1e106">CAPUT XLI. <hi>De Pentecoste.</hi>
+        </p>
+        <p xml:id="rbdcir-de2687-d1e111">Initium sane et causa festivitatis Pentecostes, id est, quinquagesimae, paulo altius
+    repetenda est. Pentecostes enim dies hinc cepit exordium, quando Dei vox in Sina monte desuper
+    intonans audita est, et lex data est Moysi. In Novo autem Testamento Pentecostes coepit,
+    quando adventum sancti Spiritus quem Christus promisit, exhibuit, quem ait non esse venturum,
+    nisi ipse ascendisset in coelum. Denique dum portam coeli Christus intrasset, decem diebus
+    interpositis, intremuit subito orantibus apostolis locus, et descendente Spiritu sancto super
+    eos, conflammati sunt, ita ut linguis omnium gentium Dei magnalia loquerentur. Adventus itaque
+    Spiritus sancti de coelo super apostolos in varietate linguarum diffusam solemnitatem
+    transmisit in posteros, eaque de causa Pentecoste celebratur, et dies ipse proinde insignis
+    habetur. Concordat autem haec festivitas Evangelii, cum festivitate legis. Illic enim
+    posteaquam agnus immolatus est, interpositis quinquaginta diebus, data est lex Moysi scripta
+    digito Dei. Hic postquam occisus est Christus, qui tanquam ovis ad immolandum ductus est,
+    celebratur verum Pascha, et interpositis quinquaginta diebus, Spiritus sanctus datur, qui est
+    digitus Dei, super centum et viginti discipulos Mosaicae aetatis numero constitutos. Siquidem
+    et haec festivitas aliud obtinet sacramentum. Constat enim ex septem septimanis. Sed dierum
+    quidem septimanae generant eamdem Pentecosten in quo fit peccati remissio per Spiritum
+    sanctum. Annorum vero septimanae quinquagesimum annum faciunt, qui apud Hebraeos jubilaeus
+    nominatur, in quo similiter terrae fit remissio, et servorum libertas, et possessionum
+    restitutio, quae pretio fuerant comparata. Septem etenim septies multiplicati quinquagenarium
+    ex se generant numerum, assumpta monade quam ex futuri saeculi figura praesumptam esse majorum
+    auctoritas tradit. Fit enim ipsa et octava semper et prima, imo ipsa est semper una, quae est
+    omnis dies. Necesse est enim sabbatismum animarum populi illuc occurrere atque ibi compleri
+    ubi datur pars his qui octo, sicut quidam disserens Salomonis dicta sapienter exposuit
+      <ref xml:id="rbdcir-de2687-Rd1e113">(Eccle. XI)</ref>. Idcirco autem totius quinquagesimae dies post Domini resurrectionem
+    resoluta abstinentia in sola laetitia celebrantur, propter figuram futurae resurrectionis, ubi
+    jam non labor, sed requies erit laetitiae. Ideo his diebus nec genua in oratione flectuntur,
+    quia sicut quidam sapientum ait, in flexu genuum poenitentiae et luctus indicium est. Unde
+    etiam per omnia eamdem in illis solemnitatem quam Dominico die custodimus, in qua majores
+    nostri nec jejunium agendum, nec genua esse flectenda, ob reverentiam Dominicae
+    resurrectionis, tradiderunt. His diebus sanctis alleluia propter gaudium resurrectionis
+    assidue esse cantandum in Ecclesia magistri sanciverunt Ecclesiae. Quia vero a <pb ed="#P" n="178"/>
+          <cb ed="#P" n="a"/>
+    Dominica Septuagesimae toto tempore jejunii, usque in Pascha, quo poenitentiae et corporis
+    nostri mortificationi instare debemus, ab ista laude abstinendum est, licet nullo tempore in
+    Ecclesia laus Dei desit, ita in diebus solemnitatis paschalis, imo per totam Quinquagesimam
+    usque in Pentecosten, atque in Dominicis diebus, quando laetari nos convenit, et jejunio
+    relaxari, sine cessatione illam in cantu frequentare debemus. Ante pascha ergo tempus jejunii
+    praesentis vitae significationem tenet, quia propter peccata nostra poenis aerumnisque
+    quotidie affligimur. Tempus vero quinquagesimae paschalis futuram resurrectionem corporum
+    nostrorum, id est, aeternam in coelis vitam, eo quod caput nostrum eo tempore resurrexerit,
+    demonstrat, ac ideo coeleste canticum alleluia, quod Joannes apostolus in coelis sanctorum
+    turbam multam canere in Apocalypsi commemorat, eo tempore frequentandum esse, quo
+    immortalitatem nostram desideramus, Salvatoris nostri glorificationem celebrantes; et hoc
+    optandum, ut qui in terra aliena positi canticum Domini cantare digne non possumus, ad terram
+    viventium perveniamus, qua sine fine gaudentes canticum novum Domino sine cessatione in
+    aeternum decantemus. In sabbato autem sancto Pentecostes, sicut in sabbato sancto Paschae,
+    baptismum celebratur, lectionibus Veteris Testamenti ante recitatis, et orationibus atque
+    litaniis ante peractis, subsequente sancta missarum celebratione. Bene quoque sabbatum sanctum
+    Pentecostes simili celebratione sabbato sancto Paschae veneratur, quia ipse unigenitus Dei
+    Filius in fide credentium, et in virtute operum, nullam inter se et Spiritum sanctum voluit
+    esse distantiam, quia nulla est diversitas in natura, dicens: <quote xml:id="rbdcir-de2687-Qd1e119">Ego rogabo Patrem</quote>
+    meum, <quote xml:id="rbdcir-de2687-Qd1e121">et alium paracletum dabit vobis, ut vobiscum</quote> sit <quote xml:id="rbdcir-de2687-Qd1e124">in aeternum,
+      Spiritum veritatis </quote>
+          <ref xml:id="rbdcir-de2687-Rd1e126">(Joan. IV)</ref>. Et iterum: <quote xml:id="rbdcir-de2687-Qd1e128">Paracletus autem Spiritus sanctus, quem mittet
+      Pater</quote> meus <quote xml:id="rbdcir-de2687-Qd1e130">in nomine meo, ille vos docebit omnia, et suggeret</quote>
+    universa <quote xml:id="rbdcir-de2687-Qd1e132">quaecunque dixero vobis (Ibidem)</quote>. Et iterum: <quote xml:id="rbdcir-de2687-Qd1e134">Cum venerit ille
+      Spiritus veritatis,</quote> diriget <quote xml:id="rbdcir-de2687-Qd1e137">vos</quote> in <quote xml:id="rbdcir-de2687-Qd1e139">omnem veritatem </quote>
+          <ref xml:id="rbdcir-de2687-Rd1e141">(Joan. XVI)</ref>. Cum utique veritas Christus sit et Spiritus sanctus veritas, nomenque
+    paracleti utrique sit proprium, non dissimile est festum, ubi semper unum est sacramentum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

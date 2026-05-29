@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="149"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0121"><!-- l1c1 -->
+        <head xml:id="rbdcir-de0121-Hd1e101">Caput 1</head>
+        <head xml:id="rbdcir-de0121-Hd1e103" type="question-title">De una Ecclesia Dei</head>
+        <p xml:id="rbdcir-de0121-d1e106"> CAPUT PRIMUM. <hi>De una Ecclesia Dei.</hi>
+        </p>
+        <p xml:id="rbdcir-de0121-d1e111"> Ecclesia ergo Dei catholica, quae per totum orbem dilatata diffunditur, Christi nomine
+          nobilitata glorificatur. Omnis enim homo qui rectae fidei existit particeps, et sacro
+          baptismate regeneratur, a Christo Christianus vocatur, et Dei patris atque Ecclesiae matris
+          noscitur esse filius. Ecclesia <foreign xml:lang="greek">ἐκκλησία</foreign> Graecum est, quod
+          in Latinum vertitur convocatio sive conventus, eo quod omnes convocat ad se. Catholica
+          <foreign xml:lang="greek">καθολικὸς</foreign> autem dicitur, id est, universalis, quia in
+          toto mundo una est Ecclesia Christi, quae et sponsa Christi, et corpus ejus est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

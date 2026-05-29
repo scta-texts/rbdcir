@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 25</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 25</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="202"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4563"><!-- l3c25 -->
+        <head xml:id="rbdcir-de4563-Hd1e101">Caput 25</head>
+        <head xml:id="rbdcir-de4563-Hd1e103" type="question-title">De astronomia</head>
+        <p xml:id="rbdcir-de4563-d1e106">CAPUT XXV. <hi>De astronomia.</hi>
+        </p>
+        <p xml:id="rbdcir-de4563-d1e111">Astronomia ergo superest, quae, ut quidam dixit, dignum est religiosis argumentum, magnumque
+    curiosis tormentum. Hanc ergo si casta ac moderata mente perquirimus, sensus quoque nostros,
+    ut et veteres dicunt, magna charitate perfundit. Quale est enim ad coelos animo subire,
+    totamque illam machinam supernam indagabili ratione discutere, et inspectiva mentis
+    sublimitate ex aliqua parte colligere, quod tantae magnitudinis arcana velaverunt? Nam mundus
+    ipse, ut quidam dicunt, sphaerica fertur rotunditate collectus, ut diversas rerum formas
+    ambitus sui circuitione concluderet. Unde librum Seneca consentanea philosophis disputatione
+    formavit, cui titulus est <quote xml:id="rbdcir-de4563-Qd1e113">De forma mundi.</quote> Astronomia itaque dicitur, unde nobis
+    sermo, astrorum lex: quia nesciunt ullo modo aliter, quam a suo creatore disposita sunt, vel
+    consistere, vel moveri: nisi forte quando, aliquo miraculo facto, divinitatis arbitrio
+    commutantur; sicuti Jesu Nave soli in Gabaon ut staret legitur imperasse <ref xml:id="rbdcir-de4563-Rd1e115">(Jos. X)</ref>;
+    et temporibus Ezechiae regis, retrorsum decem gradibus reversum fuisse <ref xml:id="rbdcir-de4563-Rd1e117">(IV Reg.
+    XX)</ref>; et in passione Domini tribus horis sol tenebrosus effectus est <ref xml:id="rbdcir-de4563-Rd1e119">(Luc.
+      XXIII)</ref>, et his similia. Ideo enim miracula dicuntur, quoniam contra consuetudinem
+    rerum admiranda contingunt. Feruntur enim, sicut dicunt astronomi, quae coelo fixa sunt;
+    moventur vero planetae, id est erraticae, quae cursus suos certa tamen diffinitione
+    conficiunt. Astronomia est itaque, sicut jam dictum est, disciplina quae cursus coelestium
+    siderum et figuras contemplatur, omnes et habitudines stellarum circa se et circa terram
+    indagabili ratione percurrit. Inter astronomiam autem et astrologiam aliquid differt, licet ad
+    unam disciplinam ambae pertineant. Nam astronomia coeli conversionem, ortus, obitus, motusque
+    siderum continet, vel ex qua causa ita vocentur; astrologia vero partim naturalis, partim
+    superstitiosa est. Naturalis, dum exsequitur solis lunaeque cursus vel stellarum, certas
+    temporum quaestiones. Superstitiosa vero est illa, quam mathematici sequuntur, qui stellis
+    augurantur, quique etiam duodecim coeli signa per singula animae vel corporis membra
+    disponunt, siderumque cursu nativitates hominum et mortes praedicare conantur. Hanc quidem
+    partem astrologiae quae naturali inquisitione exsequitur, solis lunaeque cursus atque
+    stellarum, et certas temporum distinctiones caute rimatur, oportet a clero Domini solerti
+    medicamine disci, ut per certas regularum conjecturas, et ratas ac veras argumentorum
+    aestimationes, non solum praeterita annorum curricula veraciter investiget, sed et de futuris
+    noverit fideliter ratiocinari temporibus <cb ed="#P" n="b"/> utque Paschalis festi exordia, et
+    certa loca omnium solemnitatum atque celebrationum, sibi sciat intimare observanda, et populo
+    Dei rite valeat indicare celebranda.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

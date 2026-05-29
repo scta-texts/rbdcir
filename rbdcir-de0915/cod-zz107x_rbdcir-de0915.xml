@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="155"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0915"><!-- l1c26 -->
+        <head xml:id="rbdcir-de0915-Hd1e101">Caput 26</head>
+        <head xml:id="rbdcir-de0915-Hd1e103" type="question-title">De catechumenis</head>
+        <p xml:id="rbdcir-de0915-d1e106">CAPUT XXVI. <hi>De catechumenis.</hi>
+        </p>
+        <p xml:id="rbdcir-de0915-d1e111">Catechumenus autem dicitur, pro eo quod adhuc doctrinam fidei audit, necdum tamen baptismum
+    recepit. Nam catechumenus <foreign xml:lang="greek">κατηχούμενος</foreign> Graece, Latine
+    auditor interpretatur. Et quia primum exhortationis praeceptum in lege est: <quote xml:id="rbdcir-de0915-Qd1e116">Audi,
+      Israel, Dominus Deus tuus Deus unus est </quote>
+          <ref xml:id="rbdcir-de0915-Rd1e118">(Deut. VI)</ref>, inde est ut is qui per sacerdotem quasi per Moysen Deus loquitur,
+    catechumenus, id est audiens nominetur: scilicet ut <pb ed="#P" n="156"/>
+          <cb ed="#P" n="a"/> verum agnoscens Dominum,
+    relinquat errores varios idolorum. Puto autem omnes a Joanne poenitentia baptizatos,
+    catechumenorum praetulisse figuram. Post catechumenos autem, secundus gradus est competentium.
+    Competentes autem sunt qui jam post doctrinam fidei, post continentiam vitae ad gratiam
+    Christi percipiendam festinant: ideoque appellantur competentes, id est gratiam Christi
+    petentes. Nam catechumeni tantum audiunt, necdum petunt. Sunt enim quasi hospites et vicini
+    fidelium, deforis audiunt mysteria, audiunt gratiam, sed adhuc non appellantur fideles.
+    Competentes autem petunt, jam accipiunt, jam catechizantur, id est imbuuntur inctructione
+    fidei et sacramentorum. Istis enim traditur salutare Symbolum, quasi commonitorium fidei, et
+    sanctae confessionis indicium, quo instructi agnoscant quales jam ad gratiam Christi exhibere
+    se debeant. Notandum autem quod in ecclesia Salvatoris parvulorum, qui per aetatem nec adhuc
+    renuntiare diabolo nec credere in Deum possunt, per corda et ora gestantium salus adimpleatur,
+    quia et in Evangelio legitur quod Jesus fidem illorum intuens qui paralyticum ad sanandum sibi
+    afferebant, dixerit ipsi: <quote xml:id="rbdcir-de0915-Qd1e125">Homo, remittuntur tibi peccata tua </quote>
+          <ref xml:id="rbdcir-de0915-Rd1e127">(Matth. IX)</ref>; et quod filium viduae a mortuis suscitavit, misericordia motus super
+    ea. Manifestum enim quod parvuli sicut ex aliis ea quae illis remittuntur in baptismo, peccata
+    traxerunt, sic et per alios ad salutem credunt. Nec enim siquidem muti et surdi, qui nec
+    audire neque profiteri fidem possunt, ab aliquibus Christianis ad baptizandum offeruntur, per
+    credulitatem offerentium salvari creduntur, quia non obsistit omnipotentis Dei gratiae naturae
+    infirmitas humanae.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

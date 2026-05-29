@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="168"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1999"><!-- l2c20 -->
+        <head xml:id="rbdcir-de1999-Hd1e101">Caput 20</head>
+        <head xml:id="rbdcir-de1999-Hd1e103" type="question-title">De quadragesimali jejunio</head>
+        <p xml:id="rbdcir-de1999-d1e106">CAPUT XX. <hi>De quadragesimali jejunio.</hi>
+        </p>
+        <p xml:id="rbdcir-de1999-d1e111">Primum enim jejunium Quadragesimae est, quod a veteribus libris coepit ex jejunio Moysis et
+    Eliae, et ex Evangelio, quia totidem diebus Dominus jejunavit, demonstrans Evangelium non
+    dissentire a lege et prophetis. In persona quippe Moysi lex, in persona Eliae prophetae
+    accipiuntur, inter quos in monte Christus gloriosus apparuit, ut evidentius emineret quod de
+    illo dicit Apostolus: <quote xml:id="rbdcir-de1999-Qd1e113">Testimonium habens a lege et prophetis.</quote> In qua ergo parte
+    anni congruentius observatio Quadragesimae constitueretur, nisi confinis atque contigua
+    Dominicae passionis, quia in ea significatur haec vita laboriosa? Cui etiam opus est
+    continentia, ut ab ipsius mundi illecebris jejunemus, viventes in sola manna, id est in
+    coelestibus spiritualibusque praeceptis. Numero autem quadragenario vita ista propterea
+    figuratur, quia denarius est perfectio beatitudinis nostrae. Creatura autem septenario
+    figuratur, quae adhaeret Creatori, in quo declaratur unitas Trinitatis per universum mundum
+    temporaliter annuntiata. Et quia mundus quatuor ventis describitur, et a quatuor elementis
+    erigitur, et a quatuor anni temporum vicibus variatur, decem quater ducta in quadraginta
+    consummantur: quo numero ostenditur ab omni temporum delectatione abstinendum et jejunandum
+    esse, et caste continenterque vivendum, licet et aliud sacramenti mysterium exprimitur in hoc,
+    quod quadraginta diebus eadem jejunia celebrantur. Lege enim Mosaica generaliter universo
+    populo est praeceptum, decimas et primitias offerre Domino Deo. Itaque cum in hac sententia
+    principia voluptatum consummationesque operum nostrorum referre ad Dei gratiam admonemur, in
+    supputatione tamen quadragesimae summa ista legalium decimarum expletur. Totum enim anni
+    tempus triginta sex dierum numero decimatur, subtractis enim e Quadragesima diebus Dominicis,
+    quibus jejunia resolvuntur, his diebus quasi pro totius anni decimis ad ecclesiam concurrimus,
+    actuumque nostrorum operationem Deo in hostiam jubilationis offerimus, cujus quidem
+    Quadragesimae lege (sicut ait noster Cassianus) quique perfecti sunt quodam modo non tenentur,
+    nec exigui hujus canonis subjectione contenti sunt. Quem praesertim illis qui per totum anni
+    spatium deliciis ac negotiis saecularibus implicantur ecclesiarum principes statuerunt, ut vel
+    hoc legali quodam modo dierum vitae suae, quos totos quasi fructus quosdam fuerant voraturi,
+    velut decimas Domino dedicarent.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

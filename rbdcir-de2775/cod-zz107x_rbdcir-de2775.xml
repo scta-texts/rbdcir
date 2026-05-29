@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 43</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 43</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="178"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2775"><!-- l2c43 -->
+        <head xml:id="rbdcir-de2775-Hd1e101">Caput 43</head>
+        <head xml:id="rbdcir-de2775-Hd1e103" type="question-title">De festivitatibus sanctorum</head>
+        <p xml:id="rbdcir-de2775-d1e106">CAPUT XLIII. <hi>De festivitatibus sanctorum.</hi>
+        </p>
+        <p xml:id="rbdcir-de2775-d1e111">Festivitates apostolorum sive in honorem martyrum solemnitates, antiqui patres in
+    venerationis mysterio celebrare sanxerunt <ref xml:id="rbdcir-de2775-Rd1e113">(August. de Civit. Dei)</ref>, vel ad
+    excitandam imitationem, vel ut meritis eorum consociemur, atque orationibus adjuvemur, ita
+    tamen, ut nulli martyrum, sed ipsi Deo martyrum, quamvis in memoriis martyrum, constituamus
+    altaria. Quis enim antistitum in locis sanctorum corporum assistens altari aliquando dixit:
+    Offerimus tibi, Petre, aut Paule, aut Cypriane? Sed quod offertur, Deo offertur, qui martyres
+    coronavit, apud memorias eorum quos coronavit, quod ex ipsorum amore major affectus exsurgat
+    ad acuendam charitatem, et in illos quos imitari possemus, et in illo quo adjuvante possimus.
+    Colimus ergo martyres eo cultu dilectionis et societatis, quo et in hac vita coluntur sancti
+    homines Dei, quorum cor ad talem pro evangelica veritate passionem paratum sentimus, sed illos
+    tanto devotius, quanto securius post incerta omnia superata, quanto etiam fidentiori laude
+    praedicamus, jam in vita feliciore victores, quam in ista adhuc usque pugnantes. At vero illo
+    cultu qui Graece latreia, <foreign xml:lang="greek">λατρεία</foreign> dicitur, <pb ed="#P" n="179"/>
+          <cb ed="#P" n="a"/>
+    Latine uno verbo dici non potest, cum proprie sit quaedam divinitati debita servitus, nec
+    colimus, nec colendum docemus, nisi unum Deum. Cum autem ad hunc cultum pertineat oblatio
+    sacrificii, unde idololatria dicitur eorum, qui hoc etiam idolis exhibent, nullo modo aliquid
+    tale offerimus aut offerendum praecipimus, vel cuiquam martyri, vel cuiquam sanctae animae,
+    vel cuiquam angelo, et quisquis in hunc errorem dilabitur, corripiatur per sanam doctrinam,
+    sive ut corrigatur, sive ut caveatur dum etiam ipsi sancti vel homines vel angeli exhiberi
+    sibi nolint, quod uni Deo deberi norint. Apparuit hoc in Paulo et Barnaba cum, commoti
+    miraculis, quae per eos facta sunt, Lycaonii, tanquam diis immolare voluerunt <ref xml:id="rbdcir-de2775-Rd1e122">(Act.
+      XIV)</ref>. Conscissis enim vestimentis suis, confitentes et persuadentes se deos non esse,
+    ista sibi vetuerunt. Apparuit et in angelis, sicut et in Apocalypsi legimus angelum se adorare
+    prohibentem ac dicentem adoratori suo: <quote xml:id="rbdcir-de2775-Qd1e125">Conservus tuus sum et fratrum tuorum, Deum adora </quote>
+          <ref xml:id="rbdcir-de2775-Rd1e127">(Apoc. XIX)</ref>. Recte itaque scribitur homini ab angelo prohibitum esse adorare se,
+    sed unum Deum sub quo ei esset et ille conservus. Non ergo sit nobis ille divinae religionis
+    cultus in angelos aut martyres, quia non sic habentur ut tales quaerant honores ut Deus, quia
+    nec ipsi volunt se coli pro Deo, sed illum a nobis coli volunt quo illuminante laetantur.
+    Honorandi ergo sunt martyres, propter imitationem, non adorandi propter religionem, honorandi
+    charitate non servitute. Notandum vero quod Felix, papa Romanus, vigesimus septimus post
+    sanctum Petrum, legitur constituisse supra memorias martyrum missas celebrari. Attamen beatus
+    Gregorius papa sexagesimus sextus Romanae urbis constituit supra corpus missas celebrari.
+    Dicuntur quaedam festivitates natalitia, et merito. Quomodo enim consuete nasci dicitur, cum
+    quis, de utero matris procedens, hanc in lucem egreditur, ita rectissime potest natus dici,
+    quia vinculis carnis solutus, ad lucem sublimatur aeternam, et inde mos obtinuit
+    ecclesiasticus, ut dies beatorum martyrum, sive confessorum Christi, qui de saeculo
+    transierunt, natales vocitemus, eorumque solemnia, non funebria, sed natalitia dicantur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

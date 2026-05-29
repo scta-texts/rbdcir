@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 34</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 34</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="205"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4814"><!-- l3c34 -->
+        <head xml:id="rbdcir-de4814-Hd1e101">Caput 34</head>
+        <head xml:id="rbdcir-de4814-Hd1e103" type="question-title">Exempla in Apostolo, de praedictis generibus tribus</head>
+        <p xml:id="rbdcir-de4814-d1e106">CAPUT XXXIV. <hi>Exempla in Apostolo, de praedictis generibus tribus.</hi>
+        </p>
+        <p xml:id="rbdcir-de4814-d1e111">Submissae dictionis exemplum est apud apostolum Paulum, ut planius aliquid commemorem, ubi
+    ait ad Galatas: <quote xml:id="rbdcir-de4814-Qd1e113">Dicite mihi, sub lege volentes esse, legem non legistis? Scriptum est
+      enim, quoniam Abraham duos filios habuit, unum de ancilla, et unum de libera. Sed qui de
+      ancilla, secundum carnem natus est; qui autem de libera, per repromissionem: quae sunt per
+      allegoriam dicta. Haec enim sunt duo testamenta,</quote> etc. <ref xml:id="rbdcir-de4814-Rd1e115">(Galat. IV.)</ref> Item
+    ubi ratiocinatur et dicit: <quote xml:id="rbdcir-de4814-Qd1e117">Fratres, secundum hominem dico. Tamen hominis confirmatum
+      testamentum nemo irritum facit aut superordinat. Abrahae dictae sunt promissiones et semini
+      ejus. Non dicit, Et seminibus, quasi in multis, sed tanquam in uno, Et semini tuo qui est
+      Christus. Hoc autem dico, testamentum confirmatum a Deo, post quadringentos et triginta
+      annos facta lex, non infirmat ad evacuandas promissiones. Si enim ex lege haereditas, jam
+      non ex promissione. Abrahae autem per repromissionem donavit Deus.</quote> Et quia occurrere
+    poterat audientis cogitationi, Ut quid ergo lex data est, si ex illa non est haereditas? Ipse
+    sibi hoc objecit, atque ait velut interrogans: <quote xml:id="rbdcir-de4814-Qd1e119">Quid ergo lex?</quote> Deinde respondit:
+      <quote xml:id="rbdcir-de4814-Qd1e121">Transgressionis gratia proposita est, donec veniret semen, cui promissum est,
+      disposita per angelos in manu mediatoris,</quote> etc. Pertinet ergo ad docendi curam non
+    solum aperire clausa, et nodos <pb ed="#P" n="206"/>
+          <cb ed="#P" n="a"/> solvere quaestionum, sed etiam dum hoc agitur,
+    aliis quaestionibus quae fortassis inciderint, ne id quod dicimus improbetur per illas aut
+    refellatur, occurrere: si tamen ipsa eorum solutio pariter occurrerit, ne moveamus quod
+    auferre non possumus. Fit autem, ut cum incidentes quaestioni aliae quaestiones, et aliae
+    rursus incidentibus incidentes pertractantur atque solvuntur, in eam longitudinem
+    ratiocinationis extendatur intentio, ut nisi memoria plurimum valeat atque vigeat, ad caput
+    unde agebatur disputator redire non possit. Valde autem bonum est ut quidquid contradici
+    potest, si occurrerit, refutetur; ne ibi occurrat ubi non est qui respondeat; aut praesenti
+    quidem, sed tacenti occurrat, et minus sanatus abscedat. In illis autem apostolicis verbis
+    dictio est temperata: <quote xml:id="rbdcir-de4814-Qd1e128">Seniorem ne increpaveris, sed obsecra ut patrem, juniores ut
+      fratres, anus ut matres, adolescentulas ut sorores </quote>
+          <ref xml:id="rbdcir-de4814-Rd1e130">(I Tim. V)</ref>. Et in illis: <quote xml:id="rbdcir-de4814-Qd1e132">Obsecro autem vos, fratres, per misericordiam Dei,
+      ut exhibeatis corpora vestra hostiam vivam, sanctam, Deo placentem </quote>
+          <ref xml:id="rbdcir-de4814-Rd1e134">(Rom. XII)</ref>. Et totus fere ipsius exhortationis locus temperatum habet locutionis
+    genus: ubi illa pulchriora sunt, ubi propria propriis tanquam debita reddita, decenter
+    excurrunt, sicuti est: <quote xml:id="rbdcir-de4814-Qd1e137">Habentes dona diversa secundum gratiam quae data est nobis; sive
+      prophetiam, secundum regulam fidei; sive ministerium, in ministrando; sive qui docet, in
+      doctrina; sive qui exhortatur, in exhortatione; qui tribuit, in simplicitate; qui praeest,
+      in sollicitudine; qui miseretur, in hilaritate,</quote> etc. Et aliquanto post:
+      <quote xml:id="rbdcir-de4814-Qd1e139">Reddite, inquit, omnibus debita: cui tributum, tributum; cui vectigal, vectigal: cui
+      timorem, timorem; cui honorem, honorem </quote>
+          <ref xml:id="rbdcir-de4814-Rd1e141">(Ibid.)</ref>. Quae membratim fusa clauduntur etiam ipso circuitu, quem duo membra
+    contexunt: <quote xml:id="rbdcir-de4814-Qd1e143">Nemini quidquam debeatis, nisi ut invicem diligatis </quote>
+          <ref xml:id="rbdcir-de4814-Rd1e145">(Rom. XIII)</ref>. Grande autem dicendi genus hoc maxime distat ab isto genere temperato,
+    quod non tam verborum ornatibus comptum est, quam violentum est animi affectibus. Nam capit
+    etiam illa ornamenta pene omnia; sed ea si non habuerit, non requirit. Fertur enim impetu suo,
+    et elocutionis pulchritudinem, si occurrerit, vi rerum rapit, non cura decoris assumit. Satis
+    est enim ei propter quod agitur, ut verba congruentia, non oris eligantur industria, <pb ed="#P" n="206"/>
+          <cb ed="#P" n="a"/> sed pectoris sequantur ardorem. Nam si aurato gemmatoque ferro vir fortis
+    armetur, intentissimus pugnae, agit quidem illis armis quod agit, non quia pretiosa, sed quia
+    arma sunt. Agit apostolus, ut pro evangelico ministerio patienter mala hujus temporis cum
+    solatio donorum Dei omnia tolerentur. Magna res est, et granditer agitur, nec desunt ornamenta
+    dicendi: <quote xml:id="rbdcir-de4814-Qd1e152">Ecce nunc, inquit, tempus acceptabile, ecce nunc dies salutis. Nullam in
+      quoquam dantes offensionem, ut non reprehendatur ministerium nostrum; sed in omnibus
+      commendantes nosmetipsos ut Dei ministros, in multa patientia, in tribulationibus, in
+      necessitatibus,</quote> etc., quae persequi longum est <ref xml:id="rbdcir-de4814-Rd1e154">(II Cor. VI)</ref>. Itemque ad
+    Romanos ait: <quote xml:id="rbdcir-de4814-Qd1e156">Ut persecutiones hujus mundi charitate vincantur, spe <cb ed="#P" n="b"/>
+      certa in adjutorio Dei </quote>
+          <ref xml:id="rbdcir-de4814-Rd1e161">(Rom. VIII)</ref>. Ait autem et granditer et ornate: <quote xml:id="rbdcir-de4814-Qd1e163">Scimus quoniam diligentibus
+      Deum omnia cooperantur in bonum his qui secundum propositum vocati sunt sancti: quoniam quos
+      ante praescivit, et praedestinavit conformes fieri imaginis Filii sui, ut sit ipse
+      primogenitus in multis fratribus,</quote> etc.; quae in eodem capitulo sequuntur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

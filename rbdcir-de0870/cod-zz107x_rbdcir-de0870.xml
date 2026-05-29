@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 25</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 25</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="155"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0870"><!-- l1c25 -->
+        <head xml:id="rbdcir-de0870-Hd1e101">Caput 25</head>
+        <head xml:id="rbdcir-de0870-Hd1e103" type="question-title">De baptismatis sacramento</head>
+        <p xml:id="rbdcir-de0870-d1e106">CAPUT XXV. <hi>De baptismatis sacramento.</hi>
+        </p>
+        <p xml:id="rbdcir-de0870-d1e111">Primum autem sacramentorum est baptismum, quia antequam sancto chrismate ungatur aliquis, aut
+    corporis et sanguinis Christi particeps existat, sacra regeneratione purgari debet, ac deinde
+    ad caetera rite accedere. Baptismum <foreign xml:lang="greek">βάπτισμα</foreign> Graece,
+    Latine tinctio interpretatur, quae non tamen ob hoc quod homo in aquam mergitur tinctio
+    dicitur, sed <cb ed="#P" n="b"/> quia spiritu gratiae ibi in melius immutatur, et longe aliud quam
+    erat efficitur. Primum homines foedi eramus deformitate peccatorum, in ipsa tinctione pulchri
+    dealbatione virtutum efficimur. Unde et in Canticis scribitur canticorum: <quote xml:id="rbdcir-de0870-Qd1e118">Quae est ista
+      quae ascendit quasi dealbata?</quote> Cujus mysterium non aliter nisi sub Trinitatis
+    designatione, id est, Patris et Filii et Spiritus sancti cognitione completur, dicente Domino
+    ad Apostolos: <quote xml:id="rbdcir-de0870-Qd1e120">Ite, docete omnes gentes, baptizantes eos in nomine Patris et Filii et
+      Spiritus sancti </quote>
+          <ref xml:id="rbdcir-de0870-Rd1e122">(Marc. ult.)</ref>. Sicut enim in tribus testibus stat omne verbum, ita sacramentum
+    confirmat ternarius numerus nominum divinorum. Quod autem per aquam baptismum datur, haec
+    ratio est: voluit enim Dominus ut res illa invisibilis per congruentiam, sed profecto
+    incontrectabile et invisibile impenderetur elementum, super quod etiam in principio ferebatur
+    Spiritus sanctus. Nam sicut oleum naturali pondere superfertur omni liquore, ita in principio
+    ferebatur Spiritus sanctus aquis. Sicut aqua purgat exterius corpus, ita latenter ejus
+    mysterio per Spiritum sanctum purificatur et animus, cujus sanctificatio ita est. Invocato
+    enim Deo descendit Spiritus sanctus de coelis, et medicatis aquis, sanctificat eas de
+    semetipso, et accipiunt vim purgationis, ut in eis caro et anima delictis inquinata mundetur.
+    Utrumque enim baptizando necesse est adhiberi, et baptismi lavacrum, et Spiritus sancti
+    purgatio, quia ait Salvator: <quote xml:id="rbdcir-de0870-Qd1e125">Nisi quis renatus fuerit ex aqua et Spiritu sancto, non
+      potest introire in regnum Dei.</quote> Sed ante baptismum, catechizandi debet in hominem
+    pervenire officium, ut fidei primum catechumenus accipiat rudimentum. Nam in Evangelio
+    secundum Matthaeum legitur quod post resurrectionem Dominus apostolis praeceperit ut in nomine
+    Patris et Filii et Spiritus sancti docerent, et baptizarent omnes gentes <ref xml:id="rbdcir-de0870-Rd1e127">(Matth.
+      ult.)</ref>, id est, prius per fidem Dei illis insinuarent, et sic credentes in remissionem
+    peccatorum baptizarent. Hoc est quod secundum Marcum idem Dominus legitur praeposuisse fidem
+    baptismatis, cum ita dixerit: <quote xml:id="rbdcir-de0870-Qd1e129">Qui crediderit et baptizatus fuerit, salvus erit; qui
+      vero non crediderit condemnabitur </quote>
+          <ref xml:id="rbdcir-de0870-Rd1e131">(Marc. ult.)</ref>. Et, Joanne teste, prius ipse Jesus caeci nati oculos luto ex sputo
+    facto superlinivit, et sic ad aquas Siloe misit, quia prius debet baptizandus fide
+    incarnationis Christi instrui, et sic ad baptismum jam credulus admitti, ut sciat cujus
+    gratiae in eo est particeps, et cui jam debitor fiat deinceps</p>
+      </div>
+    </body>
+  </text>
+</TEI>

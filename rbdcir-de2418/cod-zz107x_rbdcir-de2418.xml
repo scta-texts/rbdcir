@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 33</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 33</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="173"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2418"><!-- l2c33 -->
+        <head xml:id="rbdcir-de2418-Hd1e101">Caput 33</head>
+        <head xml:id="rbdcir-de2418-Hd1e103" type="question-title">De Purificatione</head>
+        <p xml:id="rbdcir-de2418-d1e106">CAPUT XXXIII. <hi>De Purificatione.</hi>
+        </p>
+        <p xml:id="rbdcir-de2418-d1e111">Purificationis ergo matris Domini tempus, post dies quadraginta a nativitate ejus celebratur,
+    quia ex legis praecepto hoc tempus statutum est parientibus feminis, quo purificari deberent.
+    Scriptum est enim in libro Levitico, quod Dominus per Moysen mandaverit Israel, ut mulier quae
+    in suscepto semine pareret masculum, immunda esset septem diebus, et die octava
+    circumcideretur infantulus; ipsa vero triginta quatuor diebus maneret in sanguine
+    purificationis suae. Omne sanctum non tangeret, nec ingrederetur sanctuarium, donec
+    implerentur dies purgationis ejus. Sin autem feminam pareret, immunda esset duabus
+    hebdomadibus, et quadraginta ac tribus diebus maneret in sanguine purificationis suae. Cumque
+    impleti essent dies purgationis ejus, pro filio sive filia deferret agnum anniculum in
+    holocaustum, et pullum columbae, sive turturem pro peccato. Quod si non potuerit agnum
+    offerre, sumeret duos turtures vel duos pullos columbae, unum in holocaustum, et alterum pro
+    peccato, oraretque pro ea sacerdos, et sic mundaretur <ref xml:id="rbdcir-de2418-Rd1e113">(Lev. XII)</ref>. Hac ergo de causa
+    statuta in Ecclesia festivitas haec, quia matrem Domini secundum legem in hac die constabat
+    purgari; sed non ideo, quod aliqua legali purgatione indiguerit, quae Dominum gestabat legis,
+    sed quia Jesus non venit legem solvere, sed adimplere. Venit ergo mater Domini ad templum
+    secundum legem, ducens secum puerum, ac deferens hostias quae lex praecepit, ut in nullo
+    patribus fieret dissimilis, ac illud in se primo ostenderet, quod scriptum est: <quote xml:id="rbdcir-de2418-Qd1e115">Quanto
+      magnus es, humilia te in omnibus </quote>
+          <ref xml:id="rbdcir-de2418-Rd1e117">(Eccli. III)</ref>. Obvios habuit grandaevum Simeonem, et Annam multorum annorum viduam,
+    et caeteras personas in hoc sacro ministerio affuisse, quae benedixerunt et glorificaverunt
+    Deum, et multa de eo vaticinavere, sacer Evangelii textus luculento sermone demonstrat. Ob
+    hanc quippe causam eadem festivitas Hypante, <foreign xml:lang="greek">ὑπαντὴ</foreign>
+    nuncupatur, quia praedictae personae ad templum obviam Christo advenerunt, devoto corde et
+    obsequio, hypantao enim Graeco sermone <foreign xml:lang="greek">ὑπαντάω</foreign> dicitur,
+    quod obvio Latine interpretatur. Est quoque festivitas haec Purificationis incipiente
+    Februario mense, qui a Februo, id est, Plutone, qui lustrationum potens a gentibus credebatur,
+    ita vocatus est, lustrarique eo mense apud Romanos civitatem consuetudo erat, ut justa diis
+    Manibus solverentur. Sed hanc lustrandi consuetudinem <cb ed="#P" n="b"/> bene mutavit Christiana
+    religio, cum in mense eodem, die sanctae Mariae, plebs universa cum sacerdotibus ac ministris,
+    hymnis, modulationibus devotis, per ecclesias, perque congrua urbis loca procedit, datosque a
+    pontifice cuncti cereos in manibus gestant ardentes: non utique in lustrationem terrestris
+    imperii quinquennem, sed in perennem regni coelestis memoriam, quando juxta parabolam virginum
+    prudentium, omnes electi lucentibus bonorum operum lampadibus, obviam sponso ac regi suo
+    venientes, mox cum eo ad nuptias supernae civitatis intrabunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="198"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4368"><!-- l3c18 -->
+        <head xml:id="rbdcir-de4368-Hd1e101">Caput 18</head>
+        <head xml:id="rbdcir-de4368-Hd1e103" type="question-title">De arte grammatica, et speciebus ejus</head>
+        <p xml:id="rbdcir-de4368-d1e106">CAPUT XVIII. <hi>De arte grammatica, et speciebus ejus.</hi>
+        </p>
+        <p xml:id="rbdcir-de4368-d1e111"> Prima ergo liberalium artium est grammatica, secunda rhetorica, tertia dialectica, quarta
+    arithmethica, quinta geometria, sexta musica, septima astronomia; grammatica enim a litteris
+    nomen accepit, sicut vocabuli illius derivatus sonus ostendit. Diffinitio autem ejus talis
+    est: Grammatica est scientia interpretandi poetas atque historicos, et recte scribendi
+    loquendique ratio. Haec et origo et fundamentum est artium liberalium. Hanc itaque scholam
+    Dominicam legere convenit, quia scientia recte loquendi et scribendi ratio in ipsa consistit.
+    Quomodo quis vim vocis articulatae seu litterarum et syllabarum potestatem cognoscit, si non
+    prius per eam id didicit? Aut quomodo pedum, accentuum et positurarum discretionem scit, si
+    non per hanc disciplinam ejus scientiam ante percepit? Aut quomodo partium orationis jura,
+    schematum decorem, troporum virtutem, etymologiarum rationem, et orthographiae rectitudinem
+    novit, si non grammaticam artem ante sibi notam fecit? Inculpabiliter enim, imo laudabiliter
+    hanc artem discit, quisquis in ea non inanem pugnam verborum facere diligit, sed rectae
+    locutionis scientiam et scribendi peritiam habere appetit. Ipsa est enim omnium judex
+    librariorum, quia ubicunque errorem perspexerit, reprehendit, et ubi bene dicta sunt, suo
+    judicio comprobabit. Schemata autem omnia quotquot saecularis disciplina conscripsit, in
+    sanctis libris saepius posita reperiuntur. Necnon tropis auctores nostros usos fuisse, et
+    multiplicius atque copiosius quam possit existimari vel credi, quisquis libros divinos
+    diligenter legit, inveniet. Istorum autem troporum non solum exempla sicut omnium, sed
+    quorumdam etiam nomina in divinis libris leguntur, sicut allegoria, aenigma, parabola. Quorum
+    omnium cognitio propterea Scripturarum ambiguitatibus dissolvendis est necessaria, quia sensus
+    ad proprietatem verborum si accipiatur, absurdus est. Quaerendum est utique, ne forte illo vel
+    illo tropo dictum sit quod non intelligimus, et sic pleraque inventa sunt quae latebant.
+    Metricam autem rationem quae per artem grammaticam discitur, non ignobile est scire, quia apud
+    Hebraeos Psalterium (ut beatus Hieronymus testatur) nunc iambo currit, nunc alchaico personat,
+    nunc <cb ed="#P" n="b"/> sapphico tumet, nunc semipede ingreditur. Deuteronomium vero, et Isaiae
+    canticum, necnon et Salomon et Job, hexametris et pentametris versibus (ut Josephus et
+    Origenes scribunt) apud suos composita decurrunt. Quamobrem non est spernenda haec, quamvis
+    gentilibus communis ratio, sed quantum satis est perdiscenda, quia utique multi evangelici
+    viri, insignes libros hac arte condiderunt, et Deo placere per id satagerunt, ut fuit
+    Juvencus, Sedulius, Arator, Alcimus, Clemens, Paulinus et Fortunatus, et caeteri multi.
+    Poemata autem et libros gentilium si velimus propter florem eloquentiae legere, typus mulieris
+    captivae tenendus est, quam Deuteronomium describit; et Dominum ita praecepisse commemorat, ut
+    si Israelites eam habere vellet uxorem, calvitium ei faciat, ungues praesecet, pilos auferat,
+    et cum munda fuerit effecta, tunc transeat in uxoris amplexus. Haec si secundum litteram
+    intelligimus, nonne ridicula sunt? Itaque et nos hoc facere solemus, hocque facere debemus,
+    quando poetas gentiles legimus, quando in manus nostras libri veniunt sapientiae saecularis,
+    si quid in eis utile reperimus, ad nostrum dogma convertimus; si quid vero superfluum de
+    idolis, de amore, de cura saecularium rerum, haec radamus, his calvitium inducamus, haec in
+    unguium more ferro acutissimo desecemus. Hoc tamen prae omnibus cavere debemus, ne haec
+    licentia nostra offendiculum fiat infirmis: ne pereat qui infirmus est in scientia nostra
+    frater, propter quem Christus mortuus est, si viderit in idolio nos recumbentes.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

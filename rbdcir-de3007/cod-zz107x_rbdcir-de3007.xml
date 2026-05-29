@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 48</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 48</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="182"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3007"><!-- l2c48 -->
+        <head xml:id="rbdcir-de3007-Hd1e101">Caput 48</head>
+        <head xml:id="rbdcir-de3007-Hd1e103" type="question-title">De psalmis</head>
+        <p xml:id="rbdcir-de3007-d1e106">CAPUT XLVIII. <hi>De psalmis.</hi>
+        </p>
+        <p xml:id="rbdcir-de3007-d1e111">Psallere autem usum esse primum Moysen, David prophetam in magno mysterio, prodit Ecclesia.
+    Hic enim a pueritia in hoc munus a Domino specialiter electus, et cantorum princeps,
+    psalmorumque thesaurus esse promeruit. Cujus psalterium idcirco cum melodia cantilenarum
+    suavium ab Ecclesia frequentatur, quo facilius animi ad compunctionem flectantur. Primitiva
+    autem Ecclesia ita psallebat, <cb ed="#P" n="b"/> ut modico flexu vocis faceret resonare
+    psallentem, ita ut pronuntianti vicinior esset quam canenti. Propter carnales autem in
+    Ecclesia non propter spiritales, consuetudo cantandi est instituta, ut quia verbis non
+    compunguntur, suavitate modulaminis moveantur. Sic namque et beatissimus Augustinus in libro
+    Confessionum suarum, consuetudinem canendi approbat in Ecclesia, ut per oblectamenta, inquit,
+    aurium, infirmior animus ad effectum pietatis exsurgat. Nam idipsis sanctis dictis,
+    religiosius et ardentius moventur animi nostri ad flammam pietatis cum cantatur, quam si non
+    cantetur. Omnes enim affectus nostri prae sonorum diversitate vel novitate, nescio qua occulta
+    familiaritate excitantur magis, cum suavi et artificiosa voce cantatur. Psalmistam autem et
+    voce et arte praeclarum illustremque esse oportet, ita ut oblectamento dulcedinis animos
+    incitet auditorum. Vox autem ejus non asper vel rauca, vel dissona, sed canora erit, suavis,
+    liquida, atque acuta, habens sonum et melodiam sanctae religionis congruentem, non quae
+    tragicam exclamet artem, sed quae Christianam simplicitatem in ipsa modulatione demonstret,
+    neque quae musico gestu, vel theatrali arte redoleat, sed quae compunctionem magis audientibus
+    faciat. Perfecta autem vox est, alta, clara et suavis: alta, ut in sublime sufficiat; clara,
+    ut aures adimpleat; suavis, ut animis audientium blandiatur. Si autem ex his aliquid defuerit,
+    perfecta vox non erit. Antiqui enim pridie quam cantandum erat, cibis abstinebant, pallentia
+    tantum legumina causa vocis sumebant, unde et vulgo cantores fabarii dicti sunt. Si ergo hoc
+    apud gentiles tantum servandae vocis causa agebatur, quanto magis apud Christianos, quos non
+    tam vocis quam virtutis ipsius tenet cura, ab omni illecebra voluptatum abstinere oportet.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

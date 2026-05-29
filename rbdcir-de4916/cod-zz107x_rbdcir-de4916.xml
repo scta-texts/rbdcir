@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 36</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 36</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="206"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4916"><!-- l3c36 -->
+        <head xml:id="rbdcir-de4916-Hd1e101">Caput 36</head>
+        <head xml:id="rbdcir-de4916-Hd1e103" type="question-title">Quid sit sapienter et eloquenter dicere; et quod alienum non dicat,
+    qui ab alio prolata, vivendo praedicat</head>
+        <p xml:id="rbdcir-de4916-d1e106">CAPUT XXXVI. <hi>Quid sit sapienter et eloquenter dicere; et quod alienum non dicat, qui ab
+      alio prolata, vivendo praedicat.</hi>
+        </p>
+        <p xml:id="rbdcir-de4916-d1e111">Quid ergo est non solum eloquenter, verum etiam sapienter dicere, nisi verba in submisso
+    genere sufficientia, in temperato splendentia, in grandi vehementia, <pb ed="#P" n="207"/>
+          <cb ed="#P" n="a"/> veris
+    tamen rebus quibus audiri oporteat adhibere? Sed qui utrumque non potest, dicat sapienter quod
+    non dicat eloquenter, potius quam dicat eloquenter quod dicit insipienter. Si autem nec hoc
+    quidem potest, ita conversetur, ut non solum sibi praemium comparet, sed et praebeat aliis
+    exemplum et sit ejus quasi copia dicendi, forma vivendi. Sunt sane quidam qui bene pronuntiare
+    possunt, quid autem pronuntient, cogitare non possunt. Quod si ab aliis sumant eloquenter
+    sapienterque conscriptum, memoriaeque commendent, atque ad populum proferant, si eam personam
+    gerunt, non improprie faciunt. Sic enim, quod profecto utile est, multi praedicatores
+    veritatis fiunt: nec multi magistri, si unius rei magistri idipsum dicant omnes, et non sint
+    in eis schismata. Nec deterrendi sunt isti voce Jeremiae prophetae, per quem Deus arguit eos,
+    qui <quote xml:id="rbdcir-de4916-Qd1e117">furantur verba ejus, unusquisque a proximo suo </quote>
+          <ref xml:id="rbdcir-de4916-Rd1e119">(Jerem. XXIV)</ref>. Qui enim furantur, alienum rapiunt; verbum autem Dei non est alienum
+    ab eis, qui obtemperant ei; potiusque dicit ille aliena, cui cum dicit bene, vivit male.
+    Quicunque enim bona dicit, ejus videntur excogitari ingenio, sed ab ejus moribus aliena sunt.
+    Eos itaque dixit Deus furari verba sua, qui boni volunt videri, loquendo quae Dei sunt; cum
+    mali sunt, faciendo quae sua sunt. Cum vero boni fideles bonis fidelibus hanc operam
+    accommodant, utrique sua dicunt: quod et Deus ipsorum est, cujus sunt illa quae dicuntur et ea
+    sua faciunt, quae non ipsi componere potuerunt, qui secundum illa composite vivunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

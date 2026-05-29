@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 24</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 24</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="201"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4541"><!-- l3c24 -->
+        <head xml:id="rbdcir-de4541-Hd1e101">Caput 24</head>
+        <head xml:id="rbdcir-de4541-Hd1e103" type="question-title">De musica</head>
+        <p xml:id="rbdcir-de4541-d1e106">CAPUT XXIV. <hi>De musica.</hi>
+        </p>
+        <p xml:id="rbdcir-de4541-d1e111">Musica est disciplina quae de numeris loquitur qui ad aliquid sunt, id est, his qui
+    inveniuntur in sonis: ut duplum, triplum, quadruplum, et his similia quae dicuntur ad aliquid.
+    Haec ergo disciplina tam nobilis est, tamque utilis, ut qui ea caruerit, ecclesiasticum
+    officium congrue implere non possit. Quidquid enim in lectionibus decenter pronuntiatur, ac
+    quidquid de psalmis suaviter in ecclesia modulatur, hujus disciplinae scientia ita temperatur,
+    et non solum per hanc legimus et psallimus in ecclesia, imo omne servitium Dei rite implemus.
+    Musica ergo disciplina per omnes actus vitae nostrae hac ratione diffunditur: primum si
+    creatoris mandata faciamus et puris mentibus, statutis ab eo regulis, serviamus. Quidquid enim
+    loquimur, vel intrinsecus venarum pulsibus commovemur, per musicos rhythmos harmoniae
+    virtutibus probatur esse sociatum. Musica quippe scientia est bene modulandi. Quod si nos bona
+    conversatione tractamus, tali disciplinae probamur <cb ed="#P" n="b"/> semper esse sociati; quando
+    vero iniquitates gerimus, musicam non habemus. Coelum quoque et terra, vel omnia quae in eis
+    superna dispensatione peraguntur, non sunt nisi musica disciplina, cum Pythagoras hunc mundum
+    per musicam conditum, et per eam gubernari posse testatur. Haec et in ipsa quoque religione
+    Christiana valde permista est; ac inde fit ut non pauca etiam claudat atque obtegat
+    nonnullarum rerum musicarum ignorantia. Nam et de psalterii et citharae differentia, quidam
+    non inconcinne aliquas rerum figuras aperuit; et decem cordarum psalterium non importune inter
+    doctos quaeritur, utrum habeat aliquam musicae legem, quae ad tantum nervorum numerum cogat;
+    an vero, si non habet, eo ipso magis sacrate accipiendus sit ipse numerus, vel propter
+    decalogum legis, de quo item numero si quaeratur, non nisi ad creatorem creaturamque
+    referendus est, vel propter expositum ipsum denarium. Et ille numerus aedificationis templi
+    qui commemoratur in Evangelio, quadraginta scilicet et sex annorum, nescio quid musicum sonat;
+    et relatus ad fabricam Dominici corporis, propter quam templi mentio facta est, cogit
+    nonnullos haereticos confiteri Filium Dei non falso sed vero et humano corpore indutum. Itaque
+    et numerum et musicam plerisque locis in sanctis Scripturis honorabiliter posita invenimus.
+    Non enim audiendi sunt errores gentilium superstitionum, qui novem Musas, et Jovis et Memoriae
+    filias esse finxerunt. Refellit eos Varro: quo nescio utrum apud eos quisquam talium rerum
+    doctior vel curiosior esse possit. Dicit enim civitatem nescio quam (non enim nomen recolo)
+    locasse apud tres artifices terna simulacra Musarum, quod in templo Apollinis donum poneret,
+    ut quisquis artificum pulchriora formasset, ab illo potissimum electa emeret. Ita contigisse
+    ut opera sua illi quoque artifices aeque pulchre explicarent, et placuisse civitati omnes
+    novem atque omnes esse emptas, ut in Apollinis templo dedicarentur; quibus postea dicit
+    Hesiodum poetam imposuisse vocabula. Non ergo Jupiter novem Musas genuit, sed tres fabri
+    ternas creaverunt. Tres autem non propterea illa civitas locaverat, quia in somnis eas
+    viderat, aut tot se cujusquam illorum oculis demonstraverant; sed quia facile erat
+    animadvertere omnem sonum, quae materies cantilenarum est, triformem esse natura. Aut enim
+    voce editur, sicuti eorum est qui faucibus sive organo canunt; aut flatu, sicut tubarum et
+    tibiarum; aut pulsu, sicut in citharis et tympanis, et quibuslibet aliis, quae percutiendo
+    canora sunt. Sed sive se ita habeat quod Varro retulit, sive non ita, nos tamen non debemus
+    propter superstitionem profanorum musicam fugere, si quid inde utile ad intelligendas sanctas
+    Scripturas rapere poterimus; nec ad illorum theatricas nugas converti, si aliquid de citharis
+    et de organis, quod ad spiritalia capienda valeat, disputemus. Neque enim et litteras discere
+    non debuimus, quia eorum Deum dicunt esse Mercurium; aut quia Justitiae <pb ed="#P" n="202"/>
+          <cb ed="#P" n="a"/>
+    Virtutique templa dedicarunt, et quae corde gestanda sunt, in lapidibus adorare maluerunt,
+    propterea nobis justitia virtusque fugienda est. Imo vero quisquis bonus verusque Christianus
+    est, Deum suum esse intelligat, ubicunque invenerit veritatem.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

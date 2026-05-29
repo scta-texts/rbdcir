@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 27</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 27</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="156"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0951"><!-- l1c27 -->
+        <head xml:id="rbdcir-de0951-Hd1e101">Caput 27</head>
+        <head xml:id="rbdcir-de0951-Hd1e103" type="question-title">De catechizandi ordine</head>
+        <p xml:id="rbdcir-de0951-d1e106">CAPUT XXVII. <hi>De catechizandi ordine.</hi>
+        </p>
+        <p xml:id="rbdcir-de0951-d1e111">Catechizandi enim ordo hic est: Primum interrogatur paganus si abrenuntiat diabolo et omnibus
+    damnosis ejus operibus atque fallacibus pompis, ut primum respuat errorem, et sic appropinquet
+    ad veritatem, possitque juxta Apostolum deponere veterem hominem secundum pristinam
+    conversationem, qui corrumpitur secundum desideria erroris, abnegans impietatem et saecularia
+    desideria. Deinde apostolicae fidei ostenditur ei Symbolum, et exquiritur ab eo si credat in
+    Deum Patrem omnipotentem, et in Jesum Christum Filium ejus unicum Dominum nostrum, et in
+    Spiritum sanctum, unum Deum in trinitate et unitate; si confiteatur unam esse Ecclesiam
+    catholicam, et si credat remissionem peccatorum, et carnis resurrectionem. Haec ergo omnia si
+    vere profitetur credere, jam incipit per fidem induere <quote xml:id="rbdcir-de0951-Qd1e113">novum hominem, qui secundum Deum
+      creatus est, in justitia et sanctitate veritatis,</quote> quo tamen plene induitur, quando
+    per baptismi lavacrum regeneratur. At postquam se per confessionem verae fidei in alterius
+    commendaverit dominium, et per abrenuntiationem prioris possessoris se alienaverit servitio,
+    exsufflatur ab eo saeva potestas, ut per pium sacerdotis mysterium Spiritui sancto cedat
+    fugiens spiritus malignus, <cb ed="#P" n="b"/> signaturque ipse homo signaculo sanctae crucis tam
+    in fronte quam in corde, ut ipse apostata diabolus, in vase suo pristino suae interemptionis
+    cognoscens signum, jam sibi deinceps sciat illud esse alienum. Exinde jam dicuntur super eum
+    orationes, ut fiat catechumenus. Tunc datur ei sal benedictum in os, ut per sal typicum
+    sapientiae sale conditus, fetore careat iniquitatis, et nec a vermibus peccatorum ultra
+    putrefiat, sed magis illaesus servetur ad majorem gratiam percipiendam. Dehinc iterum
+    exorcizatur diabolus, ut suam nequitiam agnoscens, et justum super se judicium Dei timens,
+    recedat ab homine, nec jam contendat eum arte sua subvertere, ne baptismum consequatur, sed
+    magis honorem Deo creatori suo exhibens, reddat opus factori suo. Postea tanguntur ei nares et
+    aures cum saliva, et dicitur ei illud verbum evangelicum quod Jesus, quando surdum et mutum
+    sanavit tangens cum sputo linguam ejus, et mittens digitos suos in auriculas ejus, dixit:
+      <quote xml:id="rbdcir-de0951-Qd1e117">Epheta, quod est, adaperire </quote>
+          <ref xml:id="rbdcir-de0951-Rd1e119">(Marc. VII)</ref>. Hoc enim sacramentum hic agitur, ut per salivam typicam sacerdotis et
+    tactum sapientia et virtus divina salutem ejusdem catechumeni operetur, ut aperiantur ei nares
+    ad accipiendum odorem notitiae Dei, ut aperiantur illi et aures ad audiendum mandata Dei,
+    sensuque intimo cordis reponendum. Deinde benedictione sacerdotali munitur, ut ad sacrum
+    baptismum cum fide accepta custodiatur. Ungetur illius tunc pectus de oleo sanctificato cum
+    invocatione sanctae Trinitatis, ut nullae reliquiae latentes inimici in eo resideant, sed in
+    fide sanctae Trinitatis mens ejus confortetur. Ungetur et inter scapulas de eodem oleo, ut
+    undique muniatur, et ab bona opera facienda per Dei gloriam roboretur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

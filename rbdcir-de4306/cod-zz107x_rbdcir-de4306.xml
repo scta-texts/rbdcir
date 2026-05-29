@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 15</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 15</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="196"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4306"><!-- l3c15 -->
+        <head xml:id="rbdcir-de4306-Hd1e101">Caput 15</head>
+        <head xml:id="rbdcir-de4306-Hd1e103" type="question-title">Quod non sit periculum varius intellectus in eisdem Scripturae
+    verbis, si sensus ipse congruat veritati</head>
+        <p xml:id="rbdcir-de4306-d1e106">CAPUT XV. <hi>Quod non sit periculum varius intellectus in eisdem Scripturae verbis, si
+      sensus ipse congruat veritati.</hi>
+        </p>
+        <p xml:id="rbdcir-de4306-d1e111">Quando autem ex eisdem Scripturae verbis non unum aliquid, sed duo vel plura sentiuntur,
+    etiam si latet quid senserit ille qui scripsit, nihil periculi est, si quodlibet eorum
+    congruere veritati, ex aliis locis sanctarum Scripturarum doceri potest; id tamen eo conante,
+    qui divina scrutatur eloquia, ut ad voluntatem perveniatur auctoris, per quem Scripturam illam
+    sanctus operatus est Spiritus; sive hoc assequatur, sive aliam sententiam de illis verbis quae
+    fidei rectae non refragatur, exculpat, testimonium habens a quocunque alio loco divinorum
+    eloquiorum. Ille quippe auctor in eisdem verbis quae intelligere volumus, et ipsam sententiam
+    forsitan vidit; et certe Dei Spiritus qui per eum haec operatus est, etiam ipsam occursuram
+    lectori vel auditori <cb ed="#P" n="b"/> sine dubitatione praevidit, imo ut occurreret quia ex
+    ipsa veritate subnixa providit. Nam quid in divinis eloquiis largius et uberius potuit
+    divinitus provideri, quam ut eadem verba pluribus intelligantur modis, quos alia non minus
+    divina contestantia faciant approbari? Ubi autem talis sensus eruitur, cujus incertum certis
+    sanctarum Scripturarum testimoniis non possit aperiri, restat ut ratione reddita manifestus
+    appareat, etiam si ille cujus verba intelligere quaerimus, eum forte non sensit. Sed haec
+    consuetudo periculosa est. Per Scripturas enim divinas ita multo tutius ambulatur, si hoc
+    exhibemus, ut cum aliqua verbis translatis opaca scrutari volumus, aut hoc inde exeat quod non
+    habeat controversiam, aut, si habeat, ex eadem Scriptura ubicunque eis inventis atque
+    adhibitis testibus, terminetur. Sed haec in praesenti de signis dicta sufficiant. Caeterum qui
+    plenius de his scire desiderat, in libris sancti Augustini de Doctrina Christiana, unde haec
+    excerpsimus, quaerat et inveniet. Hinc de his quae in gentilibus doctrinis exercentur, et quae
+    liberales dicuntur artes, quid conferant utilitatis, si perscrutentur his qui canonicas
+    Scripturas legunt, quantum valeo, explicabo.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

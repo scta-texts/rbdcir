@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="192"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3870"><!-- l3c7 -->
+        <head xml:id="rbdcir-de3870-Hd1e101">Caput 7</head>
+        <head xml:id="rbdcir-de3870-Hd1e103" type="question-title">De canone Hebraeorum, quomodo apud eos tripartitus est ordo
+    divinarum Scripturarum</head>
+        <p xml:id="rbdcir-de3870-d1e106">CAPUT VII. <hi>De canone Hebraeorum, quomodo apud eos tripartitus est ordo divinarum
+      Scripturarum.</hi>
+        </p>
+        <p xml:id="rbdcir-de3870-d1e111">Notandum tamen quod Hebraei Vetus Testamentum, Esdra auctore juxta numerum litterarum suarum
+    in XXII libros accipiunt, dividentes eos in tres ordines, legis scilicet, prophetarum et
+    hagiographorum. Primus ordo legis in quinque libris accipitur, quorum primus est Bresith, qui
+    est Genesis. Secundus Ellesmot, qui est Exodus. Tertius Vaiicra, qui est Leviticus. Quartus
+    Vaiedabbet, qui est Numerus. Quintus Ellehadabarim, quod est Deuteronomium. Hi sunt quinque
+    libri Moysi, quos Hebraei Thorath, Latini legem appellant, proprie autem lex appellatur, quae
+    per Moysen data est. Secundus ordo prophetarum, in quo continentur libri octo, quorum primus
+    Josue bennun, qui Latine Jesu Nave dicitur. Secundus Sophthim, qui est Judicum. Tertius
+    Samuel, qui est Regum primus. Quartus Malachim, qui est Regum secundus. Quintus Isaias. Sextus
+    Jeremias. Septimus Ezechiel. Octavus Thereasar, qui dicitur duodecim prophetarum, qui libri
+    quia sibi pro parvitate adjuncti sunt, pro uno accipiuntur. Tertius ordo Hagiographorum, id
+    est, sancta scribentium, in quo sunt libri novem, quorum primus Job; secundus Psalterium, qui
+    in quinque incisionibus dividitur; tertius Massoth, quod est Proverbia Salomonis; <cb ed="#P" n="b"/> quartus Coheleth, qui est Ecclesiastes; quintus Sirhasirim, quod est Canticum
+    canticorum; sextus Daniel; septimus Dibrehaiomim, quod est Verba dierum, id est,
+    Paralipomenon; octavus Esdras; nonus est Esther. Qui simul omnes V, et VIII, et IX, fiunt
+    XXII, sicut superius sunt comprehensi. Quidam autem Ruth, et Cinoth, quod Latine dicitur
+    lamentatio Jeremiae, hagiographis adjiciunt, et viginti quatuor volumina Veteris Testamenti
+    faciunt, juxta XXIV seniores, qui ante conspectum Dei assistunt. Isti sunt libri qui apud
+    Hebraeos canonicam auctoritatem habent. Quartus est apud nos ordo Veteris Testamenti, eorum
+    librorum qui in canone Hebraico non sunt, quorum primus Sapientiae liber est, secundus
+    Ecclesiasticus, tertius Tobiae, quartus Judith, quintus et sextus Machabaeorum, quos licet
+    Judaei inter apocrypha separent, Ecclesia tamen Christi inter divinos libros honorat et
+    praedicat. In Novo autem Testamento duo sunt ordines, primus Evangelicus, in quo sunt
+    Matthaeus, Marcus, Lucas, Joannes; secundus Apostolicus, in quo sunt Epistolae apostolorum
+    Petri, Jacobi, Joannis, Judae et Pauli, et liber Actus apostolorum, et Apocalypsis. In his
+    omnibus libris timentes Deum et pietate mansueti quaerunt voluntatem Dei, cujus operis et
+    laboris prima observatio est, ut diximus, nosse istos libros, et si nondum ad intellectum,
+    legendo tamen vel mandare memoriae, vel omnino incognitos non habere. Deinde illa quae in eis
+    aperte posita sunt, vel praecepta vivendi, vel regulae credendi, solertius diligentiusque
+    investiganda sunt, quae tanto quisque plura invenit, quanto est intelligentia capacior. In his
+    enim quae aperte in Scripturis posita sunt, inveniuntur illa omnia quae continent fidem, mores
+    vivendi, spem scilicet atque charitatem; cum vero facta quadam familiaritate cum ipsa lingua
+    divinarum Scripturarum, in ea quae obscura sunt aperienda et discutienda, pergendum est ut ad
+    obscuriores locutiones illustrandas, de manifestioribus sumantur exempla, et quaedam certarum
+    sententiarum testimonia, dubitationem certis auferant, in qua re memoria valet plurimum, quae
+    si defuerit, non potest his praeceptis dari.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 32</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 32</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="161"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1278"><!-- l1c32 -->
+        <head xml:id="rbdcir-de1278-Hd1e101">Caput 32</head>
+        <head xml:id="rbdcir-de1278-Hd1e103" type="question-title">De officio missae</head>
+        <p xml:id="rbdcir-de1278-d1e106">CAPUT XXXII. <hi>De officio missae.</hi>
+        </p>
+        <p xml:id="rbdcir-de1278-d1e111">De sacramentis (ut reor) satis superius diximus, nunc de officio missae, quo ipsa sacramenta
+    corporis et sanguinis Christi conficiuntur, quia ordo postulat, breviter dicamus. Officiorum
+    autem plurima licet sint genera, tamen illud praecipue quod in sacris divinisque rebus
+    habetur, officii nomine censebitur esse nuncupandum, quia quanto ipsa res majoris dignitatis
+    est, tanto paratiorem et promptiorem istius ministerii quaerit effectum. Officium autem
+    dicitur ab efficiendo, quasi efficium, propter decorem sermonis una mutata littera.
+    Sacrificium dictum, quasi sacrum factum, quod prece mystica consecratur in memoriam Dominicae
+    passionis, unde hoc eo jubente, in corpus Christi et sanguinem Domini quod dum sit ex
+    fructibus terrae sanctificatur, et fit sacramentum, operante invisibiliter Spiritu Dei: cujus
+    panis et calicis sacramentum Graeci Eucharistiam, <foreign xml:lang="greek">εὐκαριστίαν,</foreign> dicunt, quod Latine bona gratia interpretatur. Et quid melius
+    corpore et sanguine Christi? Sacramentum est in aliqua celebratione, cum re gesta ita fit, ut
+    aliquid significare intelligatur, quod sancte accipiendum est.</p>
+        <p xml:id="rbdcir-de1278-d1e117">Missa est tempore sacrificii, quando catechumeni foras mittuntur, clamante Levita: Si quis
+    catechumenus <cb ed="#P" n="b"/> remansit, exeat foras; et inde missa, quia sacramentis altaris
+    interesse non possunt, qui nondum regenerati noscuntur. Missa autem est legatio inter Deum et
+    homines, cujus legationis officio fungitur sacerdos, cum populi vota per preces et
+    supplicationes ad Deum offert. Et bene hoc tempore sacrificii fit, quando illius passionis
+    memoria celebratur Christi videlicet, mediatoris Dei et hominum, qui semetipsum obtulit Patri
+    pro nobis. Hunc autem morem sacrificii primum Dominus noster Jesus Christus et magister
+    instituit, quando commendavit Apostolis suis corpus et sanguinem suum, priusquam traderetur,
+    sicut legitur in Evangelio: <quote xml:id="rbdcir-de1278-Qd1e121">Accepit, inquit, panem Jesus et benedicens fregit et dedit
+      eis, et ait: Sumite, hoc est corpus meum. Et accepto calice gratias agens dedit eis </quote>
+          <ref xml:id="rbdcir-de1278-Rd1e123">(Matth. XXVI)</ref>, et biberunt omnes ex illo, et reliqua. Cum benedictione enim et
+    gratiarum actione primum Dominus corporis est sanguinis sui sacramenta dedicavit, et apostolis
+    tradidit, quod exinde apostoli imitati fecere et successores suos facere docuerunt, quod et
+    nunc per totum orbem terrarum generaliter tota custodit Ecclesia. Sed enim in initio mos iste
+    cantandi non erat, qui nunc in Ecclesia ante sacrificium celebratur, sed tamen Epistolae Pauli
+    recitabantur, et sanctum Evangelium. Coelestinus autem, XLV episcopus post Petrum Romanae
+    Ecclesiae, traditur primus statuisse ut psalmi 150 ante sacrificium psallerentur antiphonatim
+    ex omnibus. Fertur etiam et longe ante Thelesphorus Papa id est IX post Petrum, constituisse,
+    ut ante sacrificium hymnus <quote xml:id="rbdcir-de1278-Qd1e125">Gloria in excelsis Deo</quote> diceretur, quod tamen modo
+    non semper agitur, sed in diebus tantum Dominicis, et in sanctorum festivitatibus, quod
+    Symmachus, papa LVI post Petrum, ita fieri mandavit. Verum quia de sacrificii celebratione
+    sermonem facere incipiebamus, secundum quam convenientiam omnis ordo ille institutus sit,
+    persequamur. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

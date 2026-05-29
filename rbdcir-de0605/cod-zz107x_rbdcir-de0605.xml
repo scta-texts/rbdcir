@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="153"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0605"><!-- l1c16 -->
+        <head xml:id="rbdcir-de0605-Hd1e101">Caput 16</head>
+        <head xml:id="rbdcir-de0605-Hd1e103" type="question-title">De podere, id est tunica linea</head>
+        <p xml:id="rbdcir-de0605-d1e106">CAPUT XVI. <hi>De podere, id est tunica linea.</hi>
+        </p>
+        <p xml:id="rbdcir-de0605-d1e111">Secundum est linea tunica, quae Graece <foreign xml:lang="greek">ποδήρης</foreign> poderes,
+    Latine talaris dicitur, eo quod ad talos usque descendat. Hanc Josephus byssinam vocat, cujus
+    significatio mystica in promptu est. Cum enim constet lino vel bysso continentiam et
+    castitatem significari, strictam habent lineam sacerdotes, cum propositum continentiae non
+    enerviter, sed studiose conservant. Haec ad talos usque descendit, quia usque ad finem vitae
+    hujus bonis operibus insistere debet sacerdos, praecipiente ac promittente Domino: <quote xml:id="rbdcir-de0605-Qd1e116">Esto
+      fidelis usque ad mortem, et dabo tibi coronam vitae </quote>
+          <ref xml:id="rbdcir-de0605-Rd1e118">(Apoc. II)</ref>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

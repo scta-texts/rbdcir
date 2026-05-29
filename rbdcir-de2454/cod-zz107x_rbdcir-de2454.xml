@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 34</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 34</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="173"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2454"><!-- l2c34 -->
+        <head xml:id="rbdcir-de2454-Hd1e101">Caput 34</head>
+        <head xml:id="rbdcir-de2454-Hd1e103" type="question-title">De Septuagesima, et Sexagesima, et Quinquagesima</head>
+        <p xml:id="rbdcir-de2454-d1e106">CAPUT XXXIV. <hi>De Septuagesima, et Sexagesima, et Quinquagesima.</hi>
+        </p>
+        <p xml:id="rbdcir-de2454-d1e111">De Septuagesima quoque et Sexagesima, Quinquagesima atque Quadragesima, cur Dominici dies
+    ante quadragesimale jejunium sic appellentur, diversa multorum opinio est; et ideo maxime,
+    quia ipsa Dominica quae Septuagesima dicitur, septuagesima dies ante Pascha reperitur: nec ea
+    quae Sexagesima, sexagenarium numerum plenum habet usque in Pascha. Nam alii simpliciter
+    narrant hanc Ecclesiae esse consuetudinem, et Romana auctoritate ritum hujus religionis esse
+    firmatum. Alii dicunt quod synecdochice totum habendum sit dictum, id est ubi major de minori
+    numero dierum invenitur, ut est Septuagesima ac Sexagesima, id est a toto partem intelligi
+    debere. Ubi vero minor, ut est Quadragesima, a parte totum intelligi oportere. Alii quoque
+    nescio quorum ore ducti asseverant, quod Orientales populi novem hebdomadas, et Graeci octo,
+    et Latini septem jejunare soleant, et ob hoc his omnibus Alleluia minime in Ecclesia deberi
+    cantari. Alii etiam quorum ratio prae caeteris laudabilior mihi esse videtur, dicunt
+    Septuagesimam dictam esse propter decem hebdomadas, quae sunt ab ipso die usque ad clausum
+    Paschae, quo die alba tolluntur vestimenta a nuper baptizatis. Igitur in Apostolo legimus:
+      <quote xml:id="rbdcir-de2454-Qd1e113">Regnavit mors ab Adam usque ad Moysen, et sic usque ad ultima legis quae per Moysen
+      data, decurrit in Christi Dei nostri tempora </quote>
+          <ref xml:id="rbdcir-de2454-Rd1e115">(Rom. V)</ref>. Porro Sexagesimam inde dici posse, quia sexaginta dies sunt usque ad
+    medium Paschae, quod erit feria quarta paschalis hebdomadis. Quinquagesimam vero rite dictam
+    esse, eo quod tali numero pervenit usque in diem sanctum resurrectionis. Quadragenarium etiam
+    numerum ita ibi positum, quod cum Dominica sua concurrat ad mysticum Pascha Hebraeorum, quod
+    Dominus noster Jesus Christus cum discipulis suis celebravit, et nos dicimus Coenam Domini.
+    Sed haec omnia nos ita hic posuimus, sicut in aliorum dictis vel scriptis comperimus, lectori
+    viam dantes, si quae veracius et rationabilius exquisita invenerit, obtinere. Notandum tamen
+    est, quod a Quinquagesima jejunium incipere apud Romanos Telesphorus saepe memoratus papa
+    constituit: ut per septem hebdomadas ante Pascha corpus jejuniis castigemus, quia alias septem
+    post Pascha usque in Pentecosten, in laetitia a jejuniis <pb ed="#P" n="174"/>
+          <cb ed="#P" n="a"/> relaxare volumus, ut
+    priorem quinquagesimam in plenitudine peccatorum nostrorum exigamus ad promerendam
+    misericordiam, et in secunda laudibus et orationibus operam dantes, studeamus pervenire ad
+    promissam Spiritus sancti gratiam.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

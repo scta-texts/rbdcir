@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="198"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4388"><!-- l3c19 -->
+        <head xml:id="rbdcir-de4388-Hd1e101">Caput 19</head>
+        <head xml:id="rbdcir-de4388-Hd1e103" type="question-title">De rhetorica</head>
+        <p xml:id="rbdcir-de4388-d1e106">CAPUT XIX. <hi>De rhetorica.</hi>
+        </p>
+        <p xml:id="rbdcir-de4388-d1e111">Rhetorica est (sicut magistri tradunt) saecularium litterarum bene dicendi scientia, in
+    civilibus quaestionibus. Sed haec diffinitio licet ad mundanam sapientiam videatur pertinere,
+    tamen non est extranea ab ecclesiastica disciplina. Quidquid enim orator et praedicator
+    divinae legis diserte et decenter profert in docendo, vel quidquid apte et eleganter depromit
+    in dictando, ad hujus artis congruit peritiam; nec utique peccare debet arbitrari, qui hanc
+    artem in congrua aetate legit, quique ejus praecepta servat in dictando. ac proloquendo
+    sermonem; imo bonum opus facit, qui eam ad hoc pleniter discit, ut ad praedicandum verbum Dei
+    idoneus sit. Nam cum per artem rhetoricam et vera suadeantur et falsa, quis audeat dicere
+    adversus mendacium in defensoribus suis inermem debere consistere veritatem, ut videlicet illi
+    qui res falsas suadere conantur, noverint auditorem vel benivolum, vel intentum, vel facere
+    docilem prooemio, isti autem non noverint? illi falsa breviter, aperte, verisimiliter, et isti
+    vera sic narrent ut audire taedeat, intelligere non pateat, credere postremo non libeat? illi
+    fallacibus argumentis veritatem oppugnent, asserant falsitatem, isti nec vera defendere, nec
+    falsa valeant refutare? illi animos audientium in errorem moventes impellentesque dicendo
+    terreant, contristent, exhilarent, <pb ed="#P" n="199"/>
+          <cb ed="#P" n="a"/> exhorrentur ardenter, isti pro veritate
+    lenti, frigidi dormitent? Quis ita desipiat, ut hoc sapiat? Cum ergo sit in medio posita
+    facultas eloquii, quae ad persuadenda seu prava seu recta valeat plurimum, cur non bonorum
+    studio comparatur, ut militet veritati, si eam mali ad obtinendas perversas vanasque causas in
+    usus iniquitatis et erroris usurpant? Sed quaecunque sunt de hac re observationes atque
+    praecepta, quibus cum accedit in pluribus verbis ornamentisque verborum, exercitatioris
+    linguae solertissima consuetudo, fit illa quae facundia vel eloquentia nominatur, haec
+    seposito ad hoc congruo temporis spatio, apta et conveniente aetate discenda sunt eis qui hoc
+    celeriter possunt. Nam et ipsos Romanae principes eloquentiae non piguit dicere, quod hanc
+    artem nisi qui cito possit perdiscere, nunquam omnino possit. Sed nos non ea tanti pendimus,
+    ut eis discendis jam maturas, vel etiam graves hominum aetates velimus impendi. Satis est ut
+    adolescentulorum ista sit cura; nec ipsorum omnium quos utilitati ecclesiasticae cupimus
+    erudiri, sed eorum quos nondum magis urgens, et huic rei sine dubio praeponenda necessitas
+    occupavit. Quoniam si acutum et fervens absit ingenium, facilius adhaeret eloquentia
+    legentibus, et audientibus eloquentes, quam eloquentiae praecepta sectantibus. Nec desint
+    ecclesiasticae litterae etiam praeter canonem in auctoritatis arce salubriter collocatae, quas
+    legendo homo capiat, et si id non agat, sed tantummodo rebus quae ibi dicuntur intentus sit,
+    etiam eloquio quo dicuntur, dum <pb ed="#P" n="199"/>
+          <cb ed="#P" n="a"/> in his versatur, imbuitur; accedente vel
+    maxime exercitatione sive scribendi, sive dictandi, postremo etiam dicendi, quae secundum
+    pietatis ac fidei regulam sentit. Sed haec de rhetorica nunc dicta sufficiant, cum reservamus
+    paulo post jura ejusdem in dicendi genere planius demonstranda.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

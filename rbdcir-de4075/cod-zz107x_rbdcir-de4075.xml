@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="194"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4075"><!-- l3c12 -->
+        <head xml:id="rbdcir-de4075-Hd1e101">Caput 12</head>
+        <head xml:id="rbdcir-de4075-Hd1e103" type="question-title">De ambiguis propriis</head>
+        <p xml:id="rbdcir-de4075-d1e106">CAPUT XII. <hi>De ambiguis propriis.</hi>
+        </p>
+        <p xml:id="rbdcir-de4075-d1e111">Rarissime ergo et difficillime inveniri potest ambiguitas in propriis verbis, quantum ad
+    libros divinarum Scripturarum spectat, quam non aut circumstantia ipsa sermonis qua
+    cognoscitur scriptorum intentio, aut interpretum collatio, aut praecedentis linguae solvat
+    inspectio. Nam quod scriptum est, <quote xml:id="rbdcir-de4075-Qd1e113">Non est abscondituma te os meum, quod fecisti in
+      abscondito,</quote> non elucet legenti, utrum correpta littera <quote xml:id="rbdcir-de4075-Qd1e115">os</quote> pronuntiet,
+    an producta. Si enim corripiat, ab eo quod sunt <quote xml:id="rbdcir-de4075-Qd1e117">ossa;</quote> si autem producat, ab eo
+    quod sunt <quote xml:id="rbdcir-de4075-Qd1e119">ora,</quote> intelligitur numerus singularis. Sed talia linguae praecedentis
+    inspectione id judicantur: nam in Graeco non <foreign xml:lang="greek">στόμα</foreign> sed
+      <foreign xml:lang="greek">ὀστέον</foreign> positum est. Item illud Apostoli: <quote xml:id="rbdcir-de4075-Qd1e128">Quae
+      praedico vobis sicut praedixi, quoniam qui talia agunt, regnum Dei non possidebunt </quote>
+          <ref xml:id="rbdcir-de4075-Rd1e130">(II Cor. XIII)</ref>. Si tantummodo dixisset, <quote xml:id="rbdcir-de4075-Qd1e132">quae praedico vobis,</quote> neque
+    subjunxisset <quote xml:id="rbdcir-de4075-Qd1e134">praedixi,</quote> dubium esset utrum in eo quod dixit,
+      <quote xml:id="rbdcir-de4075-Qd1e136">praedico,</quote> producenda an corripienda esset syllaba media; nunc autem
+    manifestum est producendam esse; non enim ait <quote xml:id="rbdcir-de4075-Qd1e139">sicut praedicavi,</quote> sed
+      <quote xml:id="rbdcir-de4075-Qd1e141">sicut praedixi.</quote> Sed quia haec raro, ut <pb ed="#P" n="195"/>
+          <cb ed="#P" n="a"/> praediximus, verba
+    inveniuntur, quae non facilem habeant solutionem, ad verborum translatorum ambiguitates stylum
+    vertamus, quae non mediocrem curam industriamque desiderant. Nam in principio cavendum est, ne
+    figuratam locutionem ad litteram accipias. Ad hoc enim pertinet quod ait Apostolus:
+      <quote xml:id="rbdcir-de4075-Qd1e147">Littera occidit, spiritus autem vivificat </quote>
+          <ref xml:id="rbdcir-de4075-Rd1e149">(II Cor. III)</ref>. Nulla mors animae congruentius appellatur, quam cum id etiam quod in
+    ea bestias antecellit, hoc est intelligentia, carni subjicitur sequendo scilicet solam
+    litteram. Qui enim sequitur litteram translata verba sicut propria tenet, neque illud quod
+    proprio verbo significatur, refert ad aliam significationem. Et ea est miserabilis animae
+    servitus, signa pro rebus accipere, et supra creaturam corpoream, oculum mentis ad hauriendum
+    aeternum lumen levare non posse. Quae tamen servitus in Judaeo populo longe a caeterarum
+    gentium more distabat, quandoquidem rebus temporalibus ita subjugati erant, ut unus eis in
+    omnibus commendaretur Deus. Gentes autem simulacra manufacta deos habebant, et si quando
+    aliqui eorum illa tanquam signa interpretari conabantur, ad creaturam colendam venerandamque
+    referebant. Sed ab hac utraque servitute, veniens Christus veritatis suae luce illuminans,
+    omnes in se credentes veraciter liberavit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

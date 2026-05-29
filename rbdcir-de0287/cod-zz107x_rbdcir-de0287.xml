@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="150"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0287"><!-- l1c5 -->
+        <head xml:id="rbdcir-de0287-Hd1e101">Caput 5</head>
+        <head xml:id="rbdcir-de0287-Hd1e103" type="question-title">De ordine tripartito episcoporum</head>
+        <p xml:id="rbdcir-de0287-d1e106">CAPUT V. <hi>De ordine tripartito episcoporum.</hi>
+        </p>
+        <p xml:id="rbdcir-de0287-d1e111">Ordo autem episcoporum tripartitus est, id est, in patriarchis, archiepiscopis, qui et
+    metropolitani sunt, et episcopis. Patriarcha <foreign xml:lang="greek">πατριάρχος</foreign>
+    Graeca lingua pater principum sive summus patrum interpretatur, quia primum, id est
+    apostolicum, retinet locum, et ideo quod summo honore fungitur, tali nomine censetur, sicut
+    archiepiscopus, Antiochenus episcopus atque Alexandrinus antistes. Archiepiscopus <foreign xml:lang="greek">ἀρχιεπίσκοπος</foreign> Graeco vocabulo dicitur, quod sit summus vel
+    princeps episcoporum, tenet enim vicem apostolicam, et praesidet episcopis caeteris. Singulis
+    enim provinciis praeeminet, quorum auctoritate et doctrina caeteri sacerdotes subjecti sunt,
+    sine quibus reliquis episcopis nihil agere licet, nisi quod singulis in propria parochia
+    commendatum est. Sollicitudo enim totius provinciae ipsi commissa est, et omnes superius <pb ed="#P" n="151"/>
+          <cb ed="#P" n="a"/> designati ordines, uno eodemque vocabulo episcopi nominantur, sed privato nomine
+    quidem utuntur propter distinctionem potestatum quam singulariter acceperunt. Metropolitanus
+    autem idem vocatur, eo quod praesideat illi civitati, quae caeteris civitatibus in eadem
+    provincia constitutis quodammodo mater sit. Metropolis <foreign xml:lang="greek">μητρόπολις</foreign> ergo Graece, mater civitatum interpretatur. Episcopatus autem
+    vocabulum inde dictum, quod ille qui superefficitur superintendat, curam scilicet subditorum
+    gerens. Scopein <foreign xml:lang="greek">σκοπεῖν</foreign> enim Latine intendere dicitur.
+    Episcopi <foreign xml:lang="greek">ἐπίσκοποι</foreign> autem Graece, Latine speculatores sive
+    superintendentes interpretantur. Nam speculator est praepositus in Ecclesia dictus, eo quod
+    speculetur atque prospiciat populorum infra se positorum mores et vitam, intimet unicuique
+    actus suos, sicut Dominus ad Ezechielem dixit prophetam. <quote xml:id="rbdcir-de0287-Qd1e133">Et tu,</quote> inquit,
+      <quote xml:id="rbdcir-de0287-Qd1e135">fili hominis, speculatorem dedi te domui Israel. Audiens ergo ex ore meo sermonem,
+      annuntiabis eis ex me. Si me dicente ad impium morte morieris, non fueris locutus ut se
+      custodiat impius a via sua, ipse impius in iniquitate sua morietur, sanguinem autem ejus de
+      manu tua requiram,</quote> etc. <ref xml:id="rbdcir-de0287-Rd1e137">(Ezech. XXXIII)</ref>. Pontifex princeps sacerdotum
+    est, quasi via sequentium: ipse et summus sacerdos, ipse pontifex maximus nuncupatur. Ipse
+    enim efficit sacerdotes atque Levitas, ipse omnes ordines ecclesiasticos disponit, ipse quid
+    unusquisque facere debeat, ostendit. Antistes autem idem dictus est, eo quod ante stet. Primus
+    enim est in ordine Ecclesiae, et supra se nullum habet sacerdotem. Sacerdos quidem nomen habet
+    compositum ex Graeco et Latino, quasi sacrum dans. Dispensat ergo mysteria coelestia,
+    fidelibus baptismum tradit, corpus et sanguinem Christi distribuit, et verbum Dei praedicat.
+    Sacerdos autem vocari potest, sive episcopus sit, sive presbyter. Episcopi autem apostolorum
+    vicem in Ecclesia tenent, sicut supra diximus. Et chorepiscopi qui vicarii sunt episcoporum,
+    ad exemplum LXX seniorum constituti sunt; nec aliquid eis magis licet in Ecclesia ordinare aut
+    constituere, nisi quantum eis conceditur a legitimis episcopis, qui sedem et regimen integrum
+    in Ecclesiis obtinent. Ordinati sunt autem chorepiscopi propter pauperum curam, qui in agris
+    et villis consistunt, ne eis solatium confirmationis deesset. Dicti sunt autem chorepiscopi,
+    quia de choro sunt sacerdotum; hi autem a solo episcopo civitatis cui adjacent ordinantur,
+    sicut presbyteri.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

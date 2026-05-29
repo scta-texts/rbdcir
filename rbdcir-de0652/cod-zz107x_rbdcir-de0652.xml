@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="154"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0652"><!-- l1c18 -->
+        <head xml:id="rbdcir-de0652-Hd1e101">Caput 18</head>
+        <head xml:id="rbdcir-de0652-Hd1e103" type="question-title">De phanone</head>
+        <p xml:id="rbdcir-de0652-d1e106">CAPUT XVIII. <hi>De phanone.</hi>
+        </p>
+        <p xml:id="rbdcir-de0652-d1e111">Quartum vero mappula sive mantile, sacerdotis indumentum est, quod vulgo phanonem vocant,
+    quod ob hoc eorum tunc manibus tenetur quando missae officium agitur, ut paratos ad
+    ministerium mensae Domini populus conspiciat. Mappae ergo convivii et epularum ad positarum
+    linteamina sunt, unde diminutivum mappula sicut et mantilia, nunc pro operiendis mensis sunt:
+    quae, ut nomen ipsorum indicat, olim tergendis manibus praebebantur. Oportet ergo sacerdotes
+    et ministros altaris mappulas manibus tenere, quorum officium est divina sacramenta conficere,
+    ut cum devotione mentis opus spontaneum concordet, digne exerceatur officium, quod pie divino
+    est munere collatum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 37</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 37</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="174"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de2529"><!-- l2c37 -->
+        <head xml:id="rbdcir-de2529-Hd1e101">Caput 37</head>
+        <head xml:id="rbdcir-de2529-Hd1e103" type="question-title">De Parasceve</head>
+        <p xml:id="rbdcir-de2529-d1e106">CAPUT XXXVII. <hi>De Parasceve.</hi>
+        </p>
+        <p xml:id="rbdcir-de2529-d1e111">Parasceve, id est, sexta sabbati, ideo in solemnitate <cb ed="#P" n="b"/> habetur, quia in eo die
+    Christus mysterium crucis explevit, propter quod venerat in hunc mundum, ut qui ligno percussi
+    fueramus in Adam, rursus per ligni mysterium sanaremur. Hujus enim causa triumphi, humana
+    pusillitas Christo per omnem mundum celebritatem annuam praebet, pro eo quod dignatus est
+    sanguine passionis suae saeculum redimere, et peccatum mundi per crucem morte devicta
+    absolvere, cujus quidem crucis injuriam non pertulit illa divinitatis substantia, sed sola
+    susceptae humanitatis natura. Passio enim corporis fuit; divinitas vero exsors injuriae
+    mansit. Tripartita autem ratio Dominicae passionis ostenditur. Prima itaque causa est, ut
+    Christus pro reatu mundi redemptio daretur, scilicet ut quos serpens absorbuerat evomeret, et
+    praedam quam tenebat amitteret, non potentia victus, sed justitia: non dominatione, sed
+    ratione. Secunda causa est, ut secuturis hominibus vitae magisterium praeberetur. Ascendit
+    enim in crucem Christus, ut nobis passionis et resurrectionis praeberet exemplum: passionis ad
+    firmandam patientiam; resurrectionis, ad excitandam spem; ut duas vitas nobis ostenderet in
+    carne: unam laboriosam, alteram beatam. Laboriosam quam tolerare debemus, beatam quam sperare
+    debemus. Tertia causa est susceptae crucis, ut superba saeculi et inflata sapientia per crucis
+    stultam, ut putatur, praedicationem humiliata corrueret, ut pateret id quod stultum Dei est
+    quanto sit hominibus sapientius et quod infirmum Dei est, quanto sit fortius tota hominum
+    fortitudine. Docet autem apostolus Paulus illuminatos nos debere oculos cordis habere, ad
+    intelligendum quae sit latitudo crucis, et longitudo, et altitudo et profundum. Crucis
+    latitudo est transversum lignum quo extenduntur manus. Longitudo a latitudine deorsum usque ad
+    terram. Altitudo, ab altitudine sursum ad caput. Profundum vero quod terrae infixum
+    absconditur. Dicitur homini: <quote xml:id="rbdcir-de2529-Qd1e115">Tolle crucem tuam et sequere me.</quote> Dum enim
+    cruciatur caro, cum mortificantur membra nostra super terram, fornicatio, immunditia, luxuria
+    et caetera, dumque exterior homo corrumpitur, ut interior renovetur de die in diem, passio est
+    crucis. Et haec quidem dum sint bona opera, tamen adhuc laboriosa, quorum merces requies est.
+    Ideoque dicitur <quote xml:id="rbdcir-de2529-Qd1e117">spe gaudentes,</quote> ut cogitantes scilicet requiem futuram, cum
+    hilaritate et laboribus operemur. Hanc hilaritatem significat crucis latitudo in transverso
+    ligno, ubi figuntur manus; per manus enim opus intelligitur; per latitudinem, hilaritas
+    operantis, quia tristitia facit angustias. Porro per altitudinem crucis cui caput adjungitur,
+    exspectatio supernae retributionis de sublimi justitia Dei sanctificatur, ut et ipsa opera
+    bona non propter beneficia Dei terrena ac temporalia facienda credantur, sed potius propter
+    illud quod desuper sperat fides, quae per dilectionem operatur. Jam vero per longitudinem qua
+    totum corpus extenditur, ipsa tolerantia significatur, ut longanimes permaneamus. Unde
+    longanimes dicuntur qui tolerant. Per profundum autem, hoc est partem <pb ed="#P" n="175"/>
+          <cb ed="#P" n="a"/> illam
+    ligni quae in terrae abdito defixa latet, sed unde consurgit omne quod eminet, inscrutabilia
+    indicantur judicia Dei, de quibus occulta cum voluntate vocatur homo ad participationem tantae
+    gratiae Dei. Hac ergo die Ecclesiae altaria indumentis suis spoliata denudantur, quia in ea
+    Christus suis vestimentis exutus esse legitur, et velum templi scissum esse occiso Christo,
+    per Evangelium praedicatur. Hac die in Ecclesia luminaria non accenduntur, quia in ipso
+    Redemptore crucifixo sidera obscurabantur. In hac die sanctarum plebium praesules, quia
+    mandata sibimet legatione funguntur, apud divinam clementiam humani generis agunt causam, et
+    tota secum Ecclesia congemiscente, postulant et precantur: primum pro statu totius Ecclesiae
+    Christi; deinde ut infidelibus dominetur fides, et idololatrae ab impietatis suae liberentur
+    erroribus; ut Judaeis ablato cordis velamine, lux veritatis appareat; ut haeretici catholicae
+    fidei receptione resipiscant; ut schismatici spiritum redivivae charitatis accipiant; ut
+    lapsis poenitentiae remedia conferantur; ut denique catechumenis ad regenerationis sacramenta
+    perductis, coelestis misericordiae aula reseretur, quia pro horum omnium redemptione, in hac
+    die sanguis effusus est Christi. Haec autem non inaniter a Domino peti, rerum ipsarum monstrat
+    affectus: quomodo quidem ex omni errorum genere plurimos Deus dignatur attrahere, quos erutos
+    de potestate tenebrarum transferat in regnum Filii charitatis, ex vasis irae faciat vasa
+    misericordiae. Quod a Deo totum divini operis esse sentitur, ut haec efficienti Deo semper
+    gratiarum actio laudisque confessio, pro illuminatione talium vel correctione, referatur. Ipsa
+    die a pontifice et a clero et ab omni populo species crucis salutatur, quia passio Redemptoris
+    a fidelibus in hora redemptionis suae digna laude veneratur. In hac die sacramenta penitus non
+    celebrantur; sed Eucharistiam in coena Domini consecratam, peracto officio lectionum et
+    orationum, et sanctae crucis salutatione, resumunt, quia, ut Innocentius papa testis est, ex
+    eo quod apostoli et amatores Christi eo biduo quo crucifixus et sepultus Salvator est, in
+    moerore constituti, ab omni cibo abstinuerunt se, hinc traditio Ecclesiae habet biduo memorato
+    sacramenta non celebrari, sed magis sanctam resurrectionis noctem exspectari, et in ipsa cum
+    laetitia et gaudio speciali sacrificium offerri. In hac die vespera cum silentio celebratur,
+    ut quieti Dominicae sepulturae veneratio exhibeatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

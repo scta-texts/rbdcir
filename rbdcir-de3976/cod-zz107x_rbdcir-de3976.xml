@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="194"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de3976"><!-- l3c11 -->
+        <head xml:id="rbdcir-de3976-Hd1e101">Caput 11</head>
+        <head xml:id="rbdcir-de3976-Hd1e103" type="question-title">De ambiguis signis quomodo constant</head>
+        <p xml:id="rbdcir-de3976-d1e106">CAPUT XI. <hi>De ambiguis signis quomodo constant.</hi>
+        </p>
+        <p xml:id="rbdcir-de3976-d1e111">Ambiguitas autem Scripturae, aut in verbis propriis est, aut in translatis. Sed cum verba
+    propria faciunt ambiguam Scripturam, primo videndum est, ne male distinxerimus aut
+    pronuntiaverimus. Cum ergo adhibita intentio incertum esse praeviderit quomodo distinguendum
+    aut quomodo pronuntiandum sit, consulat regulam fidei, quam de Scripturarum planioribus locis
+    et Ecclesiae auctoritate percepit. Quod si ambae, vel etiam omnes, si plures fuerint partes
+    ambiguitatis, secundum fidem sonuerint, textus ipse sermonis a praecedentibus et
+    consequentibus partibus, quae ambiguitatem illam in medio posuerunt, restat consulendus, ut
+    videamus cuinam sententiae, de pluribus quae se ostendunt, ferat suffragium, eamque sibi
+    contexi patiatur. Jam nunc exempla considera. Illa haeretica distinctio: <quote xml:id="rbdcir-de3976-Qd1e113">In principio
+      erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum </quote>
+          <ref xml:id="rbdcir-de3976-Rd1e115">(Joan. I)</ref>, ut alius sit sensus: <quote xml:id="rbdcir-de3976-Qd1e117">Verbum erat hoc in principio apud
+      Deum,</quote> non vult Verbum Deum confiteri. Sed hoc regula fidei refellendum est, qua
+    nobis de Trinitatis aequalitate praescribitur, ut dicamus: <quote xml:id="rbdcir-de3976-Qd1e119">Et Deus erat Verbum.</quote>
+    Deinde subjungamus: <quote xml:id="rbdcir-de3976-Qd1e121">Hoc erat in principio apud Deum.</quote> Illa vero distinctionis
+    ambiguitas, neutra parte resistit fidei, et ideo textu ipso sermonis dijudicanda est, ubi ait
+    Apostolus: <quote xml:id="rbdcir-de3976-Qd1e124">Et quid eligam ignoro. Compellor autem ex duobus: concupiscentiam habens
+      dissolvi, et cum Christo esse; multo enim magis optimum: manere in carne necessarium propter
+      vos </quote>
+          <ref xml:id="rbdcir-de3976-Rd1e126">(Phil. I)</ref>. Incertum enim utrum <quote xml:id="rbdcir-de3976-Qd1e128">ex duobus concupiscentiam habens,</quote> an
+      <quote xml:id="rbdcir-de3976-Qd1e130">compellor autem ex duobus,</quote> ut illud adjungatur, <quote xml:id="rbdcir-de3976-Qd1e132">concupiscentiam habens
+      dissolvi et esse cum Christo.</quote> Sed quoniam ita sequitur, <quote xml:id="rbdcir-de3976-Qd1e134">multo enim
+      optimum,</quote> apparet eum ejus optimi dicere se habere concupiscentiam, ut cum ex duobus
+    compellatur, alterius tamen habeat concupiscentiam, alterius necessitatem; concupiscentiam
+    scilicet esse cum Christo, necessitatem manere in carne. Quae ambiguitas uno consequenti verbo
+    dijudicatur, quod positum est, <quote xml:id="rbdcir-de3976-Qd1e137">enim.</quote> Quam particulam quia abstulerunt
+    interpretes, illa potius sententia ducti sunt, ut non solum compelli ex duobus, sed etiam
+    duorum habere concupiscentiam <cb ed="#P" n="b"/> videretur. Sic ergo distinguendum est, <quote xml:id="rbdcir-de3976-Qd1e141">et
+      quid eligam ignoro: compellor autem ex duobus,</quote> quam dictionem sequitur,
+      <quote xml:id="rbdcir-de3976-Qd1e143">concupiscentiam habens dissolvi et esse cum Christo.</quote> Et tanquam quaereretur
+    quare hujus rei potius habeat concupiscentiam, <quote xml:id="rbdcir-de3976-Qd1e145">multo enim magis optimum,</quote>
+    inquit. Cur autem e duobus compellitur? Quia manendi est necessitas, quam ita subjecit:
+      <quote xml:id="rbdcir-de3976-Qd1e147">Manere in carne necessarium propter vos.</quote> Ubi neque praescripto fidei, neque
+    ipsius sermonis textu ambiguitas explicari potest, nihil obest secundum quamlibet earum quae
+    ostenduntur, sententiam distinguere curet. Veluti est illa ad Corinthios: <quote xml:id="rbdcir-de3976-Qd1e150">Has ergo
+      habentes promissiones, charissimi, mundemus nos ab omni coinquinatione carnis et spiritus,
+      perficientes sanctificationem in timore Dei </quote>
+          <ref xml:id="rbdcir-de3976-Rd1e152">(II Cor. VII.)</ref>. Dubium est quippe, utrum <quote xml:id="rbdcir-de3976-Qd1e154">Mundemus nos ab omni coinquinatione
+      carnis et spiritus,</quote> secundum illam sententiam, <quote xml:id="rbdcir-de3976-Qd1e156">Ut sit sancta corpore et
+      spiritu,</quote> an <quote xml:id="rbdcir-de3976-Qd1e158">Mundemus nos ab omni coinquinatione carnis,</quote> ut alius sit
+    sensus, <quote xml:id="rbdcir-de3976-Qd1e160">Et spiritus perficientes sanctificationem in timore Dei capite nos</quote>
+    (sic). Tales ergo distinctionum ambiguitates in potestate legentis sunt. Quaecunque autem de
+    ambiguis distinctionibus diximus, eadem observanda sunt et in ambiguis pronuntiationibus; quae
+    nisi lectoris nimia perturbantur incuria, aut regulis fidei corriguntur, aut praecedentis vel
+    consequentis contexione sermonis. Quod si neutrum horum adhibetur ad correctionem, nihilominus
+    dubiae remanebunt, ut quolibet modo lector pronuntiaverit, non sit in culpa. Quali autem voce
+    pronuntietur illud quod Nathanael dixit, <quote xml:id="rbdcir-de3976-Qd1e163">A Nazareth potest aliquid boni esse </quote>
+          <ref xml:id="rbdcir-de3976-Rd1e165">(Joan. I)</ref>, sive affirmantis, ut illud solum ad interrogationem pertineat quod ait
+      <quote xml:id="rbdcir-de3976-Qd1e167">A Nazareth?</quote> sive totum cum dubitatione interrogantis, non video quomodo
+    discernatur: uterque autem sensus fidem non impedit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

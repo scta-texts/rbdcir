@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="199"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4410"><!-- l3c20 -->
+        <head xml:id="rbdcir-de4410-Hd1e101">Caput 20</head>
+        <head xml:id="rbdcir-de4410-Hd1e103" type="question-title">De dialectica</head>
+        <p xml:id="rbdcir-de4410-d1e106">CAPUT XX. <hi>De dialectica.</hi>
+        </p>
+        <p xml:id="rbdcir-de4410-d1e111">Dialectica est disciplina rationalis quaerendi, diffiniendi et disserendi, etiam vera et a
+    falsis discernendi potens. Haec ergo disciplina disciplinarum est; haec docet docere, haec
+    docet discere, in hac se ipsa ratio demonstrat atque aperit quae sit, quid velit, quid videat.
+    Scit scire sola, et scientes facere non solum vult, sed etiam potest. In hac ratiocinantes
+    cognoscimus quid sumus et unde sumus; per hanc intelligimus quid sit faciens bonum, et quid
+    factum bonum; quid creator, et quid creatura; per hanc investigamus veritatem, et
+    deprehendimus falsitatem; per hanc argumentamur, et invenimus quid sit consequens, quid non
+    consequens, et quid repugnans in rerum natura, quid verum, quid verisimile, et quid penitus
+    falsum in disputationibus. In hac enim disciplina unamquamque rem quaerimus sagaciter, et
+    diffinimus veraciter, et disserimus prudenter. Quapropter oportet clericos hanc artem
+    nobilissimam scire, ejusque jura in assiduis meditationibus habere, ut subtiliter haereticorum
+    versutiam hac possint dignoscere, eorumque dicta veneficatis <cb ed="#P" n="b"/> syllogismorum
+    conclusionibus confutare. Sunt enim multa quae appellantur sophismata, falsae conclusiones
+    rationum, et plerumque ita veras imitantes, ut non solum tardos, sed ingeniosos etiam minus
+    diligenter attentos decipiant. Proposuit enim quidam dicens ei cum quo loquebatur: <quote xml:id="rbdcir-de4410-Qd1e115">Quod
+      ego sum, tu non es.</quote> At ille consensit. Verum enim erat ex parte, vel eo ipso quod
+    iste insidiosius, ille simplex erat. Tum iste addidit: <quote xml:id="rbdcir-de4410-Qd1e117">Ego autem homo sum.</quote> Hoc
+    quoque cum ab eo accepisset, conclusit dicens: <quote xml:id="rbdcir-de4410-Qd1e119">Tu igitur non es homo.</quote> Quod
+    genus captiosarum conclusionum, Scriptura quantum existimo detestatur, illo loco ubi dictum
+    est. <quote xml:id="rbdcir-de4410-Qd1e121">Qui sophistice loquitur odibilis est </quote>
+          <ref xml:id="rbdcir-de4410-Rd1e124">(Eccli. XXXVII)</ref>. Quanquam etiam sermo non captiosus, sed tamen abundantius quam
+    gravitatem decet, verborum ornamenta consectans, sophisticus dicatur. Sunt etiam verae
+    connexiones ratiocinationis falsas habentes sententias, quae consequuntur errorem illius cum
+    quo agitur. Quae tamen ad hoc inferuntur a bono et docto homine, ut his erubescens ille cujus
+    errorem sequitur, eumdem relinquat errorem, qui si in eodem manere voluerit, necesse est ut
+    etiam illa quae damnat tenere cogatur. Non enim vera inferebat Apostolus cum diceret:
+      <quote xml:id="rbdcir-de4410-Qd1e126">Neque Christus resurrexit.</quote> Et illa alia: <quote xml:id="rbdcir-de4410-Qd1e128">Inanis est fides nostra,
+      inanis est et praedicatio nostra </quote>
+          <ref xml:id="rbdcir-de4410-Rd1e130">(I Cor. XV)</ref>. Quae omnino falsa sunt, quia et Christus resurrexit, et non erat
+    inanis praedicatio eorum qui hoc annuntiabant, nec fides eorum qui hoc crediderant. At quia
+    falsum est quod sequitur, necesse est ut falsum sit quod praecedit. Praecedit enim non esse
+    resurrectionem mortuorum, quod dicebant illi, quorum errorem destruere voluit Apostolus. Porro
+    illam sententiam praecedentem, qua dicebant non esse resurrectionem mortuorum, necessario
+    sequitur, <quote xml:id="rbdcir-de4410-Qd1e132">Neque Christus resurrexit.</quote> Hoc autem quod sequitur, falsum est;
+    Christus enim resurrexit: falsum est ergo quod praecedit. Praecedit autem non esse
+    resurrectionem mortuorum: est igitur resurrectio mortuorum. Quod totum breviter ita dicitur:
+    Si non est resurrectio mortuorum, neque Christus resurrexit: Christus autem resurrexit; est
+    igitur resurrectio mortuorum. Cum ergo sint verae connexiones, non solum verarum, sed etiam
+    falsarum sententiarum, facile est veritatem connexionum etiam in scholis illis discere, quae
+    praeter Ecclesiam sunt, sententiarum autem veritates in sanctis libris ecclesiasticis
+    investigandae sunt. Ipsa tamen veritas connexionum non instituta, sed animadversa est ab
+    hominibus et notata, ut eam possint vel discere vel docere. Nam est in rerum ratione perpetua
+    et divinitus instituta, quae a Deo auctore sunt facta. Sed quia de logica jam diximus, de
+    mathematica consequenter dicemus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

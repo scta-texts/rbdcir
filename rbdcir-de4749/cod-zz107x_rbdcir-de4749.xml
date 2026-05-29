@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 31</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 31</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="204"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4749"><!-- l3c31 -->
+        <head xml:id="rbdcir-de4749-Hd1e101">Caput 31</head>
+        <head xml:id="rbdcir-de4749-Hd1e103" type="question-title">De optimo modo dicendi, et quid oporteat praedicatorem in dicendo
+    observare</head>
+        <p xml:id="rbdcir-de4749-d1e106">CAPUT XXXI. <hi>De optimo modo dicendi, et quid oporteat praedicatorem in dicendo
+      observare.</hi>
+        </p>
+        <p xml:id="rbdcir-de4749-d1e111">Est autem optimus modus dicendi, qui fit ut qui audit, verum audiat; et quae audit,
+    intelligat; bonorumque ingeniorum insignis est indoles, in verbis verum amare, non verba. Quid
+    enim prodest clavis aurea, si aperire quae volumus non potest? Aut quid obest lignea, si hoc
+    potest, quando nihil quaerimus, nisi ut pateat quod clausum est? Dixit ergo quidam eloquens,
+    et verum dixit, ita debere eloquentem loqui, ut doceat, ut delectet, ut flectat. Deinde
+    addidit: Docere necessitatis est, delectare suavitatis, et flectere victoriae. Horum trium
+    quod <pb ed="#P" n="205"/>
+          <cb ed="#P" n="a"/> primo loco positum est, hoc est docendi necessitas, in rebus est
+    constituta quas dicimus; reliqua duo, in modo quo dicimus. Prorsus haec sit in docendo
+    eloquentia, non ut libeat quod horrebat, aut ut fiat quod pigeat, sed ut appareat quod
+    latebat. Quod si etiam delectare vult eum cui dicit, aut flectere, non quocunque modo hoc
+    dixerit, faciet; sed interest quomodo dicat, ut faciat. Sicut est autem ut teneatur ad
+    audiendum delectandus auditor, ita flectendus, ut moveatur ad agendum; et sicut delectatur si
+    suaviter loquaris, ita flectitur si amet quod polliceris, timeat quod minaris, oderit quod
+    arguis, quod commendas amplectatur, quod dolendum exaggeras doleat, cum quid laetandum
+    praedicas gaudeat, misereatur eorum quos miserandos ante oculos dicendo constituis, fugiat eos
+    quos cavendos terrendo praeponis; et quidquid aliud grandi eloquentia fieri potest ad
+    commovendos animos auditorum, non quid agendum sit ut sciant, sed ut agant quae agenda esse
+    jam sciunt. Oportet ergo eloquentem ecclesiasticum, quando suadet aliquid quod agendum est,
+    non solum docere ut instruat, et delectare ut veniat, verum etiam flectere ut vincat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

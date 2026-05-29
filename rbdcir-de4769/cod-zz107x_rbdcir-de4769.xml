@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 31</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 31</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="205"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de4769"><!-- l3c32 -->
+        <head xml:id="rbdcir-de4769-Hd1e101">Caput 31</head>
+        <head xml:id="rbdcir-de4769-Hd1e103" type="question-title">De triplici genere locutionis, quod Romani doctor eloquii ita
+    distinxit</head>
+        <p xml:id="rbdcir-de4769-d1e106">CAPUT XXXII. <hi>De triplici genere locutionis, quod Romani doctor eloquii ita
+      distinxit.</hi>
+        </p>
+        <p xml:id="rbdcir-de4769-d1e111">Ad haec enim tria, id est, ut doceat, ut delectet, ut flectet, etiam illa tria videtur
+    pertinere voluisse idem ipse Romani auctor eloquii, cum itidem dicit: Is erit igitur eloqueas,
+    qui poterit parva submisse, modica temperate, magna granditer dicere: tanquam si adderet illa
+    etiam tria, et sic explicaret unam eamdemque sententiam dicens: Is erit ergo eloquens, qui ut
+    doceat, poterit parva submisse; ut delectet, modica temperate: ut flectat, magna dicere
+    granditer. Haec autem tria ab eo dicta, in causis forensibus possunt ostendi; non autem hic,
+    hoc est, in ecclesiasticis quaestionibus, in quibus hujus, quem volumus informare, sermo
+    versatur. In illis enim ea parva dicuutur, ubi de rebus pecuniariis judicandum est; ea magna,
+    ubi de salute ac capite hominum; ea vero ubi nihil judicandum est nihilque agitur ut agat sive
+    discernat, sed tantummodo ut delectetur auditor, inter utrumque quasi media, et ob hoc modica,
+    hoc est moderata dixerunt: modicis enim modis nomen posuit; nam modica pro parvis abusive, non
+    proprie dicimus. In istis autem nostris, quandoquidem omnia, maxime quae de loco superiore
+    dicimus populis, ad hominum salutem, nec temporariam, sed aeternam referre debemus, ubi etiam
+    cavendus est aeternus interitus, omnia sunt magna quae dicimus; usque adeo, ut nec de ipsis
+    pecuniariis rebus vel acquirendis vel amittendis, parva videri debeant, quae doctor
+    ecclesiasticus dicit, sive sit illa magna, sive parva pecunia. Neque enim parva est justitia,
+    quam profecto et parva pecunia custodire debemus, dicente Domino: <quote xml:id="rbdcir-de4769-Qd1e113">Qui in minimo fidelis
+      est, et in magno fidelis est </quote>
+          <ref xml:id="rbdcir-de4769-Rd1e115">(Luc. XVI)</ref>. Quod ergo <cb ed="#P" n="b"/> minimum est, minimum est; sed in minimo
+    fidelem esse, magnum est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

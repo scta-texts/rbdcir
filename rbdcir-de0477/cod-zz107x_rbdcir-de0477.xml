@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="152"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de0477"><!-- l1c10 -->
+        <head xml:id="rbdcir-de0477-Hd1e101">Caput 10</head>
+        <head xml:id="rbdcir-de0477-Hd1e103" type="question-title">De exorcistis</head>
+        <p xml:id="rbdcir-de0477-d1e106">CAPUT X. <hi>De exorcistis.</hi>
+        </p>
+        <p xml:id="rbdcir-de0477-d1e111">Exorcistae <foreign xml:lang="greek">ἐξορκίσται,</foreign> ex Graeco in Latinum adjurantes
+    seu increpantes vocantur. Invocant enim super catechumenos, vel super eos qui habent spiritum
+    immundum, nomen Domini Jesu, adjurantes per eum ut egrediatur ab eis. Refert Josephus regem
+    Salomonem excogitasse suamque gentem docuisse modos exorcismi, id est adjurationis, quibus
+    immundi spiritus expulsi ab homine ulterius reverti non sunt ausi. Testatur et de eis liber
+    Actus apostolorum, ita dicens: <quote xml:id="rbdcir-de0477-Qd1e116">Tentaverunt autem quidam, et de circumeuntibus Judaeis,
+      exorcismis invocare nomen Domini Jesu,</quote> etc. <ref xml:id="rbdcir-de0477-Rd1e118">(Act. XIX.)</ref> Invenimus eos
+    quos Esdras actores memorat templi, eos nunc esse exorcistas in Ecclesia Dei. Fuerunt enim sub
+    Esdra actores templi servorum Salomonis filii, qui actum templi totius sub cura sua haberent,
+    non tamen sacerdotalibus officiis ministrarent, aut sacris oblationibus deservirent. Nullam
+    ergo aliam curam habebant actores templi, nisi ad sarta tecta reficienda, ut quaecunque
+    fuissent veterata in aedificio templi aut delapsa, per eosdem actores de thesauris Dominicis
+    reficerentur atque excolerentur. Ergo exactores templi exorcistae sunt in populo Dei. Quomodo
+    enim actor prudens et bonus scit quid scit Domini sui census, et omnis substantiae modus, et
+    redigit apud se totius possessionis instrumenta originalia, sic exorcista redigit in sua
+    diligentia totius regni Domini secreta, ut memoriae mandet de Scripturarum sacramentis, unde
+    exerceat <pb ed="#P" n="153"/>
+          <cb ed="#P" n="a"/> scilicet donum quod illi est a Spiritu sancto concessum secundum
+    Apostoli praeconium. Exorcistas enim memorat Apostolus cum dicit: Nunquid omnes donationes
+    habent sanationum? Hi enim cum ordinantur accipiunt de manu episcopi libellum in quo scripti
+    sunt exorcismi, dicente eis episcopo: Accipite et commendate memoriae, et habete potestatem
+    imponendi manus super energumenos sive catechumenos, ut imperetis immundis spiritibus, et
+    abjiciatis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

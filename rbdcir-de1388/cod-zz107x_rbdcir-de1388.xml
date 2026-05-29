@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#RabanusMaurus">Rabanus Maurus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-05-20">May 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-zz107x">Patrologia Latina, v. 107</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-05-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="163"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rbdcir-de1388"><!-- l2c1 -->
+        <head xml:id="rbdcir-de1388-Hd1e101">Caput 1</head>
+        <head xml:id="rbdcir-de1388-Hd1e103" type="question-title">De officiis et orationibus canonicarum horarum</head>
+        <p xml:id="rbdcir-de1388-d1e106">CAPUT PRIMUM. <hi>De officiis et orationibus canonicarum horarum.</hi>
+        </p>
+        <p xml:id="rbdcir-de1388-d1e111">Officium ergo missae, quod in superiori libro contexuimus, maxima ex parte ad solum pertinet
+    sacerdotem, cui sacrificandi data licentia est, et veneranda mysteria consecrare. Sed quia
+    istud pro sua reverentia et dignitate primo loco positum est, de caeteris officiis diurnalium
+    sive nocturnalium horarum, quibus certis spatiorum terminis preces et orationes generaliter
+    sine differentia universae Domino offerre decet Ecclesiae, consequenter exponamus. Oratio enim
+    petitio dicitur, nam orare est petere, sicut exorare impetrare. Constat autem oratio loco et
+    tempore. Loco, quoniam ubique et in publico sive in plateis more Pharisaeorum orare a Christo
+    prohibemur, sed ubi opportunitas dederit, aut necessitas importaverit. Neque enim huic illud
+    Apostoli contrarium est, quod dicit ad Timotheum scribens: <quote xml:id="rbdcir-de1388-Qd1e113">Volo,</quote> inquit,
+      <quote xml:id="rbdcir-de1388-Qd1e115">viros orare in omni loco, levantes puras manus sine ira et disceptatione,</quote> et
+    reliqua <ref xml:id="rbdcir-de1388-Rd1e117">(I Tim. II)</ref>. Et neque illud Psalmistae quod dicit: <quote xml:id="rbdcir-de1388-Qd1e119">In omni loco
+      dominationis ejus, benedic, anima mea, Dominum </quote>
+          <ref xml:id="rbdcir-de1388-Rd1e121">(Psal. CII)</ref>. Sed haec ad interna respectant, quibus semper Deum orare et benedicere
+    oportet. Ille ergo in omni loco orat Deum, qui per charitatis officia et bona opera ubique
+    manus cordis mundas elevare ad Deum satagit. Tempore autem, quoniam canonicas horas ad orandum
+    a Patribus constitutas incessanter servat Ecclesia, quas quasi pro debito exorandi officio
+    statuas nullo modo negligere fas est, ut sunt prima, tertia, sexta, nona, vespera, et caeterae
+    quae similiter observantur. Nec enim illud hanc constitutionem confundit, quod Psalmista
+    dicit: <quote xml:id="rbdcir-de1388-Qd1e124">Benedicam Dominum in omni tempore, semper laus ejus in ore meo </quote>
+          <ref xml:id="rbdcir-de1388-Rd1e126">(Psal. XXXIII)</ref>. Et Apostolus: <quote xml:id="rbdcir-de1388-Qd1e128">Sine intermissione,</quote> inquit,
+      <quote xml:id="rbdcir-de1388-Qd1e130">orate,</quote> et reliqua <ref xml:id="rbdcir-de1388-Rd1e132">(I Thess. V)</ref>. Benedicere enim Deum est in omni
+    tempore, semper illum digna conversatione laudare; et sine intermissione orare, est omnia in
+    gloriam Dei agere, sicut dicit idem Apostolus: <quote xml:id="rbdcir-de1388-Qd1e134">Sive enim manaucatis, sive bibitis, sive
+      aliud quid facitis, omnia in gloriam Dei facite </quote>
+          <ref xml:id="rbdcir-de1388-Rd1e137">(I Cor. X)</ref>. Supradictae enim horae ideo specialiter ad orandum discretae sunt, ut
+    si forte aliquo opere fuerimus detenti, ipsum nos ad officium tempus admoneat. Quae tempora in
+    Scripturis divinis praestituta inveniuntur. Nam in Veteri Testamento praeceptum est quotidie,
+    mane et vespere, Domino adolere incensum. Et David dicit: <quote xml:id="rbdcir-de1388-Qd1e139">Vespere, mane, et meridie,
+      narrabo et annuntiabo, et exaudiet vocem meam </quote>
+          <ref xml:id="rbdcir-de1388-Rd1e141">(Psal. CX)</ref>. Et item: <quote xml:id="rbdcir-de1388-Qd1e143">Septies in die laudem dixi tibi.</quote> Sed et sanctus
+    Daniel propheta tertia, et sexta, et nona, hora diei ad deprecandum Dominum ascendit in
+    solarium suum, expansis manibus ad coelum Deum deprecatur pro se et pro populo Israel.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
