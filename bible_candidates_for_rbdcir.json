@@ -1,0 +1,995 @@
+{
+  "rbdcir-de0106": {},
+  "rbdcir-de0145": {
+    "rbdcir-de0145-d1e111": [
+      {
+        "candidate_id": "ex18_19",
+        "intersectionCount": 5
+      },
+      {
+        "candidate_id": "ex4_16",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "ap7_15",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de0121": {},
+  "rbdcir-de0196": {
+    "rbdcir-de0196-d1e111": [
+      {
+        "candidate_id": "ez5_1",
+        "intersectionCount": 7
+      }
+    ]
+  },
+  "rbdcir-de0245": {
+    "rbdcir-de0245-d1e111": [
+      {
+        "candidate_id": "ex29_5",
+        "intersectionCount": 9
+      },
+      {
+        "candidate_id": "ex29_7",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "mt16_18",
+        "intersectionCount": 7
+      },
+      {
+        "candidate_id": "ex29_4",
+        "intersectionCount": 7
+      }
+    ]
+  },
+  "rbdcir-de0003": {},
+  "rbdcir-de0287": {
+    "rbdcir-de0287-d1e111": [
+      {
+        "candidate_id": "ez33_8",
+        "intersectionCount": 24
+      },
+      {
+        "candidate_id": "ez3_18",
+        "intersectionCount": 12
+      },
+      {
+        "candidate_id": "ez33_7",
+        "intersectionCount": 6
+      }
+    ]
+  },
+  "rbdcir-de0332": {
+    "rbdcir-de0332-d1e111": [
+      {
+        "candidate_id": "tit1_5",
+        "intersectionCount": 16
+      },
+      {
+        "candidate_id": "tit1_6",
+        "intersectionCount": 15
+      },
+      {
+        "candidate_id": "tit1_7",
+        "intersectionCount": 14
+      }
+    ]
+  },
+  "rbdcir-de0377": {
+    "rbdcir-de0377-d1e111": [
+      {
+        "candidate_id": "num18_7",
+        "intersectionCount": 19
+      },
+      {
+        "candidate_id": "num18_6",
+        "intersectionCount": 12
+      },
+      {
+        "candidate_id": "num8_26",
+        "intersectionCount": 4
+      },
+      {
+        "candidate_id": "num18_3",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "num8_24",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de0413": {},
+  "rbdcir-de0449": {},
+  "rbdcir-de0477": {
+    "rbdcir-de0477-d1e111": [
+      {
+        "candidate_id": "act19_13",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de0506": {
+    "rbdcir-de0506-d1e111": [
+      {
+        "candidate_id": "is58_1",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de0530": {},
+  "rbdcir-de0548": {},
+  "rbdcir-de0568": {},
+  "rbdcir-de0586": {},
+  "rbdcir-de0632": {},
+  "rbdcir-de0605": {
+    "rbdcir-de0605-d1e111": [
+      {
+        "candidate_id": "ap2_10",
+        "intersectionCount": 7
+      }
+    ]
+  },
+  "rbdcir-de0652": {},
+  "rbdcir-de0670": {
+    "rbdcir-de0670-d1e111": [
+      {
+        "candidate_id": "prov13_3",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "Icor14_15",
+        "intersectionCount": 7
+      },
+      {
+        "candidate_id": "prov16_23",
+        "intersectionCount": 7
+      },
+      {
+        "candidate_id": "IIcor6_11",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de0713": {},
+  "rbdcir-de0733": {
+    "rbdcir-de0733-d1e111": [
+      {
+        "candidate_id": "Icor13_2",
+        "intersectionCount": 14
+      },
+      {
+        "candidate_id": "mt5_23",
+        "intersectionCount": 12
+      }
+    ]
+  },
+  "rbdcir-de0783": {},
+  "rbdcir-de0822": {
+    "rbdcir-de0822-d1e111": [
+      {
+        "candidate_id": "gal6_14",
+        "intersectionCount": 17
+      }
+    ]
+  },
+  "rbdcir-de0846": {
+    "rbdcir-de0846-d1e111": [
+      {
+        "candidate_id": "Icor3_7",
+        "intersectionCount": 10
+      }
+    ]
+  },
+  "rbdcir-de0915": {},
+  "rbdcir-de0870": {},
+  "rbdcir-de0951": {
+    "rbdcir-de0951-d1e111": [
+      {
+        "candidate_id": "eph4_24",
+        "intersectionCount": 9
+      }
+    ]
+  },
+  "rbdcir-de0981": {
+    "rbdcir-de0981-d1e111": [
+      {
+        "candidate_id": "rom6_4",
+        "intersectionCount": 18
+      },
+      {
+        "candidate_id": "rom8_9",
+        "intersectionCount": 18
+      },
+      {
+        "candidate_id": "mt3_16",
+        "intersectionCount": 10
+      }
+    ]
+  },
+  "rbdcir-de1013": {},
+  "rbdcir-de1045": {
+    "rbdcir-de1045-d1e111": [
+      {
+        "candidate_id": "io1_33",
+        "intersectionCount": 23
+      },
+      {
+        "candidate_id": "Icor12_13",
+        "intersectionCount": 18
+      }
+    ]
+  },
+  "rbdcir-de1121": {
+    "rbdcir-de1121-d1e111": [
+      {
+        "candidate_id": "io6_52",
+        "intersectionCount": 17
+      }
+    ]
+  },
+  "rbdcir-de1278": {
+    "rbdcir-de1278-d1e117": [
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 10
+      },
+      {
+        "candidate_id": "mc14_23",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de1313": {
+    "rbdcir-de1313-d1e111": [
+      {
+        "candidate_id": "ex28_35",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de1388": {
+    "rbdcir-de1388-d1e111": [
+      {
+        "candidate_id": "Itim2_8",
+        "intersectionCount": 9
+      },
+      {
+        "candidate_id": "ps33_2",
+        "intersectionCount": 9
+      },
+      {
+        "candidate_id": "ps54_18",
+        "intersectionCount": 7
+      },
+      {
+        "candidate_id": "Icor10_31",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "ps102_22",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de1453": {
+    "rbdcir-de1453-d1e111": [
+      {
+        "candidate_id": "ps118_148",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "ps62_2",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de1485": {},
+  "rbdcir-de1515": {},
+  "rbdcir-de1533": {},
+  "rbdcir-de1551": {
+    "rbdcir-de1551-d1e108": [
+      {
+        "candidate_id": "act3_1",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de1576": {
+    "rbdcir-de1576-d1e111": [
+      {
+        "candidate_id": "ps140_2",
+        "intersectionCount": 10
+      }
+    ]
+  },
+  "rbdcir-de1605": {
+    "rbdcir-de1605-d1e111": [
+      {
+        "candidate_id": "ps131_4",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "ps131_5",
+        "intersectionCount": 4
+      },
+      {
+        "candidate_id": "ps131_3",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "ps75_6",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de1632": {
+    "rbdcir-de1632-d1e111": [
+      {
+        "candidate_id": "mc13_35",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "lc12_37",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "ps118_62",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de1686": {
+    "rbdcir-de1686-d1e110": [
+      {
+        "candidate_id": "ps90_15",
+        "intersectionCount": 11
+      },
+      {
+        "candidate_id": "ps21_27",
+        "intersectionCount": 7
+      }
+    ]
+  },
+  "rbdcir-de1723": {
+    "rbdcir-de1723-d1e112": [
+      {
+        "candidate_id": "lc11_13",
+        "intersectionCount": 17
+      },
+      {
+        "candidate_id": "mt7_8",
+        "intersectionCount": 9
+      },
+      {
+        "candidate_id": "lc11_10",
+        "intersectionCount": 9
+      },
+      {
+        "candidate_id": "mt7_7",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "lc11_9",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "ps50_19",
+        "intersectionCount": 7
+      }
+    ]
+  },
+  "rbdcir-de1776": {
+    "rbdcir-de1776-d1e111": [
+      {
+        "candidate_id": "Itim2_1",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de1801": {},
+  "rbdcir-de1816": {
+    "rbdcir-de1816-d1e111": [
+      {
+        "candidate_id": "prov28_13",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "iac5_16",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de1864": {},
+  "rbdcir-de1885": {},
+  "rbdcir-de1933": {},
+  "rbdcir-de1953": {},
+  "rbdcir-de1978": {},
+  "rbdcir-de1999": {},
+  "rbdcir-de2020": {
+    "rbdcir-de2020-d1e111": [
+      {
+        "candidate_id": "mt9_15",
+        "intersectionCount": 13
+      },
+      {
+        "candidate_id": "mc2_20",
+        "intersectionCount": 8
+      }
+    ]
+  },
+  "rbdcir-de2059": {
+    "rbdcir-de2059-d1e111": [
+      {
+        "candidate_id": "ier36_7",
+        "intersectionCount": 19
+      },
+      {
+        "candidate_id": "ier36_4",
+        "intersectionCount": 13
+      },
+      {
+        "candidate_id": "ier36_6",
+        "intersectionCount": 12
+      },
+      {
+        "candidate_id": "ier36_2",
+        "intersectionCount": 10
+      },
+      {
+        "candidate_id": "ier36_8",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "ier36_9",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "ier18_11",
+        "intersectionCount": 5
+      },
+      {
+        "candidate_id": "ier36_3",
+        "intersectionCount": 5
+      },
+      {
+        "candidate_id": "ier25_5",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "ier26_3",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de2087": {},
+  "rbdcir-de2105": {
+    "rbdcir-de2105-d1e111": [
+      {
+        "candidate_id": "neh9_3",
+        "intersectionCount": 17
+      },
+      {
+        "candidate_id": "lev23_28",
+        "intersectionCount": 15
+      },
+      {
+        "candidate_id": "lev23_27",
+        "intersectionCount": 10
+      },
+      {
+        "candidate_id": "neh9_2",
+        "intersectionCount": 7
+      },
+      {
+        "candidate_id": "lev23_25",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "neh9_1",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de2140": {
+    "rbdcir-de2140-d1e111": [
+      {
+        "candidate_id": "rom14_20",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de2164": {
+    "rbdcir-de2164-d1e111": [
+      {
+        "candidate_id": "is58_7",
+        "intersectionCount": 18
+      },
+      {
+        "candidate_id": "is58_6",
+        "intersectionCount": 16
+      },
+      {
+        "candidate_id": "is58_4",
+        "intersectionCount": 13
+      },
+      {
+        "candidate_id": "is58_8",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "is58_5",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de2194": {
+    "rbdcir-de2194-d1e111": [
+      {
+        "candidate_id": "rom14_21",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "Icor6_13",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de2244": {
+    "rbdcir-de2244-d1e111": [
+      {
+        "candidate_id": "mt16_26",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de2281": {
+    "rbdcir-de2281-d1e111": [
+      {
+        "candidate_id": "iob42_6",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de2326": {},
+  "rbdcir-de2350": {
+    "rbdcir-de2350-d1e111": [
+      {
+        "candidate_id": "io6_51",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de2379": {
+    "rbdcir-de2379-d1e111": [
+      {
+        "candidate_id": "act1_5",
+        "intersectionCount": 10
+      },
+      {
+        "candidate_id": "rom6_3",
+        "intersectionCount": 7
+      }
+    ]
+  },
+  "rbdcir-de2418": {
+    "rbdcir-de2418-d1e111": [
+      {
+        "candidate_id": "lev12_8",
+        "intersectionCount": 12
+      },
+      {
+        "candidate_id": "lev12_6",
+        "intersectionCount": 9
+      },
+      {
+        "candidate_id": "lev12_4",
+        "intersectionCount": 5
+      },
+      {
+        "candidate_id": "sir3_20",
+        "intersectionCount": 4
+      },
+      {
+        "candidate_id": "lev15_29",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "lev5_11",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "num6_10",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de2454": {
+    "rbdcir-de2454-d1e111": [
+      {
+        "candidate_id": "rom5_14",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de2480": {
+    "rbdcir-de2480-d1e111": [
+      {
+        "candidate_id": "io12_13",
+        "intersectionCount": 4
+      },
+      {
+        "candidate_id": "mc11_9",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "ps117_26",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "mt23_39",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "lc13_35",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de2504": {
+    "rbdcir-de2504-d1e111": [
+      {
+        "candidate_id": "mt26_2",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de2529": {},
+  "rbdcir-de2557": {},
+  "rbdcir-de2583": {
+    "rbdcir-de2583-d1e111": [
+      {
+        "candidate_id": "rom4_25",
+        "intersectionCount": 6
+      }
+    ]
+  },
+  "rbdcir-de2629": {
+    "rbdcir-de2629-d1e111": [
+      {
+        "candidate_id": "mt16_24",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "rom6_5",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "act1_11",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de2687": {
+    "rbdcir-de2687-d1e111": [
+      {
+        "candidate_id": "io14_26",
+        "intersectionCount": 10
+      }
+    ]
+  },
+  "rbdcir-de2745": {
+    "rbdcir-de2745-d1e111": [
+      {
+        "candidate_id": "rom6_9",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de2775": {
+    "rbdcir-de2775-d1e111": [
+      {
+        "candidate_id": "ap19_10",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "ap22_9",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de2811": {},
+  "rbdcir-de2837": {
+    "rbdcir-de2837-d1e111": [
+      {
+        "candidate_id": "ap6_11",
+        "intersectionCount": 22
+      },
+      {
+        "candidate_id": "IIchr5_12",
+        "intersectionCount": 20
+      },
+      {
+        "candidate_id": "ap6_9",
+        "intersectionCount": 10
+      },
+      {
+        "candidate_id": "ap6_10",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "ex30_28",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "IIchr7_4",
+        "intersectionCount": 6
+      }
+    ]
+  },
+  "rbdcir-de2935": {
+    "rbdcir-de2935-d1e111": [
+      {
+        "candidate_id": "lev23_40",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "prov23_30",
+        "intersectionCount": 5
+      },
+      {
+        "candidate_id": "ps45_11",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de2983": {},
+  "rbdcir-de3007": {},
+  "rbdcir-de3028": {},
+  "rbdcir-de3046": {},
+  "rbdcir-de3064": {},
+  "rbdcir-de3082": {
+    "rbdcir-de3082-d1e111": [
+      {
+        "candidate_id": "rom8_33",
+        "intersectionCount": 7
+      },
+      {
+        "candidate_id": "rom9_30",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de3137": {},
+  "rbdcir-de3163": {
+    "rbdcir-de3163-d1e111": [
+      {
+        "candidate_id": "sap2_12",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "sap2_19",
+        "intersectionCount": 4
+      },
+      {
+        "candidate_id": "sap2_13",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "sap2_18",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de3223": {
+    "rbdcir-de3223-d1e111": [
+      {
+        "candidate_id": "num6_26",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "iac5_14",
+        "intersectionCount": 5
+      },
+      {
+        "candidate_id": "IIth3_6",
+        "intersectionCount": 3
+      },
+      {
+        "candidate_id": "Icor5_4",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de3265": {
+    "rbdcir-de3265-d1e111": [
+      {
+        "candidate_id": "rom9_28",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de3291": {
+    "rbdcir-de3291-d1e111": [
+      {
+        "candidate_id": "io1_33",
+        "intersectionCount": 13
+      }
+    ]
+  },
+  "rbdcir-de3326": {
+    "rbdcir-de3326-d1e268": [
+      {
+        "candidate_id": "mt28_19",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de3669": {
+    "rbdcir-de3669-d1e111": [
+      {
+        "candidate_id": "ez34_19",
+        "intersectionCount": 10
+      },
+      {
+        "candidate_id": "mt18_6",
+        "intersectionCount": 5
+      },
+      {
+        "candidate_id": "os8_4",
+        "intersectionCount": 4
+      }
+    ]
+  },
+  "rbdcir-de3732": {
+    "rbdcir-de3732-d1e111": [
+      {
+        "candidate_id": "io17_3",
+        "intersectionCount": 10
+      },
+      {
+        "candidate_id": "Icor13_12",
+        "intersectionCount": 8
+      }
+    ]
+  },
+  "rbdcir-de3762": {},
+  "rbdcir-de3780": {},
+  "rbdcir-de3815": {
+    "rbdcir-de3815-d1e111": [
+      {
+        "candidate_id": "io17_26",
+        "intersectionCount": 18
+      },
+      {
+        "candidate_id": "io17_25",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "Iio4_16",
+        "intersectionCount": 6
+      }
+    ]
+  },
+  "rbdcir-de3852": {},
+  "rbdcir-de3870": {},
+  "rbdcir-de3890": {},
+  "rbdcir-de3917": {},
+  "rbdcir-de3937": {},
+  "rbdcir-de3976": {},
+  "rbdcir-de4075": {
+    "rbdcir-de4075-d1e111": [
+      {
+        "candidate_id": "gal5_21",
+        "intersectionCount": 9
+      }
+    ]
+  },
+  "rbdcir-de4142": {
+    "rbdcir-de4142-d1e111": [
+      {
+        "candidate_id": "rom12_20",
+        "intersectionCount": 14
+      }
+    ]
+  },
+  "rbdcir-de4203": {
+    "rbdcir-de4203-d1e111": [
+      {
+        "candidate_id": "ps74_9",
+        "intersectionCount": 7
+      },
+      {
+        "candidate_id": "ps34_2",
+        "intersectionCount": 6
+      },
+      {
+        "candidate_id": "io6_51",
+        "intersectionCount": 5
+      }
+    ]
+  },
+  "rbdcir-de4306": {},
+  "rbdcir-de4326": {},
+  "rbdcir-de4346": {},
+  "rbdcir-de4368": {
+    "rbdcir-de4368-d1e111": [
+      {
+        "candidate_id": "Icor8_11",
+        "intersectionCount": 3
+      }
+    ]
+  },
+  "rbdcir-de4388": {},
+  "rbdcir-de4410": {},
+  "rbdcir-de4459": {},
+  "rbdcir-de4479": {},
+  "rbdcir-de4518": {},
+  "rbdcir-de4541": {},
+  "rbdcir-de4563": {},
+  "rbdcir-de4595": {
+    "rbdcir-de4595-d1e111": [
+      {
+        "candidate_id": "mt11_29",
+        "intersectionCount": 12
+      }
+    ]
+  },
+  "rbdcir-de4641": {
+    "rbdcir-de4641-d1e118": [
+      {
+        "candidate_id": "lc6_48",
+        "intersectionCount": 22
+      },
+      {
+        "candidate_id": "lc6_49",
+        "intersectionCount": 12
+      },
+      {
+        "candidate_id": "prov12_9",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "prov28_6",
+        "intersectionCount": 8
+      },
+      {
+        "candidate_id": "lc6_47",
+        "intersectionCount": 8
+      }
+    ]
+  },
+  "rbdcir-de4689": {},
+  "rbdcir-de4711": {},
+  "rbdcir-de4731": {},
+  "rbdcir-de4749": {},
+  "rbdcir-de4769": {},
+  "rbdcir-de4796": {},
+  "rbdcir-de4814": {
+    "rbdcir-de4814-d1e111": [
+      {
+        "candidate_id": "gal3_16",
+        "intersectionCount": 17
+      }
+    ]
+  },
+  "rbdcir-de4898": {},
+  "rbdcir-de4916": {},
+  "rbdcir-de4942": {},
+  "rbdcir-de4967": {},
+  "rbdcir-de4998": {
+    "rbdcir-de4998-d1e111": [
+      {
+        "candidate_id": "mt10_19",
+        "intersectionCount": 11
+      },
+      {
+        "candidate_id": "mt10_20",
+        "intersectionCount": 11
+      }
+    ]
+  }
+}
